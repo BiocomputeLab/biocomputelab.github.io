@@ -3,14 +3,14 @@ layout: team
 category: team
 permalink: /team/thomas-gorochowski
 
-title: Thomas Gorochowski
+name: Thomas Gorochowski
 author: Gorochowski T.E.
-subtitle: Research Felow / Group Leader
+title: Research Felow / Group Leader
 education:
   - Ph.D.
   - M.Res.
   - M.Eng.
-image: /images/team/thomas-gorochowski.jpg
+image: /image/team/thomas-gorochowski.jpg
 twitter: chofski
 github: chofski
 url: "http://www.bristol.ac.uk/brissynbio/people/191306/index.html"

@@ -15,6 +15,7 @@ title: Blogging Like a Hacker
     {{ person.title }}<br>
     {{ person.education | join: ", " }}, {{ person.subtitle }}<br>
     {{ person.content}}
+    <img src="{{ include person.image }}">
   </li>
 {% endfor %}
 </ul>
