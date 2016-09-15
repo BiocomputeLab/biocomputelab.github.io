@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Engineering + Biology = A Sustainable Future?
 ## Biology as a Technology
 The emerging field of synthetic biology aims to bring the principles of engineering to living systems through standardisation, abstraction, modelling and design, coupled with foundational technologies such as DNA synthesis [1]. Supporting this approach has been what are termed standard biological parts. In the same way that electrical engineers use catalogues to find suitable electronic components, initiatives such as the Registry of Standard Biological Parts [2] and the BioFAB [3] attempt to provide a curated library of DNA sequences that can be pieced together in new yet predictable ways. This allows for engineers to abstract some of the biological details and focus on larger more complex designs [4]. Although this radical idea was originally met with scepticism, researchers have successfully built synthetic biological circuits that act as toggle switches, oscillators and pulse generators in living cells. Furthermore, by connecting circuits like these to existing cellular functions, powerful systems can be built. In this way bacteria have been engineered to act as cheap, but highly sensitive, biosensors for dangerous chemicals in water supplies [5] and reprogrammed to hunt down, infect and kill cancerous tissue [6].

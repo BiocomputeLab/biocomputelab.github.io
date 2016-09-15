@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Let’s not forget to measure those complex systems
 Being a complexity scientist there is nothing more I like to see than the emergence of beautifully co-ordinated dynamical behaviours in groups of animals. The attached video (Fig. 1) shows this perfectly for the stereotypical example of Starling swarms, technically known as ‘murmurations’. These sorts of phenomena have been studied extensively and one of the most popular theories for how this behaviour arises is the zonal model proposed by Reynolds in the 1980s. This is based on the idea that each individual follows a set of simple rules related to zones of neighbours at differing distances. These include: (i) following the direction of your neighbours; (ii) remaining close to your neighbours; and (iii) avoiding collisions. If you program these into a computer you will see very similar types of behaviour as those in the video (check out [1] for an example that you can run in your browser).
 

@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Homeostasis, part I: keeping the status quo is not always simple
 by Thomas Gorochowski
 
