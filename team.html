@@ -1,0 +1,23 @@
+---
+layout: post
+title: Blogging Like a Hacker
+---
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+
+<ul>
+{% for member in site.data.members %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+</body>
+</html>
