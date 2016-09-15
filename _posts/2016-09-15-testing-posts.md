@@ -1,5 +1,5 @@
 ---
-layout: post
 title: TeSTing PostS
+layout: post
 ---
 Hello there!
