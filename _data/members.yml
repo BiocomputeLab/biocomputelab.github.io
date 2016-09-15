@@ -1,11 +1,20 @@
 - name: Thomas Gorochowski
   author-name: Gorochowski T.E.
+  email: thomas.gorochowski@bristol.ac.uk
   github: chofski
+  twitter: chofski
   leader: True
-  email: 
+  alumni: False
+  education:
+    - Ph.D. 
+    - M.Res.
+    - M.Eng.
 
-- name: Parker Moore
-  github: parkr
+- name: Thomas Gorochowski 2
+  author-name: Gorochowski T.E. 2
+  email: thomas.gorochowski@bristol.ac.uk
+  github: chofski
+  twitter: chofski
+  leader: True
+  alumni: False
 
-- name: Liu Fengyun
-  github: liufengyun
