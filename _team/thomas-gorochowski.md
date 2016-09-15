@@ -13,6 +13,6 @@ education:
 image: /images/team/thomas-gorochowski.jpg
 twitter: chofski
 github: chofski
-url: http://www.bristol.ac.uk/brissynbio/people/191306/index.html
+url: "http://www.bristol.ac.uk/brissynbio/people/191306/index.html"
 ---
 Synthetic biologist and complexity scientist that was originally trained in computer science. Attempting to develop efficient architectures for cellular information processing using biologically derived parts and principles.
