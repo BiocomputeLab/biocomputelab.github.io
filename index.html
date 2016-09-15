@@ -9,11 +9,9 @@ title: Blogging Like a Hacker
   <body>
 
 <ul>
-{% for member in site.data.members %}
+{% for member in site.team %}
   <li>
-    <a href="https://github.com/{{ member.github }}">
       {{ member.name }}
-    </a>
   </li>
 {% endfor %}
 </ul>
