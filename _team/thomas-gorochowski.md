@@ -1,6 +1,5 @@
 ---
 layout: team
-
 name: Thomas Gorochowski
 author: Gorochowski T.E.
 title: Research Felow / Group Leader

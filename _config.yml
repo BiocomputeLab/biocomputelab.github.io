@@ -24,11 +24,9 @@ baseurl:
 url: http://www.biocomputelab.org
 
 collections:
-- team
-
-team:
-  output: true
-  permalink: /team/:path/
+  team:
+    output: true
+    permalink: /team/:path/
 
 #### Under the Hood Stuff #####
 
