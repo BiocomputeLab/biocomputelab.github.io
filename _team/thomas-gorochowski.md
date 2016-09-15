@@ -1,7 +1,5 @@
 ---
 layout: team
-category: team
-permalink: /team/thomas-gorochowski
 
 name: Thomas Gorochowski
 author: Gorochowski T.E.
