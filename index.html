@@ -21,7 +21,7 @@ title: Blogging Like a Hacker
 <ul>
 {% for post in site.posts %}
   <li>
-      {{ post.url }}
+      {{ post.url }} {{ post.title }}
   </li>
 {% endfor %}
 </ul>
