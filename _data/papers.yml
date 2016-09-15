@@ -26,7 +26,7 @@
   doi: 
   thumbnail: 
 
-- title: Memory and combinatorial logic based on DNA inversions: dynamics and evolutionary stability
+- title: "Memory and combinatorial logic based on DNA inversions: dynamics and evolutionary stability"
   authors: 
     - Fernandez-Rodriguez J.
     - Yang L.
@@ -42,7 +42,7 @@
   doi: 
   thumbnail: 
 
-- title: Beyond close-proximity interactions: the role of spatial coincidence in transmission networks
+- title: "Beyond close-proximity interactions: the role of spatial coincidence in transmission networks"
   authors: 
     - Richardson T.O.
     - Gorochowski T.E.
@@ -116,7 +116,7 @@
   doi: 
   thumbnail: 
 
-- title: BSim: an agent-based tool for modeling bacterial populations in systems and synthetic biology
+- title: "BSim: an agent-based tool for modeling bacterial populations in systems and synthetic biology"
   authors: 
     - Gorochowski T.E.
     - Matyjaszkiewicz A.
@@ -151,7 +151,7 @@
   doi: 
   thumbnail: 
 
-- title: Evolving dynamical networks: a formalism for describing complex systems
+- title: "Evolving dynamical networks: a formalism for describing complex systems"
   authors: 
     - Gorochowski T.E.
     - di Bernardo M.
@@ -171,7 +171,7 @@
     - di Bernardo M.
     - Gorochowski T.E.
     - Russo G.
-  journal: IEEE Circuits and Systems Magazine: Special Issue on Complex Networks
+  journal: "IEEE Circuits and Systems Magazine: Special Issue on Complex Networks"
   volume: 10
   issue: 
   pages: 64-82
