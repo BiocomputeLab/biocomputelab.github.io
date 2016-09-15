@@ -1,5 +1,7 @@
 - name: Thomas Gorochowski
   github: chofski
+  leader: True
+  email: 
 
 - name: Parker Moore
   github: parkr
