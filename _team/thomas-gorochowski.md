@@ -10,7 +10,7 @@ education:
   - Ph.D.
   - M.Res.
   - M.Eng.
-image: /img/team/thomas-gorochowski.jpg
+image: /images/team/thomas-gorochowski.jpg
 twitter: chofski
 github: chofski
 url: "http://www.bristol.ac.uk/brissynbio/people/191306/index.html"
