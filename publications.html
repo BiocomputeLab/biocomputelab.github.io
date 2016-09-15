@@ -12,7 +12,10 @@ title: Blogging Like a Hacker
 <ul>
 {% for paper in site.data.papers %}
   <li>
-    {{ paper.authors }}, {{ paper.title }}
+    {% for author in paper.authors %}
+    	{{ author }}
+    {% endfor %}
+    {{ paper.title }}, {{ paper.journal }}, {{ paper.year }}
   </li>
 {% endfor %}
 </ul>

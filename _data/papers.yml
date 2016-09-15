@@ -1,7 +1,6 @@
 - title: Agent-based modelling in synthetic biology
   authors: 
     - Gorochowski T.E.
-    - Tom 2
   journal: Essays in Biochemistry
   volume: 
   issue: 
@@ -12,7 +11,12 @@
   thumbnail: 
 
 - title: A minimal model of ribosome allocation dynamics captures trade-offs in expression between endogenous and synthetic genes
-  authors: <u>Gorochowski T.E.</u>, Avcilar-Kucukgoze I., Bovenberg R.A.L., Roubos J.A. &amp; Ignatova Z.
+  authors: 
+    - Gorochowski T.E.
+    - Avcilar-Kucukgoze I.
+    - Bovenberg R.A.L.
+    - Roubos J.A.
+    - Ignatova Z.
   journal: ACS Synthetic Biology
   volume: 5
   issue: 
@@ -21,3 +25,188 @@
   url: 
   doi: 
   thumbnail: 
+
+- title: Memory and combinatorial logic based on DNA inversions: dynamics and evolutionary stability
+  authors: 
+    - Fernandez-Rodriguez J.
+    - Yang L.
+    - Gorochowski T.E.
+    - Gordon D.B.
+    - Voigt C.A.
+  journal: ACS Synthetic Biology
+  volume: 4
+  issue: 
+  pages: 1361-1372
+  year: 2015
+  url: 
+  doi: 
+  thumbnail: 
+
+- title: Beyond close-proximity interactions: the role of spatial coincidence in transmission networks
+  authors: 
+    - Richardson T.O.
+    - Gorochowski T.E.
+  journal: Journal of the Royal Society Interface
+  volume: 12
+  issue: 
+  pages: 111
+  year: 2015
+  url: 
+  doi: 
+  thumbnail: 
+
+- title: Trade-offs between tRNA abundance and mRNA secondary structure support smoothing of translation elongation rate
+  authors: 
+    - Gorochowski T.E.
+    - Ignatova Z.
+    - Bovenberg R.A.L.
+    - Roubos J.A.
+  journal: Nucleic Acids Research
+  volume: 43
+  issue: 
+  pages: 2993-3011
+  year: 2015
+  url: 
+  doi: 
+  thumbnail: 
+
+- title: Computational modelling and analysis of hippocampal-prefrontal information coding during a spatial decision-making task
+  authors: 
+    - Jahans-Price T.
+    - Gorochowski T.E.
+    - Wilson M.
+    - Jones M.W.
+    - Bogacz R.
+  journal: Frontiers in Behavioral Neuroscience
+  volume: 8
+  issue: 
+  pages: 62
+  year: 2014
+  url: 
+  doi: 
+  thumbnail: 
+
+- title: Using synthetic biological parts and microbioreactors to explore the protein expression characteristics of Escherichia coli
+  authors: 
+    - Gorochowski T.E.
+    - van den Berg E.
+    - Kerkman R.
+    - Roubos J.A.
+    - Bovenberg R.A.L.
+  journal: ACS Synthetic Biology
+  volume: 3
+  issue: 
+  pages: 129-139
+  year: 2014
+  url: 
+  doi: 
+  thumbnail: 
+
+- title: Translational sensitivity of the Escherichia coli genome to fluctuating tRNA availability
+  authors: 
+    - Wohlgemuth S.E.
+    - Gorochowski T.E.
+    - Roubos J.A.
+  journal: Nucleic Acids Research
+  volume: 41
+  issue: 
+  pages: 8021-8033
+  year: 2013
+  url: 
+  doi: 
+  thumbnail: 
+
+- title: BSim: an agent-based tool for modeling bacterial populations in systems and synthetic biology
+  authors: 
+    - Gorochowski T.E.
+    - Matyjaszkiewicz A.
+    - Todd T.
+    - Oak N.
+    - Kowalska K.
+    - Reid S.
+    - Tsaneva-Atanasova K.T.
+    - Savery N.J.
+    - Grierson C.S.
+    - di Bernardo M.
+  journal: PLoS ONE
+  volume: 7
+  issue: 
+  pages: e42790
+  year: 2012
+  url: 
+  doi: 
+  thumbnail: 
+
+- title: Using aging to visually uncover evolutionary processes on networks
+  authors: 
+    - Gorochowski T.E.
+    - di Bernardo M.
+    - Grierson C.S.
+  journal: IEEE Transactions on Visualization and Computer Graphics
+  volume: 18
+  issue: 
+  pages: 1343-1352
+  year: 2012
+  url: 
+  doi: 
+  thumbnail: 
+
+- title: Evolving dynamical networks: a formalism for describing complex systems
+  authors: 
+    - Gorochowski T.E.
+    - di Bernardo M.
+    - Grierson C.S.
+  journal: Complexity
+  volume: 17
+  issue: 
+  pages: 18-25
+  year: 2012
+  url: 
+  doi: 
+  thumbnail: 
+
+- title: Synchronization and control of complex networks via contraction, adaptation and evolution
+  authors: 
+    - DeLellis P.
+    - di Bernardo M.
+    - Gorochowski T.E.
+    - Russo G.
+  journal: IEEE Circuits and Systems Magazine: Special Issue on Complex Networks
+  volume: 10
+  issue: 
+  pages: 64-82
+  year: 2010
+  url: 
+  doi: 
+  thumbnail: 
+
+- title: A dynamical approach to the evolution of complex networks
+  authors: 
+    - Gorochowski T.E.
+    - di Bernardo M.
+    - Grierson C.S.
+  journal: Proceedings of the 19th International Symposium on Mathematical Theory of Networks and Systems
+  volume: 
+  issue: 
+  pages: 1083-1087
+  year: 2010
+  url: 
+  doi: 
+  thumbnail: 
+
+- title: Evolving enhanced topologies for the synchronization of dynamical complex networks
+  authors: 
+    - Gorochowski T.E.
+    - di Bernardo M.
+    - Grierson C.S.
+  journal: Physical Review E
+  volume: 81
+  issue: 
+  pages: 056212
+  year: 2010
+  url: 
+  doi: 
+  thumbnail: 
+
+
+
