@@ -1,5 +1,5 @@
 {% for paper in site.data.papers %}
-{% if paper.authors contains site.team[page.title].author %}
+{% if paper.team contains page.title %}
       <div class="media">
           <div class="media-left">
             {% if paper.status == "in-press" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">

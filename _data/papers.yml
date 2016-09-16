@@ -1,6 +1,8 @@
 - title: Agent-based modelling in synthetic biology
   authors: 
     - Gorochowski T.E.
+  team: 
+    - Thomas Gorochowski
   journal: Essays in Biochemistry
   volume: 
   issue: 
@@ -37,6 +39,8 @@
     - Gorochowski T.E.
     - Gordon D.B.
     - Voigt C.A.
+  team: 
+    - Thomas Gorochowski
   journal: ACS Synthetic Biology
   volume: 4
   issue: 
@@ -138,6 +142,9 @@
     - Savery N.J.
     - Grierson C.S.
     - di Bernardo M.
+  team: 
+    - Thomas Gorochowski
+    - Antoni Matyjaszkiewicz
   journal: PLoS ONE
   volume: 7
   issue: 
