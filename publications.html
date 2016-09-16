@@ -15,9 +15,7 @@ section: publications
 
      	<div class="media">
           <div class="media-left">
-            {% if paper.thumbnail == "" %}<img class="media-object" src="{{baseurl}}images/publications/in-press.gif">
-            {% else %} <img class="media-object" src="{{baseurl}}images/publications/{{paper.thumbnail}}">
-            {% endif %}
+            <img class="media-object" src="{{baseurl}}images/publications/{{paper.thumbnail}}">
           </div>
           <div class="media-body">
             <h3 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h3>
