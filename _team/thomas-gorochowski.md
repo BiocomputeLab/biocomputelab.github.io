@@ -1,15 +1,23 @@
 ---
 layout: team
-name: Thomas Gorochowski
+title: Thomas Gorochowski
 author: Gorochowski T.E.
-title: Research Felow / Group Leader
+position: Research Felow / Group Leader
 education:
-  - Ph.D.
-  - M.Res.
-  - M.Eng.
+  - Ph.D. Engineering Mathematics, University of Bristol, 2012
+  - M.Res. Complexity Sciences, University of Bristol, 2009
+  - M.Eng. Computer Science, University of Warwick, 2004
 image: /images/team/thomas-gorochowski.jpg
+email: thomas.gorochowski@bristol.ac.uk
 twitter: chofski
 github: chofski
 url: "http://www.bristol.ac.uk/brissynbio/people/191306/index.html"
+keywords:
+  - synthetic biology
+  - genetic circuits
+  - biocomputation
+  - visualisation
+  - complex networks
+description: Synthetic biologist and complexity scientist that was originally trained in computer science. Attempting to develop efficient architectures for cellular information processing using biologically derived parts and principles.
 ---
-Synthetic biologist and complexity scientist that was originally trained in computer science. Attempting to develop efficient architectures for cellular information processing using biologically derived parts and principles.
+Information about me goes here. Will be shown on the page about myself. For images you reference, make sure they go in your own images folder, e.g., /images/team/thomas-gorochowski/

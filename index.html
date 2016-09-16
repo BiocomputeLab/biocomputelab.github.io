@@ -1,21 +1,8 @@
 ---
-title: Blogging Like a Hacker
+title: About - Biocompute Lab
+section: about
 ---
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
 
-
-<ul>
-{% for post in site.posts %}
-  <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
-
-</body>
-</html>
+{{ include header.html }}
+{{ include navigation.html }}
+{{ include footer.html }}
