@@ -8,7 +8,8 @@
   year: 2016
   url: 
   doi: 
-  thumbnail: in-press.gif
+  thumbnail: 2016-essay-bio-chem.jpg
+  status: in-press
 
 - title: A minimal model of ribosome allocation dynamics captures trade-offs in expression between endogenous and synthetic genes
   authors: 
@@ -24,7 +25,8 @@
   year: 2016
   url: 
   doi: 
-  thumbnail: in-press.gif
+  thumbnail: 2016-acssb-minimal-model.gif
+  status: published
 
 - title: "Memory and combinatorial logic based on DNA inversions: dynamics and evolutionary stability"
   authors: 
@@ -40,7 +42,8 @@
   year: 2015
   url: 
   doi: 
-  thumbnail: 
+  thumbnail: 2015-acssb.gif
+  status: published
 
 - title: "Beyond close-proximity interactions: the role of spatial coincidence in transmission networks"
   authors: 
@@ -53,7 +56,8 @@
   year: 2015
   url: 
   doi: 
-  thumbnail: 
+  thumbnail: 2015-interface.gif
+  status: published
 
 - title: Trade-offs between tRNA abundance and mRNA secondary structure support smoothing of translation elongation rate
   authors: 
@@ -68,7 +72,8 @@
   year: 2015
   url: 
   doi: 
-  thumbnail: 
+  thumbnail: 2015-nar.gif
+  status: published
 
 - title: Computational modelling and analysis of hippocampal-prefrontal information coding during a spatial decision-making task
   authors: 
@@ -84,7 +89,8 @@
   year: 2014
   url: 
   doi: 
-  thumbnail: 
+  thumbnail: 2014-front-beh-neruo.gif
+  status: published
 
 - title: Using synthetic biological parts and microbioreactors to explore the protein expression characteristics of Escherichia coli
   authors: 
@@ -100,7 +106,8 @@
   year: 2014
   url: 
   doi: 
-  thumbnail: 
+  thumbnail: 2013-acssb.gif
+  status: published
 
 - title: Translational sensitivity of the Escherichia coli genome to fluctuating tRNA availability
   authors: 
@@ -114,7 +121,8 @@
   year: 2013
   url: 
   doi: 
-  thumbnail: 
+  thumbnail: 2013-nar.gif
+  status: published
 
 - title: "BSim: an agent-based tool for modeling bacterial populations in systems and synthetic biology"
   authors: 
@@ -135,7 +143,8 @@
   year: 2012
   url: 
   doi: 
-  thumbnail: 
+  thumbnail: 2012-bsim.gif
+  status: published
 
 - title: Using aging to visually uncover evolutionary processes on networks
   authors: 
@@ -149,7 +158,8 @@
   year: 2012
   url: 
   doi: 
-  thumbnail: 
+  thumbnail: 2012-network-aging.gif
+  status: published
 
 - title: "Evolving dynamical networks: a formalism for describing complex systems"
   authors: 
@@ -163,7 +173,8 @@
   year: 2012
   url: 
   doi: 
-  thumbnail: 
+  thumbnail: 2010-complexity.gif
+  status: published
 
 - title: Synchronization and control of complex networks via contraction, adaptation and evolution
   authors: 
@@ -178,7 +189,8 @@
   year: 2010
   url: 
   doi: 
-  thumbnail: 
+  thumbnail: 2010-ieee-cas-mag.gif
+  status: published
 
 - title: A dynamical approach to the evolution of complex networks
   authors: 
@@ -192,7 +204,8 @@
   year: 2010
   url: 
   doi: 
-  thumbnail: 
+  thumbnail: 2010-mtns.gif
+  status: published
 
 - title: Evolving enhanced topologies for the synchronization of dynamical complex networks
   authors: 
@@ -206,7 +219,5 @@
   year: 2010
   url: 
   doi: 
-  thumbnail: 
-
-
-
+  thumbnail: 2010-evolving-sync.gif
+  status: published
