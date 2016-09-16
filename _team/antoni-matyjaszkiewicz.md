@@ -7,7 +7,7 @@ education:
   - Ph.D. Engineering Mathematics, University of Bristol, 2016
   - M.Res. Complexity Sciences, University of Bristol, 2011
   - M.Eng. Engineering Mathematics, University of Bristol, 2010
-image: /images/team/antoni-matyjaszkiewicz.jpg
+image: antoni-matyjaszkiewicz.jpg
 email: antoni.matyjaszkiewicz@bristol.ac.uk
 twitter: 
 github: antmatyjajo 
