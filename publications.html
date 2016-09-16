@@ -1,22 +1,32 @@
 ---
-layout: post
-title: Blogging Like a Hacker
+title: Publications - Biocompute Lab
+section: publications
 ---
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
+{% include header.html %}
+{% include navigation.html %}
 
-<ul>
-{% for paper in site.data.papers %}
-  <li>
-    {{ paper.authors | join: ", " }}<br>
-    {{ paper.title }}, {{ paper.journal }}, {{ paper.year }}
-  </li>
-{% endfor %}
-</ul>
+<div class="no-header"></div>
+<div class="container">
+  <div class="col-xs-12 col-sm-12 col-lg-12">
+    <div class="publications">
+      <div class="title"><h2 class="title">Papers</h2> <span style="font-size:13px">( <sup>*</sup> joint first authorship)</span></div>
 
-</body>
-</html>
+     	{% for paper in site.data.publications %}
+
+     	<div class="media">
+          <div class="media-left">
+            {% if paper.thumbnail == "" %}<img class="media-object" src="{{base}}/images/publications/in-press.gif">{% endif %}
+          </div>
+          <div class="media-body">
+            <h3 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h3>
+            <p>{{paper.authors | join: ", "}} <br><i>{{paper.journal}}</i> <b>{{paper.volume}}</b>, {{paper.pages}}, {{paper.year}}.</p>
+          </div>
+        </div>
+
+     	{% endif %}
+
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}
