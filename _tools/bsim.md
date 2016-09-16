@@ -3,8 +3,8 @@ layout: tool
 title: BSim
 author:
   - Gorochowski T.E.
-  - 
-url: "http://www.bristol.ac.uk/brissynbio/people/191306/index.html"
+image: bsim.jpg
+repo: "https://github.com/BiocomputeLab/bsim"
 keywords:
   - synthetic biology
   - agent-based modelling
