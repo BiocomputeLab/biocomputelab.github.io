@@ -42,7 +42,7 @@ markdown: kramdown
 permalink: pretty
 
 # How many articles do you wish to appear on the front page:
-paginate: 2
+paginate: 10
 paginate_path: "/news/page:num/"
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
