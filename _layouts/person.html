@@ -9,13 +9,23 @@
 <h2>{{ page.title }}</h2>
 <h3>{{ page.position }}</h3>
 
-{{ content }}
+
+
+
+
+
+        <div class="title" style="background: url('/images/team/{{page.image}}') no-repeat bottom center transparent; background-size: 100% auto; padding-top: 40px">
+            <h1 class="heading">{{ page.title }}</h1>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-lg-12">
+            {{ content }}
+        </div>
+
+
 
 <div class="col-xs-12 col-sm-12 col-lg-12">
     <div class="publications">
-      <div class="title"><h2 class="title">Papers</h2></div>
-
-
+      <div class="title"><h2 class="title">Papers in Lab</h2></div>
 
       {% for paper in site.data.papers %}
 {% if paper.team contains page.title %}
@@ -35,9 +45,6 @@
         </div>
 {% endif %}
 {% endfor %}
-
-
-
 
       <br>
     </div>
