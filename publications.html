@@ -19,7 +19,7 @@ section: publications
           </div>
           <div class="media-body">
             <h3 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h3>
-            <p>{{paper.authors | join: ", "}} <br><i>{{paper.journal}}</i> <b>{{paper.volume}}</b>, {{paper.pages}}, {{paper.year}}.</p>
+            <p>{% paper.authors | join: ", " %} <br><i>{{paper.journal}}</i> <b>{{paper.volume}}</b>, {{paper.pages}}, {{paper.year}}.</p>
           </div>
         </div>
 
