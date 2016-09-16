@@ -1,10 +1,32 @@
 ---
 ---
 
+
+{% include header.html %}
+{% include navigation.html %}
+
+<div class="no-header"></div>
+<div class="container">
+  
+
+
+
+
 <h2>{{ page.name }}</h2>
 <h3>{{ page.title }}</h3>
 
 {{ content }}
 
-<img src="{{ page.image }}">
 
+<div class="col-xs-12 col-sm-12 col-lg-12">
+    <div class="publications">
+      <div class="title"><h2 class="title">Papers</h2></div>
+
+      {{ include publications.html }}
+
+      <br>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}
