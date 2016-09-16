@@ -15,11 +15,16 @@ section: publications
 
      	<div class="media">
           <div class="media-left">
-            <img class="media-object" src="{{baseurl}}/images/publications/{{paper.thumbnail}}">
+            {% if paper.status == "in-press" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press">
+            {% else %}<img class="media-object" src="{{baseurl}}/images/publications/{{paper.thumbnail}}">
+            {% endif %}
           </div>
           <div class="media-body">
             <h3 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h3>
-            <p>{{ paper.authors | join: ", " }} <br><i>{{paper.journal}}</i> <b>{{paper.volume}}</b>, {{paper.pages}}, {{paper.year}}.</p>
+            <p>{{ paper.authors | join: ", " }}<br>
+            {% if paper.status == "in-press" %}<i>{{paper.journal}}</i>, {{paper.year}}. <i>(in press)</i></p>
+            {% else %}<i>{{paper.journal}}</i> <b>{{paper.volume}}</b>, {{paper.pages}}, {{paper.year}}.</p>
+            {% endif %}
           </div>
         </div>
 
