@@ -1,0 +1,25 @@
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><b>Biocompute</b> LAB</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a {% if page.section == "about" %} class="active" {% endif %} href="{{baseurl}}/">ABOUT</a></li>
+            <li><a {% if page.section == "news" %} class="active" {% endif %} href="{{baseurl}}/news/">NEWS</a></li>
+            <li><a {% if page.section == "people" %} class="active" {% endif %} href="{{baseurl}}/people/">PEOPLE</a></li>
+            <li><a {% if page.section == "tools" %} class="active" {% endif %} href="{{baseurl}}/tools/">TOOLS</a></li>
+            <li><a {% if page.section == "publications" %} class="active" {% endif %} href="{{baseurl}}/publications/">PUBLICATIONS</a></li>
+            <li><a {% if page.section == "contact" %} class="active" {% endif %} href="{{baseurl}}/contact/">CONTACT</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
