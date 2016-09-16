@@ -7,7 +7,7 @@ education:
   - Ph.D. Engineering Mathematics, University of Bristol, 2012
   - M.Res. Complexity Sciences, University of Bristol, 2009
   - M.Eng. Computer Science, University of Warwick, 2004
-image: /images/team/thomas-gorochowski.jpg
+image: thomas-gorochowski.jpg
 email: thomas.gorochowski@bristol.ac.uk
 twitter: chofski
 github: chofski
