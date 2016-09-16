@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hot off the press: understanding ribosome allocation in cells using a minimal model
+title: "Hot off the press: understanding ribosome allocation in cells using a minimal model"
 author: Thomas Gorochowski
 people-tags: 
   - Thomas Gorochowski
