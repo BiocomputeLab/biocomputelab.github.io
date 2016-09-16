@@ -8,13 +8,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Contact - Biocompute Lab</title>
+    <title>{{ page.title }}</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="assets/custom.css" rel="stylesheet">
+    {% include base.html %}
+    <link href='{{base}}/assets/custom.css' rel='stylesheet'>
 
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
