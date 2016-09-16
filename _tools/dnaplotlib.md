@@ -3,7 +3,7 @@ layout: tool
 title: DNAplotlib
 author:
   - Gorochowski T.E.
-image: dnaplotlib.jpg
+image: dnaplotlib.gif
 repo: "https://github.com/VoigtLab/dnaplotlib"
 keywords:
   - synthetic biology

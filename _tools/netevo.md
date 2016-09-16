@@ -3,7 +3,7 @@ layout: tool
 title: NetEvo
 author:
   - Gorochowski T.E.
-image: dnaplotlib.jpg
+image: netevo.jpg
 repo: "https://github.com/BiocomputeLab/netevo-py"
 keywords:
   - complex networks
