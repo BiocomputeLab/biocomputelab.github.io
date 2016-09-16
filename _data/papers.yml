@@ -8,6 +8,8 @@
   year: 2016
   url: 
   doi: 
+  tools:
+    - BSim
   thumbnail: 2016-essay-bio-chem.jpg
   status: in-press
 
@@ -143,6 +145,8 @@
   year: 2012
   url: 
   doi: 
+  tools:
+    - BSim
   thumbnail: 2012-bsim.gif
   status: published
 
