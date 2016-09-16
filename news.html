@@ -4,15 +4,17 @@ section: news
 ---
 {% include header.html %}
 {% include navigation.html %}
-
-<div class="no-header"></div>
-    <div class="container"> 
+ 
+ <div class="no-header"></div>
+    <div class="container">
+       <div class="col-xs-12 col-sm-12 col-lg-12">
+       <div class="publications">
 
       {% for post in site.posts %}
 
-      <h3><a href="post.url">{{ post.title }}</a></h3>
+      <h3><a href="{{post.url}}">{{post.title}}</a></h3>
       <p><b>{{ post.date | date: '%B %d, %Y' }}</b></p>
-      <p>{{ post.description }}</p>
+      <p>{{post.description}}</p>
 
       <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>
 
