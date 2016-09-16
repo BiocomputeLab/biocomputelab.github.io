@@ -1,5 +1,7 @@
 ---
 layout: post
+author: Thomas Gorochowski
+people-tags: 
 ---
 # Homeostasis, part I: keeping the status quo is not always simple
 by Thomas Gorochowski

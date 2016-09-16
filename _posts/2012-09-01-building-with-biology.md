@@ -1,5 +1,7 @@
 ---
 layout: post
+author: Thomas Gorochowski
+people-tags: 
 ---
 # Engineering + Biology = A Sustainable Future?
 ## Biology as a Technology
