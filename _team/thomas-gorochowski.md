@@ -3,6 +3,7 @@ layout: team
 title: Thomas Gorochowski
 author: Gorochowski T.E.
 position: Research Felow / Group Leader
+role: head
 education:
   - Ph.D. Engineering Mathematics, University of Bristol, 2012
   - M.Res. Complexity Sciences, University of Bristol, 2009

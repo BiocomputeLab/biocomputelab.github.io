@@ -3,6 +3,7 @@ layout: team
 title: Antoni Matyjaszkiewicz
 author: Matyjaszkiewicz A.
 position: Post-Doctoral Research Associate
+role: member
 education:
   - Ph.D. Engineering Mathematics, University of Bristol, 2016
   - M.Res. Complexity Sciences, University of Bristol, 2011

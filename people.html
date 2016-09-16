@@ -13,19 +13,37 @@ section: people
       </div> 
 
       {% for person in site.team %}
-
+      {% if person.role == "head" %}
           <div class="col-xs-12 col-sm-6 col-lg-6">
           <div class="picture-title"  style="background: url('/images/team/{{person.image}}') no-repeat center transparent; background-size: 100% auto;">
           <h2 class="title">{{person.title}}</h2>
           </div>
-          <p class="person_title">{{person.role}}</p>
+          <p class="person_title">{{person.position}}</p>
           <p class="person_email"><a href="mailto:{{person.email}}">{{person.email}}</a></p>
           <p class="person_edu">{{person.education | join: "<br>"}}
           <p class="person_desc">
           {{person.description}} <a href="{{person.url}}">More info...</a>
           </p>
           </div>
-          
+      {% endif %}
+      {% endfor %}
+
+      <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>
+
+      {% for person in site.team %}
+      {% if person.role == "member" %}
+          <div class="col-xs-12 col-sm-6 col-lg-6">
+          <div class="picture-title"  style="background: url('/images/team/{{person.image}}') no-repeat center transparent; background-size: 100% auto;">
+          <h2 class="title">{{person.title}}</h2>
+          </div>
+          <p class="person_title">{{person.position}}</p>
+          <p class="person_email"><a href="mailto:{{person.email}}">{{person.email}}</a></p>
+          <p class="person_edu">{{person.education | join: "<br>"}}
+          <p class="person_desc">
+          {{person.description}} <a href="{{person.url}}">More info...</a>
+          </p>
+          </div>
+      {% endif %}
       {% endfor %}
 
       <br>
