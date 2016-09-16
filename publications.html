@@ -1,9 +1,7 @@
 ---
 title: Publications - Biocompute Lab
 section: publications
-base: ..
 ---
-
 {% include header.html %}
 {% include navigation.html %}
 
@@ -17,7 +15,7 @@ base: ..
 
      	<div class="media">
           <div class="media-left">
-            {% if paper.thumbnail == "" %}<img class="media-object" src="{{base}}/images/publications/in-press.gif">{% endif %}
+            {% if paper.thumbnail == "" %}<img class="media-object" src="{{baseurl}}images/publications/in-press.gif">{% endif %}
           </div>
           <div class="media-body">
             <h3 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h3>
