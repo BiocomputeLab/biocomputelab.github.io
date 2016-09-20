@@ -32,7 +32,7 @@
       {% assign num = 0 %}
       {% for paper in site.data.papers %}
 {% if paper.team contains page.title %}
-      {% capture num %}{{ num | plus:1 }}{% endcapture %}
+      {% assign num = num | plus: 1 %}
       {% if num <= 2 %}
       <div class="media">
           <div class="media-left">
