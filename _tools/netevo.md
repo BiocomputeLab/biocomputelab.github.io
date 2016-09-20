@@ -1,8 +1,8 @@
 ---
 layout: tool
 title: NetEvo
-author:
-  - Gorochowski T.E.
+contributors:
+  - Thomas Gorochowski
 image: netevo.jpg
 repo: "https://github.com/BiocomputeLab/netevo-py"
 keywords:

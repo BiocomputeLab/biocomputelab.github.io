@@ -21,8 +21,13 @@
         </div>
 
 
-
-
+        <p>
+        {% for tool in site.tools %}
+        {% if tool.contributors contains page.title %}
+        <span class="label label-primary">{{ tool.title }}</span>
+        {% endif %}
+        {% endfor %}
+        </p>
 
 
   <div class="col-xs-12 col-sm-12 col-lg-12">
@@ -33,7 +38,7 @@
       {% for paper in site.data.papers %}
 {% if paper.team contains page.title %}
       {% assign num = num | plus: 1 %}
-      {% if num <= 2 %}
+      {% if num <= 5 %}
       <div class="media">
           <div class="media-left">
             {% if paper.status == "in-press" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
@@ -61,9 +66,13 @@
       <div class="title"><h2 class="title">Recent Talks and Posters</h2></div>
 
       <p><ol>
+      {% assign num = 0 %}
       {% for talk in site.data.talks %}
 {% if talk.speaker == page.title %}
+      {% assign num = num | plus: 1 %}
+      {% if num <= 5 %}
       <li><b>{{ talk.title }}</b>, {{ talk.event }}, {{ talk.place }}
+      {% endif %}
 {% endif %}
 {% endfor %}
 </ol>

@@ -1,8 +1,8 @@
 ---
 layout: tool
 title: DNAplotlib
-author:
-  - Gorochowski T.E.
+contributors:
+  - Thomas Gorochowski
 image: dnaplotlib.gif
 repo: "https://github.com/VoigtLab/dnaplotlib"
 keywords:

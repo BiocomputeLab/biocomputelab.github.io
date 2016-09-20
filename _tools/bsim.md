@@ -1,8 +1,9 @@
 ---
 layout: tool
 title: BSim
-author:
-  - Gorochowski T.E.
+contributors:
+  - Thomas Gorochowski
+  - Antoni Matyjaszkiewicz
 image: bsim.jpg
 repo: "https://github.com/BiocomputeLab/bsim"
 keywords:
