@@ -27,10 +27,13 @@
 
   <div class="col-xs-12 col-sm-12 col-lg-12">
     <div class="publications">
-      <div class="title"><h2 class="title">Papers in Lab</h2></div>
+      <div class="title"><h2 class="title">Latest Papers</h2></div>
 
+      {% assign num = 0 %}
       {% for paper in site.data.papers %}
 {% if paper.team contains page.title %}
+      {% increment num %}
+      {% if num <= 10 %}
       <div class="media">
           <div class="media-left">
             {% if paper.status == "in-press" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
@@ -46,6 +49,7 @@
           </div>
         </div>
 {% endif %}
+{% endif %}
 {% endfor %}
 
       <br>
@@ -54,7 +58,7 @@
 
   <div class="col-xs-12 col-sm-12 col-lg-12">
     <div class="publications">
-      <div class="title"><h2 class="title">Talks and Poster Presentations</h2></div>
+      <div class="title"><h2 class="title">Recent Talks and Posters</h2></div>
 
       <p><ol>
       {% for talk in site.data.talks %}
