@@ -33,7 +33,7 @@
       {% for paper in site.data.papers %}
 {% if paper.team contains page.title %}
       {% increment num %}
-      {% if num <= 10 %}
+      {% if num <= 2 %}
       <div class="media">
           <div class="media-left">
             {% if paper.status == "in-press" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
