@@ -24,7 +24,7 @@
         <p>
         {% for tool in site.tools %}
         {% if tool.contributors contains page.title %}
-        <h2><span class="label label-primary">{{ tool.title }}</span></h2>
+        <h3><span class="label label-primary">{{ tool.title }}</span></h3>
         {% endif %}
         {% endfor %}
         </p>
