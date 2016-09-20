@@ -14,7 +14,7 @@ section: publications
       {% assign loopyear = 2017 %}
      	{% for paper in site.data.papers %}
 
-      {% if loopyear < paper.year %}
+      {% if loopyear > paper.year %}
         {% assign loopyear = paper.year %}
         <h2>{{ paper.year }}</h2>
       {% endif %}
