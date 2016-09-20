@@ -11,8 +11,15 @@ section: publications
     <div class="publications">
       <div class="title"><h2 class="title">Papers</h2></div>
 
+      {% assign loopyear = 2017 %}
      	{% for paper in site.data.papers %}
 
+      {% if loopyear < paper.year %}
+        {% assign loopyear = paper.year %}
+        <h2>{{ paper.year }}</h2>
+      {% endif %}
+
+      {% if loopyear == paper.year %}
      	<div class="media">
           <div class="media-left">
             {% if paper.status == "in-press" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
@@ -27,6 +34,7 @@ section: publications
             {% endif %}
           </div>
         </div>
+      {% endif %}
 
      	{% endfor %}
 
