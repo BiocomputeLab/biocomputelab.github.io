@@ -22,6 +22,8 @@
     - Bovenberg R.A.L.
     - Roubos J.A.
     - Ignatova Z.
+  team: 
+    - Thomas Gorochowski
   journal: ACS Synthetic Biology
   volume: 5
   issue: 
@@ -55,6 +57,8 @@
   authors: 
     - Richardson T.O.
     - Gorochowski T.E.
+  team: 
+    - Thomas Gorochowski
   journal: Journal of the Royal Society Interface
   volume: 12
   issue: 
@@ -71,6 +75,8 @@
     - Ignatova Z.
     - Bovenberg R.A.L.
     - Roubos J.A.
+  team: 
+    - Thomas Gorochowski
   journal: Nucleic Acids Research
   volume: 43
   issue: 
@@ -88,6 +94,8 @@
     - Wilson M.
     - Jones M.W.
     - Bogacz R.
+  team: 
+    - Thomas Gorochowski
   journal: Frontiers in Behavioral Neuroscience
   volume: 8
   issue: 
@@ -105,6 +113,8 @@
     - Kerkman R.
     - Roubos J.A.
     - Bovenberg R.A.L.
+  team: 
+    - Thomas Gorochowski
   journal: ACS Synthetic Biology
   volume: 3
   issue: 
@@ -120,6 +130,8 @@
     - Wohlgemuth S.E.
     - Gorochowski T.E.
     - Roubos J.A.
+  team: 
+    - Thomas Gorochowski
   journal: Nucleic Acids Research
   volume: 41
   issue: 
@@ -162,6 +174,8 @@
     - Gorochowski T.E.
     - di Bernardo M.
     - Grierson C.S.
+  team: 
+    - Thomas Gorochowski
   journal: IEEE Transactions on Visualization and Computer Graphics
   volume: 18
   issue: 
@@ -177,6 +191,8 @@
     - Gorochowski T.E.
     - di Bernardo M.
     - Grierson C.S.
+  team: 
+    - Thomas Gorochowski
   journal: Complexity
   volume: 17
   issue: 
@@ -193,6 +209,8 @@
     - di Bernardo M.
     - Gorochowski T.E.
     - Russo G.
+  team: 
+    - Thomas Gorochowski
   journal: "IEEE Circuits and Systems Magazine: Special Issue on Complex Networks"
   volume: 10
   issue: 
@@ -208,6 +226,8 @@
     - Gorochowski T.E.
     - di Bernardo M.
     - Grierson C.S.
+  team: 
+    - Thomas Gorochowski
   journal: Proceedings of the 19th International Symposium on Mathematical Theory of Networks and Systems
   volume: 
   issue: 
@@ -223,6 +243,8 @@
     - Gorochowski T.E.
     - di Bernardo M.
     - Grierson C.S.
+  team: 
+    - Thomas Gorochowski
   journal: Physical Review E
   volume: 81
   issue: 
