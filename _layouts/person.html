@@ -63,26 +63,21 @@
     <div class="publications">
       <div class="title"><h2 class="title">Recent Talks and Posters</h2></div>
 
-      <p><ol>
+      <p><ul>
       {% assign num = 0 %}
       {% for talk in site.data.talks %}
-{% if talk.speaker == page.title %}
+      {% if talk.speaker == page.title %}
       {% assign num = num | plus: 1 %}
       {% if num <= 5 %}
-      {{ talk.date | date: '%b %Y' }} <b>{{ talk.title }}</b>, {{ talk.event }}, {{ talk.place }}<br>
+      <li><b>{{ talk.title }}</b>, {{ talk.event }}, {{ talk.place }} ({{ talk.date | date: '%B %Y' }})</li>
       {% endif %}
-{% endif %}
-{% endfor %}
-</ol>
-  </p>
+      {% endif %}
+      {% endfor %}
+      </ol></p>
 
       <br>
     </div>
   </div>
-
-
-
-
 
 </div>
 
