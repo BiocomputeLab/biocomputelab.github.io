@@ -9,10 +9,10 @@ section: news
     <div class="container">
     <div class="col-xs-12 col-sm-12 col-lg-12">
 
-<h2>{{ page.title }}</h2>
-<h3>{{ page.date }}</h3>
+<h2 class="title">{{ page.title }}</h2>
+<h3>{{ page.date | date: '%B %d, %Y' }}</h3>
 
-{{ content }}
+	{{ content }}
 
   </div>
 </div>
