@@ -44,15 +44,11 @@ section: people
           {{person.description}} <a href="{{person.url}}">More info...</a>
           </p>
           </div>
-          {% if num <= 2 %} {% assign num = 0 %} <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div> 
+          {% if num >= 2 %} {% assign num = 0 %} <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div> 
           {% else %} {% assign num = num | plus: 1 %}
           {% endif %}
       {% endif %}
       {% endfor %}
-
-      <div class="col-xs-12 col-sm-12 col-lg-12">
-      <h2 style="margin-top: 30px" class="year">Alumni</h2>
-      </div> 
       
       <div class="col-xs-12 col-sm-12 col-lg-12">
       <h2 style="margin-top: 30px" class="year">Alumni</h2>
