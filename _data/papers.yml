@@ -1,3 +1,27 @@
+- title: "DNAplotlib: programmable visualization of genetic designs and associated data"
+  authors: 
+    - Der B.S.
+    - Glassey E.
+    - Bartley B.A.
+    - Enghuus C.
+    - Goodman D.B.
+    - Gordon D.B.
+    - Voigt C.A.
+    - Gorochowski T.E.
+  team: 
+    - Thomas Gorochowski
+  journal: ACS Synthetic Biology
+  volume:
+  issue: 
+  pages: 
+  year: 2016
+  url: 
+  doi: 
+  tools:
+    - DNAplotlib
+  thumbnail: in-press.gif
+  status: in-revision
+
 - title: Agent-based modelling in synthetic biology
   authors: 
     - Gorochowski T.E.
