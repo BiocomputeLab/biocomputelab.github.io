@@ -1,3 +1,20 @@
+- title: Agent-based modelling in synthetic biology
+  authors: 
+    - Gorochowski T.E.
+  team: 
+    - Thomas Gorochowski
+  journal: Essays in Biochemistry
+  volume: 
+  issue: 
+  pages: 
+  year: 2016
+  url: 
+  doi: 
+  tools:
+    - BSim
+  thumbnail: 2016-essay-bio-chem.jpg
+  status: in-press
+
 - title: "DNAplotlib: programmable visualization of genetic designs and associated data"
   authors: 
     - Der B.S.
@@ -19,25 +36,8 @@
   doi: 
   tools:
     - DNAplotlib
-  thumbnail: in-press.gif
-  status: in-press
-
-- title: Agent-based modelling in synthetic biology
-  authors: 
-    - Gorochowski T.E.
-  team: 
-    - Thomas Gorochowski
-  journal: Essays in Biochemistry
-  volume: 
-  issue: 
-  pages: 
-  year: 2016
-  url: 
-  doi: 
-  tools:
-    - BSim
-  thumbnail: 2016-essay-bio-chem.jpg
-  status: in-press
+  thumbnail: 2016-acssb-dnaplotlib.gif
+  status: published
 
 - title: A minimal model of ribosome allocation dynamics captures trade-offs in expression between endogenous and synthetic genes
   authors: 
