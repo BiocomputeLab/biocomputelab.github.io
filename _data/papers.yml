@@ -27,16 +27,16 @@
   team: 
     - Thomas Gorochowski
   journal: Essays in Biochemistry
-  volume: 
-  issue: 
-  pages: 
+  volume: 60
+  issue: 4
+  pages: 325-336
   year: 2016
-  url: 
-  doi: 
+  url: "http://essays.biochemistry.org/content/60/4/325"
+  doi: 10.1042/EBC20160037
   tools:
     - BSim
   thumbnail: 2016-essay-bio-chem.jpg
-  status: in-press
+  status: published
 
 - title: "DNAplotlib: programmable visualization of genetic designs and associated data"
   authors: 
