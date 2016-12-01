@@ -1,3 +1,26 @@
+- title: "Registry in a tube: multiplexed pools of retrievable parts for genetic design space exploration"
+  authors: 
+    - Woodruff L.
+    - Gorochowski T.E.
+    - Roehner N.
+    - Mikkelsen T.
+    - Densmore D.
+    - Gordon D.B.
+    - Nicol R.
+    - Voigt C.A.
+  team: 
+    - Thomas Gorochowski
+  journal: Nucleic Acids Research
+  volume: 
+  issue: 
+  pages: 
+  year: 2016
+  url: "http://dx.doi.org/10.1093/nar/gkw1226"
+  doi: 10.1093/nar/gkw1226
+  tools:
+  thumbnail: in-press.gif
+  status: in-press
+
 - title: Agent-based modelling in synthetic biology
   authors: 
     - Gorochowski T.E.

@@ -1,11 +1,24 @@
-- title: Behavioural traits producing dynamic networks with multiple modes of spreading
+- title: Automated genetic design visualization using DNAplotlib
   authors: 
+    - Bartoli V.
+    - Dixon D.O.R.
     - Gorochowski T.E.
-    - Richardson T.O.
-  book: TBA
+  book: "Protocols in Molecular Biology: Synthetic Biology"
   pages: 
   year: 2017
   url: 
   doi: 
   thumbnail: in-press.jpg
-  status: in-press
+  status: in-prep
+
+- title: Role of behaviour and environment on spreading processes in motile groups
+  authors: 
+    - Gorochowski T.E.
+    - Richardson T.O.
+  book: Temporal Network Epidemiology
+  pages: 
+  year: 2017
+  url: 
+  doi: 
+  thumbnail: in-press.jpg
+  status: in-prep
