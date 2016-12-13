@@ -31,6 +31,7 @@ section: publications
             <p>{{ paper.authors | join: ", " }}<br>
             {% if paper.status == "in-press" %}<i>{{paper.journal}}</i>, {{paper.year}}. <i>(in press)</i></p>
             {% elsif paper.status == "in-revision" %}<i>{{paper.journal}}</i>. <i>(in revision)</i></p>
+            {% elsif paper.status == "in-prep" %}<i>{{paper.journal}}</i>. <i>(in preparation)</i></p>
             {% else %}<i>{{paper.journal}}</i> <b>{{paper.volume}}</b>, {{paper.pages}}, {{paper.year}}.</p>
             {% endif %}
           </div>
