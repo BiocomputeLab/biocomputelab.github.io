@@ -9,9 +9,9 @@ section: publications
 <div class="container">
   <div class="col-xs-12 col-sm-12 col-lg-12">
     <div class="publications">
-      <div class="title"><h2 class="title">Peer-reviewed publications</h2></div>
+      <div class="title"><h2 class="title">Publications</h2></div>
 
-      {% assign loopyear = 2017 %}
+      {% assign loopyear = 2018 %}
      	{% for paper in site.data.papers %}
 
       {% if loopyear > paper.year %}
@@ -22,7 +22,7 @@ section: publications
       {% if loopyear == paper.year %}
      	<div class="media">
           <div class="media-left">
-            {% if paper.status == "in-press" or paper.status == "in-revision" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
+            {% if paper.status == "in-press" or paper.status == "in-revision" or paper.status == "in-prep" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
             {% else %}<img class="media-object" src="{{baseurl}}/images/publications/{{paper.thumbnail}}">
             {% endif %}
           </div>
