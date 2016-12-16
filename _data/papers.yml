@@ -1,3 +1,24 @@
+
+- title: "Automated visualization of genetic designs using DNAplotlib"
+  authors: 
+    - Bartoli V.
+    - Dixon D.O.R.
+    - Gorochowski T.E.
+  team: 
+    - Vittorio Bartoli
+    - Daniel Dixon
+    - Thomas Gorochowski
+  journal: Methods in Molecular Biology, Synthetic Biology
+  volume: 
+  issue: 
+  pages: 
+  year: 2017
+  url: 
+  doi: 
+  tools:
+  thumbnail: in-press.gif
+  status: in-prep
+
 - title: "How individual behaviour and the environment influences transmission in mobile groups"
   authors: 
     - Gorochowski T.E.
