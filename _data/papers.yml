@@ -55,11 +55,11 @@
   issue: 
   pages: 
   year: 2016
-  url: "http://dx.doi.org/10.1093/nar/gkw1226"
+  url: "http://nar.oxfordjournals.org/content/early/2016/12/21/nar.gkw1226.full"
   doi: 10.1093/nar/gkw1226
   tools:
   thumbnail: 2016-nar.gif
-  status: in-press
+  status: published
 
 - title: Agent-based modelling in synthetic biology
   authors: 
