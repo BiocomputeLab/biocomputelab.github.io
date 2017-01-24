@@ -119,7 +119,7 @@ ul {
 }
 
 .title-news {
-    margin-top: 25px;
+    margin-top: 1px; /*<!-- 25px -->*/
     text-transform: none;
 }
 
