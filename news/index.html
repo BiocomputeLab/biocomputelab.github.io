@@ -15,8 +15,7 @@ section: news
       <div class="panel panel-default">
         <div class="panel-body">
 
-          <div class="news">
-          <h3>
+          <h3 class=news>
           <a href="{{post.url}}">{{ post.title }}</a>
           <!--{% if post.excerpt == post.content %}{{ post.title }}
           {% else %}<a href="{{post.url}}">{{ post.title }}</a>
@@ -24,7 +23,6 @@ section: news
           </h3>
           <p><b>{{ post.date | date: '%B %d, %Y' }}</b></p>
           <p>{{ post.excerpt }}</p>
-          </div>
 
         </div>
       </div>
