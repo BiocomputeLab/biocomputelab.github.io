@@ -14,19 +14,27 @@ section: news
 
 
       <div class="panel panel-default">
-
+         <div class="panel-heading">
+            <a href="{{post.url}}">{{ post.title }}</a>
+            <p><b>{{ post.date | date: '%B %d, %Y' }}</b></p>
+         </div>
+         <div class="panel-body">
+            <p>{{ post.excerpt }}</p>
+         </div>
+      </div>
+      <!--
         <div class="publications">
         <h3>
         <a href="{{post.url}}">{{ post.title }}</a>
-        <!--{% if post.excerpt == post.content %}{{ post.title }}
+        {% if post.excerpt == post.content %}{{ post.title }}
         {% else %}<a href="{{post.url}}">{{ post.title }}</a>
-        {% endif %}-->
+        {% endif %}
         </h3>
         <p><b>{{ post.date | date: '%B %d, %Y' }}</b></p>
         <p>{{ post.excerpt }}</p>
         </div>
-
-      </div>
+      -->
+      
 
 
 
