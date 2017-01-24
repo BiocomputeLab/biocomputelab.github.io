@@ -84,7 +84,7 @@ ul {
     border: 1px solid #e8e6e6;
 }
 
-.news {
+.news > h3 {
     font-weight: 300;
     font-family: 'Oswald', sans-serif;
     font-size: 17pt;
