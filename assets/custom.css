@@ -83,6 +83,18 @@ ul {
     float: left;
     border: 1px solid #e8e6e6;
 }
+
+.news > .media > .media-body > h3, .publications > h3 {
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17pt;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
 #map-canvas {
     width: 100%;
     height: 350px;
