@@ -95,6 +95,14 @@ ul {
     border-bottom: 0;
 }
 
+.news > p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 0;
+    padding-top: 5px;
+}
+
 #map-canvas {
     width: 100%;
     height: 350px;
