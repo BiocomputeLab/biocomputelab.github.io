@@ -13,9 +13,10 @@ section: news
       {% for post in paginator.posts %}
 
       <h3>
-      {% if post.excerpt == post.content %}{{ post.title }}
+      <a href="{{post.url}}">{{ post.title }}</a>
+      <!--{% if post.excerpt == post.content %}{{ post.title }}
       {% else %}<a href="{{post.url}}">{{ post.title }}</a>
-      {% endif %}
+      {% endif %}-->
       </h3>
       <p><b>{{ post.date | date: '%B %d, %Y' }}</b></p>
       <p>{{ post.excerpt }}</p>
