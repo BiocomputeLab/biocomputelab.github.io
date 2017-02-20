@@ -36,7 +36,7 @@
   doi: 
   tools:
   thumbnail: in-press.gif
-  status: to-appear
+  status: in-prep
 
 - title: "Registry in a tube: multiplexed pools of retrievable parts for genetic design space exploration"
   authors: 
@@ -51,10 +51,10 @@
   team: 
     - Thomas Gorochowski
   journal: Nucleic Acids Research
-  volume: 
-  issue: 
-  pages: 
-  year: 2016
+  volume: 45
+  issue: 3
+  pages: 1553-1565
+  year: 2017
   url: "http://nar.oxfordjournals.org/content/early/2016/12/21/nar.gkw1226.full"
   doi: 10.1093/nar/gkw1226
   tools:
@@ -100,7 +100,7 @@
   tools:
     - DNAplotlib
   thumbnail: 2016-acssb-dnaplotlib.gif
-  status: published
+  status: in-press
 
 - title: A minimal model of ribosome allocation dynamics captures trade-offs in expression between endogenous and synthetic genes
   authors: 
