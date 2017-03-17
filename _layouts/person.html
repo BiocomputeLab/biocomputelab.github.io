@@ -47,7 +47,7 @@
             <h3 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h3>
             <p>{{ paper.authors | join: ", " }}<br>
             {% if paper.status == "online" %}<i>{{paper.journal}}</i>, {{paper.year}}. <i>(online)</i></p>
-            {% if paper.status == "in-press" %}<i>{{paper.journal}}</i>, {{paper.year}}. <i>(in press)</i></p>
+            {% elsif paper.status == "in-press" %}<i>{{paper.journal}}</i>, {{paper.year}}. <i>(in press)</i></p>
             {% elsif paper.status == "in-revision" %}<i>{{paper.journal}}</i>. <i>(in revision)</i></p>
             {% else %}<i>{{paper.journal}}</i> <b>{{paper.volume}}</b>, {{paper.pages}}, {{paper.year}}.</p>
             {% endif %}
