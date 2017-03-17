@@ -27,7 +27,7 @@ section: publications
             {% endif %}
           </div>
           <div class="media-body">
-            {% if paper.status == "in-press" or paper.status == "online" or paper.status == "in-revision" or paper.status == "in-prep" %}
+            {% if paper.status == "in-press" or paper.status == "in-revision" or paper.status == "in-prep" %}
             <h3 class="media-heading">{{paper.title}}</h3>
             {% else %} <h3 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h3>
             {% endif %}

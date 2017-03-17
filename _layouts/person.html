@@ -39,12 +39,15 @@
       {% if num <= 8 %}
       <div class="media">
           <div class="media-left">
-            {% if paper.status == "in-press" or paper.status == "online" or paper.status == "in-revision" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
+            {% if paper.status == "in-press" or paper.status == "in-revision" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
             {% else %}<img class="media-object" src="{{baseurl}}/images/publications/{{paper.thumbnail}}">
             {% endif %}
           </div>
           <div class="media-body">
-            <h3 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h3>
+            {% if paper.status == "in-press" or paper.status == "in-revision" or paper.status == "in-prep" %}
+            <h3 class="media-heading">{{paper.title}}</h3>
+            {% else %} <h3 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h3>
+            {% endif %}
             <p>{{ paper.authors | join: ", " }}<br>
             {% if paper.status == "online" %}<i>{{paper.journal}}</i>, {{paper.year}}. <i>(online)</i></p>
             {% elsif paper.status == "in-press" %}<i>{{paper.journal}}</i>, {{paper.year}}. <i>(in press)</i></p>
