@@ -1,33 +1,5 @@
 
 
-- title: "A standard-enabled workflow for synthetic biology"
-  authors: 
-    - Myers C.J.
-    - Beal J.
-    - Gorochowski T.E.
-    - Kuwahara H.
-    - Madsen C.
-    - McLaughlin J.A.
-    - Mısırlı G.
-    - Nguyen T.
-    - Oberortner E.
-    - Samineni M.
-    - Wipat A.
-    - Zhang M.
-    - Zundel Z.
-  team:
-    - Thomas Gorochowski
-  journal: Biochemical Society Transactions
-  volume: 
-  issue: 
-  pages: 
-  year: 2017
-  url: 
-  doi: 
-  tools:
-  thumbnail: in-press.gif
-  status: in-revision
-
 - title: "Automated visualization of genetic designs using DNAplotlib"
   authors: 
     - Bartoli V.
@@ -66,6 +38,34 @@
   tools:
   thumbnail: in-press.gif
   status: in-prep
+
+- title: "A standard-enabled workflow for synthetic biology"
+  authors: 
+    - Myers C.J.
+    - Beal J.
+    - Gorochowski T.E.
+    - Kuwahara H.
+    - Madsen C.
+    - McLaughlin J.A.
+    - Mısırlı G.
+    - Nguyen T.
+    - Oberortner E.
+    - Samineni M.
+    - Wipat A.
+    - Zhang M.
+    - Zundel Z.
+  team:
+    - Thomas Gorochowski
+  journal: Biochemical Society Transactions
+  volume: 
+  issue: 
+  pages: 
+  year: 2017
+  url: 
+  doi: 
+  tools: 
+  thumbnail: 2017-biochem-soc-trans.gif
+  status: in-press
 
 - title: "Registry in a tube: multiplexed pools of retrievable parts for genetic design space exploration"
   authors: 
