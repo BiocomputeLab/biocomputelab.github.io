@@ -22,12 +22,12 @@ section: publications
       {% if loopyear == paper.year %}
      	<div class="media">
           <div class="media-left">
-            {% if paper.status == "in-revision" or paper.status == "in-prep" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
+            {% if paper.status == "in-revision" or paper.status == "in-prep" or paper.status == "submitted" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
             {% else %}<img class="media-object" src="{{baseurl}}/images/publications/{{paper.thumbnail}}">
             {% endif %}
           </div>
           <div class="media-body">
-            {% if paper.status == "in-press" or paper.status == "in-revision" or paper.status == "in-prep" %}
+            {% if paper.status == "in-press"  or paper.status == "in-revision" or paper.status == "submitted" or paper.status == "in-prep" %}
             <h3 class="media-heading">{{paper.title}}</h3>
             {% else %} <h3 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h3>
             {% endif %}
@@ -36,6 +36,7 @@ section: publications
             {% elsif paper.status == "in-press" %}<i>{{paper.journal}}</i>, {{paper.year}}. <i>(in press)</i></p>
             {% elsif paper.status == "in-revision" %}<i>{{paper.journal}}</i>. <i>(under revision)</i></p>
             {% elsif paper.status == "in-prep" %}<i>{{paper.journal}}</i>. <i>(in preparation)</i></p>
+            {% elsif paper.status == "submitted" %}<i>{{paper.journal}}</i>. <i>(submitted)</i></p>
             {% else %}<i>{{paper.journal}}</i> <b>{{paper.volume}}</b>, {{paper.pages}}, {{paper.year}}.</p>
             {% endif %}
           </div>
