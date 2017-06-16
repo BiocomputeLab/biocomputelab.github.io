@@ -55,15 +55,15 @@
   team:
     - Thomas Gorochowski
   journal: Biochemical Society Transactions
-  volume: 
+  volume: 45
   issue: 
-  pages: 
+  pages: 793-803
   year: 2017
-  url: 
-  doi: 
+  url: https://doi.org/10.1042/BST20160347
+  doi: 10.1042/BST20160347
   tools: 
   thumbnail: 2017-biochem-soc-trans.gif
-  status: in-press
+  status: published
 
 - title: "Registry in a tube: multiplexed pools of retrievable parts for genetic design space exploration"
   authors: 
