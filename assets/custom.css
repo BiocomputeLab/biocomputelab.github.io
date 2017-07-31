@@ -5,6 +5,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
 /*
  * Globals
@@ -40,11 +41,11 @@ body {
 }
 .heading h1 {
     padding-top: 300px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', 'Oswald', sans-serif;
 }
 h2 {
     text-align: left;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', 'Oswald', sans-serif;
     text-transform: uppercase;
     font-size: 14pt;
     color: #fff;
@@ -86,7 +87,7 @@ ul {
 
 .news > h3 {
     font-weight: 300;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', 'Oswald', sans-serif;
     font-size: 17pt;
     margin-top: 0;
     padding-top: 0;
@@ -96,7 +97,7 @@ ul {
 }
 
 .news > p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 13px;
     margin: 0;
@@ -115,7 +116,7 @@ ul {
 }
 .container > .title {}
 .container > .title > .heading {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', 'Oswald', sans-serif;
     font-weight: 300;
     font-size: 36pt;
     background-color: #000;
@@ -165,7 +166,7 @@ ul {
 
 .navbar-default .navbar-header > .navbar-brand {
     font-weight: 300;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', 'Oswald', sans-serif;
     font-size: 22pt;
     color: #fff;
 }
@@ -194,7 +195,7 @@ ul {
     background-color: #000;
 }
 .navbar-nav > li > a {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', 'Oswald', sans-serif;
     font-size: 12pt;
     display: inline-block;
     color: #fff;
