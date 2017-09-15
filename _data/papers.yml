@@ -7,12 +7,12 @@
   team: 
     - Thomas Gorochowski
   journal: bioRxiv
-  volume: 
+  volume: 188821
   issue: 
-  pages: 
+  pages: 10.1101/188821
   year: 2017
-  url: 
-  doi: 
+  url: https://doi.org/10.1101/188821
+  doi: 10.1101/188821
   tools:
   thumbnail: in-press.gif
   status: published
@@ -32,11 +32,11 @@
   team: 
     - Thomas Gorochowski
   journal: bioRxiv
-  volume: 
+  volume: 177030
   issue: 
   pages: 10.1101/177030
   year: 2017
-  url: http://www.biorxiv.org/content/early/2017/08/20/177030
+  url: https://doi.org/10.1101/177030
   doi: 10.1101/177030
   tools:
   thumbnail: in-press.gif
