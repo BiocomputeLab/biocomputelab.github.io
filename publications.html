@@ -9,35 +9,54 @@ section: publications
 <div class="container">
   <div class="col-xs-12 col-sm-12 col-lg-12">
     <div class="publications">
+      
+      <div class="title"><h2 class="title">Pre-Prints</h2></div>
+
+      {% for pub in site.data.publications %}
+
+      {% if pub.status == "pre-print" %}
+        <div class="media">
+            <div class="media-left">
+              <img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="{{pub.preprint_url}}">{{pub.title}}</a></h3>
+              <p>{{ pub.authors | join: ", " }}<br>
+              <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.prepint_year}}.
+            </div>
+      {% endif %}
+      {% endfor %}
+      </div>
+
       <div class="title"><h2 class="title">Publications</h2></div>
 
       {% assign loopyear = 2018 %}
-     	{% for paper in site.data.papers %}
+     	{% for pub in site.data.publications %}
 
-      {% if loopyear > paper.year %}
-        {% assign loopyear = paper.year %}
-        <h2 class="year">{{ paper.year }}</h2>
+      {% if loopyear > pub.year %}
+        {% assign loopyear = pub.year %}
+        <h2 class="year">{{ pub.year }}</h2>
       {% endif %}
 
-      {% if loopyear == paper.year %}
+      {% if loopyear == pub.year %}
      	<div class="media">
           <div class="media-left">
-            {% if paper.status == "in-revision" or paper.status == "in-prep" or paper.status == "submitted" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
-            {% else %}<img class="media-object" src="{{baseurl}}/images/publications/{{paper.thumbnail}}">
+            {% if pub.status == "in-revision" or pub.status == "in-prep" or pub.status == "submitted" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
+            {% else %}<img class="media-object" src="{{baseurl}}/images/publications/{{pub.thumbnail}}">
             {% endif %}
           </div>
           <div class="media-body">
-            {% if paper.status == "in-press"  or paper.status == "in-revision" or paper.status == "submitted" or paper.status == "in-prep" %}
-            <h3 class="media-heading">{{paper.title}}</h3>
-            {% else %} <h3 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h3>
+            {% if pub.status == "in-press"  or pub.status == "in-revision" or pub.status == "submitted" or pub.status == "in-prep" %}
+            <h3 class="media-heading">{{pub.title}}</h3>
+            {% else %} <h3 class="media-heading"><a href="{{pub.url}}">{{pub.title}}</a></h3>
             {% endif %}
-            <p>{{ paper.authors | join: ", " }}<br>
-            {% if paper.status == "online" %}<i>{{paper.journal}}</i>, {{paper.year}}. <i>(online)</i></p>
-            {% elsif paper.status == "in-press" %}<i>{{paper.journal}}</i>, {{paper.year}}. <i>(in press)</i></p>
-            {% elsif paper.status == "in-revision" %}<i>{{paper.journal}}</i>. <i>(under revision)</i></p>
-            {% elsif paper.status == "in-prep" %}<i>{{paper.journal}}</i>. <i>(in preparation)</i></p>
-            {% elsif paper.status == "submitted" %}<i>{{paper.journal}}</i>. <i>(submitted)</i></p>
-            {% else %}<i>{{paper.journal}}</i> <b>{{paper.volume}}</b>, {{paper.pages}}, {{paper.year}}.</p>
+            <p>{{ pub.authors | join: ", " }}<br>
+            {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i></p>
+            {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i></p>
+            {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i></p>
+            {% elsif pub.status == "in-prep" %}<i>{{pub.journal}}</i>. <i>(in preparation)</i></p>
+            {% elsif pub.status == "submitted" %}<i>{{pub.journal}}</i>. <i>(submitted)</i></p>
+            {% else %}<i>{{pub.journal}}</i> <b>{{pub.volume}}</b>, {{pub.pages}}, {{pub.year}}.</p>
             {% endif %}
           </div>
         </div>
