@@ -33,26 +33,26 @@
       <div class="title"><h2 class="title">Latest Papers in Lab</h2></div>
 
       {% assign num = 0 %}
-      {% for paper in site.data.papers %}
-{% if paper.team contains page.title %}
+      {% for pub in site.data.publications %}
+{% if pub.team contains page.title %}
       {% assign num = num | plus: 1 %}
       {% if num <= 8 %}
       <div class="media">
           <div class="media-left">
-            {% if paper.status == "in-press" or paper.status == "in-revision" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
-            {% else %}<img class="media-object" src="{{baseurl}}/images/publications/{{paper.thumbnail}}">
+            {% if pub.status == "in-press" or pub.status == "in-revision" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
+            {% else %}<img class="media-object" src="{{baseurl}}/images/publications/{{pub.thumbnail}}">
             {% endif %}
           </div>
           <div class="media-body">
-            {% if paper.status == "in-press" or paper.status == "in-revision" or paper.status == "in-prep" %}
-            <h3 class="media-heading">{{paper.title}}</h3>
-            {% else %} <h3 class="media-heading"><a href="{{paper.url}}">{{paper.title}}</a></h3>
+            {% if pub.status == "in-press" or pub.status == "in-revision" or pub.status == "in-prep" %}
+            <h3 class="media-heading">{{pub.title}}</h3>
+            {% else %} <h3 class="media-heading"><a href="{{pub.url}}">{{pub.title}}</a></h3>
             {% endif %}
-            <p>{{ paper.authors | join: ", " }}<br>
-            {% if paper.status == "online" %}<i>{{paper.journal}}</i>, {{paper.year}}. <i>(online)</i></p>
-            {% elsif paper.status == "in-press" %}<i>{{paper.journal}}</i>, {{paper.year}}. <i>(in press)</i></p>
-            {% elsif paper.status == "in-revision" %}<i>{{paper.journal}}</i>. <i>(under revision)</i></p>
-            {% else %}<i>{{paper.journal}}</i> <b>{{paper.volume}}</b>, {{paper.pages}}, {{paper.year}}.</p>
+            <p>{{ pub.authors | join: ", " }}<br>
+            {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i></p>
+            {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i></p>
+            {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i></p>
+            {% else %}<i>{{pub.journal}}</i> <b>{{pub.volume}}</b>, {{pub.pages}}, {{pub.year}}.</p>
             {% endif %}
           </div>
         </div>
