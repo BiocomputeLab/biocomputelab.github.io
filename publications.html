@@ -13,21 +13,19 @@ section: publications
       <div class="title"><h2 class="title">Pre-Prints</h2></div>
 
       {% for pub in site.data.publications %}
-
-      {% if pub.status == "pre-print" %}
-        <div class="media">
-            <div class="media-left">
-              <img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
-            </div>
-            <div class="media-body">
-              <h3 class="media-heading"><a href="{{pub.preprint_url}}">{{pub.title}}</a></h3>
-              <p>{{ pub.authors | join: ", " }}<br>
-              <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.</p>
-            </div>
-          </div> 
-      {% endif %}
+        {% if pub.status == "pre-print" %}
+          <div class="media">
+              <div class="media-left">
+                <img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading"><a href="{{pub.preprint_url}}">{{pub.title}}</a></h3>
+                <p>{{ pub.authors | join: ", " }}<br>
+                <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.</p>
+              </div>
+            </div> 
+        {% endif %}
       {% endfor %}
-      </div>
 
       <div class="title"><h2 class="title">Publications</h2></div>
 
