@@ -92,16 +92,16 @@
     - Richardson T.O.
   team: 
     - Thomas Gorochowski
-  journal: Temporal Network Epidemiology
+  journal: "In: Masuda N., Holme P. (eds) Temporal Network Epidemiology. Theoretical Biology."
   volume: 
   issue: 
   pages: 
   year: 2017
-  url: 
-  doi: 
+  url: https://doi.org/10.1007/978-981-10-5287-3_2
+  doi: 10.1007/978-981-10-5287-3_2
   tools:
-  thumbnail: 2017-temp-chap.gif
-  status: in-press
+  thumbnail: 2017-temp-chap.jpg
+  status: published
 
 - title: "A standard-enabled workflow for synthetic biology"
   authors: 
