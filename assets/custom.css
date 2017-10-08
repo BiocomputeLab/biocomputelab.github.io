@@ -209,8 +209,8 @@ ul {
     text-align: bottom;
 }
 
-.navbar-nav > img {
-    margin-top: -5px;
+.navbar-brand > img {
+    padding-top: -10px;
 }
 
 .person_title {
