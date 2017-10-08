@@ -40,7 +40,7 @@ body {
     text-align: left;
 }
 .heading h1 {
-    padding-top: 300px;
+    padding-top: 30px;
     font-family: 'Oswald', sans-serif;
 }
 h2 {
@@ -130,7 +130,7 @@ ul {
     margin: 250px 0px 0px 0px;
 }
 .title {
-    margin-top: 200px;
+    margin-top: 20px; /*200*/
     font-weight: 300;
     border-bottom: 2px solid #000;
 }
@@ -186,7 +186,7 @@ ul {
 }
 .navbar-default .navbar-nav > li > .active {
     color: #fff;
-    margin-bottom: 5px;
+    margin-bottom: 10px; /*5*/
     border-bottom: 2px solid;
     border-bottom-color: #fff;
 }
