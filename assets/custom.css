@@ -195,6 +195,7 @@ ul {
     background-color: #000;
     min-height: 75px
     padding-top: 0px;
+    margin-top: 0px;
 }
 .navbar-nav > li > a {
     font-family: 'Oswald', sans-serif;
