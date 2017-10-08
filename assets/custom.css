@@ -112,7 +112,7 @@ ul {
     height: 30px;
 }
 .no-header {
-    height: 60px;
+    height: 50px;
 }
 .container > .title {}
 .container > .title > .heading {
@@ -207,6 +207,10 @@ ul {
 .navbar-nav > li {
     margin-left: 20px;
     text-align: bottom;
+}
+
+.navbar-nav > img {
+    margin-top: -5px;
 }
 
 .person_title {
