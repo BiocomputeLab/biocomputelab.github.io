@@ -59,6 +59,9 @@ p {
     padding-top: 10px;
     margin-bottom: 0px;
 }
+b {
+    letter-spacing: -1px
+}
 ul {
     margin-top: 5px;
     margin-bottom: 0px;
