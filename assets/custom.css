@@ -199,7 +199,8 @@ ul {
     background-color: #000;
     padding-top: 0;
     margin-top: 0;
-    min-height: 100px;
+    min-height: 65px;
+    vertical-align: center;
 }
 .navbar-nav > li > a {
     font-family: 'Oswald', sans-serif;
@@ -211,7 +212,7 @@ ul {
 }
 .navbar-nav > li {
     margin-left: 20px;
-    text-align: bottom;
+    vertical-align: center;
 }
 
 .navbar-brand {
