@@ -194,6 +194,7 @@ ul {
 .navbar {
     background-color: #000;
     min-height: 75px
+    padding-top: 0px;
 }
 .navbar-nav > li > a {
     font-family: 'Oswald', sans-serif;
@@ -205,13 +206,8 @@ ul {
 }
 .navbar-nav > li {
     margin-left: 20px;
-    vertical-align: bottom
+    text-align: bottom;
 }
-
-.navbar img {
-    padding: -5px
-}
-
 
 .person_title {
     font-size: 14px;
