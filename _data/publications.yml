@@ -16,7 +16,7 @@
   issue: 
   pages: 
   year: 2017
-  url: https://doi.org/10.15252/msb.20167461
+  url: "https://doi.org/10.15252/msb.20167461"
   doi: 10.15252/msb.20167461
   tools:
   thumbnail: in-press.gif
@@ -34,7 +34,7 @@
   preprint_id: 188821
   preprint_year: 2017
   preprint_doi: 10.1101/188821
-  preprint_url: https://doi.org/10.1101/188821
+  preprint_url: "https://doi.org/10.1101/188821"
   journal: 
   volume: 
   issue: 
@@ -64,7 +64,7 @@
   preprint_id: 177030
   preprint_year: 2017
   preprint_doi: 10.1101/177030
-  preprint_url: https://doi.org/10.1101/177030
+  preprint_url: "https://doi.org/10.1101/177030"
   journal: 
   volume: 
   issue: 
@@ -107,7 +107,7 @@
   issue: 
   pages: Springer, Singapore
   year: 2017
-  url: https://doi.org/10.1007/978-981-10-5287-3_2
+  url: "https://doi.org/10.1007/978-981-10-5287-3_2"
   doi: 10.1007/978-981-10-5287-3_2
   tools:
   thumbnail: 2017-temp-chap.jpg
@@ -135,7 +135,7 @@
   issue: 
   pages: 793-803
   year: 2017
-  url: https://doi.org/10.1042/BST20160347
+  url: "https://doi.org/10.1042/BST20160347"
   doi: 10.1042/BST20160347
   tools: 
   thumbnail: 2017-biochem-soc-trans.gif
@@ -198,7 +198,7 @@
   issue: 7
   pages: 1115-1119
   year: 2017
-  url: https://doi.org/10.1021/acssynbio.6b00252
+  url: "https://doi.org/10.1021/acssynbio.6b00252"
   doi: 10.1021/acssynbio.6b00252
   tools:
     - DNAplotlib
