@@ -193,7 +193,7 @@ ul {
 
 .navbar {
     background-color: #000;
-    min-height: 60px
+    min-height: 75px
 }
 .navbar-nav > li > a {
     font-family: 'Oswald', sans-serif;
@@ -206,6 +206,10 @@ ul {
 .navbar-nav > li {
     margin-left: 20px;
     vertical-align: bottom
+}
+
+.navbar img {
+    padding: 3px
 }
 
 
