@@ -193,6 +193,7 @@ ul {
 
 .navbar {
     background-color: #000;
+    min-height: 70px
 }
 .navbar-nav > li > a {
     font-family: 'Oswald', sans-serif;
