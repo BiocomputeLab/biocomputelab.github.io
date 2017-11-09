@@ -12,15 +12,15 @@
   team: 
     - Thomas Gorochowski
   journal: Molecular Systems Biology
-  volume: 
+  volume: 13
   issue: 
-  pages: 
+  pages: 952
   year: 2017
-  url: "https://doi.org/10.15252/msb.20167461"
+  url: "http://msb.embopress.org/content/13/11/952"
   doi: 10.15252/msb.20167461
   tools:
-  thumbnail: in-press.gif
-  status: in-press
+  thumbnail: 2017-rnaseq_debug.jpg
+  status: published
 
 
 - title: "Organisation of feed-forward loop motifs reveals architectural principles in natural and engineered networks"
