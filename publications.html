@@ -50,7 +50,7 @@ section: publications
         </div>
       </div>
     </section>
-    <!-- END CONTENT SECTION -->
+    <!-- END PUBLICATIONS SECTION -->
 
     <!-- BEGIN PRE-PRINTS SECTION -->
     <section class="bg-master-lighter p-b-85 p-t-75 no-overflow">
@@ -58,19 +58,19 @@ section: publications
         <div class="md-p-l-20 md-p-r-20 xs-no-padding">
           <h5 class="block-title hint-text no-margin">Pre-Prints</h5>
           <div class="row">
-          
-          {% for pub in site.data.publications %}
-            {% if pub.status == "pre-print" %}
-              <p class="fs-14"><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
-              {{ pub.authors | join: ", " }}<br>
-              <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.</p>
-            {% endif %}
-          {% endfor %}
-
+            <div class="col-sm-12">
+            {% for pub in site.data.publications %}
+              {% if pub.status == "pre-print" %}
+                <p class="fs-14"><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
+                {{ pub.authors | join: ", " }}<br>
+                <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.</p>
+              {% endif %}
+            {% endfor %}
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- END CONTENT SECTION -->
+    <!-- END PRE-PRINTS SECTION -->
 
 {% include footer.html %}
