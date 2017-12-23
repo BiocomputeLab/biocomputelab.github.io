@@ -149,5 +149,20 @@ section: team
       </div>
     </section>
     <!-- END GROUP PHOTOS SECTION -->
+
+    <!-- BEGIN ALUMNI SECTION -->
+    <section class="bg-master-lightest p-b-40 p-t-40 no-overflow">
+      <div class="container">
+        <h5 class="block-title hint-text no-margin">Alumni</h5><br>
+        <p>
+          {% for person in site.team %}
+          {% if person.role == "alumni" %}
+              <b>{{person.title}}</b> ({{person.leavedate}}) - {{person.position}}<br>
+          {% endif %}
+          {% endfor %}
+        </p>
+      </div>
+    </section>
+    <!-- END GROUP PHOTOS SECTION -->
     
 {% include footer.html %}
