@@ -27,9 +27,6 @@ collections:
   team:
     output: true
     permalink: /team/:path/
-  tools:
-    output: true
-    permalink: /tools/:path/
 
 #### Under the Hood Stuff #####
 
