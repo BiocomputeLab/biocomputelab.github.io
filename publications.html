@@ -13,40 +13,39 @@ section: publications
           <div class="row">
             <div class="col-sm-12">
 
-              <div class="md-p-l-30 md-p-r-20 xs-no-padding">
-                {% assign loopyear = 2018 %}
-                {% for pub in site.data.publications %}
+              {% assign loopyear = 2018 %}
+              {% for pub in site.data.publications %}
 
-                  {% if loopyear > pub.year %}
-                    {% assign loopyear = pub.year %}
-                    <h5 class="year">{{ pub.year }}</h5>
-                  {% endif %}
+                {% if loopyear > pub.year %}
+                  {% assign loopyear = pub.year %}
+                  <h5 class="year">{{ pub.year }}</h5>
+                  <hr>
+                {% endif %}
 
-                  {% if loopyear == pub.year %}
-                  <div class="media">
-                      <div class="media-left">
-                        {% if pub.status == "in-revision" or pub.status == "in-prep" or pub.status == "submitted" %}<img class="media-object" width="60" src="{{baseurl}}/images/publications/in-press.gif">
-                        {% else %}<img class="media-object" width="60" src="{{baseurl}}/images/publications/{{pub.thumbnail}}">
-                        {% endif %}
-                      </div>
-                      <div class="media-body">
-                        {% if pub.status == "in-press"  or pub.status == "in-revision" or pub.status == "submitted" or pub.status == "in-prep" %}
-                        <p class="fs-14"><b>{{pub.title}}</b><br>
-                        {% else %}<p class="fs-14"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
-                        {% endif %}
-                        {{ pub.authors | join: ", " }}<br>
-                        {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i></p>
-                        {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i></p>
-                        {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i></p>
-                        {% elsif pub.status == "in-prep" %}<i>{{pub.journal}}</i>. <i>(in preparation)</i></p>
-                        {% elsif pub.status == "submitted" %}<i>{{pub.journal}}</i>. <i>(submitted)</i></p>
-                        {% else %}<i>{{pub.journal}}</i> <b>{{pub.volume}}</b>, {{pub.pages}}, {{pub.year}}.</p>
-                        {% endif %}
-                      </div>
+                {% if loopyear == pub.year %}
+                <div class="media">
+                    <div class="media-left">
+                      {% if pub.status == "in-revision" or pub.status == "in-prep" or pub.status == "submitted" %}<img class="media-object" width="60" src="{{baseurl}}/images/publications/in-press.gif">
+                      {% else %}<img class="media-object" width="60" src="{{baseurl}}/images/publications/{{pub.thumbnail}}">
+                      {% endif %}
                     </div>
-                  {% endif %}
-                {% endfor %}
-              </div>
+                    <div class="media-body">
+                      {% if pub.status == "in-press"  or pub.status == "in-revision" or pub.status == "submitted" or pub.status == "in-prep" %}
+                      <p class="fs-14"><b>{{pub.title}}</b><br>
+                      {% else %}<p class="fs-14"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
+                      {% endif %}
+                      {{ pub.authors | join: ", " }}<br>
+                      {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i></p>
+                      {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i></p>
+                      {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i></p>
+                      {% elsif pub.status == "in-prep" %}<i>{{pub.journal}}</i>. <i>(in preparation)</i></p>
+                      {% elsif pub.status == "submitted" %}<i>{{pub.journal}}</i>. <i>(submitted)</i></p>
+                      {% else %}<i>{{pub.journal}}</i> <b>{{pub.volume}}</b>, {{pub.pages}}, {{pub.year}}.</p>
+                      {% endif %}
+                    </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
             
           </div>
         </div>
