@@ -23,7 +23,7 @@ section: publications
 
                 {% if loopyear == pub.year %}
                 <div class="media">
-                    <div class="media-left" width="80">
+                    <div class="media-left" width="50">
                       {% if pub.status == "in-revision" or pub.status == "in-prep" or pub.status == "submitted" %}<img class="media-object"  src="{{baseurl}}/images/publications/in-press.gif">
                       {% else %}<img class="media-object" src="{{baseurl}}/images/publications/{{pub.thumbnail}}">
                       {% endif %}
