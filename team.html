@@ -23,19 +23,23 @@ section: team
 
         <div class="gallery">  
 
-          <!-- START GALLERY ITEM -->
-          <div class="gallery-item col-sm-6 col-xs-12 no-padding hover-zoom">
-            <div class="inner bottom-left bottom-right padding-30">
-              <h5 class="block-title text-white no-margin">Thomas Gorochowski</h5>
-              <h6 class="block-title fs-11 hint-text text-white m-t-5 m-b-0">Royal Society University Research Fellow</h6>
-              <p class="font-arial fs-11 text-white muted m-t-5 m-b-0">Blah blah blah</p>
-            </div>
-            <div class="ar-2-1">
-              <div data-pages-bg-image="{{baseurl}}/assets/images/gallery_1.jpg" data-bg-overlay="black" data-overlay-opacity="0.4">
+          {% for person in site.team %}
+            {% if person.role == "head" %}
+              <!-- START GALLERY ITEM -->
+              <div class="gallery-item col-sm-6 col-xs-12 no-padding hover-zoom">
+                <div class="inner bottom-left bottom-right padding-30">
+                  <h5 class="block-title text-white no-margin">{{person.title}}</h5>
+                  <h6 class="block-title fs-11 hint-text text-white m-t-5 m-b-0">{{person.position}}</h6>
+                  <p class="font-arial fs-11 text-white muted m-t-5 m-b-0">{{person.description}}</p>
+                </div>
+                <div class="ar-2-1">
+                  <div data-pages-bg-image="{{baseurl}}/images/team/{{person.image}}" data-bg-overlay="black" data-overlay-opacity="0.4">
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <!-- END GALLERY ITEM -->
+              <!-- END GALLERY ITEM -->
+            {% endif %}
+          {% endfor %}
 
         </div>
       </div>
@@ -49,44 +53,36 @@ section: team
 
         <div class="gallery">
 
-          <!-- START GALLERY ITEM -->
-          <div class="gallery-item col-sm-6 col-xs-12 no-padding hover-zoom">
-            <div class="inner bottom-left bottom-right padding-30">
-              <h5 class="block-title text-white no-margin">Thomas Gorochowski</h5>
-              <h6 class="block-title fs-11 hint-text text-white m-t-5 m-b-0">Royal Society University Research Fellow</h6>
-              <p class="font-arial fs-11 text-white muted m-t-5 m-b-0">PhD University of Bristol, UK</p>
-            </div>
-            <div class="ar-2-1">
-              <div data-pages-bg-image="{{baseurl}}/assets/images/gallery_1.jpg" data-bg-overlay="black" data-overlay-opacity="0.4">
+          {% for person in site.team %}
+            {% if person.role == "member" %}
+              <!-- START GALLERY ITEM -->
+              <div class="gallery-item col-sm-6 col-xs-12 no-padding hover-zoom">
+                <div class="inner bottom-left bottom-right padding-30">
+                  <h5 class="block-title text-white no-margin">{{person.title}}</h5>
+                  <h6 class="block-title fs-11 hint-text text-white m-t-5 m-b-0">{{person.position}}</h6>
+                  <p class="font-arial fs-11 text-white muted m-t-5 m-b-0">{{person.description}}</p>
+                </div>
+                <div class="ar-2-1">
+                  <div data-pages-bg-image="{{baseurl}}/images/team/{{person.image}}" data-bg-overlay="black" data-overlay-opacity="0.4">
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <!-- END GALLERY ITEM -->
-           <!-- START GALLERY ITEM -->
-          <div class="gallery-item col-sm-6 col-xs-12 no-padding hover-zoom">
-            <div class="inner bottom-left bottom-right padding-30">
-              <h5 class="block-title text-white no-margin">Thomas Gorochowski</h5>
-              <h6 class="block-title fs-11 hint-text text-white m-t-5 m-b-0">Royal Society University Research Fellow</h6>
-              <p class="font-arial fs-11 text-white muted m-t-5 m-b-0">PhD University of Bristol, UK</p>
-            </div>
-            <div class="ar-2-1">
-              <div data-pages-bg-image="{{baseurl}}/assets/images/gallery_1.jpg" data-bg-overlay="black" data-overlay-opacity="0.4">
-              </div>
-            </div>
-          </div>
-          <!-- END GALLERY ITEM -->
+              <!-- END GALLERY ITEM -->
+            {% endif %}
+          {% endfor %}
 
         </div>
       </div>
     </section>
     <!-- END TEAM SECTION -->
 
+    <!-- BEGIN GROUP PHOTOS SECTION -->
     <section class="bg-master-lightest p-b-40 p-t-40 no-overflow">
       <div class="container">
         <h5 class="block-title hint-text no-margin">Group Photos</h5><br>
 
         <div class="gallery">
-          
+
           <!-- START GALLERY ITEM -->
           <div class="gallery-item col-sm-6 col-xs-12 inner left no-padding hover-zoom">
             <div class="inner bottom-left bottom-right padding-30">
@@ -152,5 +148,6 @@ section: team
 
       </div>
     </section>
+    <!-- END GROUP PHOTOS SECTION -->
     
 {% include footer.html %}
