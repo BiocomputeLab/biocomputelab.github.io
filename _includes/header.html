@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
-    <title>Pages - Front End</title>
+    <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="apple-touch-icon" href="{{baseurl}}/pages/ico/60.png">
     <link rel="apple-touch-icon" sizes="76x76" href="{{baseurl}}/pages/ico/76.png">
@@ -65,19 +65,19 @@
           <div class="header-inner">
             <ul class="menu">
               <li>
-                <a href="{{baseurl}}/index.html">About </a>
+                <a href="{{baseurl}}/index.html" {% if page.section == "about" %} class="active" {% endif %}>About </a>
               </li>
               <li>
-                <a href="{{baseurl}}/team">Team </a>
+                <a href="{{baseurl}}/team" {% if page.section == "team" %} class="active" {% endif %}>Team </a>
               </li>
               <li>
-                <a href="{{baseurl}}/publications">Publications </a>
+                <a href="{{baseurl}}/publications" {% if page.section == "publications" %} class="active" {% endif %}>Publications </a>
               </li>
               <li>
-                <a href="{{baseurl}}/join">Join </a>
+                <a href="{{baseurl}}/join" {% if page.section == "join" %} class="active" {% endif %}>Join </a>
               </li>
               <li>
-                <a href="{{baseurl}}/contact" class="active">Contact Us</a>
+                <a href="{{baseurl}}/contact" {% if page.section == "contact" %} class="active" {% endif %}>Contact Us</a>
               </li>
             </ul>
           </div>
