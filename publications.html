@@ -30,8 +30,8 @@ section: publications
                     </div>
                     <div class="media-body">
                       {% if pub.status == "in-press"  or pub.status == "in-revision" or pub.status == "submitted" or pub.status == "in-prep" %}
-                      <p class="font-arial fs-14"><b>{{pub.title}}</b><br>
-                      {% else %}<p class="font-arial fs-14"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
+                      <p class="fs-14"><b>{{pub.title}}</b><br>
+                      {% else %}<p class="fs-14"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
                       {% endif %}
                       {{ pub.authors | join: ", " }}<br>
                       {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i></p>
