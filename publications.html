@@ -61,16 +61,9 @@ section: publications
           
           {% for pub in site.data.publications %}
             {% if pub.status == "pre-print" %}
-              <div class="media">
-                  <div class="media-left">
-                    <img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
-                  </div>
-                  <div class="media-body">
-                    <p class="fs-14"><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
-                    {{ pub.authors | join: ", " }}<br>
-                    <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.</p>
-                  </div>
-                </div> 
+              <p class="fs-14"><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
+              {{ pub.authors | join: ", " }}<br>
+              <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.</p>
             {% endif %}
           {% endfor %}
 
