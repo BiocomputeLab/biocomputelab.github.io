@@ -64,7 +64,7 @@ section: news
   <!-- Pagination links -->
   {% if paginator.total_pages >= 1 %}
   <div class="container">
-    <p class="center-block">
+    <p class="text-center">
 
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="pg-arrow_left m-l-0"></i> Prev</a>
