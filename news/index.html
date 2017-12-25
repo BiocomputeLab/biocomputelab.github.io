@@ -5,10 +5,12 @@ section: news
 {% include header.html %}
 
 
-<section class="p-b-40 p-t-90 bg-master-light">
+<section class="p-b-10 p-t-90 bg-master-light">
   <!-- Pagination links -->
   {% if paginator.total_pages >= 1 %}
-  <div class="pagination">
+  <div class="container">
+    <p>
+
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
     {% else %}
@@ -17,7 +19,7 @@ section: news
 
     {% for page in (1..paginator.total_pages) %}
       {% if page == paginator.page %}
-        <em>{{ page }}</em>
+        <b>{{ page }}</b>
       {% elsif page == 1 %}
         <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
       {% else %}
@@ -30,6 +32,8 @@ section: news
     {% else %}
       <span>Next &raquo;</span>
     {% endif %}
+
+    </p>
   </div>
   {% endif %}
 </section>
