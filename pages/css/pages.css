@@ -5514,7 +5514,7 @@ input.error:-webkit-autofill:focus,
   border-bottom-right-radius: 2px;
   border-bottom-left-radius: 2px;
   margin-bottom: 20px;
-  width: 300px;
+  /*width: 300px;*/
   border: 1px solid #e6e6e6;
 }
 .card .circle {
