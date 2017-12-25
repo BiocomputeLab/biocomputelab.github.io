@@ -5,6 +5,7 @@ author: Thomas Gorochowski
 people-tags: 
   - Vittorio Bartoli
 image: /images/posts/2017-03-17-synbio-meets-robotics/synbio-meets-robotics-2.jpg
+readmore: true
 ---
 Vittorio Bartoli has been awarded a £200 travel bursary to present his work on tuneable genetic devices at the Institute of Chemical Engineering Biochemical Engineering Special Interest Group’s Young Researchers Meeting on the 13th September at University College London.
 

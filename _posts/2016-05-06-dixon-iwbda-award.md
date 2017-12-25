@@ -5,5 +5,6 @@ author: Thomas Gorochowski
 people-tags: 
   - Daniel Dixon
 image: /images/posts/2017-05-22-vittorio-ana-exchange/brissynbio-maxsynbio-meeting-2017.jpg
+readmore: false
 ---
-The <a href="http://www.iwbdaconf.org/2016/">8th International Workshop on Bio-Design Automation (IWBDA)</a> will be held in Newcastle this year and Daniel Dixon has been awarded a scholarship to attend and present his work! Daniel's research is focused on analog genetic circuits and uses a mix of modelling and experiments to help guide and potentially automate the creation of new biological devices. This will makes IWBDA the perfect place to present his latest findings and meet the leaders of the field. See you there in August!
+The <a href="http://www.iwbdaconf.org/2016/">8th International Workshop on Bio-Design Automation (IWBDA)</a> will be held in Newcastle this year and Daniel Dixon has been awarded a scholarship to attend and present his work! Daniel's research is focused on analog genetic circuits and uses a mix of modelling and experiments to help guide and potentially automate the creation of new biological devices.

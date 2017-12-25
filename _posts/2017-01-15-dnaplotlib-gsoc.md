@@ -5,6 +5,7 @@ author: Thomas Gorochowski
 people-tags: 
   - Thomas Gorochowski
 image: /images/posts/2017-03-17-synbio-meets-robotics/synbio-meets-robotics-2.jpg
+readmore: true
 ---
 Are you interested in programming and open-source development projects? Want to know what it is like to do some real research? Well, this year the [Biocompute Lab](http://www.biocomputelab.org) has joined the global [Google Summer of Code (GSoC)](https://developers.google.com/open-source/gsoc/) scheme that offers student developers stipends to write code for various open source projects.
 

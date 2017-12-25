@@ -26,7 +26,7 @@ section: news
                   <p>{{ post.excerpt }}</p>
                 </div>
                 <div class="card-footer m-t-5 clearfix">
-                  {% if post.excerpt == post.content %}
+                  {% if post.readmore == true %}
                   {% else %}<p><a class="btn btn-default center-block" href="{{post.url}}">Read more...</a></p>
                   {% endif %}
                   <!--<div class="time">{{ post.date | date: '%B %d, %Y' }}</div>-->
