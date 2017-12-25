@@ -4,99 +4,90 @@ section: news
 ---
 {% include header.html %}
 
-  <section class="p-b-40 p-t-90 bg-master-lighter">
-      <div class="container">
-        <div class="social-wrapper">
-          <!-- START SOCIAL -->
-          <div class="social " data-pages="social">
-            <div class="feed">
-              <!-- START DAY -->
-              <div class="day" data-social="day">
-              
-
-
-              {% for post in paginator.posts %}
-
-                  <!-- START ITEM -->
-                  <div class="card share share-other col1" data-social="item">
-                    <div class="card-content">
-                      <img src="{{baseurl}}{{ post.image }}" class="lazy">
-                    </div>
-                    <div class="card-description">
-                      <h4>{{ post.title }}</h4>
-                      <p class="font-arial fs-11 text-grey muted m-t-0 m-b-0">{{ post.date | date: '%B %d, %Y' }}</p>
-                      <p>{{ post.excerpt }}</p>
-                    </div>
-                    <div class="card-footer m-t-5 clearfix">
-                      {% if post.excerpt == post.content %}
-                      {% else %}<p><a class="btn btn-default center-block" href="{{post.url}}">Read more...</a></p>
-                      {% endif %}
-                      <!--<div class="time">{{ post.date | date: '%B %d, %Y' }}</div>-->
-                    </div>
-                  </div>
-                  <!-- END ITEM -->
-
-                <!--
-              <div class=news>
-              <h3>
-              {{post.title}}-->
-              <!--<a href="{{post.url}}">{{ post.title }}</a>-->
-              <!--{% if post.excerpt == post.content %}{{ post.title }}
-              {% else %}<a href="{{post.url}}">{{ post.title }}</a>
-              {% endif %}-->
-              <!--</h3>
-              <p><b>{{ post.date | date: '%B %d, %Y' }}</b></p>-->
-              <!--<p>{{ post.excerpt }}</p>-->
-              <!--<p>{{ post.content }}</p>
-              </div>-->
-
-
-              {% endfor %}
-
-                
-
-
-              </div>
-              <!-- END DAY -->
-            </div>
-            <!-- END FEED -->
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-
 
 <section class="p-b-40 p-t-90 bg-master-light">
-<!-- Pagination links -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+  <!-- Pagination links -->
+  {% if paginator.total_pages >= 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
     {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      <span>&laquo; Prev</span>
     {% endif %}
-  {% endfor %}
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <em>{{ page }}</em>
+      {% elsif page == 1 %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    {% else %}
+      <span>Next &raquo;</span>
+    {% endif %}
+  </div>
   {% endif %}
-</div>
-{% endif %}
 </section>
 
+<section class="p-b-40 p-t-40 bg-master-lighter">
+  <div class="container">
+    <div class="social-wrapper">
+      <!-- START SOCIAL -->
+      <div class="social " data-pages="social">
+        <div class="feed">
+          <!-- START DAY -->
+          <div class="day" data-social="day">
+
+          {% for post in paginator.posts %}
+
+              <!-- START ITEM -->
+              <div class="card share share-other col1" data-social="item">
+                <div class="card-content">
+                  <img src="{{baseurl}}{{ post.image }}" class="lazy">
+                </div>
+                <div class="card-description">
+                  <h4>{{ post.title }}</h4>
+                  <p class="font-arial fs-11 text-grey muted m-t-0 m-b-0">{{ post.date | date: '%B %d, %Y' }}</p>
+                  <p>{{ post.excerpt }}</p>
+                </div>
+                <div class="card-footer m-t-5 clearfix">
+                  {% if post.excerpt == post.content %}
+                  {% else %}<p><a class="btn btn-default center-block" href="{{post.url}}">Read more...</a></p>
+                  {% endif %}
+                  <!--<div class="time">{{ post.date | date: '%B %d, %Y' }}</div>-->
+                </div>
+              </div>
+              <!-- END ITEM -->
+
+            <!--
+          <div class=news>
+          <h3>
+          {{post.title}}-->
+          <!--<a href="{{post.url}}">{{ post.title }}</a>-->
+          <!--{% if post.excerpt == post.content %}{{ post.title }}
+          {% else %}<a href="{{post.url}}">{{ post.title }}</a>
+          {% endif %}-->
+          <!--</h3>
+          <p><b>{{ post.date | date: '%B %d, %Y' }}</b></p>-->
+          <!--<p>{{ post.excerpt }}</p>-->
+          <!--<p>{{ post.content }}</p>
+          </div>-->
+
+
+          {% endfor %}
+
+          </div>
+          <!-- END DAY -->
+        </div>
+        <!-- END FEED -->
+      </div>
+    </div>
+  </div>
+</section>
 
 {% include footer.html %}
