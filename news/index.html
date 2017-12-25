@@ -4,41 +4,7 @@ section: news
 ---
 {% include header.html %}
 
-
-<section class="p-b-10 p-t-90 bg-master-light">
-  <!-- Pagination links -->
-  {% if paginator.total_pages >= 1 %}
-  <div class="container">
-    <p>
-
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-    {% else %}
-      <span>&laquo; Prev</span>
-    {% endif %}
-
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <b>{{ page }}</b>
-      {% elsif page == 1 %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
-
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-    {% else %}
-      <span>Next &raquo;</span>
-    {% endif %}
-
-    </p>
-  </div>
-  {% endif %}
-</section>
-
-<section class="p-b-40 p-t-40 bg-master-lighter">
+<section class="p-b-40 p-t-90 bg-master-lighter">
   <div class="container">
     <div class="social-wrapper">
       <!-- START SOCIAL -->
@@ -92,6 +58,39 @@ section: news
       </div>
     </div>
   </div>
+</section>
+
+<section class="p-b-10 p-t-10 bg-master-light">
+  <!-- Pagination links -->
+  {% if paginator.total_pages >= 1 %}
+  <div class="container">
+    <p>
+
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    {% else %}
+      <span><i class="pg-arrow_left m-l-10"></i> Prev</span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <i>{{ page }}</i>
+      {% elsif page == 1 %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    {% else %}
+      <span>Next <i class="pg-arrow_right m-l-10"></i></span>
+    {% endif %}
+
+    </p>
+  </div>
+  {% endif %}
 </section>
 
 {% include footer.html %}
