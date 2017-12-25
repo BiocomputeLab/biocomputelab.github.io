@@ -24,12 +24,13 @@ section: news
                     </div>
                     <div class="card-description">
                       <h4>{{ post.title }}</h4>
-                      <p class="font-arial fs-11 text-grey muted m-t-0 m-b-0">{{ post.date | date: '%B %d, %Y' }}</p>
+                      <!--<p class="font-arial fs-11 text-grey muted m-t-0 m-b-0">{{ post.date | date: '%B %d, %Y' }}</p>-->
                       <p>{{ post.excerpt }}</p>
                     </div>
-                    <!--<div class="card-footer clearfix">
+                    <div class="card-footer clearfix">
+                      <p><a href="{{post.url}}">More Information...</a></p>
                       <div class="time">{{ post.date | date: '%B %d, %Y' }}</div>
-                    </div>-->
+                    </div>
                   </div>
                   <!-- END ITEM -->
 
