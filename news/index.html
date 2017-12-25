@@ -29,7 +29,7 @@ section: news
                     </div>
                     <div class="card-footer clearfix">
                       {% if post.excerpt == post.content %}
-                      {% else %}<p><a href="{{post.url}}">More Information...</a></p>
+                      {% else %}<p><a class="btn btn-primary" href="{{post.url}}">More Information...</a></p>
                       {% endif %}
                       <!--<div class="time">{{ post.date | date: '%B %d, %Y' }}</div>-->
                     </div>
