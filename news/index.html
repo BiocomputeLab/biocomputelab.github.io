@@ -52,9 +52,9 @@ section: news
     <p class="text-center">
 
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="pg-arrow_left m-l-0"></i> Prev</a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="pg-arrow_left m-r-0"></i> Prev</a>
     {% else %}
-      <span><i class="pg-arrow_left m-l-0"></i> Prev</span>
+      <span><i class="pg-arrow_left m-r-0"></i> Prev</span>
     {% endif %}
 
     {% for page in (1..paginator.total_pages) %}
