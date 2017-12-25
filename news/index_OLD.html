@@ -1,0 +1,195 @@
+---
+title: News - Biocompute Lab
+section: news
+---
+{% include header.html %}
+
+  <section class="p-b-40 p-t-90 sm-p-b-30 sm-m-b-30 sm-p-t-40 sm-m-t-40 bg-master-lighter">
+    <div class="container">
+      <div class="social-wrapper">
+
+
+        <!-- START ITEM -->
+        <div class="col-md-6">
+          <div class="card share" data-social="item">
+            <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
+            </div>
+            <div class="card-header clearfix">
+              <div class="user-pic">
+                <img alt="Profile Image" width="33" height="33" data-src-retina="assets/images/profiles/6x.jpg" data-src="assets/images/profiles/6.jpg" src="assets/images/profiles/6x.jpg">
+              </div>
+              <h5>Jeff Curtis</h5>
+              <h6>Shared a Tweet
+                          <span class="location semi-bold"><i class="fa fa-map-marker"></i> SF, California</span>
+                      </h6>
+            </div>
+            <div class="card-description">
+              <p>What you think, you become. What you feel, you attract. What you imagine, you create - Buddha. <a href="#">#quote</a> </p>
+              <div class="via">via Twitter</div>
+            </div>
+          </div>
+        </div>
+        <!-- END ITEM -->
+
+        <!-- START ITEM -->
+        <div class="col-md-6">
+          <div class="card share" data-social="item">
+            <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
+            </div>
+            <div class="card-header clearfix">
+              <div class="user-pic">
+                <img alt="Profile Image" width="33" height="33" data-src-retina="assets/images/profiles/6x.jpg" data-src="assets/images/profiles/6.jpg" src="assets/images/profiles/6x.jpg">
+              </div>
+              <h5>Jeff Curtis</h5>
+              <h6>Shared a Tweet
+                          <span class="location semi-bold"><i class="fa fa-map-marker"></i> SF, California</span>
+                      </h6>
+            </div>
+            <div class="card-description">
+              <p>What you think, you become. What you feel, you attract. What you imagine, you create - Buddha. <a href="#">#quote</a> </p>
+              <div class="via">via Twitter</div>
+            </div>
+          </div>
+        </div>
+        <!-- END ITEM -->
+
+        <!-- START ITEM -->
+        <div class="col-md-6">
+          <div class="card share" data-social="item">
+            <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
+            </div>
+            <div class="card-header clearfix">
+              <div class="user-pic">
+                <img alt="Profile Image" width="33" height="33" data-src-retina="assets/images/profiles/6x.jpg" data-src="assets/images/profiles/6.jpg" src="assets/images/profiles/6x.jpg">
+              </div>
+              <h5>Jeff Curtis</h5>
+              <h6>Shared a Tweet
+                          <span class="location semi-bold"><i class="fa fa-map-marker"></i> SF, California</span>
+                      </h6>
+            </div>
+            <div class="card-description">
+              <p>What you think, you become. What you feel, you attract. What you imagine, you create - Buddha. <a href="#">#quote</a> </p>
+              <div class="via">via Twitter</div>
+            </div>
+          </div>
+        </div>
+        <!-- END ITEM -->
+
+        <!-- START ITEM -->
+        <div class="card share" data-social="item">
+          <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
+          </div>
+          <div class="card-header clearfix">
+            <div class="user-pic">
+              <img alt="Profile Image" width="33" height="33" data-src-retina="assets/images/profiles/6x.jpg" data-src="assets/images/profiles/6.jpg" src="assets/images/profiles/6x.jpg">
+            </div>
+            <h5>Jeff Curtis</h5>
+            <h6>Shared a Tweet
+                        <span class="location semi-bold"><i class="fa fa-map-marker"></i> SF, California</span>
+                    </h6>
+          </div>
+          <div class="card-description">
+            <p>What you think, you become. What you feel, you attract. What you imagine, you create - Buddha. <a href="#">#quote</a> </p>
+            <div class="via">via Twitter</div>
+          </div>
+        </div>
+        <!-- END ITEM -->
+
+        <!-- START ITEM -->
+        <div class="card share col-md-6" data-social="item">
+          <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
+          </div>
+          <div class="card-header clearfix">
+            <div class="user-pic">
+              <img alt="Profile Image" width="33" height="33" data-src-retina="assets/images/profiles/6x.jpg" data-src="assets/images/profiles/6.jpg" src="assets/images/profiles/6x.jpg">
+            </div>
+            <h5>Jeff Curtis</h5>
+            <h6>Shared a Tweet
+                        <span class="location semi-bold"><i class="fa fa-map-marker"></i> SF, California</span>
+                    </h6>
+          </div>
+          <div class="card-description">
+            <p>What you think, you become. What you feel, you attract. What you imagine, you create - Buddha. <a href="#">#quote</a> </p>
+            <div class="via">via Twitter</div>
+          </div>
+        </div>
+        <!-- END ITEM -->
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+ <div class="no-header"></div>
+    <div class="container">
+       <div class="col-xs-12 col-sm-12 col-lg-12">
+       
+      <p>&nbsp;</p>
+
+
+      {% for post in paginator.posts %}
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+
+          <div class=news>
+          <h3>
+          {{post.title}}
+          <!--<a href="{{post.url}}">{{ post.title }}</a>-->
+          <!--{% if post.excerpt == post.content %}{{ post.title }}
+          {% else %}<a href="{{post.url}}">{{ post.title }}</a>
+          {% endif %}-->
+          </h3>
+          <p><b>{{ post.date | date: '%B %d, %Y' }}</b></p>
+          <!--<p>{{ post.excerpt }}</p>-->
+          <p>{{ post.content }}</p>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>
+
+      {% endfor %}
+
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+
+
+
+      <br>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}
