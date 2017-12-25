@@ -27,7 +27,7 @@ section: news
                       <p class="font-arial fs-11 text-grey muted m-t-0 m-b-0">{{ post.date | date: '%B %d, %Y' }}</p>
                       <p>{{ post.excerpt }}</p>
                     </div>
-                    <div class="card-footer clearfix">
+                    <div class="card-footer m-t-5 clearfix">
                       {% if post.excerpt == post.content %}
                       {% else %}<p><a class="btn btn-default center-block" href="{{post.url}}">Read more...</a></p>
                       {% endif %}
