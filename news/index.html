@@ -67,7 +67,7 @@ section: news
     {% endfor %}
 
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next  <i class="pg-arrow_right m-l-0"></a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next  <i class="pg-arrow_right m-l-0"></i></a>
     {% else %}
       <span>Next <i class="pg-arrow_right m-l-0"></i></span>
     {% endif %}
