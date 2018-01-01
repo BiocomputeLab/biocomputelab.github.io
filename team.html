@@ -24,7 +24,7 @@ section: team
           {% for person in site.team %}
             {% if person.role == "head" %}
               <!-- START GALLERY ITEM -->
-              <a href="{{person.url}}">
+              <!--<a href="{{person.url}}">-->
               <div class="gallery-item col-sm-6 col-xs-12 no-padding hover-zoom">
                 <div class="inner bottom-left bottom-right padding-30">
                   <h5 class="block-title text-white no-margin">{{person.title}}</h5>
@@ -36,7 +36,7 @@ section: team
                   </div>
                 </div>
               </div>
-              </a>
+              <!--</a>-->
               <!-- END GALLERY ITEM -->
             {% endif %}
           {% endfor %}
@@ -56,7 +56,7 @@ section: team
           {% for person in site.team %}
             {% if person.role == "member" %}
               <!-- START GALLERY ITEM -->
-              <a href="{{person.url}}">
+              <!--<a href="{{person.url}}">-->
               <div class="gallery-item col-sm-6 col-xs-12 no-padding hover-zoom">
                 <div class="inner bottom-left bottom-right padding-30">
                   <h5 class="block-title text-white no-margin">{{person.title}}</h5>
@@ -68,7 +68,7 @@ section: team
                   </div>
                 </div>
               </div>
-              </a>
+              <!--</a>-->
               <!-- END GALLERY ITEM -->
             {% endif %}
           {% endfor %}
