@@ -5,7 +5,7 @@ author: Thomas Gorochowski
 people-tags: 
   - Daniel Dixon
   - Vittorio Bartolli
-image: /images/posts/2017-03-17-synbio-meets-robotics/synbio-meets-robotics-2.jpg
+image: /images/posts/2016-05-13-bug-bashers-iwbda.png
 readmore: true
 ---
 A team of synthetic biology PhD students from the <a href="http://www.synbio-cdt.ac.uk">SynBioCDT</a> have been awarded funding to head to the <a href="http://www.iwbdaconf.org/2016/#bdathlon">BDAthlon</a> programming contest taking place in Newcastle this August.
