@@ -4,15 +4,18 @@ section: news
 ---
 {% include header.html %}
 
- <div class="no-header"></div>
+ <section class="bg-master-lightest p-t-90 p-b-40 no-overflow">
     <div class="container">
-    <div class="col-xs-12 col-sm-12 col-lg-12">
+      <div class="row">
+        <div class="col-md-12">
 
-	<h2 class="title">{{ page.title }}</h2>
-	<p><b>{{ page.date | date: '%B %d, %Y' }}</b></p>
-	{{ content }}
+					<h2 class="title">{{ page.title }}</h2>
+					<p><b>{{ page.date | date: '%B %d, %Y' }}</b></p>
+					{{ content }}
 
-  </div>
-</div>
+	  		</div>
+	  	</div>
+	</div>
+</section>
 
 {% include footer.html %}
