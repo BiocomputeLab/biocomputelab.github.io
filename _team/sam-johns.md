@@ -8,9 +8,8 @@ leavedate: 2017
 education:
 image: 
 email: 
-twitter: 
-github: 
-url: 
+twitter: none
+github: none
+url: none
 keywords:
-description: 
 ---

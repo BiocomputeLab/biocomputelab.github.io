@@ -10,12 +10,12 @@ education:
   - B.Sc. (Hons) Biochemistry, University of Portsmouth, 2011
 image: jack-phillips.jpg
 email: jackowenphillips@gmail.com
-twitter: 
-github: 
-url: 
+twitter: none
+github: none
+url: none
 keywords:
   - synthetic biology
   - genetic circuits
   - commercial applications
-description: Post-doctoral research associate whose research focuses on using molecular, cellular and synthetic biology techniques to study bacterial movement. Interested in the construction and use of novel genetic circuits and exploiting the advancements of synthetic biology for commercial purposes.
 ---
+Post-doctoral research associate whose research focuses on using molecular, cellular and synthetic biology techniques to study bacterial movement. Interested in the construction and use of novel genetic circuits and exploiting the advancements of synthetic biology for commercial purposes.

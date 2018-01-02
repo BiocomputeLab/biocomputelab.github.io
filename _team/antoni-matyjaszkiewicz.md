@@ -11,7 +11,7 @@ education:
   - M.Eng. Engineering Mathematics, University of Bristol, 2010
 image: antoni-matyjaszkiewicz.jpg
 email: antoni.matyjaszkiewicz@bristol.ac.uk
-twitter: 
+twitter: none
 github: antmatyjajo 
 url: "http://www.bristol.ac.uk/engineering/people/antoni-w-matyjaszkiewicz/index.html"
 keywords:
@@ -19,5 +19,5 @@ keywords:
   - genetic circuits
   - multi-agent systems
   - biophysics
-description: Post-doctoral research associate whose research focus is on modelling intra-/extra-cellular dynamics in bacterial cells, specifically in engineered gene regulatory networks designed to operate across multiple populations. Particularly interested in the integration of models, and estimation of their parameters, when dynamics occur across multiple temporal and spatial scales and across populations.
 ---
+Post-doctoral research associate whose research focus is on modelling intra-/extra-cellular dynamics in bacterial cells, specifically in engineered gene regulatory networks designed to operate across multiple populations. Particularly interested in the integration of models, and estimation of their parameters, when dynamics occur across multiple temporal and spatial scales and across populations.

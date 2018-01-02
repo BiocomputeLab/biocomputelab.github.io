@@ -8,9 +8,8 @@ leavedate:
 education: 
 image: klara-szydlo.jpg
 email: 
-twitter: 
-github: 
-url: 
+twitter: none
+github: none
+url: none
 keywords:
-description: 
 ---
