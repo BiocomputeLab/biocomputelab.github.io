@@ -2,7 +2,7 @@
 ---
 {% include header.html %}
 
-<section class="bg-master-lighter p-t-90 p-b-40 no-overflow">
+<section class="bg-master-lightest p-t-90 p-b-40 no-overflow">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -12,7 +12,7 @@
         <h4 class="block-title m-t-0">{{ page.position }}</h4>
         <p class="font-arial fs-14 text-white muted m-t-5 m-b-0"><a href="mailto:{{page.email}}">{{page.email}}</a></p>
         {% if page.title != "Thomas Gorochowski" %}<p class="font-arial fs-14 m-t-0 m-b-0">{{page.education | join: "<br>"}}</p>{% endif %}
-        <p class="font-arial fs-14 m-t-0 m-b-20">Interests: {{page.keywords | join: ", "}}</p>
+        <p class="font-arial fs-14 m-t-0 m-b-30">Interests: {{page.keywords | join: ", "}}</p>
         {{ page.content }}
 
       </div>
@@ -24,7 +24,7 @@
 <!-- FOR LAB MEMBERS -->
 {% if page.title != "Thomas Gorochowski" %}
 
-<section class="bg-master-lightest p-t-40 p-b-40 no-overflow">
+<section class="bg-master-lighter p-t-40 p-b-40 no-overflow">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
