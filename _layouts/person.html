@@ -8,13 +8,17 @@
       <div class="col-md-12">
 
         <h2>{{ page.title }}</h2>
-        <h4 class="title">{{ page.position }}</h4>
+        <h4 class="block-title">{{ page.position }}</h4>
         <p>{{ content }}</p>
 
       </div>
     </div>
   </div>
 </section>
+
+
+<!-- FOR LAB MEMBERS -->
+{% if page.title != "Thomas Gorochowski" %}
 
 <section class="bg-master-lightest p-t-40 p-b-40 no-overflow">
   <div class="container">
@@ -88,5 +92,8 @@
     </div>
   </div>
 </section>
+
+<!-- END FOR LAB MEMBERS -->
+{% endif %}
 
 {% include footer.html %}
