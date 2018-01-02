@@ -2,87 +2,91 @@
 ---
 {% include header.html %}
 
-<div class="no-header"></div>
-<div class="container">
+<section class="bg-master-lighter p-t-90 p-b-40 no-overflow">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
 
+        <h2>{{ page.title }}</h2>
+        <h4 class="title">{{ page.position }}</h4>
+        <p>{{ content }}</p>
 
-        <div class="title" style="background: url('/images/team/{{page.image}}') no-repeat center center transparent; background-size: 100% auto; padding-top: 40px">
-            <h1 class="heading">{{ page.title }}</h1>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-lg-12">
-            <h2 class="title">{{ page.position }}</h2>
-            <br>
-            <br>
-            {{ content }}
-        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!--
-        <p>
-        {% for tool in site.tools %}
-        {% if tool.contributors contains page.title %}
-        <h3><span class="label label-primary">{{ tool.title }}</span></h3>
-        {% endif %}
+<section class="bg-master-lightest p-t-40 p-b-40 no-overflow">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        <h2>Papers in the Lab</h2>
+        {% assign loopyear = 2018 %}
+        {% for pub in site.data.publications %}
+          <!-- INNER LOOP -->
+          {% if pub.team contains page.title %}
+
+            {% if loopyear > pub.year %}
+              {% assign loopyear = pub.year %}
+              <div class="p-b-5 p-t-15">
+                <h5 class="year p-b-1">{{ pub.year }}</h5>
+                <hr>
+              </div>
+            {% endif %}
+            {% if loopyear == pub.year %}
+            <div class="media">
+              <div class="media-left">
+                {% if pub.status == "in-revision" or pub.status == "in-prep" or pub.status == "submitted" %}<img class="media-object thinborder" width="60" src="{{baseurl}}/images/publications/in-press.gif">
+                {% else %}<img class="media-object thinborder" width="60" src="{{baseurl}}/images/publications/{{pub.thumbnail}}">
+                {% endif %}
+              </div>
+              <div class="media-body">
+                {% if pub.status == "in-press"  or pub.status == "in-revision" or pub.status == "submitted" or pub.status == "in-prep" %}
+                <p class="fs-14"><b>{{pub.title}}</b><br>
+                {% else %}<p class="fs-14"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
+                {% endif %}
+                {{ pub.authors | join: ", " }}<br>
+                {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i></p>
+                {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i></p>
+                {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i></p>
+                {% elsif pub.status == "in-prep" %}<i>{{pub.journal}}</i>. <i>(in preparation)</i></p>
+                {% elsif pub.status == "submitted" %}<i>{{pub.journal}}</i>. <i>(submitted)</i></p>
+                {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.</p>
+                {% endif %}
+              </div>
+            </div>
+            {% endif %}
+          <!-- END INNER LOOP -->
+          {% endif %}
         {% endfor %}
-        </p>
-        -->
 
-
-  <div class="col-xs-12 col-sm-12 col-lg-12">
-    <div class="publications">
-      <div class="title"><h2 class="title">Latest Papers in Lab</h2></div>
-
-      {% assign num = 0 %}
-      {% for pub in site.data.publications %}
-{% if pub.team contains page.title %}
-      {% assign num = num | plus: 1 %}
-      {% if num <= 8 %}
-      <div class="media">
-          <div class="media-left">
-            {% if pub.status == "in-press" or pub.status == "in-revision" %}<img class="media-object" src="{{baseurl}}/images/publications/in-press.gif">
-            {% else %}<img class="media-object" src="{{baseurl}}/images/publications/{{pub.thumbnail}}">
-            {% endif %}
-          </div>
-          <div class="media-body">
-            {% if pub.status == "in-press" or pub.status == "in-revision" or pub.status == "in-prep" %}
-            <h3 class="media-heading">{{pub.title}}</h3>
-            {% else %} <h3 class="media-heading"><a href="{{pub.url}}">{{pub.title}}</a></h3>
-            {% endif %}
-            <p>{{ pub.authors | join: ", " }}<br>
-            {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i></p>
-            {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i></p>
-            {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i></p>
-            {% else %}<i>{{pub.journal}}</i> <b>{{pub.volume}}</b>, {{pub.pages}}, {{pub.year}}.</p>
-            {% endif %}
-          </div>
-        </div>
-{% endif %}
-{% endif %}
-{% endfor %}
-
-      <br>
+      </div>
     </div>
   </div>
+</section>
 
-  <div class="col-xs-12 col-sm-12 col-lg-12">
-    <div class="publications">
-      <div class="title"><h2 class="title">Recent Talks and Posters</h2></div>
+<section class="bg-master-light p-t-40 p-b-40 no-overflow">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
 
-      <p><ul>
-      {% assign num = 0 %}
-      {% for talk in site.data.talks %}
-      {% if talk.speaker == page.title %}
-      {% assign num = num | plus: 1 %}
-      {% if num <= 5 %}
-      <li><b>{{ talk.title }}</b>, {{ talk.event }}, {{ talk.place }} ({{ talk.date | date: '%b %Y' }})</li>
-      {% endif %}
-      {% endif %}
-      {% endfor %}
-      </ol></p>
+        <h2>Talks and Poster Presentations</h2>
+        <p><ul>
+        <!--{% assign num = 0 %}-->
+        {% for talk in site.data.talks %}
+          {% if talk.speaker == page.title %}
+            <!--{% assign num = num | plus: 1 %}
+            {% if num <= 5 %}-->
+            <li><b>{{ talk.title }}</b>, {{ talk.event }}, {{ talk.place }} ({{ talk.date | date: '%b %Y' }})</li>
+            <!--{% endif %}-->
+          {% endif %}
+        {% endfor %}
+        </ol></p>
 
-      <br>
+      </div>
     </div>
   </div>
-
-</div>
+</section>
 
 {% include footer.html %}
