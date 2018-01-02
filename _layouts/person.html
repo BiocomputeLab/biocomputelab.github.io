@@ -10,9 +10,9 @@
         <img class="thinborder" width="400" src="{{baseurl}}/images/team/{{page.image}}">
         <h2>{{ page.title }}</h2>
         <h4 class="block-title">{{ page.position }}</h4>
-        <p class="font-arial fs-11 text-white muted m-t-5 m-b-2"><a href="mailto:{{page.email}}">{{page.email}}</a></p>
+        <p class="font-arial fs-13 text-white muted m-t-5 m-b-2"><a href="mailto:{{page.email}}">{{page.email}}</a></p>
         {% if page.title != "Thomas Gorochowski" %}<p class="font-arial fs-13">{{page.education | join: "<br>"}}</p>{% endif %}
-        <p class="block-title font-arial fs-13 m-b-10">Interests: {{page.keywords | join: ", "}}</p>
+        <p class="font-arial fs-13 m-b-10">Interests: {{page.keywords | join: ", "}}</p>
         <p>{{ page.content }}</p>
 
       </div>
