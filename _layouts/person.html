@@ -13,7 +13,7 @@
         <p class="font-arial fs-16 m-t-0 m-b-15"><a href="mailto:{{page.email}}">{{page.email}}</a></p>
         {% if page.title != "Thomas Gorochowski" %}<p class="font-arial fs-14 m-t-0 m-b-15"><b>Education:</b><br>{{page.education | join: "<br>"}}</p>{% endif %}
         {% if page.twitter != "none" %}<p class="font-arial fs-14 m-t-0 m-b-0"><b>Twitter:</b> <a href="https://www.twitter.com/{{page.twitter}}">@{{page.twitter}}</a></p>{% endif %}
-        {% if page.github != "none" %}<p class="font-arial fs-14 m-t-0 m-b-0"><b>GitHub:</b> <a href="https://www.github.com/{{page.guthub}}">{{page.github}}</a></p>{% endif %}
+        {% if page.github != "none" %}<p class="font-arial fs-14 m-t-0 m-b-0"><b>GitHub:</b> <a href="https://github.com/{{page.guthub}}">{{page.github}}</a></p>{% endif %}
         <p class="font-arial fs-14 m-t-0 m-b-30"><b>Interests:</b> {{page.keywords | join: ", "}}</p>
         {{ page.content }}
 
