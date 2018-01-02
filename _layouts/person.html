@@ -8,12 +8,12 @@
       <div class="col-md-12">
 
         <img class="thinborder" width="400" src="{{baseurl}}/images/team/{{page.image}}">
-        <h2>{{ page.title }}</h2>
-        <h4 class="block-title">{{ page.position }}</h4>
-        <p class="font-arial fs-14 text-white muted m-t-5 m-b-2"><a href="mailto:{{page.email}}">{{page.email}}</a></p>
-        {% if page.title != "Thomas Gorochowski" %}<p class="font-arial fs-14">{{page.education | join: "<br>"}}</p>{% endif %}
-        <p class="font-arial fs-14 m-b-10">Interests: {{page.keywords | join: ", "}}</p>
-        <p>{{ page.content }}</p>
+        <h2 class="m-b-0">{{ page.title }}</h2>
+        <h4 class="block-title m-t-0">{{ page.position }}</h4>
+        <p class="font-arial fs-14 text-white muted m-t-5 m-b-0"><a href="mailto:{{page.email}}">{{page.email}}</a></p>
+        {% if page.title != "Thomas Gorochowski" %}<p class="font-arial fs-14 m-t-0 m-b-0">{{page.education | join: "<br>"}}</p>{% endif %}
+        <p class="font-arial fs-14 m-t-0 m-b-20">Interests: {{page.keywords | join: ", "}}</p>
+        {{ page.content }}
 
       </div>
     </div>
