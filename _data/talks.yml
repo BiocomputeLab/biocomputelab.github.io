@@ -1,22 +1,80 @@
-- title: Tools for the rational design of synthetic genetic circuits
-  type: Talk
-  speaker: Vittorio Bartoli
-  event: BrisSynBio Annual Conference
-  place: University of Bristol
-  date: 2016-09-13
+# THOMAS GOROCHOWSKI
 
-- title: Tools for the rational design of synthetic genetic circuits
+- title: Scaling the complexity of synthetic genetic circuits
+  type: Invited Talk
+  speaker: Thomas Gorochowski
+  event: DGZ Young Scientists' Forum
+  place: Berlin, Germany
+  date: 2018-02-01
+
+- title: Using sequencing to scale-up the design of synthetic genetic circuits
+  type: Invited Talk
+  speaker: Thomas Gorochowski
+  event: CompuGene Seminar Series
+  place: TU Darmstadt, Germany
+  date: 2017-09-01
+
+- title: Characterising synthetic genetic circuits using RNA-Seq
+  type: Invited Talk
+  speaker: Thomas Gorochowski
+  event: Research Seminar
+  place: Department of Biochemistry and Molecular Biology, University of Hamburg, Germany
+  date: 2016-03-01
+
+- title: Investigating biological design principles using systems and synthetic biology
+  type: Invited Talk
+  speaker: Thomas Gorochowski
+  event: Research Seminar
+  place: Max Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany
+  date: 2015-08-01
+
+- title: Exploring protein synthesis using modelling and synthetic biology
+  type: Invited Talk
+  speaker: Thomas Gorochowski
+  event: Research Seminar
+  place: Institute of Medical Sciences, University of Aberdeen, UK
+  date: 2014-01-01
+
+- title: Translational sensitivity of the E. coli genome to fluctuating tRNAs
+  type: Invited Talk
+  speaker: Thomas Gorochowski
+  event: Delft Bioinformatics Colloquium Series
+  place: TU Delft, The Netherlands
+  date: 2013-11-01
+
+# VITTORIO BARTOLI
+
+- title: Tuneable Genetic Circuits
+  type: Poster
+  speaker: Vittorio Bartoli
+  event: Synthetic Biology meets Robotics
+  place: Bristol Aquarium, Bristol, UK
+  date: 2017-03-17
+
+- title: Tuneable Genetic Sensors and Logic Gates
+  type: Poster
+  speaker: Vittorio Bartoli
+  event: SynBioCDT Summer School
+  place: University of Oxford, UK
+  date: 2017-06-19
+
+- title: Tuneable Genetic Sensors and Logic Gates
+  type: Poster
+  speaker: Vittorio Bartoli
+  event: BrisSynBio-MaxSynBio Bilateral Workshop
+  place: University of Bristol, UK
+  date: 2017-04-06
+
+- title: Tuneable Genetic Sensors
   type: Poster
   speaker: Vittorio Bartoli
   event: BrisSynBio Annual Conference
-  place: University of Bristol
-  date: 2016-09-13
+  place: University of Bristol, UK
+  date: 2017-09-12 
 
-- title: Tools for the rational design of synthetic genetic circuits
-  type: Talk
-  speaker: Daniel Dixon
-  event: BrisSynBio Annual Conference
-  place: University of Bristol
-  date: 2016-09-13
-
-
+- title: Tuneable Genetic Sensors
+  type: Poster
+  speaker: Vittorio Bartoli
+  event: IChemE Biochemcial Engineering Special Interest Group Young Researchers Meeting
+  place: University College London, UK
+  date: 2017-09-17
