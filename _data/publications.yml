@@ -1,4 +1,24 @@
 
+- title: "Automated visualization of genetic designs using DNAplotlib"
+  authors: 
+    - Bartoli V.
+    - Dixon D.O.R.
+    - Gorochowski T.E.
+  team: 
+    - Vittorio Bartoli
+    - Daniel Dixon
+    - Thomas Gorochowski
+  journal: "In: Braman J. (eds) Synthetic Biology. Methods in Molecular Biology."
+  volume: 
+  issue: 
+  pages: Springer, Singapore
+  year: 2018
+  url: 
+  doi: 
+  tools:
+  thumbnail: in-press.gif
+  status: in-press
+
 - title: "Genetic circuit characterization and debugging using RNA-seq"
   authors: 
     - Gorochowski T.E.
@@ -21,7 +41,6 @@
   tools:
   thumbnail: 2017-rnaseq_debug.jpg
   status: published
-
 
 - title: "Organisation of feed-forward loop motifs reveals architectural principles in natural and engineered networks"
   authors: 
@@ -75,26 +94,6 @@
   tools:
   thumbnail:
   status: pre-print
-
-- title: "Automated visualization of genetic designs using DNAplotlib"
-  authors: 
-    - Bartoli V.
-    - Dixon D.O.R.
-    - Gorochowski T.E.
-  team: 
-    - Vittorio Bartoli
-    - Daniel Dixon
-    - Thomas Gorochowski
-  journal: Methods in Molecular Biology, Synthetic Biology
-  volume: 
-  issue: 
-  pages: 
-  year: 2017
-  url: 
-  doi: 
-  tools:
-  thumbnail: in-press.gif
-  status: in-press
 
 - title: "How behaviour and the environment influence transmission in mobile groups"
   authors: 
