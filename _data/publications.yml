@@ -68,9 +68,9 @@
 - title: "Burden-driven feedback control of gene expression"
   authors: 
     - Ceroni F.
+    - Boo A.
     - Furini S.
     - Gorochowski T.E.
-    - Boo A.
     - Borkowski O.
     - Ladak Y.N.
     - Awan A.R.
@@ -84,16 +84,16 @@
   preprint_year: 2017
   preprint_doi: 10.1101/177030
   preprint_url: "https://doi.org/10.1101/177030"
-  journal: 
+  journal: Nature Methods
   volume: 
   issue: 
   pages:
-  year:
+  year: 2018
   url:
   doi:
   tools:
   thumbnail:
-  status: pre-print
+  status: accepted
 
 - title: "How behaviour and the environment influence transmission in mobile groups"
   authors: 
