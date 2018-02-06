@@ -51,6 +51,48 @@
   thumbnail: 2018-natmeth.jpg
   status: accepted
 
+- title: "Synthetic Biology Open Language Visual (SBOL Visual) Version 2.0"
+  authors: 
+    - Cox R.S.
+    - Madsen, C.
+    - McLaughlin J.
+    - Nguyen T.
+    - Roehner N.
+    - Bartley B.
+    - Bhatia S.
+    - Bissell M
+    - Clancy K.
+    - Gorochowski T.E.
+    - Grunberg R.
+    - Luna A.
+    - Le Novere N.
+    - Pocock M.
+    - Sauro H.
+    - Sexton J.T.
+    - Stan G.-B.
+    - Tabor J.J.
+    - Voigt C.A.
+    - Myers C.
+    - Beal J.
+    - Wipat A.
+  team: 
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Journal of Integrative Bioinformatics
+  volume: 
+  issue: 
+  pages: 
+  year: 2018
+  url: 
+  doi: 
+  tools:
+  thumbnail: 2018-SBOLv2.jpg
+  status: accepted
+
 - title: "Automated visualization of genetic designs using DNAplotlib"
   authors: 
     - Bartoli V.
