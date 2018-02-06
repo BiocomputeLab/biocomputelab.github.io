@@ -1,3 +1,26 @@
+- title: "Organisation of feed-forward loop motifs reveals architectural principles in natural and engineered networks"
+  authors: 
+    - Gorochowski T.E.
+    - Grierson C.S.
+    - di Bernardo M.
+  team: 
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 188821
+  preprint_year: 2017
+  preprint_doi: 10.1101/188821
+  preprint_url: "https://doi.org/10.1101/188821"
+  journal: Science Advanced
+  volume: 
+  issue: 
+  pages: 
+  year: 2018
+  url: 
+  doi: 
+  tools:
+  thumbnail: 2018-sciadv.gif
+  status: accepted
+
 - title: "Burden-driven feedback control of gene expression"
   authors: 
     - Ceroni F.
@@ -70,29 +93,6 @@
   tools:
   thumbnail: 2017-rnaseq_debug.jpg
   status: published
-
-- title: "Organisation of feed-forward loop motifs reveals architectural principles in natural and engineered networks"
-  authors: 
-    - Gorochowski T.E.
-    - Grierson C.S.
-    - di Bernardo M.
-  team: 
-    - Thomas Gorochowski
-  preprint_journal: bioRxiv
-  preprint_id: 188821
-  preprint_year: 2017
-  preprint_doi: 10.1101/188821
-  preprint_url: "https://doi.org/10.1101/188821"
-  journal: 
-  volume: 
-  issue: 
-  pages: 
-  year: 
-  url: 
-  doi: 
-  tools:
-  thumbnail: 
-  status: pre-print
 
 - title: "How behaviour and the environment influence transmission in mobile groups"
   authors: 
