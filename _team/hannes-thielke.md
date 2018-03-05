@@ -7,7 +7,7 @@ role: member
 leavedate: 
 education:
   - Mechatronics Engineering (B.Sc), University of Erlangen-Nuremberg
-image: 
+image: hannes-thielke.jpg
 email: hannes.thielke@fau.de
 twitter:
 github:
@@ -18,4 +18,4 @@ keywords:
   - digital microfluidics
   - bioengineering
 ---
-Mechatronics engineering student between bachelor's and master's degree that is focusing on electrical circuits. Attempting to get inter-disciplinary skills in synthetic biological during an internship and explore possibilities of microfluidics using the OpenDrop-Platform.
+Mechatronics engineering student between bachelor's and master's degree that is focusing on electrical circuits. Attempting to get inter-disciplinary skills in synthetic biological during an internship and explore the possibilities of microfluidics using the OpenDrop-Platform.
