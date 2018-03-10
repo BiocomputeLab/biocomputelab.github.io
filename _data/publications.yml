@@ -103,13 +103,13 @@
     - Vittorio Bartoli
     - Daniel Dixon
     - Thomas Gorochowski
-  journal: "In: Braman J. (eds) Synthetic Biology. Methods in Molecular Biology."
-  volume: 
+  journal: "In: Braman J. (ed.) Synthetic Biology: Methods and Protocols, Methods in Molecular Biology"
+  volume: 1772
   issue: 
   pages: Springer, Singapore
   year: 2018
   url: 
-  doi: 
+  doi: 10.1007/978-1-4939-7795-6_22
   tools:
   thumbnail: in-press.gif
   status: in-press
@@ -143,7 +143,7 @@
     - Richardson T.O.
   team: 
     - Thomas Gorochowski
-  journal: "In: Masuda N., Holme P. (eds) Temporal Network Epidemiology. Theoretical Biology."
+  journal: "In: Masuda N., Holme P. (eds.) Temporal Network Epidemiology. Theoretical Biology."
   volume: 
   issue: 
   pages: Springer, Singapore
