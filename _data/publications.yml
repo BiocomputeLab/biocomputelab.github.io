@@ -86,13 +86,13 @@
   journal: Journal of Integrative Bioinformatics
   volume: 
   issue: 
-  pages: 
+  pages: 20170074
   year: 2018
-  url: 
-  doi: 
+  url: "https://www.degruyter.com/downloadpdf/j/jib.ahead-of-print/jib-2017-0074/jib-2017-0074.pdf"
+  doi: 10.1515/jib-2017-0074
   tools:
   thumbnail: 2018-SBOLv2.jpg
-  status: accepted
+  status: published
 
 - title: "Automated visualization of genetic designs using DNAplotlib"
   authors: 
