@@ -18,4 +18,4 @@ keywords:
   - genetic circuits
   - industrial biotechnology
 ---
-My Ph.D. is a part of the SynCrop project (Synthetic Circuits for Robust Orthogonal Production) which is focused on the development of modulable synthetic circuits for the novel production of compounds of industrial interest. The aim of my research is to develop the toolkit comprised of sensors and degradation machinery enabling the control of metabolic pathway. In addition, the modulation of the level of the targetted protein will be supported by the mathematical models.
+My Ph.D. is a part of the SynCrop project (Synthetic Circuits for Robust Orthogonal Production). My project is focused on the development of modular synthetic genetic circuits for the production of compounds of industrial interest. I aim to develop a toolkit of sensors and degradation machinery to enable the control of metabolic pathways. In addition, I will use mathematical modelling to better understand the target levels of protein that optimise production and yields.
