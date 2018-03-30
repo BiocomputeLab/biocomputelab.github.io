@@ -7,7 +7,7 @@ people-tags:
 image: /images/posts/2018-03-28-motif-clustering.jpg
 readmore: true
 ---
-Today our work on unravelling the rules for how complex networks are built from simple complements is published in [Science Advances](http://advances.sciencemag.org). We develop new methods that can extract and decipher the rules controlling how small structures cluster and connect, and show that common components to many networks are often used in surprisingly different ways. The final paper can be accessed [here](http://advances.sciencemag.org).
+Today our work on unravelling the rules for how complex networks are built from simple complements is published in [Science Advances](http://advances.sciencemag.org). We develop new methods that can extract and decipher the rules controlling how small structures cluster and connect, and show that common components to many networks are often used in surprisingly different ways. The final paper can be accessed [here](http://advances.sciencemag.org/content/4/3/eaap9751).
 
 Networks can be used to capture interactions and connections in complex systems; from who eats who in food webs, to airline routes in transportation systems. An intriguing feature of many networks is that some small structures, commonly called 'motifs', are found much more often than we would expect. It is thought motifs act like building blocks for larger systems, but so far it has been difficult to investigate this idea fully.
 
