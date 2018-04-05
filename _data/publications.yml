@@ -261,7 +261,7 @@
   pages: 710-720
   year: 2016
   url: "http://pubs.acs.org/doi/abs/10.1021/acssynbio.6b00040"
-  doi: 
+  doi: 10.1021/acssynbio.6b00040
   thumbnail: 2016-acssb-minimal-model.gif
   status: published
 
@@ -280,7 +280,7 @@
   pages: 1361-1372
   year: 2015
   url: "http://pubs.acs.org/doi/abs/10.1021/acssynbio.5b00170"
-  doi: 
+  doi: 10.1021/acssynbio.5b00170
   thumbnail: 2015-acssb.gif
   status: published
 
@@ -296,7 +296,7 @@
   pages: 111
   year: 2015
   url: "http://rsif.royalsocietypublishing.org/content/12/111/20150705.abstract"
-  doi: 
+  doi: 10.1098/rsif.2015.0705
   thumbnail: 2015-interface.gif
   status: published
 
@@ -314,7 +314,7 @@
   pages: 2993-3011
   year: 2015
   url: "http://dx.doi.org/10.1093/nar/gkv199"
-  doi: 
+  doi: 10.1093/nar/gkv199
   thumbnail: 2015-nar.gif
   status: published
 
@@ -333,7 +333,7 @@
   pages: 62
   year: 2014
   url: "http://dx.doi.org/10.3389/fnbeh.2014.00062"
-  doi: 
+  doi: 10.3389/fnbeh.2014.00062
   thumbnail: 2014-front-beh-neruo.gif
   status: published
 
@@ -352,7 +352,7 @@
   pages: 129-139
   year: 2014
   url: "http://dx.doi.org/10.1021/sb4001245"
-  doi: 
+  doi: 10.1021/sb4001245
   thumbnail: 2013-acssb.gif
   status: published
 
@@ -369,7 +369,7 @@
   pages: 8021-8033
   year: 2013
   url: "http://dx.doi.org/10.1093/nar/gkt602"
-  doi: 
+  doi: 10.1093/nar/gkt602
   thumbnail: 2013-nar.gif
   status: published
 
@@ -394,7 +394,7 @@
   pages: e42790
   year: 2012
   url: "http://dx.doi.org/10.1371/journal.pone.0042790"
-  doi: 
+  doi: 10.1371/journal.pone.0042790
   tools:
     - BSim
   thumbnail: 2012-bsim.gif
@@ -413,7 +413,7 @@
   pages: 1343-1352
   year: 2012
   url: "http://dx.doi.org/10.1109/TVCG.2011.142"
-  doi: 
+  doi: 10.1109/TVCG.2011.142
   thumbnail: 2012-network-aging.gif
   status: published
 
@@ -430,7 +430,7 @@
   pages: 18-25
   year: 2012
   url: "http://dx.doi.org/10.1002/cplx.20386"
-  doi: 
+  doi: 10.1002/cplx.20386
   thumbnail: 2010-complexity.gif
   status: published
 
@@ -448,7 +448,7 @@
   pages: 64-82
   year: 2010
   url: "http://dx.doi.org/10.1109/MCAS.2010.937884"
-  doi: 
+  doi: 10.1109/MCAS.2010.937884
   thumbnail: 2010-ieee-cas-mag.gif
   status: published
 
@@ -482,6 +482,6 @@
   pages: 056212
   year: 2010
   url: "http://dx.doi.org/10.1103/PhysRevE.81.056212"
-  doi: 
+  doi: 10.1103/PhysRevE.81.056212
   thumbnail: 2010-evolving-sync.gif
   status: published
