@@ -42,6 +42,10 @@ section: publications
                 {% elsif pub.status == "submitted" %}<i>{{pub.journal}}</i>. <i>(submitted)</i></p>
                 {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.</p>
                 {% endif %}
+                <!-- Altmetric badge -->
+                {% if pub.doi == "" %}</p>
+                {% else %}<br><div class='altmetric-embed' data-hide-no-mentions='true' data-doi="{{pub.doi}}"></div></p>
+                {% endif %}
               </div>
             </div>
             {% endif %}
