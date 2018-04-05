@@ -44,7 +44,7 @@ section: publications
                 {% endif %}
                 <!-- Altmetric badge -->
                 {% if pub.doi == "" %}</p>
-                {% else %}<br><div class='altmetric-embed' data-hide-no-mentions='true' data-doi="{{pub.doi}}"></div></p>
+                {% else %}<br><div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div></p>
                 {% endif %}
               </div>
             </div>
