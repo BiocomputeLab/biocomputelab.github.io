@@ -6,7 +6,7 @@ position: Erasmus Intern
 role: member
 leavedate: 
 education:
-  - Mechatronics Engineering (B.Sc), University of Erlangen-Nuremberg
+  - B.Sc. Mechatronics Engineering, University of Erlangen-Nuremberg
 image: hannes-thielke.jpg
 email: hannes.thielke@fau.de
 twitter: none

@@ -6,7 +6,7 @@ position: Summer Intern
 role: member
 leavedate: September 2018
 education:
-  - Biomedical Computation (B.S.), Stanford University 2017-2020
+  - B.Sci. Biomedical Computation, Stanford University 2017-2020
 image: sunwoo-kang.jpeg
 email: swkang73@stanford.edu
 twitter: none
