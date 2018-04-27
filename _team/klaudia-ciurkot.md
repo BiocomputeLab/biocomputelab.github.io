@@ -10,8 +10,8 @@ education:
   - B.Eng. Biotechnology, Wroclaw University of Science and Technology 2016
 image: klaudia-ciurkot.jpg
 email: klaci@dtu.dk
-twitter: 
-github: 
+twitter: none
+github: none
 url: "http://www.syncrop.org/syncrop/"
 keywords:
   - synthetic biology

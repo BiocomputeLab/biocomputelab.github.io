@@ -9,9 +9,9 @@ education:
   - Mechatronics Engineering (B.Sc), University of Erlangen-Nuremberg
 image: hannes-thielke.jpg
 email: hannes.thielke@fau.de
-twitter:
-github:
-url:
+twitter: none
+github: none
+url: none
 keywords:
   - microbiology
   - synthetic biology

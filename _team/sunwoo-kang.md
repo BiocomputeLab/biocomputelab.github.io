@@ -9,9 +9,9 @@ education:
   - Biomedical Computation (B.S.), Stanford University 2017-2020
 image: sunwoo-kang.jpeg
 email: swkang73@stanford.edu
-twitter:
+twitter: none
 github: swkang73
-url:
+url: none
 keywords:
   - breath analysis
   - synthetic biology
