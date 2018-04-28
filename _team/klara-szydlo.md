@@ -3,8 +3,8 @@ layout: person
 title: Klara Szydlo
 author: Szydlo K.
 position: M.Sci. Student
-role: member
-leavedate: 
+role: alumni
+leavedate: 2018
 education: 
   - M.Sci. Biology, University of Bristol, 2018
 image: klara-szydlo.jpg
