@@ -44,9 +44,11 @@ section: publications
                 {% endif %}
 
                 <!-- Notes if they exist -->
+                {% if pub.notes %}
                 <p><ul>{% for note in pub.notes %}
                   <li>{{note}}</li>
                 </ul></p>
+                {% endif %}
 
                 <!-- Altmetric badge -->
                 {% if pub.doi == "" %}</p>
