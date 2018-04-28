@@ -28,7 +28,7 @@
   thumbnail: 2018-natmeth.jpg
   status: published
   notes:
-    - "Featured on the cover (<a href=https://www.nature.com/nmeth/journal/v15/n5/covers/index.html>link</a>)."
+    - "Featured on the journal cover (<a href=https://www.nature.com/nmeth/journal/v15/n5/covers/index.html>link</a>)."
 
 - title: "Organisation of feed-forward loop motifs reveals architectural principles in natural and engineered networks"
   authors: 
@@ -249,7 +249,7 @@
   thumbnail: 2016-essay-bio-chem.jpg
   status: published
   notes:
-    - "Featured on the cover (<a href=http://essays.biochemistry.org/content/60/4.cover-expansion>link</a>)."
+    - "Featured on the journal cover (<a href=http://essays.biochemistry.org/content/60/4.cover-expansion>link</a>)."
 
 - title: A minimal model of ribosome allocation dynamics captures trade-offs in expression between endogenous and synthetic genes
   authors: 
@@ -439,7 +439,7 @@
   thumbnail: 2010-complexity.gif
   status: published
   notes:
-    - "Featured on the cover (<a href=https://onlinelibrary.wiley.com/toc/10990526/17/3>link</a>)."
+    - "Featured on the journal cover (<a href=https://onlinelibrary.wiley.com/toc/10990526/17/3>link</a>)."
 
 - title: Synchronization and control of complex networks via contraction, adaptation and evolution
   authors: 
