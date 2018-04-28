@@ -153,8 +153,8 @@ section: team
       <div class="container">
         <h2 class="no-margin">Alumni</h2><br>
         <p class="font-arial fs-14">
-          {% assign sorted = (site.team | sort: 'leaveyear') | reverse %}
-          {% for person in sorted %}
+          {% assign sorted_team = (site.team | sort: 'leaveyear') | reverse %}
+          {% for person in sorted_team %}
             {% if person.role == "alumni" %}
                 <b>{{person.title}}</b> ({{person.leavedate}}) - {{person.position}}<br>
             {% endif %}
