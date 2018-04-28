@@ -34,22 +34,22 @@ section: publications
                 {% else %}<p class="fs-14"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
                 {% endif %}
                 {{ pub.authors | join: ", " }}<br>
-                {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i></p>
-                {% elsif pub.status == "accepted" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(accepted)</i></p>
-                {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i></p>
-                {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i></p>
-                {% elsif pub.status == "in-prep" %}<i>{{pub.journal}}</i>. <i>(in preparation)</i></p>
-                {% elsif pub.status == "submitted" %}<i>{{pub.journal}}</i>. <i>(submitted)</i></p>
-                {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.</p>
+                {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i>
+                {% elsif pub.status == "accepted" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(accepted)</i>
+                {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i>
+                {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i>
+                {% elsif pub.status == "in-prep" %}<i>{{pub.journal}}</i>. <i>(in preparation)</i><
+                {% elsif pub.status == "submitted" %}<i>{{pub.journal}}</i>. <i>(submitted)</i>
+                {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.
                 {% endif %}
-
                 <!-- Notes if they exist -->
                 {% if pub.notes %}
-                <p><ul>
+                <ul>
                   {% for note in pub.notes %}<li>{{note}}</li>{% endfor %}
                 </ul></p>
+                {% else %}
+                </p> <!-- This is the end of the paragraph for the pub -->
                 {% endif %}
-
                 <!-- Altmetric badge -->
                 {% if pub.doi == "" %}</p>
                 {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div></p>
