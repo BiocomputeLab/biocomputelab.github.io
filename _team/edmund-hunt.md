@@ -4,7 +4,7 @@ title: Edmund Hunt
 author: Hunt E.R.
 position: EPSRC Doctoral Prize Fellow
 role: member
-leavedate: 
+leaveyear: 
 education:
   - Ph.D. Complexity Sciences, University of Bristol, 2016
   - M.Res. Complexity Sciences, University of Bristol, 2013

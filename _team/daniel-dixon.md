@@ -4,7 +4,7 @@ title: Daniel Dixon
 author: Dixon D.O.R.
 position: Ph.D. Student
 role: member
-leavedate: 
+leaveyear: 
 education:
   - M.Sci. Biology, University of Bristol, 2015
 image: daniel-dixon.jpg

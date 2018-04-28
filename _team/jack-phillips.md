@@ -4,7 +4,7 @@ title: Jack Phillips
 author: Phillips J.O.
 position: Post-Doctoral Research Associate
 role: alumni
-leavedate: 2017
+leaveyear: 2017
 education:
   - Ph.D. Biochemistry, University of Portsmouth, 2016
   - B.Sc. (Hons) Biochemistry, University of Portsmouth, 2011
