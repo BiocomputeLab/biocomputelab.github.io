@@ -156,7 +156,7 @@ section: team
           {% assign sorted_team = (site.team | sort: 'leaveyear') | reverse %}
           {% for person in sorted_team %}
             {% if person.role == "alumni" %}
-                <b>{{person.title}}</b> ({{person.leavedate}}) - {{person.position}}<br>
+                <b>{{person.title}}</b> ({{person.leaveyear}}) - {{person.position}}<br>
             {% endif %}
           {% endfor %}
         </p>
