@@ -4,7 +4,7 @@ title: Sunwoo Kang
 author: Sunwoo Kang
 position: Summer Intern
 role: member
-leaveyear: September 2018
+leaveyear: 9999
 education:
   - B.Sci. Biomedical Computation, Stanford University 2017-2020
 image: sunwoo-kang.jpeg

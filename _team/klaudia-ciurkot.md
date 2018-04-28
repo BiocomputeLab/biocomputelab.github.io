@@ -4,7 +4,7 @@ title: Klaudia Ciurkot
 author: Ciurkot K.
 position: Ph.D. Student
 role: member
-leaveyear: 
+leaveyear: 9999
 education:
   - M.Eng. Biotechnology, Technical University of Denmark, 2018
   - B.Eng. Biotechnology, Wroclaw University of Science and Technology 2016

@@ -4,7 +4,7 @@ title: Ana Rubio Denniss
 author: Rubio Denniss A.
 position: Ph.D. Student
 role: member
-leaveyear: 
+leaveyear: 9999
 education:
   - B.Sci. Physics, University of Bristol, 2015
 image: ana-rubio.jpg

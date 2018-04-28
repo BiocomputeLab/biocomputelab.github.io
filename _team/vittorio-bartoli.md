@@ -4,7 +4,7 @@ title: Vittorio Bartoli
 author: Bartoli V.
 position: Ph.D. Student
 role: member
-leaveyear: 
+leaveyear: 9999
 education:
   - M.Eng. Chemical Engineering with Biotechnology, University of Manchester, 2014
 image: vittorio-bartoli.jpg
