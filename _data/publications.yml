@@ -28,7 +28,7 @@
   thumbnail: 2018-natmeth.jpg
   status: published
   notes:
-    - "Featured on the cover of [Nature Methods](https://www.nature.com/nmeth/journal/v15/n5/covers/index.html)."
+    - "Featured on the cover of <a href=https://www.nature.com/nmeth/journal/v15/n5/covers/index.html>Nature Methods</a>."
 
 - title: "Organisation of feed-forward loop motifs reveals architectural principles in natural and engineered networks"
   authors: 
