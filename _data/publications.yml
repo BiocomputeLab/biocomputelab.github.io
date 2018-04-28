@@ -28,7 +28,7 @@
   thumbnail: 2018-natmeth.jpg
   status: published
   notes:
-    - "Featured on the cover of <a href=https://www.nature.com/nmeth/journal/v15/n5/covers/index.html>Nature Methods</a>."
+    - "Featured on the cover (<a href=https://www.nature.com/nmeth/journal/v15/n5/covers/index.html>link</a>)."
 
 - title: "Organisation of feed-forward loop motifs reveals architectural principles in natural and engineered networks"
   authors: 
@@ -137,6 +137,8 @@
   tools:
   thumbnail: 2017-rnaseq_debug.jpg
   status: published
+  notes:
+    - "Highlighted in editorial at Molecular Systems Biology (<a href=http://msb.embopress.org/content/13/12/996>link</a>)."
 
 - title: "How behaviour and the environment influence transmission in mobile groups"
   authors: 
@@ -246,6 +248,8 @@
     - BSim
   thumbnail: 2016-essay-bio-chem.jpg
   status: published
+  notes:
+    - "Featured on the cover (<a href=http://essays.biochemistry.org/content/60/4.cover-expansion>link</a>)."
 
 - title: A minimal model of ribosome allocation dynamics captures trade-offs in expression between endogenous and synthetic genes
   authors: 
@@ -434,6 +438,8 @@
   doi: 10.1002/cplx.20386
   thumbnail: 2010-complexity.gif
   status: published
+  notes:
+    - "Featured on the cover (<a href=https://onlinelibrary.wiley.com/toc/10990526/17/3>link</a>)."
 
 - title: Synchronization and control of complex networks via contraction, adaptation and evolution
   authors: 
