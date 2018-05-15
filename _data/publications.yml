@@ -104,16 +104,16 @@
     - Vittorio Bartoli
     - Daniel Dixon
     - Thomas Gorochowski
-  journal: "In: Braman J. (ed.) Synthetic Biology: Methods and Protocols, Methods in Molecular Biology"
+  journal: "In: Braman J. (eds) Synthetic Biology. Methods in Molecular Biology"
   volume: 1772
   issue: 
-  pages: Springer, Singapore
+  pages: Humana Press, New York, NY
   year: 2018
   url: 
   doi: 10.1007/978-1-4939-7795-6_22
   tools:
-  thumbnail: in-press.gif
-  status: in-press
+  thumbnail: 2018-synbio-methods.jpg
+  status: published
 
 - title: "Genetic circuit characterization and debugging using RNA-seq"
   authors: 
