@@ -9,7 +9,7 @@ education:
   - M.Eng. Biotechnology, Technical University of Denmark, 2018
   - B.Eng. Biotechnology, Wroclaw University of Science and Technology 2016
 image: klaudia-ciurkot.jpg
-email: klaci@dtu.dk
+email: klaudia.ciurkot@dsm.com
 twitter: none
 github: none
 url: "http://www.syncrop.org/syncrop/"
