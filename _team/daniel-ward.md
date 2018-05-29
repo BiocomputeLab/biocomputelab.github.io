@@ -1,4 +1,4 @@
--- 
+---
 layout: person
 title: Daniel Ward
 author: Ward D.
