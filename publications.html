@@ -22,6 +22,7 @@ section: publications
             {% endif %}
 
             {% if loopyear == pub.year %}
+            {% if pub.status != "pre-print" %}
             <div class="media">
               <div class="media-left">
                 {% if pub.status == "in-revision" or pub.status == "in-prep" or pub.status == "submitted" %}<img class="media-object thinborder" width="60" src="{{baseurl}}/images/publications/in-press.gif">
@@ -54,6 +55,7 @@ section: publications
                 {% endif %}
               </div>
             </div>
+            {% endif %}
             {% endif %}
           {% endfor %}
         </div>
