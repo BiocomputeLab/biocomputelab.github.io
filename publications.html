@@ -4,6 +4,31 @@ section: publications
 ---
 {% include header.html %}
 
+  <!-- BEGIN PRE-PRINTS SECTION -->
+  <section class="bg-master-lighter p-t-40 p-b-40 sm-p-t-40 sm-m-b-40 no-overflow">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Pre-Prints</h2><br>
+            {% for pub in site.data.publications %}
+              {% if pub.status == "pre-print" %}
+                <p class="fs-14"><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
+                {{ pub.authors | join: ", " }}<br>
+                <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.</p>
+
+                <!-- Altmetric badge -->
+                {% if pub.preprint_doi == "" %}</p>
+                {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.preprint_doi}}"></div></p>
+                {% endif %}
+
+              {% endif %}
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END PRE-PRINTS SECTION -->
+
   <!-- BEGIN PUBLICATIONS SECTION -->
   <section class="bg-master-lightest p-t-90 p-b-40 no-overflow">
     <div class="container">
@@ -63,24 +88,5 @@ section: publications
     </div>
   </section>
   <!-- END PUBLICATIONS SECTION -->
-
-  <!-- BEGIN PRE-PRINTS SECTION -->
-  <section class="bg-master-lighter p-t-40 p-b-40 sm-p-t-40 sm-m-b-40 no-overflow">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Pre-Prints</h2><br>
-            {% for pub in site.data.publications %}
-              {% if pub.status == "pre-print" %}
-                <p class="fs-14"><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
-                {{ pub.authors | join: ", " }}<br>
-                <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.</p>
-              {% endif %}
-            {% endfor %}
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END PRE-PRINTS SECTION -->
 
 {% include footer.html %}
