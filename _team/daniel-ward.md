@@ -9,7 +9,7 @@ education:
   - M.Eng. Engineering Mathematics, University of Bristol, 2014
 image: daniel-ward.jpg
 email: dw0293@bristol.ac.uk
-twitter:
+twitter: none
 github: CompBioDan
 url:
 keywords:
