@@ -8,8 +8,8 @@ leaveyear: 9999
 education:
 image: hanna-wiederanders.jpg
 email: hw18041@bristol.ac.uk
-twitter: 
-github:
+twitter: none
+github: none
 url: 
 keywords:
   - synthetic biology
