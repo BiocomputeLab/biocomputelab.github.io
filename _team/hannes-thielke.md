@@ -3,8 +3,8 @@ layout: person
 title: Hannes Thielke
 author: Hannes Thielke
 position: Erasmus Intern
-role: member
-leaveyear: 9999
+role: alumni
+leaveyear: 2018
 education:
   - B.Sc. Mechatronics Engineering, University of Erlangen-Nuremberg
 image: hannes-thielke.jpg
