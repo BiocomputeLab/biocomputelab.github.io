@@ -8,7 +8,7 @@ leavedate:
 education:
   - MChem Chemistry, University of Sheffield, 2010-2014
   - Graduate Programme, AstraZeneca, 2014-2016
-Image: matt-tarnowski.jpg
+image: matt-tarnowski.jpg
 email: matt.tarnowski@bristol.ac.uk
 twitter: synbioscientist
 github: MJTarnowski
