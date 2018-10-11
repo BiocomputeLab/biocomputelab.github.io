@@ -25,6 +25,29 @@
   status: pre-print
   notes:
 
+- title: "Designing efficient translation"
+  authors: 
+    - Gorochowski T.E.
+    - Ellis T.
+  team: 
+    - Thomas Gorochowski
+  preprint_journal: 
+  preprint_id: 
+  preprint_year: 
+  preprint_doi: 
+  preprint_url: 
+  journal: Nature Biotechnology
+  volume: 36
+  issue: 10
+  pages: 934-935
+  year: 2018
+  url: 
+  doi: 
+  tools: 
+  thumbnail: 2018-natbiotech.gif
+  status: published
+  notes:
+
 - title: "Burden-driven feedback control of gene expression"
   authors: 
     - Ceroni F.
