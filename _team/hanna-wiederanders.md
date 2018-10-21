@@ -3,8 +3,8 @@ layout: person
 title: Hanna Wiederanders
 author: Wiederanders H.
 position: Undergraduate Student
-role: member
-leaveyear: 9999
+role: alumni
+leaveyear: 2018
 education:
 image: hanna-wiederanders.jpg
 email: hw18041@bristol.ac.uk
