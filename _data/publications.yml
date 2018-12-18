@@ -1,30 +1,3 @@
-- title: "Absolute quantification of translational regulation and burden using combined sequencing approaches"
-  authors: 
-    - Gorochowski T.E.
-    - Chelysheva I.
-    - Eriksen M.
-    - Nair P.
-    - Pedersen S.
-    - Ignatova Z.
-  team: 
-    - Thomas Gorochowski
-  preprint_journal: bioRxiv
-  preprint_id: 338939
-  preprint_year: 2018
-  preprint_doi: 10.1101/338939
-  preprint_url: "https://www.biorxiv.org/content/early/2018/06/04/338939"
-  journal: 
-  volume: 
-  issue: 
-  pages: 
-  year: 2018
-  url: 
-  doi: 
-  tools: 
-  thumbnail: 
-  status: pre-print
-  notes:
-
 - title: "CRISPR/Cas12a multiplex genome editing of <i>Saccharomyces cerevisiae</i> and the creation of yeast pixel art"
   authors: 
     - Ciurkot K.
@@ -50,6 +23,33 @@
   tools: 
   thumbnail: 2019-jove.png
   status: in-press
+  notes:
+
+- title: "Absolute quantification of translational regulation and burden using combined sequencing approaches"
+  authors: 
+    - Gorochowski T.E.
+    - Chelysheva I.
+    - Eriksen M.
+    - Nair P.
+    - Pedersen S.
+    - Ignatova Z.
+  team: 
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 338939
+  preprint_year: 2018
+  preprint_doi: 10.1101/338939
+  preprint_url: "https://www.biorxiv.org/content/early/2018/06/04/338939"
+  journal: 
+  volume: 
+  issue: 
+  pages: 
+  year: 2018
+  url: 
+  doi: 
+  tools: 
+  thumbnail: 
+  status: pre-print
   notes:
 
 - title: "Designing efficient translation"
