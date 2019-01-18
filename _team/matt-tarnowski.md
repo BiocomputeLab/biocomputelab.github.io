@@ -11,13 +11,13 @@ education:
 image: matt-tarnowski.jpg
 email: matt.tarnowski@bristol.ac.uk
 twitter: synbioscientist
-github: MJTarnowski
-url: "http://www.dtc.ox.ac.uk/people/17/tarnowskim/"
+github: pluralise
+url: "https://pluralise.github.io/about/"
 keywords:
   - synthetic biology
   - bioinformatics
   - evolution
   - responsible innovation
-  - gene circuits
+  - microbiology
 ---
-I am currently working at the interface of experimental and computational biology to understand the interactions between synthetic gene circuits and host microorganisms at the molecular level. Alongside my PhD I maintain an interest in responsible innovation and currently fulfil the role of president at SynBio UK, an association connecting synthetic biology students across the UK.
+Currently doing research at the interface of experimental and computational biology to understand and engineer molecular bio-systems. Alongside my PhD I organise DNA sequencing / biotechnology outreach activities and serve as SynBio UK president, an association connecting synthetic biology students across the UK. Don’t hesitate to get in touch if you’d like to chat!
