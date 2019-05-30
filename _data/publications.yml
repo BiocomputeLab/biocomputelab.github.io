@@ -1,3 +1,29 @@
+- title: "CRISPR/Cas12a multiplex genome editing of <i>Saccharomyces cerevisiae</i> and the creation of yeast pixel art"
+  authors: 
+    - Ciurkot K.
+    - Vonk B.
+    - Gorochowski T.E.
+    - Roubos J.A.
+    - Verwaal R.
+  team: 
+    - Klaudia Ciurkot
+    - Thomas Gorochowski
+  preprint_journal: 
+  preprint_id: 
+  preprint_year: 
+  preprint_doi: 
+  preprint_url: 
+  journal: Journal of Visualized Experiments
+  volume: 147
+  issue: 
+  pages: e59350
+  year: 2019
+  url: "https://www.jove.com/video/59350"
+  doi: 10.3791/59350
+  tools: 
+  thumbnail: 2019-jove.png
+  status: published
+  notes:
 
 - title: "Synthetic Biology Open Language Visual (SBOL Visual) Version 2.1"
   authors: 
@@ -175,33 +201,6 @@
   doi: 
   tools: 
   thumbnail: 2019-MARSS.jpg
-  status: in-press
-  notes:
-
-- title: "CRISPR/Cas12a multiplex genome editing of <i>Saccharomyces cerevisiae</i> and the creation of yeast pixel art"
-  authors: 
-    - Ciurkot K.
-    - Vonk B.
-    - Gorochowski T.E.
-    - Roubos J.A.
-    - Verwaal R.
-  team: 
-    - Klaudia Ciurkot
-    - Thomas Gorochowski
-  preprint_journal: 
-  preprint_id: 
-  preprint_year: 
-  preprint_doi: 
-  preprint_url: 
-  journal: Journal of Visualized Experiments
-  volume: 
-  issue: 
-  pages: e59350
-  year: 2019
-  url: "https://www.jove.com/video/59350"
-  doi: 10.3791/59350
-  tools: 
-  thumbnail: 2019-jove.png
   status: in-press
   notes:
 
