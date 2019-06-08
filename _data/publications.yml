@@ -1,3 +1,29 @@
+- title: "Living computers powered by biochemistry"
+  authors: 
+    - Greco F.V.
+    - Tarnowski M.
+    - Gorochowski T.E.
+  team: 
+    - F. Veronica Greco
+    - Matt Tarnowski
+    - Thomas Gorochowski
+  preprint_journal: 
+  preprint_id: 
+  preprint_year: 
+  preprint_doi: 
+  preprint_url: 
+  journal: The Biochemist
+  volume: 41
+  issue: 3
+  pages: 
+  year: 2019
+  url: "http://www.portlandpresspublishing.com/content/biochemist-magazine-0?survey=1"
+  doi: 
+  tools: 
+  thumbnail: 2019-biochemist.jpg
+  status: published
+  notes:
+
 - title: "CRISPR/Cas12a multiplex genome editing of <i>Saccharomyces cerevisiae</i> and the creation of yeast pixel art"
   authors: 
     - Ciurkot K.
@@ -151,32 +177,6 @@
   tools: 
   thumbnail: 2019-ribo_rna_seq.jpg
   status: published
-  notes:
-
-- title: "Living computers powered by biochemistry"
-  authors: 
-    - Greco F.V.
-    - Tarnowski M.
-    - Gorochowski T.E.
-  team: 
-    - F. Veronica Greco
-    - Matt Tarnowski
-    - Thomas Gorochowski
-  preprint_journal: 
-  preprint_id: 
-  preprint_year: 
-  preprint_doi: 
-  preprint_url: 
-  journal: The Biochemist
-  volume: 41
-  issue: 3
-  pages: 
-  year: 2019
-  url: 
-  doi: 
-  tools: 
-  thumbnail: 2019-biochemist.jpg
-  status: in-press
   notes:
 
 - title: "Augmented reality for the engineering of collective behaviours in microsystems"
