@@ -24,6 +24,33 @@
   status: published
   notes:
 
+- title: "Absolute quantification of translational regulation and burden using combined sequencing approaches"
+  authors: 
+    - Gorochowski T.E.
+    - Chelysheva I.
+    - Eriksen M.
+    - Nair P.
+    - Pedersen S.
+    - Ignatova Z.
+  team: 
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 338939
+  preprint_year: 2018
+  preprint_doi: 10.1101/338939
+  preprint_url: "https://www.biorxiv.org/content/early/2018/06/04/338939"
+  journal: Molecular Systems Biology
+  volume: 15
+  issue: 
+  pages: e8719
+  year: 2019
+  url: "http://msb.embopress.org/content/15/5/e8719"
+  doi: 10.15252/msb.20188719
+  tools: 
+  thumbnail: 2019-ribo_rna_seq.jpg
+  status: published
+  notes:
+
 - title: "CRISPR/Cas12a multiplex genome editing of <i>Saccharomyces cerevisiae</i> and the creation of yeast pixel art"
   authors: 
     - Ciurkot K.
@@ -89,13 +116,13 @@
   journal: Journal of Integrative Bioinformatics
   volume: 
   issue: 
-  pages: 
+  pages: 20180101
   year: 2019
-  url: 
-  doi:
+  url: "https://doi.org/10.1515/jib-2018-0101"
+  doi: 10.1515/jib-2018-0101
   tools:
   thumbnail: 2019-SBOLv2.1.jpg
-  status: in-press
+  status: published
 
 - title: "Synthetic Biology Open Language (SBOL) Version 2.3"
   authors: 
@@ -144,40 +171,13 @@
   journal: Journal of Integrative Bioinformatics
   volume: 
   issue: 
-  pages: 
+  pages: 20190025
   year: 2019
-  url: 
-  doi:
+  url: "https://doi.org/10.1515/jib-2019-0025"
+  doi: 10.1515/jib-2019-0025
   tools:
   thumbnail: 2019-SBOL2.3.jpg
   status: in-press
-
-- title: "Absolute quantification of translational regulation and burden using combined sequencing approaches"
-  authors: 
-    - Gorochowski T.E.
-    - Chelysheva I.
-    - Eriksen M.
-    - Nair P.
-    - Pedersen S.
-    - Ignatova Z.
-  team: 
-    - Thomas Gorochowski
-  preprint_journal: bioRxiv
-  preprint_id: 338939
-  preprint_year: 2018
-  preprint_doi: 10.1101/338939
-  preprint_url: "https://www.biorxiv.org/content/early/2018/06/04/338939"
-  journal: Molecular Systems Biology
-  volume: 15
-  issue: 
-  pages: e8719
-  year: 2019
-  url: "http://msb.embopress.org/content/15/5/e8719"
-  doi: 10.15252/msb.20188719
-  tools: 
-  thumbnail: 2019-ribo_rna_seq.jpg
-  status: published
-  notes:
 
 - title: "Augmented reality for the engineering of collective behaviours in microsystems"
   authors: 
