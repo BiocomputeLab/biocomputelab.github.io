@@ -1,3 +1,4 @@
+###############################################################################
 # THOMAS GOROCHOWSKI
 
 - title: Scaling the complexity of synthetic genetic circuits
@@ -42,6 +43,7 @@
   place: TU Delft, The Netherlands
   date: 2013-11-01
 
+###############################################################################
 # VITTORIO BARTOLI
 
 - title: Tuneable Genetic Circuits
@@ -79,6 +81,7 @@
   place: University College London, UK
   date: 2017-09-17
 
+###############################################################################
 # MATT TARNOWSKI
 
 - title: Pooled Sequencing Enables High-Throughput Genetic Circuit Characterisation
@@ -145,3 +148,27 @@
   event: Bristol Centre for Functional Nanomaterials Symposium
   place: University of Bristol, UK
   date: 2019-01-30
+
+###############################################################################
+# VERONICA GRECO
+
+- title: Efficient reading of DNA-encoded cellular memories using nanopore sequencing
+  type: Invited talk and poster
+  speaker: F.Veronica Greco
+  event: Oxford Nanopore London Calling 2019
+  place: The Old Billingsgate, London, UK
+  date: 2019-05-23
+
+- title: Efficient reading and writing of DNA-encoded cellular memories
+  type: Poster
+  speaker: F.Veronica Greco
+  event: Annual BrisSynBio conference
+  place: School of Chemistry, University of Bristol, UK
+  date: 2019-04-15
+
+- title: Efficient reading and writing of DNA-encoded cellular memories
+  type: Poster
+  speaker: F. Veronica Greco
+  event: SynBioUK 2018 
+  place: We The Curious, Bristol, UK
+  date: 2018-11-19
