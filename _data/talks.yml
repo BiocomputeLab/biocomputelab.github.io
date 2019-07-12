@@ -133,6 +133,7 @@
   place: INSA Toulouse, Toulouse, France
   date: 2018-10-22
 
+###############################################################################
 # ANA RUBIO DENNISS
 
 - title: Augmented Reality for the Engineering of Collective Behaviours in Microsystems
@@ -141,6 +142,20 @@
   event: MARSS Conference 2019, Helsinki 
   place: University of Bristol, UK
   date: 2019-07-03
+
+- title: A low-cost device for controlling microscopic swarms
+  type: Poster
+  speaker: Ana Rubio
+  event: Multi-agent Modelling Meets Synthetic Biology Meeting 2019
+  place: University of Bristol, UK
+  date: 2019-06-16
+
+- title: A low-cost device for controlling microscopic swarms
+  type: Poster
+  speaker: Ana Rubio
+  event: Inauguration of the Max Planck-Bristol Centre for Minimal Biology
+  place: University of Bristol, UK
+  date: 2019-03-27
 
 - title: Optically Controlling Microscopic Swarms in Space and Time 
   type: Invited Talk
