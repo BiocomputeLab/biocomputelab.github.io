@@ -23,6 +23,50 @@
   status: pre-print
   notes:
 
+- title: "Communicating Structure and Function in Synthetic Biology Diagrams"
+  authors: 
+    - Beal J.
+    - Nguyen T.
+    - Gorochowski T.E.
+    - Goñi-Moreno A.
+    - Scott-Brown J.
+    - McLaughlin J.A.
+    - Madsen C.
+    - Aleritsch B.
+    - Bartley B.
+    - Bhatia S.
+    - Bissell M.
+    - Castillo-Hair S.
+    - Clancy K.
+    - Luna A.
+    - Le Novére N.
+    - Palchick Z.
+    - Pocock M.
+    - Sauro H.
+    - Sexton J.T.
+    - Tabor J.J.
+    - Voigt C.A.
+    - Zundel Z.
+    - Myers C.
+    - Wipat A.
+  team: 
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: ACS Synthetic Biology
+  volume: 
+  issue: 
+  pages: 
+  year: 2019
+  url: "https://doi.org/10.1021/acssynbio.9b00139"
+  doi: 10.1021/acssynbio.9b00139
+  tools:
+  thumbnail: 2019-SBOLv-Communicate.jpg
+  status: in-press
+
 - title: "Living computers powered by biochemistry"
   authors: 
     - Greco F.V.
