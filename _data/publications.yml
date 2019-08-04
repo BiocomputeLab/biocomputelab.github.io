@@ -67,6 +67,32 @@
   thumbnail: 2019-SBOLv-Communicate.jpg
   status: in-press
 
+- title: "SBOL Visual 2 Ontology"
+  authors: 
+    - Misirli G.
+    - Beal J.
+    - Gorochowski T.E.
+    - Stan G.-B.
+    - Wipat A.
+    - Chris Myers
+  team: 
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: "In: 11th International Workshop on Bio-Design Automation (IWBDA 2019), Cambridge"
+  volume: 
+  issue: 
+  pages: 
+  year: 2019
+  url: "http://eprints.keele.ac.uk/6579/1/Final_SBOL_Visual_Ontology.pdf"
+  doi: 10.1021/acssynbio.9b00139
+  tools:
+  thumbnail: 2019-SBOL-ontology.jpg
+  status: published
+
 - title: "Living computers powered by biochemistry"
   authors: 
     - Greco F.V.
