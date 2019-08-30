@@ -9,8 +9,8 @@ education:
   - B.Sc. Biological Sciences, University of Cardiff (expected 2021)
 image: grace-meaker.jpg
 email: grace.meaker.2019@bristol.ac.uk
-twitter: 
-github: 
+twitter: none
+github: none
 url: "http://linkedin.com/in/grace-meaker-b84a66190"
 keywords:
   - synthetic biology
