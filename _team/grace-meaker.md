@@ -7,7 +7,7 @@ role: member
 leaveyear: 9999
 education:
   - B.Sc. Biological Sciences, University of Cardiff (expected 2021)
-image: vittorio-bartoli.jpg
+image: grace-meaker.jpg
 email: grace.meaker.2019@bristol.ac.uk
 twitter: 
 github: 
