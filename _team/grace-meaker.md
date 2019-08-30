@@ -17,4 +17,4 @@ keywords:
   - CRISPR/Cas systems
   - recombinases
 ---
-I am a placement student from Cardiff University researching the use of novel gene regulation and genome editing tools in _Bacillus subtilis_ and _Escherichia coli_ for future biological applications. My project speciically focuses on catalytically dead Cas enzymes and recombinases and will explore how their function and activity vary under a wide range of conditions and host strains.
+I am a placement student from Cardiff University researching the use of novel gene regulation and genome editing tools in _Bacillus subtilis_ and _Escherichia coli_ for future biological applications. My project specifically focuses on catalytically dead Cas enzymes and recombinases and will explore how their function and activity vary under a wide range of conditions and host strains.
