@@ -3,7 +3,7 @@ layout: person
 title: Daniel Ward
 author: Ward D.
 position: Post-doctoral Research Associate
-role: member
+role: alumni
 leaveyear: 2019
 education:
   - M.Eng. Engineering Mathematics, University of Bristol, 2014
