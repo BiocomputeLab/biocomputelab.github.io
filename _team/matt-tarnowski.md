@@ -4,7 +4,7 @@ title: Matt Tarnowski
 author: Tarnowski M.
 position: Ph.D. Student
 role: member
-leavedate: 
+leaveyear: 9999 
 education:
   - MChem Chemistry, University of Sheffield, 2010-2014
   - Graduate Programme, AstraZeneca, 2014-2016

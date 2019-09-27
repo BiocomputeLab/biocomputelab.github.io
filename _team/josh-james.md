@@ -4,7 +4,7 @@ title: Josh James
 author: James J.
 position: MSci. Student
 role: alumni
-leaveyear: 2018
+leaveyear: 2019
 education:
   - MSci. Biology, University of Bristol, 2018
 image: josh-james.jpg

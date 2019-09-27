@@ -3,8 +3,8 @@ layout: person
 title: Daniel Ward
 author: Ward D.
 position: Post-doctoral Research Associate
-role: member
-leavedate: 
+role: alumni
+leaveyear: 2019
 education:
   - M.Eng. Engineering Mathematics, University of Bristol, 2014
 image: daniel-ward.jpg

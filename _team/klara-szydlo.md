@@ -4,7 +4,7 @@ title: Klara Szydlo
 author: Szydlo K.
 position: Ph.D. Student
 role: member
-leaveyear: 
+leaveyear: 9999
 education: 
   - M.Sci. Biology, University of Bristol, 2018
 image: klara-szydlo.jpg
