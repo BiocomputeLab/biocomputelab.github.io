@@ -23,6 +23,36 @@
   status: pre-print
   notes:
 
+- title: "Pathways to cellular supremacy in biocomputing"
+  authors: 
+    - Grozinger L.
+    - Amos M.
+    - Gorochowski T.E.
+    - Carbonell P.
+    - Oyarzún D.A.
+    - Stoof R.
+    - Fellermann H.
+    - Zuliani P.
+    - Tas H.
+    - Goñi-Moreno A.
+  team: 
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Nature Communications
+  volume: 
+  issue: 
+  pages: 
+  year: 2019
+  url: 
+  doi: 
+  tools:
+  thumbnail: 2019-natcomms_cellsup.png
+  status: in-press
+
 - title: "Communicating Structure and Function in Synthetic Biology Diagrams"
   authors: 
     - Beal J.
@@ -57,9 +87,9 @@
   preprint_doi:
   preprint_url:
   journal: ACS Synthetic Biology
-  volume: 
-  issue: 
-  pages: 
+  volume: 8
+  issue: 8
+  pages: 1818-1825
   year: 2019
   url: "https://doi.org/10.1021/acssynbio.9b00139"
   doi: 10.1021/acssynbio.9b00139
@@ -292,11 +322,11 @@
   issue: 
   pages: 
   year: 2019
-  url: 
-  doi: 
+  url: "https://doi.org/10.1109/MARSS.2019.8860907"
+  doi: 10.1109/MARSS.2019.8860907
   tools: 
   thumbnail: 2019-MARSS.jpg
-  status: in-press
+  status: published
   notes:
 
 - title: "Designing efficient translation"
