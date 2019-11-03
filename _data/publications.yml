@@ -23,25 +23,6 @@
   status: pre-print
   notes:
 
-- title: "Characterizing genetic parts and devices using RNA sequencing"
-  authors: 
-    - Vipin D.
-    - Ignatova Z.
-    - Gorochowski T.E.
-  team: 
-    - Deepti Vipin
-    - Thomas Gorochowski
-  journal: "In: Menolascina F. (eds) Design, Construction and Modelling of Synthetic Gene Circuits. Methods in Molecular Biology"
-  volume: 
-  issue: 
-  pages: Humana Press, New York, NY
-  year: 2020
-  url: 
-  doi: 
-  tools:
-  thumbnail: 2020-rnaseq-methods.jpg
-  status: in-press
-
 - title: "Pathways to cellular supremacy in biocomputing"
   authors: 
     - Grozinger L.
