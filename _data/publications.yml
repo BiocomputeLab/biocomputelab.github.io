@@ -47,8 +47,8 @@
   issue: 
   pages: 
   year: 2019
-  url: 
-  doi: 
+  url: "https://doi.org/10.1038/s41467-019-13232-z"
+  doi: 10.1038/s41467-019-13232-z
   tools:
   thumbnail: 2019-natcomms_cellsup.png
   status: in-press
