@@ -43,15 +43,15 @@
   preprint_doi:
   preprint_url:
   journal: Nature Communications
-  volume: 
+  volume: 10
   issue: 
-  pages: 
+  pages: 5250
   year: 2019
   url: "https://doi.org/10.1038/s41467-019-13232-z"
   doi: 10.1038/s41467-019-13232-z
   tools:
   thumbnail: 2019-natcomms_cellsup.png
-  status: in-press
+  status: published
 
 - title: "Communicating Structure and Function in Synthetic Biology Diagrams"
   authors: 
