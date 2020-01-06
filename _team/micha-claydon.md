@@ -9,9 +9,9 @@ education:
   - BSc(Hons). Molecular Biology, University of Manchester, 2019
 image: micha-claydon.jpg
 email: micha.claydon@bristol.ac.uk
-twitter: 
-github: 
-url: 
+twitter: none
+github: none
+url: none
 keywords:
   - synthetic biology
   - genetic circuits
