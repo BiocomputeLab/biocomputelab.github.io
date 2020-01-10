@@ -1,6 +1,6 @@
 ---
 layout: person
-title: Pierre-Aurelien (Pierre) Gilliot
+title: Pierre-Aurelien Gilliot
 author: Pierre-Aurelien Gilliot
 position: Ph.D. Student
 role: member
