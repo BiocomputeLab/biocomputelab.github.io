@@ -1,3 +1,29 @@
+- title: "SBOL Visual 2 Ontology"
+  authors: 
+    - Misirli G.
+    - Beal J.
+    - Gorochowski T.E.
+    - Stan G.-B.
+    - Wipat A.
+    - Chris Myers
+  team: 
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 918417
+  preprint_year: 2020
+  preprint_doi: 10.1101/2020.01.24.918417
+  preprint_url: "https://doi.org/10.1101/2020.01.24.918417"
+  journal:
+  volume: 
+  issue: 
+  pages: 
+  year:
+  url: 
+  doi: 
+  tools:
+  thumbnail: 2019-SBOL-ontology.jpg
+  status: pre-print
+
 - title: "Tunable genetic devices through simultaneous control of transcription and translation"
   authors: 
     - Bartoli V.
@@ -96,32 +122,6 @@
   tools:
   thumbnail: 2019-SBOLv-Communicate.jpg
   status: published
-
-- title: "SBOL Visual 2 Ontology"
-  authors: 
-    - Misirli G.
-    - Beal J.
-    - Gorochowski T.E.
-    - Stan G.-B.
-    - Wipat A.
-    - Chris Myers
-  team: 
-    - Thomas Gorochowski
-  preprint_journal: bioRxiv
-  preprint_id:
-  preprint_year: 2020
-  preprint_doi: 10.1101/2020.01.24.918417
-  preprint_url: "https://doi.org/10.1101/2020.01.24.918417"
-  journal:
-  volume: 
-  issue: 
-  pages: 
-  year:
-  url: 
-  doi: 
-  tools:
-  thumbnail: 2019-SBOL-ontology.jpg
-  status: pre-print
 
 - title: "Living computers powered by biochemistry"
   authors: 
