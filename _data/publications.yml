@@ -107,21 +107,21 @@
     - Chris Myers
   team: 
     - Thomas Gorochowski
-  preprint_journal:
+  preprint_journal: bioRxiv
   preprint_id:
-  preprint_year:
-  preprint_doi:
-  preprint_url:
-  journal: "In: 11th International Workshop on Bio-Design Automation (IWBDA 2019), Cambridge"
+  preprint_year: 2020
+  preprint_doi: 10.1101/2020.01.24.918417
+  preprint_url: "https://doi.org/10.1101/2020.01.24.918417"
+  journal:
   volume: 
   issue: 
   pages: 
-  year: 2019
-  url: "http://eprints.keele.ac.uk/6579/1/Final_SBOL_Visual_Ontology.pdf"
+  year:
+  url: 
   doi: 
   tools:
   thumbnail: 2019-SBOL-ontology.jpg
-  status: published
+  status: pre-print
 
 - title: "Living computers powered by biochemistry"
   authors: 
