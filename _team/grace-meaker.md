@@ -1,7 +1,7 @@
 ---
 layout: person
 title: Grace Meaker
-author: Meaker G.
+author: Meaker G.A.
 position: Undergraduate Researcher
 role: member
 leaveyear: 9999
