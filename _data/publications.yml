@@ -51,6 +51,30 @@
   status: pre-print
   notes:
 
+- title: "Characterizing genetic parts and devices using RNA sequencing"
+  authors: 
+    - Vipin D.
+    - Ignatova Z.
+    - Gorochowski T.E.
+  team: 
+    - Deepti Vipin
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: "Synthetic Gene Circuits: Methods and Protocols, Methods in Molecaulr Biology, Springer"
+  volume: 
+  issue: 
+  pages: 
+  year: 2020
+  url: 
+  doi: 
+  tools:
+  thumbnail: 
+  status: in-press
+
 - title: "Pathways to cellular supremacy in biocomputing"
   authors: 
     - Grozinger L.
