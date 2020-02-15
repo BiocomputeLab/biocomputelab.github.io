@@ -1,7 +1,7 @@
 ---
 layout: person
 title: Pierre-Aurelien Gilliot
-author: Pierre-Aurelien Gilliot
+author: Gilliot P.A.
 position: Ph.D. Student
 role: member
 leaveyear: 9999
