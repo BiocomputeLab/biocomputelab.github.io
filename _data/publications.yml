@@ -37,16 +37,16 @@
   preprint_year: 2020
   preprint_doi: 10.1101/2020.01.24.918417
   preprint_url: "https://doi.org/10.1101/2020.01.24.918417"
-  journal:
+  journal: ACS Synthetic Biology
   volume: 
   issue: 
   pages: 
-  year:
+  year: 2020
   url: 
   doi: 
   tools:
-  thumbnail: 2019-SBOL-ontology.jpg
-  status: pre-print
+  thumbnail: 2020-SBOL-ontology.jpg
+  status: in-press
 
 - title: "Tunable genetic devices through simultaneous control of transcription and translation"
   authors: 
@@ -96,7 +96,7 @@
   url: 
   doi: 
   tools:
-  thumbnail: in-press.gif
+  thumbnail: 2020-rnaseq-methods.jpg
   status: in-press
 
 - title: "Pathways to cellular supremacy in biocomputing"
