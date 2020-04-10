@@ -22,6 +22,33 @@
   status: pre-print
   notes:
 
+- title: "Tunable genetic devices through simultaneous control of transcription and translation"
+  authors: 
+    - Bartoli V.
+    - Meaker G.A.
+    - di Bernardo M.
+    - Gorochowski T.E.
+  team: 
+    - Vittorio Bartoli
+    - Grace Meaker
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 711275
+  preprint_year: 2019
+  preprint_doi: 10.1101/711275
+  preprint_url: "http://biorxiv.org/cgi/content/short/711275"
+  journal: Nature Communications
+  volume: 
+  issue: 
+  pages: 
+  year: 2020
+  url: "https://doi.org/10.1038/s41467-020-15653-7"
+  doi: 10.1038/s41467-020-15653-7
+  tools: 
+  thumbnail: in-press.gif
+  status: in-press
+  notes:
+
 - title: "SBOL Visual 2 Ontology"
   authors: 
     - Misirli G.
@@ -45,35 +72,8 @@
   url: "https://dx.doi.org/10.1021/acssynbio.0c00046"
   doi: 10.1021/acssynbio.0c00046
   tools:
-  thumbnail: in-press.gif
-  status: in-press
-
-- title: "Tunable genetic devices through simultaneous control of transcription and translation"
-  authors: 
-    - Bartoli V.
-    - Meaker G.A.
-    - di Bernardo M.
-    - Gorochowski T.E.
-  team: 
-    - Vittorio Bartoli
-    - Grace Meaker
-    - Thomas Gorochowski
-  preprint_journal: bioRxiv
-  preprint_id: 711275
-  preprint_year: 2019
-  preprint_doi: 10.1101/711275
-  preprint_url: "http://biorxiv.org/cgi/content/short/711275"
-  journal: Nature Communications
-  volume:
-  issue:
-  pages:
-  year: 2020
-  url:
-  doi: 
-  tools: 
-  thumbnail: in-press.gif
-  status: in-press
-  notes:
+  thumbnail: 2020-SBOL-ontology.jpg
+  status: published
 
 - title: "Characterizing genetic parts and devices using RNA sequencing"
   authors: 
