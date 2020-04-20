@@ -22,6 +22,32 @@
   status: pre-print
   notes:
 
+- title: "SBOL Visual 2 Ontology"
+  authors: 
+    - Misirli G.
+    - Beal J.
+    - Gorochowski T.E.
+    - Stan G.-B.
+    - Wipat A.
+    - Chris Myers
+  team: 
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 918417
+  preprint_year: 2020
+  preprint_doi: 10.1101/2020.01.24.918417
+  preprint_url: "https://doi.org/10.1101/2020.01.24.918417"
+  journal: ACS Synthetic Biology
+  volume: 
+  issue: 
+  pages: 
+  year: 2020
+  url: "https://dx.doi.org/10.1021/acssynbio.0c00046"
+  doi: 10.1021/acssynbio.0c00046
+  tools:
+  thumbnail: 2020-SBOL-ontology.jpg
+  status: published
+
 - title: "Tunable genetic devices through simultaneous control of transcription and translation"
   authors: 
     - Bartoli V.
@@ -73,31 +99,97 @@
   thumbnail: in-press.gif
   status: in-press
 
-- title: "SBOL Visual 2 Ontology"
+- title: "Synthetic Biology Open Language (SBOL) Version 3.0"
   authors: 
-    - Misirli G.
-    - Beal J.
+    - Baig H.
+    - Fontanarossa P.
+    - Kulkarni V.
+    - McLaughlin J.
+    - Vaidyanathan P.
+    - Bartley B.
+    - Grunberg R.
+    - Crowther M.
+    - Scott-Brown J.
+    - Bissell M.
+    - Clancy K.
     - Gorochowski T.E.
-    - Stan G.-B.
+    - Misirli G.
+    - Oberortner E.
+    - Sauro H.
     - Wipat A.
-    - Chris Myers
+    - Beal J.
+    - Myers C.
   team: 
     - Thomas Gorochowski
-  preprint_journal: bioRxiv
-  preprint_id: 918417
-  preprint_year: 2020
-  preprint_doi: 10.1101/2020.01.24.918417
-  preprint_url: "https://doi.org/10.1101/2020.01.24.918417"
-  journal: ACS Synthetic Biology
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Journal of Integrative Bioinformatics
   volume: 
   issue: 
-  pages: 
+  pages:
   year: 2020
-  url: "https://dx.doi.org/10.1021/acssynbio.0c00046"
-  doi: 10.1021/acssynbio.0c00046
+  url: 
+  doi: 
   tools:
-  thumbnail: 2020-SBOL-ontology.jpg
-  status: published
+  thumbnail: in-press.gif
+  status: in-press
+
+- title: "Synthetic Biology Open Language Visual (SBOL Visual) Version 2.2"
+  authors: 
+    - Baig H.
+    - Fontanarossa P.
+    - Kulkarni V.
+    - McLaughlin J.
+    - Vaidyanathan P.
+    - Bartley B.
+    - Bhatia S.
+    - Bhakta S.
+    - Bissell M.
+    - Clancy K.
+    - Cox S.R.
+    - Goni Moreno A.
+    - Gorochowski T.E.
+    - Grunberg R.
+    - Luna A.
+    - Madsen C.
+    - Misirli G.
+    - Nguyen T.
+    - Le Novere N.
+    - Palchick Z.
+    - Pocock M.
+    - Roehner N.
+    - Sauro H.
+    - Scott-Brown J.
+    - Sexton J.T.
+    - Stan G.-B.
+    - Tabor J.J.
+    - Vilar M.V.
+    - Voigt C.A.
+    - Wipat A.
+    - Zong D.
+    - Zundel Z.
+    - Beal J.
+    - Myers C.
+  team: 
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Journal of Integrative Bioinformatics
+  volume: 
+  issue: 
+  pages:
+  year: 2020
+  url: 
+  doi: 
+  tools:
+  thumbnail: in-press.gif
+  status: in-press
 
 - title: "Pathways to cellular supremacy in biocomputing"
   authors: 
