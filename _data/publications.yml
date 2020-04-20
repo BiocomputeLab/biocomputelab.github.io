@@ -1,26 +1,3 @@
-- title: "Sequencing enabling design and learning in synthetic biology"
-  authors: 
-    - Gilliot P.A.
-    - Gorochowski T.E.
-  team: 
-    - Pierre-Aurelien Gilliot
-    - Thomas Gorochowski
-  preprint_journal: Preprints
-  preprint_id: 2020020243
-  preprint_year: 2020
-  preprint_doi: "10.20944/preprints202002.0243.v1"
-  preprint_url: "https://www.preprints.org/manuscript/202002.0243/v1"
-  journal:
-  volume:
-  issue:
-  pages:
-  year:
-  url:
-  doi: 
-  tools: 
-  thumbnail: in-press.gif
-  status: pre-print
-  notes:
 
 - title: "SBOL Visual 2 Ontology"
   authors: 
@@ -73,6 +50,30 @@
   tools: 
   thumbnail: in-press.gif
   status: in-press
+  notes:
+
+- title: "Sequencing enabling design and learning in synthetic biology"
+  authors: 
+    - Gilliot P.A.
+    - Gorochowski T.E.
+  team: 
+    - Pierre-Aurelien Gilliot
+    - Thomas Gorochowski
+  preprint_journal: Preprints
+  preprint_id: 2020020243
+  preprint_year: 2020
+  preprint_doi: "10.20944/preprints202002.0243.v1"
+  preprint_url: "https://www.preprints.org/manuscript/202002.0243/v1"
+  journal: Current Opinion in Chemical Biology
+  volume:
+  issue:
+  pages:
+  year: 2020
+  url:
+  doi: 
+  tools: 
+  thumbnail: in-press.gif
+  status: accepted
   notes:
 
 - title: "Characterizing genetic parts and devices using RNA sequencing"
