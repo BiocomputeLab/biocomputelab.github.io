@@ -35,8 +35,8 @@
   preprint_journal: Preprints
   preprint_id: 2020020243
   preprint_year: 2020
-  preprint_doi: "10.20944/preprints202002.0243.v1"
-  preprint_url: "https://www.preprints.org/manuscript/202002.0243/v1"
+  preprint_doi: "10.20944/preprints202002.0243.v2"
+  preprint_url: "https://www.preprints.org/manuscript/202002.0243/v2"
   journal: Current Opinion in Chemical Biology
   volume:
   issue:
@@ -104,13 +104,10 @@
   authors: 
     - Schreiber F.
     - Sommer B.
-    - Bader G.D.
     - Czauderna T.
-    - Gleeson P.
     - Golebiewski M.
     - Gorochowski T.E.
     - Hucka M.
-    - Keating S.M.
     - König M.
     - Myers C.
     - Nickerson D.
