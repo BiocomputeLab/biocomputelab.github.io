@@ -30,16 +30,16 @@
   preprint_year: 2020
   preprint_doi: 10.20944/preprints202005.0058.v1
   preprint_url: "https://www.preprints.org/manuscript/202005.0058/v1"
-  journal: 
+  journal: Frontiers in Bioengineering and Biotechnology
   volume: 
   issue: 
   pages: 
-  year: 
-  url: 
-  doi: 
+  year: 2020
+  url: "https://www.frontiersin.org/articles/10.3389/fbioe.2020.00705/"
+  doi: 10.3389/fbioe.2020.00705
   tools: 
-  thumbnail: in-press.jpg
-  status: pre-print
+  thumbnail: 2020-frontiers_mam.jpg
+  status: in-press
   notes:
 
 - title: "Tunable genetic devices through simultaneous control of transcription and translation"
