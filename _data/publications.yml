@@ -259,11 +259,11 @@
   issue: 2
   pages: 14
   year: 2020
-  url: 
-  doi: 
+  url: https://doi.org/10.1515/jib-2020-0014
+  doi: 10.1515/jib-2020-0014
   tools:
-  thumbnail: in-press.gif
-  status: in-press
+  thumbnail: 2020-SBOLv2.2.jpg
+  status: published
 
 - title: "Pathways to cellular supremacy in biocomputing"
   authors: 
