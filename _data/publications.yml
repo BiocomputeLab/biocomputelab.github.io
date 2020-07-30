@@ -1,4 +1,29 @@
 
+- title: "Self-adaptive biosystems through tunable genetic parts and circuits"
+  authors: 
+    - Bartoli V.
+    - di Bernardo M.
+    - Gorochowski T.E.
+  team: 
+    - Vittorio Bartoli
+    - Thomas Gorochowski
+  preprint_journal: Preprints
+  preprint_id: 
+  preprint_year: 2020
+  preprint_doi: 
+  preprint_url: "https://www.preprints.org/"
+  journal: 
+  volume: 
+  issue: 
+  pages: 
+  year: 
+  url: 
+  doi: 
+  tools: 
+  thumbnail: 
+  status: pre-print
+  notes:
+
 - title: "Advances in engineering CRISPR-Cas9 as a molecular Swiss Army knife"
   authors: 
     - Meaker G.A.
@@ -196,7 +221,7 @@
   pages:
   year: 2020
   url: "https://www.preprints.org/manuscript/202002.0243/v2"
-  doi: 
+  doi: 10.1016/j.cbpa.2020.06.002
   tools: 
   thumbnail: 2020-CurrOpinChemBiol.jpg
   status: in-press
