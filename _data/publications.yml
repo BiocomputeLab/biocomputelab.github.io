@@ -131,6 +131,39 @@
   status: in-press
   notes:
 
+- title: "The Synthetic Biology Open Language (SBOL) Version 3: Simplified Data Exchange for Bioengineering"
+  authors: 
+    - McLaughlin J.A.
+    - Beal J.
+    - Misirli G.
+    - Grünberg R.
+    - Bartley B.A.
+    - Scott-Brown J.
+    - Vaidyanathan P.
+    - Fontanarrosa P.
+    - Oberortner E.
+    - Wipat A. 
+    - Gorochowski T.E.
+    - Myers C.J.
+  team: 
+    - Thomas Gorochowski
+  preprint_journal: 
+  preprint_id: 
+  preprint_year: 
+  preprint_doi: 
+  preprint_url: 
+  journal: Frontiers in Bioengineering and Biotechnology
+  volume:  
+  issue: 
+  pages: 
+  year: 2020
+  url: 
+  doi: 10.3389/fbioe.2020.01009
+  tools: 
+  thumbnail: 2020-frontiers_SBOL3.jpg
+  status: in-press
+  notes:
+
 - title: "Towards engineering biosystems with emergent collective functions"
   authors: 
     - Gorochowski T.E.
