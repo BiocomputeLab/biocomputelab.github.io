@@ -105,6 +105,32 @@
   status: pre-print
   notes:
 
+- title: "Precision design of stable genetic circuits carried in highly-insulated E. coli genomic landing pads"
+  authors: 
+    - Park Y.
+    - Borujeni A.E.
+    - Gorochowski T.E.
+    - Shin J.
+    - Voigt C.A.
+  team: 
+    - Thomas Gorochowski
+  preprint_journal: 
+  preprint_id: 
+  preprint_year: 
+  preprint_doi: 
+  preprint_url: 
+  journal: Molecular Systems Biology
+  volume: 16 
+  issue: 
+  pages: e9584
+  year: 2020
+  url: 
+  doi: 10.15252/msb.209584
+  tools: 
+  thumbnail: 2020-MSB_genome_circuits.jpg
+  status: in-press
+  notes:
+
 - title: "Towards engineering biosystems with emergent collective functions"
   authors: 
     - Gorochowski T.E.
