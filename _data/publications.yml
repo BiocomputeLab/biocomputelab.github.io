@@ -131,6 +131,30 @@
   status: in-press
   notes:
 
+- title: "Characterizing genetic parts and devices using RNA sequencing"
+  authors: 
+    - Vipin D.
+    - Ignatova Z.
+    - Gorochowski T.E.
+  team: 
+    - Deepti Vipin
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: "In: Menolascina F. (eds) Synthetic Gene Circuits: Methods and Protocols, Methods in Molecular Biology, Springer"
+  volume: 
+  issue: 
+  pages: 
+  year: 2020
+  url: 
+  doi: 
+  tools:
+  thumbnail: in-press.gif
+  status: in-press
+
 - title: "The Synthetic Biology Open Language (SBOL) Version 3: Simplified Data Exchange for Bioengineering"
   authors: 
     - McLaughlin J.A.
@@ -162,6 +186,30 @@
   tools: 
   thumbnail: 2020-frontiers_SBOL3.jpg
   status: in-press
+  notes:
+
+- title: "Sequencing enabling design and learning in synthetic biology"
+  authors: 
+    - Gilliot P.A.
+    - Gorochowski T.E.
+  team: 
+    - Pierre-Aurelien Gilliot
+    - Thomas Gorochowski
+  preprint_journal: Preprints
+  preprint_id: 2020020243
+  preprint_year: 2020
+  preprint_doi: "10.20944/preprints202002.0243.v2"
+  preprint_url: "https://www.preprints.org/manuscript/202002.0243/v2"
+  journal: Current Opinion in Chemical Biology
+  volume: 58
+  issue:
+  pages: 54-62
+  year: 2020
+  url: "https://doi.org/10.1016/j.cbpa.2020.06.002"
+  doi: 10.1016/j.cbpa.2020.06.002
+  tools: 
+  thumbnail: 2020-CurrOpinChemBiol.jpg
+  status: published
   notes:
 
 - title: "Towards engineering biosystems with emergent collective functions"
@@ -260,54 +308,6 @@
   tools:
   thumbnail: 2020-SBOL-ontology.jpg
   status: published
-
-- title: "Sequencing enabling design and learning in synthetic biology"
-  authors: 
-    - Gilliot P.A.
-    - Gorochowski T.E.
-  team: 
-    - Pierre-Aurelien Gilliot
-    - Thomas Gorochowski
-  preprint_journal: Preprints
-  preprint_id: 2020020243
-  preprint_year: 2020
-  preprint_doi: "10.20944/preprints202002.0243.v2"
-  preprint_url: "https://www.preprints.org/manuscript/202002.0243/v2"
-  journal: Current Opinion in Chemical Biology
-  volume: 58
-  issue:
-  pages: 54-62
-  year: 2020
-  url: "https://doi.org/10.1016/j.cbpa.2020.06.002"
-  doi: 10.1016/j.cbpa.2020.06.002
-  tools: 
-  thumbnail: 2020-CurrOpinChemBiol.jpg
-  status: published
-  notes:
-
-- title: "Characterizing genetic parts and devices using RNA sequencing"
-  authors: 
-    - Vipin D.
-    - Ignatova Z.
-    - Gorochowski T.E.
-  team: 
-    - Deepti Vipin
-    - Thomas Gorochowski
-  preprint_journal:
-  preprint_id:
-  preprint_year:
-  preprint_doi:
-  preprint_url:
-  journal: "In: Menolascina F. (eds) Synthetic Gene Circuits: Methods and Protocols, Methods in Molecular Biology, Springer"
-  volume: 
-  issue: 
-  pages: 
-  year: 2020
-  url: 
-  doi: 
-  tools:
-  thumbnail: in-press.gif
-  status: in-press
 
 - title: "Specifications of Standards in Systems and Synthetic Biology: Status and Developments in 2020"
   authors: 
