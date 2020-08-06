@@ -274,15 +274,15 @@
   preprint_doi: "10.20944/preprints202002.0243.v2"
   preprint_url: "https://www.preprints.org/manuscript/202002.0243/v2"
   journal: Current Opinion in Chemical Biology
-  volume:
+  volume: 58
   issue:
-  pages:
+  pages: 54-62
   year: 2020
-  url: "https://www.preprints.org/manuscript/202002.0243/v2"
+  url: "https://doi.org/10.1016/j.cbpa.2020.06.002"
   doi: 10.1016/j.cbpa.2020.06.002
   tools: 
   thumbnail: 2020-CurrOpinChemBiol.jpg
-  status: in-press
+  status: published
   notes:
 
 - title: "Characterizing genetic parts and devices using RNA sequencing"
