@@ -11,7 +11,7 @@ education:
   - Ph.D. Metabolic engineering, University of Nottingham 2019
 image: 
 email: ac20283@bristol.ac.uk
-twitter: 
+twitter: none
 github: OrolDiego
 url: "http://linkedin.com/in/diegoorol-gomez"
 keywords:

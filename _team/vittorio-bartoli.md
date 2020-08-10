@@ -3,7 +3,7 @@ layout: person
 title: Vittorio Bartoli
 author: Bartoli V.
 position: Ph.D. Student
-role: member
+role: alumni
 leaveyear: 2020
 education:
   - M.Eng. Chemical Engineering with Biotechnology, University of Manchester, 2014
