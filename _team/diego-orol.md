@@ -9,7 +9,7 @@ education:
   - BSc Biology, Universidades de A Coruña 2012
   - MSc Biotechnology, Universidad de Granada 2014
   - Ph.D. Metabolic engineering, University of Nottingham 2019
-image: 
+image: diego-orol.jpg
 email: ac20283@bristol.ac.uk
 twitter: none
 github: OrolDiego
