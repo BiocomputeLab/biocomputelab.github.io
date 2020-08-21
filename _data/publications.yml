@@ -124,11 +124,11 @@
   issue: 
   pages: e9584
   year: 2020
-  url: 
-  doi: 10.15252/msb.209584
+  url: "https://www.embopress.org/doi/10.15252/msb.20209584"
+  doi: 10.15252/msb.20209584
   tools: 
   thumbnail: 2020-MSB_genome_circuits.jpg
-  status: in-press
+  status: published
   notes:
 
 - title: "Characterizing genetic parts and devices using RNA sequencing"

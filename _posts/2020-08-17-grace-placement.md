@@ -26,3 +26,13 @@ The social aspect of the lab was great too, with a friendly group of PhD student
 Whilst the inevitable (COVID-19) did affect my project in terms of lab work, the CRISPR review I co-wrote during lockdown with another undergraduate challenged me to lead a paper and (pending review) get my first primary authorship which is far more valuable.
 
 Once I graduate, I am very keen to pursue a PhD in molecular or synthetic biology, especially CRISPR. Whilst I know it’ll be challenging; I believe this year gave me the skills and confidence required to take it on and am excited for what the future holds!
+
+
+
+
+
+Confidently making plates of LB broth instead of agar… waited for 30 minutes for them to dry before realising my mistake
+
+A rare photo of someone smiling doing lab work
+
+Learning to be productive from Pierre, of the PhD students.
