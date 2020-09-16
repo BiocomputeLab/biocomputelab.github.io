@@ -9,7 +9,7 @@ education:
   - BSc Biology, University of Bristol, 2020
 image: thea-irvine.jpg
 email: ti17744.2017@my.bristol.ac.uk
-twitter: DarrianMPaul
+twitter: none
 github: none
 url: none
 keywords:
