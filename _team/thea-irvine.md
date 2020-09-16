@@ -1,21 +1,20 @@
 ---
 layout: person
-title: Darrian Paul
-author: Paul D.
-position: Ph.D. Student
+title: Thea Irvine
+author: Irvine T.C.
+position: MSc by research
 role: member
-leaveyear: 2024
+leaveyear: 2022
 education:
-  - BSc Biotechnology, University College London, 2018
-image: darrian-paul.jpg
-email: darrian.paul@bristol.ac.uk
+  - BSc Biology, University of Bristol, 2020
+image: thea-irvine.jpg
+email: ti17744.2017@my.bristol.ac.uk
 twitter: DarrianMPaul
-github: DarrianPaul
+github: none
 url: none
 keywords:
   - synthetic biology
-  - genetic circuits
-  - cell-free
-  - algal biotech
+  - light responsive systems
+  - molecular biology
+  - microbial systems
 ---
-I am a Ph.D. Student in Biological Sciences at the University of Bristol with a background in Biotechnology. Currently, I am investigating the creation of genetic engineering tools to make genetic engineering cheaper and more accessible. My project is focused on exploiting photosynthesis in microalgae for synthetic biology and biotechnology applications.
