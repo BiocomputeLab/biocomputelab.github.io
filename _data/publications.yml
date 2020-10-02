@@ -49,31 +49,6 @@
   status: pre-print
   notes:
 
-- title: "Advances in engineering CRISPR-Cas9 as a molecular Swiss Army knife"
-  authors: 
-    - Meaker G.A.
-    - Hair E.J.
-    - Gorochowski T.E.
-  team: 
-    - Grace Meaker
-    - Thomas Gorochowski
-  preprint_journal: Preprints
-  preprint_id: 2020070351
-  preprint_year: 2020
-  preprint_doi: 10.20944/preprints202007.0351.v1
-  preprint_url: "https://www.preprints.org/manuscript/202007.0351/v1"
-  journal: 
-  volume: 
-  issue: 
-  pages: 
-  year: 
-  url: 
-  doi: 
-  tools: 
-  thumbnail: 
-  status: pre-print
-  notes:
-
 - title: "Harnessing the central dogma for stringent multi-level control of gene expression"
   authors: 
     - Greco F.V.
@@ -155,6 +130,31 @@
   tools: 
   thumbnail: 2020-MSB_genome_circuits.jpg
   status: published
+  notes:
+
+- title: "Advances in engineering CRISPR-Cas9 as a molecular Swiss Army knife"
+  authors: 
+    - Meaker G.A.
+    - Hair E.J.
+    - Gorochowski T.E.
+  team: 
+    - Grace Meaker
+    - Thomas Gorochowski
+  preprint_journal: Preprints
+  preprint_id: 2020070351
+  preprint_year: 2020
+  preprint_doi: 10.20944/preprints202007.0351.v1
+  preprint_url: "https://www.preprints.org/manuscript/202007.0351/v1"
+  journal: Synthetic Biology
+  volume: 
+  issue: 
+  pages: 
+  year: 2020
+  url: 
+  doi: 
+  tools: 
+  thumbnail: 
+  status: in-press
   notes:
 
 - title: "Characterizing genetic parts and devices using RNA sequencing"
