@@ -24,31 +24,6 @@
   status: pre-print
   notes:
 
-- title: "Self-adaptive biosystems through tunable genetic parts and circuits"
-  authors: 
-    - Bartoli V.
-    - di Bernardo M.
-    - Gorochowski T.E.
-  team: 
-    - Vittorio Bartoli
-    - Thomas Gorochowski
-  preprint_journal: Preprints
-  preprint_id: 2020070751
-  preprint_year: 2020
-  preprint_doi: 10.20944/preprints202007.0751.v1
-  preprint_url: "https://www.preprints.org/manuscript/202007.0751/v1"
-  journal: 
-  volume: 
-  issue: 
-  pages: 
-  year: 
-  url: 
-  doi: 
-  tools: 
-  thumbnail: 
-  status: pre-print
-  notes:
-
 - title: "Harnessing the central dogma for stringent multi-level control of gene expression"
   authors: 
     - Greco F.V.
@@ -180,6 +155,31 @@
   tools:
   thumbnail: in-press.gif
   status: in-press
+
+- title: "Self-adaptive biosystems through tunable genetic parts and circuits"
+  authors: 
+    - Bartoli V.
+    - di Bernardo M.
+    - Gorochowski T.E.
+  team: 
+    - Vittorio Bartoli
+    - Thomas Gorochowski
+  preprint_journal: Preprints
+  preprint_id: 2020070751
+  preprint_year: 2020
+  preprint_doi: 10.20944/preprints202007.0751.v1
+  preprint_url: "https://www.preprints.org/manuscript/202007.0751/v1"
+  journal: Current Opinion in Systems Biology
+  volume: 
+  issue: 
+  pages: 
+  year: 2020
+  url: 
+  doi: 
+  tools: 
+  thumbnail: 2020-CurrOpinSysBiol.gif
+  status: in-press
+  notes:
 
 - title: "The Synthetic Biology Open Language (SBOL) Version 3: Simplified Data Exchange for Bioengineering"
   authors: 
