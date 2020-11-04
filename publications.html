@@ -6,6 +6,7 @@ section: publications
 
 <div class="row green"><div>
     <h1>Publications</h1>
+    <h2>Selected works</h2>
 </div></div>   
 
 <div class="row dark"><div>
@@ -13,7 +14,6 @@ section: publications
     <c span=row>
       <h2>Pre-prints</h2>
     </c>
-
 
     {% for pub in site.data.publications %}
       {% if pub.status == "pre-print" %}
@@ -30,19 +30,64 @@ section: publications
       {% endif %}
     {% endfor %}
 
-
-
-
-
    </grid>
 </div></div>   
-
 
 <div class="row green"><div>
   <grid columns=8>
     <c span=row>
-      <h2>Peer-reviewed works</h2>
+      <h2>All peer-reviewed works</h2>
     </c>
+
+    {% assign loopyear = 9999 %}
+    {% for pub in site.data.publications %}
+
+      {% if loopyear > pub.year %}
+        {% assign loopyear = pub.year %}
+        <div class="p-b-5 p-t-15">
+          <h5 class="year p-b-1">{{ pub.year }}</h5>
+          <hr>
+        </div>
+      {% endif %}
+
+      {% if loopyear == pub.year %}
+      {% if pub.status != "pre-print" %}
+      <div class="media">
+        <div class="media-left">
+          {% if pub.status == "in-revision" or pub.status == "in-prep" or pub.status == "submitted" %}<img class="media-object thinborder" width="60" src="{{baseurl}}/images/publications/in-press.gif">
+          {% else %}<img class="media-object thinborder" width="60" src="{{baseurl}}/images/publications/{{pub.thumbnail}}">
+          {% endif %}
+        </div>
+        <div class="media-body">
+          {% if pub.status == "in-press"  or pub.status == "in-revision" or pub.status == "submitted" or pub.status == "in-prep" %}
+          <p class="fs-14"><b>{{pub.title}}</b><br>
+          {% else %}<p class="fs-14"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
+          {% endif %}
+          {{ pub.authors | join: ", " }}<br>
+          {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i></p>
+          {% elsif pub.status == "accepted" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(accepted)</i></p>
+          {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i></p>
+          {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i></p>
+          {% elsif pub.status == "in-prep" %}<i>{{pub.journal}}</i>. <i>(in preparation)</i></p>
+          {% elsif pub.status == "submitted" %}<i>{{pub.journal}}</i>. <i>(submitted)</i></p>
+          {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.</p>
+          {% endif %}
+          <!-- Notes if they exist -->
+          {% if pub.notes %}
+          <p><ul>
+            {% for note in pub.notes %}<li>{{note}}</li>{% endfor %}
+          </ul></p>
+          {% endif %}
+          <!-- Altmetric badge -->
+          {% if pub.doi == "" %}</p>
+          {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div></p>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+
    </grid>
 </div></div>
 
