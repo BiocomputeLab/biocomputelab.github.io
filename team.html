@@ -18,7 +18,7 @@ section: team
 
     <c class="spacer"></c>
 
-    <c span=2 span-s=row>
+    <c span=row>
       <h3>Principal Investigator</h3>
     </c>
     <c span=1-2 span-s=row>
@@ -35,9 +35,11 @@ section: team
     
     <c class="spacer"></c>
 
-    <c span=2 span-s=row>
+    <c span=row>
       <h3>Group Members</h3>
     </c>
+    
+
     <c span=3.. span-s=row>
       {% for person in site.team %}
         {% if person.role == "member" %}
