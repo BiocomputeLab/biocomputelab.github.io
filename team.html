@@ -19,17 +19,9 @@ section: team
       {% for person in site.team %}
         {% if person.role == "head" %}
           <a href="{{person.url}}">
-          <div class="gallery-item col-sm-6 col-xs-12 no-padding hover-zoom">
-            <div class="inner bottom-left bottom-right padding-30">
-              <h5 class="block-title text-white no-margin">{{person.title}}</h5>
-              <h6 class="block-title fs-11 hint-text text-white m-t-5 m-b-0">{{person.position}}</h6>
-              <!--<p class="font-arial fs-11 text-white muted m-t-5 m-b-0">{{person.description}}</p>-->
-            </div>
-            <div class="ar-2-1">
-              <div data-pages-bg-image="{{baseurl}}/images/team/{{person.image}}" data-bg-overlay="black" data-overlay-opacity="0.4">
-              </div>
-            </div>
-          </div>
+              <p>{{person.title}}</p>
+              <p>{{person.position}}</p>
+              <img src="{{baseurl}}/images/team/{{person.image}}" />
           </a>
         {% endif %}
       {% endfor %}
