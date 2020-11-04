@@ -1,93 +1,49 @@
 ---
-title: Publications - Biocompute Lab
+title: About - Biocompute Lab
 section: publications
 ---
 {% include header.html %}
 
-  <!-- BEGIN PRE-PRINTS SECTION -->
-  <section class="bg-master-lighter p-t-90 p-b-40 no-overflow">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Pre-Prints</h2><br>
-            {% for pub in site.data.publications %}
-              {% if pub.status == "pre-print" %}
-                <p class="fs-14"><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
-                {{ pub.authors | join: ", " }}<br>
-                <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.</p>
+<div class="row green"><div>
+  <grid columns=8>
+    <c span=row>
+      <h1>Publications</h1>
+    </c>
+    <c span=1-2 span-s=row>
+      <span class="white font-style-semi-bold">synthetic biology; biodesign; computation</span>
+    </c>
+    <c span=3.. span-s=row>
+      <p>
+        From individual cells deciding how to differentiate during development,
+        to socail insects coordinating their actions when scavenging for food;
+        the ability to perform complex computations and process information
+        enables life.
+      </p>
+    </c>
 
-                <!-- Altmetric badge -->
-                {% if pub.preprint_doi == "" %}</p>
-                {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.preprint_doi}}"></div></p>
-                {% endif %}
+    <c class="spacer"></c>
 
-              {% endif %}
-            {% endfor %}
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END PRE-PRINTS SECTION -->
+    <c span=2 span-s=row>
+      <h3>...but how?</h3>
+    </c>
+    <c span=3.. span-s=row>
+      <p>
+        The Biocompute Lab explores the molecular-scale mechanisms that
+        individual cells and groups of cells use to make sense of their world.
+        We apply tools and methods from the field of synthetic biology to create
+        new living systems from the ground-up. By studying these artificial
+        systems using novel techniques we are developing based on sequencing,
+        microfluidics and computational modelling, we aim to better understand
+        the rules governing how biological parts are best pieced together to
+        perform useful computations. Understanding the computational
+        architecture of cells opens new ways of reprogramming them to tackle
+        problems spanning the sustainable production of materials to novel
+        therapeutics. It also provides key insights into how biology controls
+        the complex processes and structures sustaining life.
+      </p>
+    </c>
 
-  <!-- BEGIN PUBLICATIONS SECTION -->
-  <!-- <section class="bg-master-lightest p-t-90 p-b-40 no-overflow"> -->
-  <section class="bg-master-lightest p-t-40 p-b-40 no-overflow">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Publications</h2>
-          {% assign loopyear = 9999 %}
-          {% for pub in site.data.publications %}
-
-            {% if loopyear > pub.year %}
-              {% assign loopyear = pub.year %}
-              <div class="p-b-5 p-t-15">
-                <h5 class="year p-b-1">{{ pub.year }}</h5>
-                <hr>
-              </div>
-            {% endif %}
-
-            {% if loopyear == pub.year %}
-            {% if pub.status != "pre-print" %}
-            <div class="media">
-              <div class="media-left">
-                {% if pub.status == "in-revision" or pub.status == "in-prep" or pub.status == "submitted" %}<img class="media-object thinborder" width="60" src="{{baseurl}}/images/publications/in-press.gif">
-                {% else %}<img class="media-object thinborder" width="60" src="{{baseurl}}/images/publications/{{pub.thumbnail}}">
-                {% endif %}
-              </div>
-              <div class="media-body">
-                {% if pub.status == "in-press"  or pub.status == "in-revision" or pub.status == "submitted" or pub.status == "in-prep" %}
-                <p class="fs-14"><b>{{pub.title}}</b><br>
-                {% else %}<p class="fs-14"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
-                {% endif %}
-                {{ pub.authors | join: ", " }}<br>
-                {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i></p>
-                {% elsif pub.status == "accepted" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(accepted)</i></p>
-                {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i></p>
-                {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i></p>
-                {% elsif pub.status == "in-prep" %}<i>{{pub.journal}}</i>. <i>(in preparation)</i></p>
-                {% elsif pub.status == "submitted" %}<i>{{pub.journal}}</i>. <i>(submitted)</i></p>
-                {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.</p>
-                {% endif %}
-                <!-- Notes if they exist -->
-                {% if pub.notes %}
-                <p><ul>
-                  {% for note in pub.notes %}<li>{{note}}</li>{% endfor %}
-                </ul></p>
-                {% endif %}
-                <!-- Altmetric badge -->
-                {% if pub.doi == "" %}</p>
-                {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div></p>
-                {% endif %}
-              </div>
-            </div>
-            {% endif %}
-            {% endif %}
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END PUBLICATIONS SECTION -->
+  </grid>
+</div></div>
 
 {% include footer.html %}
