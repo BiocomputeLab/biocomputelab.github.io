@@ -40,7 +40,6 @@ section: team
       <h3>Group Members</h3>
     </c>
     
-
     {% assign startcol = 1 %}
     {% assign endcol = 2 %}
     {% for person in site.team %}
@@ -56,24 +55,18 @@ section: team
           {% assign startcol = 1 %}
           {% assign endcol = 2 %}
         {% else %}
-          {% assign startcol = startcol + 2 %}
-          {% assign endcol = endcol + 2 %}
+          {% assign startcol = startcol | plus: 2 %}
+          {% assign endcol = endcol | plus: 2 %}
         {% endif %}
       {% endif %}
     {% endfor %}
     
-
     <c class="spacer"></c>
 
     <c span=row>
       <h3>Group Photos</h3>
     </c>
     
-
-
-
-
-
     <c class="spacer"></c>
     
   </grid>
