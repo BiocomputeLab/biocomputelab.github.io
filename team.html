@@ -40,17 +40,27 @@ section: team
     </c>
     
 
-    <c span=3.. span-s=row>
-      {% for person in site.team %}
-        {% if person.role == "member" %}
-          <a href="{{person.url}}">
-              <img src="{{baseurl}}/images/team/{{person.image}}" width=100% />
-              {{person.title}}<br>
-              {{person.position}}
-          </a>
-        {% endif %}
-      {% endfor %}
-    </c>
+    {% assign startcol = 1 %}
+    {% assign endcol = 1 %}
+    {% for person in site.team %}
+      {% if person.role == "member" %}
+      <c span={{startcol}}-{{endcol}} span-s=row>
+        <a href="{{person.url}}">
+            <img src="{{baseurl}}/images/team/{{person.image}}" width=100% />
+            {{person.title}}<br>
+            {{person.position}}
+        </a>
+      </c>
+      {% if endcol == 6 %}
+        {% assign startcol = 1 %}
+        {% assign endcol = 2 %}
+      {% else %}
+        {% assign startcol = startcol+1 %}
+        {% assign endcol = endcol+1 %}
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+    
 
     <c class="spacer"></c>
 
