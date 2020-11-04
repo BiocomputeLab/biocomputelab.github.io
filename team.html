@@ -21,13 +21,13 @@ section: team
     <c span=2 span-s=row>
       <h3>Principal Investigator</h3>
     </c>
-    <c span=3.. span-s=row>
+    <c span=1-2 span-s=row>
       {% for person in site.team %}
         {% if person.role == "head" %}
           <a href="{{person.url}}">
-              <p>{{person.title}}</p>
-              <p>{{person.position}}</p>
-              <img src="{{baseurl}}/images/team/{{person.image}}" />
+              <img src="{{baseurl}}/images/team/{{person.image}}" width=100% />
+              {{person.title}}<br>
+              {{person.position}}
           </a>
         {% endif %}
       {% endfor %}
@@ -42,16 +42,16 @@ section: team
       {% for person in site.team %}
         {% if person.role == "member" %}
           <a href="{{person.url}}">
-              <p>{{person.title}}</p>
-              <p>{{person.position}}</p>
-              <img src="{{baseurl}}/images/team/{{person.image}}" />
+              <img src="{{baseurl}}/images/team/{{person.image}}" width=100% />
+              {{person.title}}<br>
+              {{person.position}}
           </a>
         {% endif %}
       {% endfor %}
     </c>
 
     <c class="spacer"></c>
-    
+
     <c span=row>
       <h3>Group Photos</h3>
     </c>
