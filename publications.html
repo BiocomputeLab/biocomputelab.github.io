@@ -13,6 +13,26 @@ section: publications
     <c span=row>
       <h2>Pre-prints</h2>
     </c>
+
+
+    {% for pub in site.data.publications %}
+      {% if pub.status == "pre-print" %}
+        <p><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
+        {{ pub.authors | join: ", " }}<br>
+        <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.</p>
+
+        <!-- Altmetric badge -->
+        {% if pub.preprint_doi == "" %}</p>
+        {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.preprint_doi}}"></div></p>
+        {% endif %}
+
+      {% endif %}
+    {% endfor %}
+
+
+
+
+
    </grid>
 </div></div>   
 
