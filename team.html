@@ -12,70 +12,80 @@ section: team
       <h1>Team</h1>
     </c>
 
-    <c class="spacer"></c>
+    <c span=2 span-s=row>
+      <h3>Principal Investigator</h3>
+    </c>
+    <c span=3.. span-s=row>
+      {% for person in site.team %}
+        {% if person.role == "head" %}
+          <a href="{{person.url}}">
+          <div class="gallery-item col-sm-6 col-xs-12 no-padding hover-zoom">
+            <div class="inner bottom-left bottom-right padding-30">
+              <h5 class="block-title text-white no-margin">{{person.title}}</h5>
+              <h6 class="block-title fs-11 hint-text text-white m-t-5 m-b-0">{{person.position}}</h6>
+              <!--<p class="font-arial fs-11 text-white muted m-t-5 m-b-0">{{person.description}}</p>-->
+            </div>
+            <div class="ar-2-1">
+              <div data-pages-bg-image="{{baseurl}}/images/team/{{person.image}}" data-bg-overlay="black" data-overlay-opacity="0.4">
+              </div>
+            </div>
+          </div>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </c>
+    
+    <c span=2 span-s=row>
+      <h3>Group Members</h3>
+    </c>
+    <c span=3.. span-s=row>
+      {% for person in site.team %}
+        {% if person.role == "member" %}
+          <a href="{{person.url}}">
+          <div class="gallery-item col-sm-6 col-xs-12 no-padding hover-zoom">
+            <div class="inner bottom-left bottom-right padding-30">
+              <h5 class="block-title text-white no-margin">{{person.title}}</h5>
+              <h6 class="block-title fs-11 hint-text text-white m-t-5 m-b-0">{{person.position}}</h6>
+              <!--<p class="font-arial fs-11 text-white muted m-t-5 m-b-0">{{person.description}}</p>-->
+            </div>
+            <div class="ar-2-1">
+              <div data-pages-bg-image="{{baseurl}}/images/team/{{person.image}}" data-bg-overlay="black" data-overlay-opacity="0.4">
+              </div>
+            </div>
+          </div>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </c>
 
     <c span=2 span-s=row>
-      <h3>...but how?</h3>
+      <h3>Group Members</h3>
     </c>
     <c span=3.. span-s=row>
-      <p>
-        The Biocompute Lab explores the molecular-scale mechanisms that
-        individual cells and groups of cells use to make sense of their world.
-        We apply tools and methods from the field of synthetic biology to create
-        new living systems from the ground-up. By studying these artificial
-        systems using novel techniques we are developing based on sequencing,
-        microfluidics and computational modelling, we aim to better understand
-        the rules governing how biological parts are best pieced together to
-        perform useful computations. Understanding the computational
-        architecture of cells opens new ways of reprogramming them to tackle
-        problems spanning the sustainable production of materials to novel
-        therapeutics. It also provides key insights into how biology controls
-        the complex processes and structures sustaining life.
-      </p>
-    </c>
-    <c class="spacer"></c>
-    <c span=2 span-s=row class="only-large-screen">
-      <h3>Inter Bold<br>Sample</h3>
-    </c>
-    <c span=3.. span-s=row>
-      <a href="samples/" class="plain"><img src="samples/img/lineup-bold-black.svg" width="100%"></a>
-    </c>
-    <c class="spacer"></c>
-    <c span=3.. span-s=row>
-      <a href="samples/" class="plain"><img src="samples/img/regular-text.png" srcset="samples/img/regular-text@2x.png 2x" width="100%"></a>
+      {% for person in site.team %}
+        {% if person.role == "member" %}
+          <a href="{{person.url}}">
+          <div class="gallery-item col-sm-6 col-xs-12 no-padding hover-zoom">
+            <div class="inner bottom-left bottom-right padding-30">
+              <h5 class="block-title text-white no-margin">{{person.title}}</h5>
+              <h6 class="block-title fs-11 hint-text text-white m-t-5 m-b-0">{{person.position}}</h6>
+              <!--<p class="font-arial fs-11 text-white muted m-t-5 m-b-0">{{person.description}}</p>-->
+            </div>
+            <div class="ar-2-1">
+              <div data-pages-bg-image="{{baseurl}}/images/team/{{person.image}}" data-bg-overlay="black" data-overlay-opacity="0.4">
+              </div>
+            </div>
+          </div>
+          </a>
+        {% endif %}
+      {% endfor %}
     </c>
 
+
+
     <c class="spacer"></c>
-
-    <c span=2 span-s=row>
-      <h3><a id="free" href="#free">Free &amp; <br class="only-large-screen">Open source</a></h3>
-    </c>
-    <c span=3.. span-s=row>
-      <p>
-        Inter is a <a href="https://github.com/rsms/inter">free and open source</a> font family.<br>
-        You are free to use this font in almost any way imaginable.<br>
-        Refer to the <a href="https://choosealicense.com/licenses/ofl-1.1/">SIL Open Font License 1.1</a> for exact details on what the conditions and restrictions are.
-      </p>
-      <p>
-        <a id="sponsor-button"
-           title="Help Inter by becoming a sponsor and donating a coffee or two"
-           href="https://github.com/sponsors/rsms">
-           <span>Sponsor</span>
-        </a>
-      </p>
-    </c>
-
+    
   </grid>
-</div></div>
-
-
-<div id="weights" class="row blue"><div>
-  <h2>Generously supported by</h2>
-  <p>
-  There are nine weights, each with italic counterparts,
-  making a total of 18 styles.
-  </p>
-  <img src="res/weights-and-styles.svg" class="weights-and-styles">
 </div></div>
 
 {% include footer.html %}
