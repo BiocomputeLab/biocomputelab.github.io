@@ -5,23 +5,23 @@ section: team
 {% include header.html %}
 
 
-<div class="row blue"><div>
+<div class="row green"><div>
   <!-- <h1>The Inter<br>typeface family</h1> -->
   <grid columns=6>
     <c span=row>
-      <h1>The team</h1>
+      <h1>The (A-)team</h1>
     </c>
 
     <c span=row>
       <img src="{{baseurl}}/images/team/2019-groupshot.jpg" width=100% />
     </c>
+</div></div>
 
-    <c class="spacer"></c>
-
+<div class="row"><div>
     <c span=row>
       <h2>Principal Investigator</h2>
     </c>
-    
+
     {% for person in site.team %}
       {% if person.role == "head" %}
         <c span=1-2 span-s=row>
@@ -33,13 +33,13 @@ section: team
         </c>
       {% endif %}
     {% endfor %}
-    
+
     <c class="spacer"></c>
 
     <c span=row>
       <h2>Group Members</h2>
     </c>
-    
+
     {% assign startcol = 1 %}
     {% assign endcol = 2 %}
     {% for person in site.team %}
@@ -66,7 +66,7 @@ section: team
     <c span=row>
       <h2>Group Photos</h2>
     </c>
-    
+
     <c span=1-3 span-s=row>
       <a href="{{baseurl}}/images/photos/2019_group.jpg">
           <img src="{{baseurl}}/images/photos/2019_group.jpg" width=100% />
@@ -120,7 +120,7 @@ section: team
     </c>
 
     <c class="spacer"></c>
-    
+
     <c span=row>
       <h2>Alumni</h2>
     </c>
