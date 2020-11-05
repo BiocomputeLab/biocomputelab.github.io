@@ -494,6 +494,10 @@ h2.banner {
   background: var(--mediumGreen);
   color: black;
 }
+.row.green {
+  background: var(--green);
+  color: white;
+}
 /*.row.green {
   background: var(--mediumGreen);
   color: black;
