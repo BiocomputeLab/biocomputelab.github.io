@@ -550,7 +550,7 @@ h2.banner {
 .team-name {
   font-weight: bold;
   font-size: 15px;
-  color: var(--white);
+  color: white;
 }
 .team-role {
   font-size: 14px;
