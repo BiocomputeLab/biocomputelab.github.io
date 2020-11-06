@@ -542,14 +542,13 @@ h2.banner {
 
 .team-entry {
   padding-bottom: 14px;
+  text-decoration: none;
 }
 .team-name {
   padding-top: 4px;
   color: white;
-  text-decoration: none;
 }
 .team-role {
-  text-decoration: none;
 }
 
 
