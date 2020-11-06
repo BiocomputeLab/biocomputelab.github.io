@@ -1,5 +1,5 @@
 :root {
-  --fontSize: 14px;
+  --fontSize: 15px;
   /*--emsAcrossViewport: 80;
   --fontSize: calc(100vw / var(--emsAcrossViewport));*/
 
@@ -543,11 +543,11 @@ h2.banner {
 /* TEAM ======================= */
 
 .team-name {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--white);
 }
 .team-role {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 
