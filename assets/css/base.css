@@ -544,7 +544,8 @@ h2.banner {
 
 
 .team-entry {
-  line-height: 17px;
+  line-height: 18px;
+  padding-bottom: 10px;
 }
 .team-name {
   font-weight: bold;
