@@ -3,8 +3,8 @@ layout: person
 title: Grace Meaker
 author: Meaker G.A.
 position: Undergraduate Researcher
-role: member
-leaveyear: 9999
+role: alumni
+leaveyear: 2020
 education:
   - B.Sc. Biological Sciences, University of Cardiff (expected 2021)
 image: grace-meaker.jpg
