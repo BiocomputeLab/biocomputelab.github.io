@@ -134,9 +134,7 @@ section: team
     {% for person in sorted_team %}
       {% if person.role == "alumni" %}
         <li>
-          <a href="{{person.url}}">
-              <b>{{person.title}}</b> ({{person.leaveyear}}) - Was: {{person.position}}. Now: TBA.
-          </a>
+          <a href="{{person.url}}"><b>{{person.title}}</b></a> ({{person.leaveyear}}) - Was: {{person.position}}. Now: TBA.
         </li>
       {% endif %}
     {% endfor %}
