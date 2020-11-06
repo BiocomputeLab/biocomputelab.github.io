@@ -540,6 +540,21 @@ h2.banner {
 }
 
 
+/* TEAM ======================= */
+
+.team-name {
+  font-size: 12px;
+  color: var(--white);
+}
+.team-role {
+  font-size: 10px;
+}
+
+
+
+
+
+
 /* --------------------------------------------------------------------- */
 
 ul { margin-left:1.1em; }
