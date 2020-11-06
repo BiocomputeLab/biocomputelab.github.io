@@ -43,8 +43,8 @@ section: team
       {% if person.role == "member" %}
         <c span={{startcol}}-{{endcol}} span-s=row  class="team-entry">
           <img src="{{baseurl}}/images/team/{{person.image}}" width=100% />
-          <span class="team-name"><a href="{{person.url}}">{{person.title}}</a></span><br>
-          <span class="team-role">{{person.position}}</span><br>
+          <span class="team-name font-style-medium"><a href="{{person.url}}">{{person.title}}</a></span><br>
+          <span class="team-role font-style-light">{{person.position}}</span><br>
         </c>
         {% if endcol == 6 %}
           {% assign startcol = 1 %}

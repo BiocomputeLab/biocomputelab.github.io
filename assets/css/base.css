@@ -149,9 +149,6 @@ a[href^="#"]:hover {
   text-decoration-style: dashed;
 }
 
-/*p, pre {
-  margin: 1rem 0;
-}*/
 code, pre, q, tt {
   font-family: 'IBM Plex Mono', monospace;
   font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'ss02' 1, 'zero' 1;
@@ -197,11 +194,6 @@ dem { /* de-emphasize */
   opacity: 0.7;
 }
 num { /* number */
-  /*-moz-font-feature-settings:    'calt' 1, 'ss01' 1;
-  -ms-font-feature-settings:     'calt' 1, 'ss01' 1;
-  -o-font-feature-settings:      'calt' 1, 'ss01' 1;
-  -webkit-font-feature-settings: 'kern' 1, 'calt' 1, 'ss01' 1;
-  font-feature-settings:         'calt' 1, 'ss01' 1;*/
   letter-spacing:0.01em;
   white-space: pre;
 }
@@ -219,18 +211,6 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/*h1, .h1 {
-  color: #222;
-  font-size: 55px;
-  letter-spacing: -0.038em;
-  line-height: 1.1em;
-  text-indent: -2px;
-  font-weight: 700;
-}
-h1 {
-  margin-bottom: 30px;
-  margin-top: 10px;
-}*/
 h1, .h1 {
   margin-left: calc(3rem / -20);
   font-weight: 700;
@@ -548,12 +528,8 @@ h2.banner {
   padding-bottom: 12px;
 }
 .team-name {
-  font-weight: bold;
   font-size: 15px;
   color: white;
-}
-.team-name a {
-  font-color: white;
 }
 .team-role {
   font-size: 14px;
