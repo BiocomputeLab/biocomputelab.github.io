@@ -539,9 +539,10 @@ h2.banner {
 */
 
 .team-entry {
-  padding-bottom: 12px;
+  padding-bottom: 14px;
 }
 .team-name {
+  padding-top: 4px;
   color: white;
 }
 .team-role {
