@@ -523,6 +523,7 @@ h2.banner {
 /* TEAM ======================= */
 
 
+/*
 .team-entry {
   padding-bottom: 12px;
 }
@@ -532,11 +533,19 @@ h2.banner {
   color: white;
 }
 .team-role {
-  padding-top: -4px;
+  padding-top: -6px;
   font-size: 13px;
 }
+*/
 
-
+.team-entry {
+  padding-bottom: 12px;
+}
+.team-name {
+  color: white;
+}
+.team-role {
+}
 
 
 
