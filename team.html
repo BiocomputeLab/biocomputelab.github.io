@@ -23,7 +23,7 @@ section: team
 
     {% for person in site.team %}
       {% if person.role == "head" %}
-        <c span=1-2 span-s=row>
+        <c span=1-2 span-s=row class="team-entry">
           <img src="{{baseurl}}/images/team/{{person.image}}" width=100% />
           <span class="team-name"><a href="{{person.url}}">{{person.title}}</a></span><br>
           <span class="team-role">{{person.position}}</span>
