@@ -531,6 +531,7 @@ h2.banner {
   color: white;
 }
 .team-role {
+  padding-top: -2px;
   font-size: 13px;
 }
 
