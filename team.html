@@ -24,11 +24,9 @@ section: team
     {% for person in site.team %}
       {% if person.role == "head" %}
         <c span=1-2 span-s=row>
-        <a href="{{person.url}}">
-            <img src="{{baseurl}}/images/team/{{person.image}}" width=100% />
-            {{person.title}}<br>
-            {{person.position}}
-        </a>
+          <img src="{{baseurl}}/images/team/{{person.image}}" width=100% />
+          <a href="{{person.url}}" class="team-name">{{person.title}}</a><br>
+          <span class="team-role">{{person.position}}</span>
         </c>
       {% endif %}
     {% endfor %}
