@@ -549,8 +549,10 @@ a:hover > .team-image{
 .team-name {
   padding-top: 4px;
   color: white;
+  text-decoration: none;
 }
 .team-role {
+  text-decoration: none;
 }
 
 
