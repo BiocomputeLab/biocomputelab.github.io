@@ -539,10 +539,7 @@ h2.banner {
 */
 
 
-a:hover > .team-image{
-  border-width: 1px;
-  border-color: white;
-}
+
 .team-entry {
   padding-bottom: 14px;
 }
