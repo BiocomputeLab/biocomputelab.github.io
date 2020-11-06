@@ -544,14 +544,14 @@ h2.banner {
 
 
 .team-entry {
-  line-height: 15px;
+  line-height: 17px;
 }
 .team-name {
   font-size: 15px;
   font-color: var(--white);
 }
 .team-role {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 
