@@ -58,51 +58,6 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
 .blue { color: var(--blue); }
 .orange { color: var(--orange); }
 
-.whitebox {
-  background-color: white;
-  color: black;
-  padding: calc(var(--spacingv));
-}
-
-.jointag {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-weight: bold;
-  color: var(--green);
-}
-
-.altmetric-embed {
-  
-  margin: 0px;
-  padding: 3px 0px 0px 0px;
-  border: 0px;
-}
-
-.publication {
-  margin-bottom: 0px;
-  border-bottom: 0px;
-  padding-bottom: 0px;
-  padding-top: calc(var(--spacingv) * 2);
-  text-decoration: none;
-}
-
-.publication-notes {
-  margin-top: 0px;
-  border-top: 0px;
-  padding-top: 0px;
-  margin-bottom: 0px;
-  border-bottom: 0px;
-  padding-bottom: 0px;
-  margin-left: calc(var(--spacingv) * 2);
-  font-size: 12px;
-}
-
-.publication-year {
-  padding-top: calc(var(--spacingv) * 2);
-  width: 100%;
-  border-bottom: 1px solid var(--green);
-}
-
 html { }
 body {
   background-color: #f4f4f4;
@@ -588,6 +543,62 @@ h2.banner {
 .row.green > * > p > a:hover {
   color: white;
 }
+
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+
+.whitebox {
+  background-color: white;
+  color: black;
+  padding: calc(var(--spacingv));
+}
+
+.jointag {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: var(--green);
+}
+
+.altmetric-embed {
+  
+  margin: 0px;
+  padding: 3px 0px 0px 0px;
+  border: 0px;
+}
+
+.publication {
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+  padding-top: calc(var(--spacingv) * 2);
+  
+}
+
+.publication a {
+  text-decoration: none;
+}
+
+.publication-notes {
+  margin-top: 0px;
+  border-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+  margin-left: calc(var(--spacingv) * 2);
+  font-size: 12px;
+}
+
+.publication-year {
+  padding-top: calc(var(--spacingv) * 2);
+  width: 100%;
+  border-bottom: 1px solid var(--green);
+}
+
 
 
 
