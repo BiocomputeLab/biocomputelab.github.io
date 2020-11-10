@@ -599,17 +599,15 @@ h2.banner {
 }
 
 .pub-tag {
-  font-size: 13px;
   margin-bottom: 0px;
   border-bottom: 0px;
-  padding-bottom: 0px;
+  padding-bottom: -var(--spacingv);
 }
 
 .pub-description {
   margin-top: 0px;
   border-top: 0px;
   padding-top: 0px;
-  margin-bottom: -var(--spacingv);
   border-bottom: 0px;
   padding-bottom: var(--spacingv);
 }
