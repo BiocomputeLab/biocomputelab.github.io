@@ -139,7 +139,7 @@ DISABLED:target:before {
 }
 
 a {
-  text-decoration: underline rgba(0, 0, 0, 0.3);
+  text-decoration: none rgba(0, 0, 0, 0.3);
   color: black;
   word-break: break-word;
   word-wrap: break-word;
@@ -149,8 +149,9 @@ a.fat {
   color: #333;
 }
 a:hover {
-  color: var(--red);
-  text-decoration: underline;
+  color: var(--green);
+  text-decoration: none;
+  /*text-decoration: underline;*/
 }
 a.plain, a.fat {
   background: none;
