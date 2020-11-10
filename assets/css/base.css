@@ -80,7 +80,7 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
   margin: 0px;
   width: 100%;
   background-color: var(--green);
-  height: calc(var(--spacingv));
+  height: calc(var(--spacingv)) * 2;
 }
 
 .jointag {
