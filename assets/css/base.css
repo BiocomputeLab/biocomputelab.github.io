@@ -85,6 +85,13 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
   padding-top: calc(var(--spacingv) * 3);
 }
 
+.publication-notes {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+
 html { }
 body {
   background-color: #f4f4f4;
