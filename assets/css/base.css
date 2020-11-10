@@ -481,7 +481,11 @@ h2.banner {
 .team-entry {
   padding: 3px 3px 14px 3px;
   border: 1px solid transparent;
-  grid-row-gap: 10px;
+}
+
+.team-entry b {
+  font-weight: bold;
+  color: white;
 }
 
 .team-entry:hover {
@@ -550,35 +554,6 @@ h2.banner {
 .row.green > * > p > a:hover {
   color: white;
 }
-
-.row.color1 {
-  background: #C0CDE2;
-  color: #3B414A;
-}
-
-
-/* TEAM ======================= */
-
-
-/*
-.team-entry {
-  padding-bottom: 12px;
-}
-.team-name {
-  padding-top: 2px;
-  font-size: 16px;
-  color: white;
-}
-.team-role {
-  padding-top: -6px;
-  font-size: 13px;
-}
-*/
-
-
-
-
-
 
 
 
