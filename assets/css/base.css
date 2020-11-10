@@ -475,6 +475,17 @@ h2.banner {
 }
 
 
+.team-entry {
+  padding: 3px;
+  border: 0px;
+}
+
+.team-entry:hover {
+  padding: 3px;
+  border: 1px;
+  border-color: var(--green);
+}
+
 .row.white {
   background: white;
   color: black;
