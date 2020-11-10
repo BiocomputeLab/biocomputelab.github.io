@@ -59,7 +59,7 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
 .orange { color: var(--orange); }
 
 
-.nomargintop {
+.smallmargintop {
   margin-top: calc(var(--spacingv)) * 0.5;
 }
 
