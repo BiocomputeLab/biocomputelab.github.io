@@ -53,13 +53,14 @@ section: publications
     {% for pub in site.data.publications %}
       {% if pub.status == "pre-print" %}
       <c span=row>
-        <p><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
+        <p class="publication"><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
         {{ pub.authors | join: ", " }}<br>
         <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.
         <!-- Altmetric badge -->
         {% if pub.preprint_doi == "" %}</p>
-        {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.preprint_doi}}"></div></p>
+        {% else %}</p><div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.preprint_doi}}"></div>
         {% endif %}
+        <br>
       </c>
       {% endif %}
     {% endfor %}
@@ -85,8 +86,8 @@ section: publications
       {% if pub.status != "pre-print" %}
         <c span=row>
           {% if pub.status == "in-press"  or pub.status == "in-revision" or pub.status == "submitted" or pub.status == "in-prep" %}
-          <p><b>{{pub.title}}</b><br>
-          {% else %}<p><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
+          <p class="publication"><b>{{pub.title}}</b><br>
+          {% else %}<p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
           {% endif %}
           {{ pub.authors | join: ", " }}<br>
           {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i>
@@ -105,7 +106,7 @@ section: publications
           {% endif %}
           <!-- Altmetric badge -->
           {% if pub.doi == "" %}</p>
-          {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div></p>
+          {% else %}</p><div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div>
           {% endif %}
         </c>
       {% endif %}

@@ -78,6 +78,12 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
   border: 0px;
 }
 
+.publication {
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  padding-bottom:0px;
+}
+
 html { }
 body {
   background-color: #f4f4f4;
