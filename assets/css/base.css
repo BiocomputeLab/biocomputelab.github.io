@@ -614,14 +614,16 @@ h2.banner {
 }
 
 .pub-link {
-  text-align: centre;
+  padding: 3px;
+  text-align: center;
   font-style: normal;
   border: 2px solid var(--green);
   background: white;
 }
 
 .pub-link:hover {
-  text-align: centre;
+  padding: 3px;
+  text-align: center;
   font-style: bold;
   border: 2px solid var(--green);
   background: var(--green);
