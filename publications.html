@@ -96,13 +96,13 @@ section: publications
           {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i></p>
           {% elsif pub.status == "in-prep" %}<i>{{pub.journal}}</i>. <i>(in preparation)</i></p>
           {% elsif pub.status == "submitted" %}<i>{{pub.journal}}</i>. <i>(submitted)</i></p>
-          {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.</p>
+          {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.
           {% endif %}
           <!-- Notes if they exist -->
           {% if pub.notes %}
-          <p><ul>
+          <ul>
             {% for note in pub.notes %}<li>{{note}}</li>{% endfor %}
-          </ul></p>
+          </ul>
           {% endif %}
           <!-- Altmetric badge -->
           {% if pub.doi == "" %}</p>
