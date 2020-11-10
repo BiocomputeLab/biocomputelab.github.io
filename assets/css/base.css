@@ -82,7 +82,7 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
   margin-bottom: 0px;
   border-bottom: 0px;
   padding-bottom: 0px;
-  padding-top: var(--spacingv);
+  padding-top: calc(var(--spacingv) * 2);
 }
 
 html { }
