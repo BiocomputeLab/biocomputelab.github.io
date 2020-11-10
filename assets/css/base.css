@@ -468,22 +468,6 @@ h2.banner {
 }
 
 
-.team-entry {
-  padding: 3px;
-  border: 1px solid transparent;
-}
-
-.team-name {
-  padding-top: 5px;
-}
-
-.team-entry:hover {
-  color: black;
-  padding: 3px;
-  border: 1px solid var(--green);
-  background: var(--green);
-}
-
 .row.white {
   background: white;
   color: black;
@@ -551,6 +535,23 @@ h2.banner {
 /* --------------------------------------------------------------------- */
 /* --------------------------------------------------------------------- */
 /* --------------------------------------------------------------------- */
+
+
+.team-entry {
+  padding: 3px;
+  border: 1px solid transparent;
+}
+
+.team-name {
+  padding-top: 5px;
+}
+
+.team-entry:hover {
+  color: black;
+  padding: 3px;
+  border: 1px solid var(--green);
+  background: var(--green);
+}
 
 .whitebox {
   background-color: white;
