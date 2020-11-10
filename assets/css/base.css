@@ -480,7 +480,7 @@ h2.banner {
 .team-entry:hover {
   padding: 3px;
   border: 1px solid var(--green);
-  background: solid var(--green);
+  background: var(--green);
 }
 
 .row.white {
