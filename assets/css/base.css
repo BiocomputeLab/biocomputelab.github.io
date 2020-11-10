@@ -92,7 +92,7 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
   margin-bottom: 0px;
   border-bottom: 0px;
   padding-bottom: 0px;
-  margin-left: calc(var(--spacingv) * 3);
+  margin-left: calc(var(--spacingv) * 2);
   font-size: 12px;
 }
 
