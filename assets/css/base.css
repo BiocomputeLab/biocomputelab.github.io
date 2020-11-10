@@ -553,6 +553,13 @@ h2.banner {
   background: var(--green);
 }
 
+.team-entry a:hover {
+  color: black;
+  padding: 3px;
+  border: 1px solid var(--green);
+  background: var(--green);
+}
+
 .whitebox {
   background-color: white;
   color: black;
