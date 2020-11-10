@@ -601,7 +601,7 @@ h2.banner {
 .pub-tag {
   margin-bottom: 0px;
   border-bottom: 0px;
-  padding-bottom: var(--spacingv);
+  padding-bottom: 0px;
 }
 
 .pub-description {
