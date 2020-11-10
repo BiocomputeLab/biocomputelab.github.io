@@ -52,6 +52,7 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
 .white { color: var(--white); }
 .gray { color: var(--gray); }
 .darkGray { color: var(--darkGray); }
+.lightGray { color: #99999b;; }
 .green { color: var(--green); }
 .red { color: var(--red); }
 .yellow { color: var(--yellow); }
@@ -547,13 +548,6 @@ h2.banner {
 }
 
 .team-entry:hover {
-  color: black;
-  padding: 3px;
-  border: 1px solid var(--green);
-  background: var(--green);
-}
-
-.team-entry a:hover {
   color: black;
   padding: 3px;
   border: 1px solid var(--green);
