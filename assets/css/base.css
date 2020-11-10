@@ -475,13 +475,16 @@ h2.banner {
 }
 
 
+
+
+
 .team-entry {
-  padding: 3px;
-  border: 0px;
+  padding: 3px 3px 14px 3px;
+  border: 1px;
 }
 
 .team-entry:hover {
-  padding: 3px;
+  padding: 3px 3px 14px 3px;
   border: 1px;
   border-color: var(--green);
 }
@@ -490,6 +493,7 @@ h2.banner {
   background: white;
   color: black;
 }
+
 
 .row.dark,
 .row.black {
@@ -573,16 +577,7 @@ h2.banner {
 
 
 
-.team-entry {
-  padding-bottom: 14px;
-  text-decoration: none;
-}
-.team-name {
-  padding-top: 4px;
-  color: white;
-}
-.team-role {
-}
+
 
 
 
