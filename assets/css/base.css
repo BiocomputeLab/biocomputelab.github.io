@@ -64,6 +64,9 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
   padding: calc(var(--spacingv));
 }
 
+.whitebox h3 {
+  margin-top: calc(var(--spacingv));
+}
 .greenspacer {
   position:absolute;
   left:0;
