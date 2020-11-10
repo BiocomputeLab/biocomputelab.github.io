@@ -280,9 +280,9 @@ h4, h5, h6 {
 }
 /* add top margin to Hn when it follows another element */
 * + h1 { margin-top: calc(var(--spacingv) * 5); }
-* + h2 { margin-top: calc(var(--spacingv) * 3); }
-* + h3 { margin-top: calc(var(--spacingv) * 2); }
-* + h4 { margin-top: calc(var(--spacingv) * 1); }
+* + h2 { margin-top: calc(var(--spacingv) * 4); }
+* + h3 { margin-top: calc(var(--spacingv) * 3); }
+* + h4 { margin-top: calc(var(--spacingv) * 2); }
 
 p, pre, p + grid, pre + grid {
   margin-bottom: var(--lineHeight);
