@@ -61,7 +61,7 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
 .whitebox {
   background-color: white;
   color: black;
-  padding: calc(var(--spacingv));
+  border: calc(var(--spacingv));
 }
 
 .whitebox > h3 {
