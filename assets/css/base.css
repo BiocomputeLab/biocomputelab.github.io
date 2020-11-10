@@ -591,7 +591,7 @@ a > img { display: block; }
 
 grid {
   grid-column-gap: var(--columnGap);
-  grid-row-gap: calc(var(--spacingv) * 2);
+  grid-row-gap: var(--spacingv);
 }
 grid > c.spacer {
   grid-column: 1 / -1;
