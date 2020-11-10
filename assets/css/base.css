@@ -598,7 +598,34 @@ h2.banner {
   border-bottom: 1px solid var(--green);
 }
 
+.pub-tag {
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  padding-bottom: var(--spacingv);
+}
 
+.pub-description {
+  margin-top: 0px;
+  border-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  padding-bottom: var(--spacingv);
+}
+
+.pub-link {
+  text-align: centre;
+  font-style: normal;
+  border: 2px solid var(--green);
+  background: white;
+}
+
+.pub-link:hover {
+  text-align: centre;
+  font-style: bold;
+  border: 2px solid var(--green);
+  background: var(--green);
+}
 
 
 /* --------------------------------------------------------------------- */
