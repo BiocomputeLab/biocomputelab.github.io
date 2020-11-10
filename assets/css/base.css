@@ -506,13 +506,15 @@ h2.banner {
 }
 .row.dark a,
 .row.black a {
-  text-decoration-color: rgba(255, 255, 255, 0.2);
+  /*text-decoration-color: rgba(255, 255, 255, 0.2);*/
+  text-decoration: none;
   color: #aaa;
 }
 .row.dark a:hover,
 .row.black a:hover {
-  color: rgb(95, 170, 255);
-  text-decoration: underline rgb(95, 170, 255);
+  color: var(--green);
+  text-decoration: none;
+  /*text-decoration: underline rgb(95, 170, 255);*/
 }
 .row.dark h2, .row.dark h2 > a,
 .row.black h2, .row.black h2 > a  {
