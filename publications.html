@@ -78,7 +78,7 @@ section: publications
 
       {% if loopyear > pub.year %}
         {% assign loopyear = pub.year %}
-        <div class="publication-year"><h3>{{ pub.year }}</h3></div>
+        <c span=row class="publication-year"><h3>{{ pub.year }}</h3></c>
       {% endif %}
 
       {% if loopyear == pub.year %}
