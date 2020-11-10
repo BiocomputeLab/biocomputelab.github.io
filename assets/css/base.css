@@ -618,7 +618,7 @@ h2.banner {
   padding: 5px;
   text-align: center;
   color: white;
-  background: #var(--green);
+  background: var(--green);
 }
 
 .pub-link:hover {
