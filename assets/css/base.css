@@ -592,6 +592,11 @@ a > img { display: block; }
 /* --------------------------------------------------------------------- */
 /* grid */
 
+.norowgap {
+  grid-column-gap: var(--columnGap);
+  grid-row-gap: 0px;
+}
+
 grid {
   grid-column-gap: var(--columnGap);
   grid-row-gap: var(--spacingv);
