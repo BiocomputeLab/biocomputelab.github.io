@@ -72,7 +72,7 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
   position:absolute;
   left:0;
   padding-bottom: calc(var(--spacingv));
-  border: 0px;
+  border: calc(var(--spacingv) * 2);
   margin: 0px;
   width: 100%;
   background-color: var(--green);
