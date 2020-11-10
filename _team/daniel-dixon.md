@@ -3,8 +3,8 @@ layout: person
 title: Daniel Dixon
 author: Dixon D.O.R.
 position: Ph.D. Student
-role: member
-leaveyear: 9999
+role: alumni
+leaveyear: 2020
 education:
   - M.Sci. Biology, University of Bristol, 2015
 image: daniel-dixon.jpg
