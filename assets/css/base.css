@@ -616,6 +616,7 @@ h2.banner {
   margin-bottom: 0px;
   padding: 5px;
   text-align: center;
+  align-content: center;
   color: white;
   text-decoration: none;
   background: var(--green);
@@ -626,6 +627,7 @@ h2.banner {
   margin-bottom: 0px;
   padding: 5px;
   text-align: center;
+  align-content: center;
   color: white;
   background: #2b2b2b;
 }
