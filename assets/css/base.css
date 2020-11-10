@@ -63,7 +63,6 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
 .whitebox {
   background: white;
   color: black;
-  border: margin-bottom: calc(var(--spacingv));
   padding: calc(var(--spacingv));
 }
 
