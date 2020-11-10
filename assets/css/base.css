@@ -617,17 +617,13 @@ h2.banner {
   margin-bottom: 0px;
   padding: 3px;
   text-align: center;
-  font-style: normal;
-  border: 2px solid var(--green);
-  background: white;
+  background: #2b2b2b;
 }
 
 .pub-link:hover {
   margin-bottom: 0px;
   padding: 3px;
   text-align: center;
-  font-style: bold;
-  border: 2px solid var(--green);
   background: var(--green);
 }
 
