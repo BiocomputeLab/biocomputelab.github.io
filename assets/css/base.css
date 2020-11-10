@@ -69,14 +69,13 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
   margin-top: calc(var(--spacingv));
 }
 .greenspacer {
-  position:absolute;
-  left:0;
-  padding-bottom: calc(var(--spacingv));
-  border: calc(var(--spacingv) * 2);
+  left:-calc(var(--spacingv));
+  padding-bottom: 0px;
+  border: 0px;
   margin: 0px;
   width: 100%;
   background-color: var(--green);
-  /*height: calc(var(--spacingv) * 2);*/
+  height: calc(var(--spacingv) * 2);
 }
 
 .jointag {
