@@ -481,6 +481,7 @@ h2.banner {
 .team-entry {
   padding: 3px 3px 14px 3px;
   border: 1px solid white;
+  grid-row-gap: 10px;
 }
 
 .team-entry:hover {
