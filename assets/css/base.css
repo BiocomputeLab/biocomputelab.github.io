@@ -618,10 +618,12 @@ h2.banner {
   padding: 5px;
   text-align: center;
   color: white;
+  text-decoration: none;
   background: var(--green);
 }
 
 .pub-link:hover {
+  text-decoration: none;
   margin-bottom: 0px;
   padding: 5px;
   text-align: center;
