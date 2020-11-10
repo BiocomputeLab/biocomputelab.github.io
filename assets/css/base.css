@@ -60,7 +60,7 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
 
 
 .smallmargintop {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .whitebox {
@@ -69,9 +69,11 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
   border-bottom-width: calc(var(--spacingv));
   color: black;
   padding: calc(var(--spacingv));
+  grid-row-gap: calc(var(--spacingv));
 }
 
 .greenspacer {
+  padding: 0px;
   width: 100%;
   background-color: var(--green);
   height: calc(var(--spacingv));
