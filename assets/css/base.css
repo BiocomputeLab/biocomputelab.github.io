@@ -528,7 +528,7 @@ h2.banner {
   text-decoration: underline rgba(0, 0, 0, 0.3) !important;
 }
 .row.green > * > p > a:hover {
-  color: inherit;
+  color: white;
 }
 
 .row.color1 {
