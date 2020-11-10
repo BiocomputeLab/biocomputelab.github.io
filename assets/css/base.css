@@ -483,6 +483,10 @@ h2.banner {
   border: 1px solid transparent;
 }
 
+.team-entry > .team-name {
+  margin-top: 3px;
+}
+
 .team-entry:hover {
   padding: 3px;
   border: 1px solid var(--green);
