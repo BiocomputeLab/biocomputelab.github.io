@@ -71,6 +71,12 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
   padding: calc(var(--spacingv));
 }
 
+.greenspacer {
+  width: 100%;
+  background-color: var(--green);
+  height: calc(var(--spacingv))
+}
+
 
 html { }
 body {
