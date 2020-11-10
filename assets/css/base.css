@@ -483,9 +483,12 @@ h2.banner {
   border: 1px solid transparent;
 }
 
-.team-entry b {
-  font-weight: bold;
+.team-entry > .team-name {
   color: white;
+}
+
+.team-entry > .team-role {
+  color: var(--green);
 }
 
 .team-entry:hover {
