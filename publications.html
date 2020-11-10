@@ -55,7 +55,7 @@ section: publications
       <c span=row>
         <p><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
         {{ pub.authors | join: ", " }}<br>
-        <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.</p>
+        <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.
 
         <!-- Altmetric badge -->
         {% if pub.preprint_doi == "" %}</p>
