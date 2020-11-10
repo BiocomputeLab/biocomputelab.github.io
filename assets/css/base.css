@@ -480,7 +480,7 @@ h2.banner {
 
 .team-entry {
   padding: 3px 3px 14px 3px;
-  border: 1px solid white;
+  border: 1px solid transparent;
   grid-row-gap: 10px;
 }
 
