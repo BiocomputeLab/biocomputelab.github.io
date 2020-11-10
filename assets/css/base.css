@@ -475,7 +475,10 @@ h2.banner {
 }
 
 
-
+.smallspace {
+  width: 100%;
+  height: 20px;
+}
 
 
 .team-entry {
