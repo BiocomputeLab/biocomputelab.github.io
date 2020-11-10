@@ -58,6 +58,15 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
 .blue { color: var(--blue); }
 .orange { color: var(--orange); }
 
+
+
+.whitebox {
+  background: white;
+  color: black;
+  border: margin-bottom: calc(var(--spacingv));
+}
+
+
 html { }
 body {
   background-color: #f4f4f4;
