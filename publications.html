@@ -99,7 +99,7 @@ section: publications
           {% endif %}
           <!-- Notes if they exist -->
           {% if pub.notes %}
-          <ul>
+          <ul class="publication-notes ">
             {% for note in pub.notes %}<li>{{note}}</li>{% endfor %}
           </ul>
           {% endif %}
