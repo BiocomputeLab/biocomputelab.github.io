@@ -71,7 +71,7 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
 .greenspacer {
   position:absolute;
   left:0;
-  padding: 0px;
+  padding-bottom: calc(var(--spacingv));
   border: 0px;
   margin: 0px;
   width: 100%;
