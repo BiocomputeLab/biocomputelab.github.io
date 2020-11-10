@@ -26,7 +26,7 @@ section: team
         <c span=1-2 span-s=row class="team-entry">
           <a href="{{person.url}}">
           <img class="team-image" src="{{baseurl}}/images/team/{{person.image}}" width=100% />
-          <span class="team-name font-style-bold">{{person.title}}</span><br>
+          <span class="team-name font-style-bold white">{{person.title}}</span><br>
           <span class="team-role font-style-light">{{person.position}}</span>
           </a>
         </c>
@@ -46,8 +46,8 @@ section: team
         <c span={{startcol}}-{{endcol}} span-s=row  class="team-entry">
           <a href="{{person.url}}">
           <img class="team-image" src="{{baseurl}}/images/team/{{person.image}}" width=100% />
-          <div width=100% class="team-name font-style-medium">{{person.title}}</div>
-          <div width=100% class="team-role font-style-light">{{person.position}}</div>
+          <span class="team-name font-style-bold white">{{person.title}}</span><br>
+          <span class="team-role font-style-light">{{person.position}}</span>
           </a>
         </c>
         {% if endcol == 6 %}

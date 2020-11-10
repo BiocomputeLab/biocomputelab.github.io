@@ -479,7 +479,7 @@ h2.banner {
 
 
 .team-entry {
-  padding: 3px 3px 14px 3px;
+  padding: 3px;
   border: 1px solid transparent;
 }
 
@@ -492,7 +492,7 @@ h2.banner {
 }
 
 .team-entry:hover {
-  padding: 3px 3px 14px 3px;
+  padding: 3px;
   border: 1px solid var(--green);
 }
 
@@ -595,7 +595,7 @@ a > img { display: block; }
 
 grid {
   grid-column-gap: var(--columnGap);
-  grid-row-gap: var(--spacingv);
+  grid-row-gap: calc(var(--spacingv) * 2);
 }
 grid > c.spacer {
   grid-column: 1 / -1;
