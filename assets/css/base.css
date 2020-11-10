@@ -81,6 +81,12 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
   height: calc(var(--spacingv));
 }
 
+.jointag {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: var(--green);
+}
 
 html { }
 body {
