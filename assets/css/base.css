@@ -92,6 +92,12 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
   font-size: 12px;
 }
 
+.publication-year {
+  border-bottom: 1px;
+  border-width: 0px 0px 1px 0px;
+  color: var(--green);
+}
+
 html { }
 body {
   background-color: #f4f4f4;
