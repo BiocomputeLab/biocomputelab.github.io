@@ -614,6 +614,7 @@ h2.banner {
 }
 
 .pub-link {
+  margin-bottom: 0px;
   padding: 3px;
   text-align: center;
   font-style: normal;
@@ -622,6 +623,7 @@ h2.banner {
 }
 
 .pub-link:hover {
+  margin-bottom: 0px;
   padding: 3px;
   text-align: center;
   font-style: bold;
