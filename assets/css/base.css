@@ -72,6 +72,7 @@ html.debug *:nth-child(4n+3) { outline:1px solid rgba(255,0,0,0.5); }
 }
 
 .altmetric-embed {
+  
   margin: 0px;
   padding: 0px;
   border: 0px;
