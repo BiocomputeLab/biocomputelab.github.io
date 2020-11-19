@@ -605,14 +605,14 @@ h2.banner {
   border-bottom: 1px solid var(--green);
 }
 
-.whitebox > .pub-tag p {
+.pub-tag {
   margin-top: 7px;
-  margin-bottom: 7px;
+  margin-bottom: 0px;
   border: 0px;
   padding: 0px;
 }
 
-.whitebox > .pub-description p {
+.pub-description {
   margin: 0px;
   padding: 0px;
   border: 0px;
