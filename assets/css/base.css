@@ -606,17 +606,16 @@ h2.banner {
 }
 
 .pub-tag {
-  margin-bottom: 0px;
-  border-bottom: 0px;
-  padding-bottom: -var(--spacingv);
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border: 0px;
+  padding: 0px;
 }
 
 .pub-description {
-  margin-top: 0px;
-  border-top: 0px;
-  padding-top: 0px;
-  border-bottom: 0px;
-  padding-bottom: var(--spacingv);
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
 
 .pub-link {
