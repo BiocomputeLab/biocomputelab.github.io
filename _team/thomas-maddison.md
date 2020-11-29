@@ -9,7 +9,8 @@ education:
   - BSc Biomedical Science, University of Lincoln, 2020
 image: thomas-maddison.jpg
 email: zx20935@bristol.ac.uk
-github: 
+twitter: none
+github: none
 keywords:
   - bioinformatics pipelines
   - nanopore sequencing
