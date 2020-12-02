@@ -5,6 +5,7 @@ author: Matyjaszkiewicz A.
 position: Post-Doctoral Research Associate
 role: alumni
 leaveyear: 2017
+became: Postdoctoral Fellow (Sharpe Group), EMBL, Barcelona
 education:
   - Ph.D. Engineering Mathematics, University of Bristol, 2016
   - M.Res. Complexity Sciences, University of Bristol, 2011

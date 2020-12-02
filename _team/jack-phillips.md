@@ -5,6 +5,7 @@ author: Phillips J.O.
 position: Post-Doctoral Research Associate
 role: alumni
 leaveyear: 2017
+became: Senior Scientist, CamPhos Theraputics, UK
 education:
   - Ph.D. Biochemistry, University of Portsmouth, 2016
   - B.Sc. (Hons) Biochemistry, University of Portsmouth, 2011

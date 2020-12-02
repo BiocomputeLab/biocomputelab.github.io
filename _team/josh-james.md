@@ -5,6 +5,7 @@ author: James J.
 position: MSci. Student
 role: alumni
 leaveyear: 2019
+became: PhD Student (Cai Group), University of Manchester, UK
 education:
   - MSci. Biology, University of Bristol, 2018
 image: josh-james.jpg

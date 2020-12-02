@@ -136,7 +136,7 @@ section: team
     {% for person in sorted_team %}
       {% if person.role == "alumni" %}
         <li>
-          <a href="{{person.url}}"><b>{{person.title}}</b></a> ({{person.leaveyear}}) - Was: {{person.position}}. Now: TBA.
+          <a href="{{person.url}}"><b>{{person.title}}</b></a> ({{person.leaveyear}}) - Was: {{person.position}}. Moved on to: {{person.became}}.
         </li>
       {% endif %}
     {% endfor %}

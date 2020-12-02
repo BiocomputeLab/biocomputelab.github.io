@@ -5,6 +5,7 @@ author: Bartoli V.
 position: Ph.D. Student
 role: alumni
 leaveyear: 2020
+became: Scientist, Mellizyme Biotechnology, UK
 education:
   - M.Eng. Chemical Engineering with Biotechnology, University of Manchester, 2014
 image: vittorio-bartoli.jpg

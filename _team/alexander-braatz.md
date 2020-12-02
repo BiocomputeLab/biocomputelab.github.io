@@ -5,6 +5,7 @@ author: Braatz A.
 position: Undergraduate Student
 leaveyear: 2016
 role: alumni
+became: BSc Student, University of Bristol, UK
 education:
   - B.Sci Biology, University of Bristol, 2015-present
 image: alexander-bratz.jpg
