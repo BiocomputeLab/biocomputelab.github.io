@@ -5,7 +5,7 @@ author: Meaker G.A.
 position: Undergraduate Researcher
 role: alumni
 leaveyear: 2020
-became: BSc Student (Genetics), Cardiff University, UK
+became: DPhil Student (Medical Sciences), University of Oxford, UK
 education:
   - B.Sc. Biological Sciences, University of Cardiff (expected 2021)
 image: grace-meaker.jpg
