@@ -132,6 +132,30 @@
   status: pre-print
   notes:
 
+- title: "Characterizing genetic parts and devices using RNA sequencing"
+  authors: 
+    - Vipin D.
+    - Ignatova Z.
+    - Gorochowski T.E.
+  team: 
+    - Deepti Vipin
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: "In: Menolascina F. (eds) Synthetic Gene Circuits. Methods in Molecular Biology"
+  volume: 2229
+  issue: 
+  pages: 175-187
+  year: 2021
+  url: 
+  doi: 10.1007/978-1-0716-1032-9_8
+  tools:
+  thumbnail: 
+  status: published
+
 - title: "Precision design of stable genetic circuits carried in highly-insulated E. coli genomic landing pads"
   authors: 
     - Park Y.
@@ -182,30 +206,6 @@
   thumbnail: 2020-CRISPR-review.jpg
   status: published
   notes:
-
-- title: "Characterizing genetic parts and devices using RNA sequencing"
-  authors: 
-    - Vipin D.
-    - Ignatova Z.
-    - Gorochowski T.E.
-  team: 
-    - Deepti Vipin
-    - Thomas Gorochowski
-  preprint_journal:
-  preprint_id:
-  preprint_year:
-  preprint_doi:
-  preprint_url:
-  journal: "In: Menolascina F. (eds) Synthetic Gene Circuits: Methods and Protocols, Methods in Molecular Biology, Springer"
-  volume: 
-  issue: 
-  pages: 
-  year: 2020
-  url: 
-  doi: 
-  tools:
-  thumbnail: in-press.gif
-  status: in-press
 
 - title: "Self-adaptive biosystems through tunable genetic parts and circuits"
   authors: 
