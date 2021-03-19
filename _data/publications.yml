@@ -122,15 +122,15 @@
   preprint_doi: 10.1101/2020.07.04.187500
   preprint_url: "https://www.biorxiv.org/content/10.1101/2020.07.04.187500v2"
   journal: Nature Communications
-  volume: 
+  volume: 12
   issue: 
-  pages: 
+  pages: 1738
   year: 2021
-  url: 
+  url: "https://www.nature.com/articles/s41467-021-21995-7"
   doi: 10.1038/s41467-021-21995-7
   tools: 
   thumbnail: 
-  status: in-press
+  status: published
   notes:
 
 - title: "Characterizing genetic parts and devices using RNA sequencing"
