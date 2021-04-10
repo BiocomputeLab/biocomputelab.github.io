@@ -73,6 +73,33 @@
   status: pre-print
   notes:
 
+- title: "Harnessing the central dogma for stringent multi-level control of gene expression"
+  authors: 
+    - Greco F.V.
+    - Pandi A.
+    - Erb E.J.
+    - Grierson C.S.
+    - Gorochowski T.E.
+  team: 
+    - F. Veronica Greco
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 2020.07.04.187500
+  preprint_year: 2021
+  preprint_doi: 10.1101/2020.07.04.187500
+  preprint_url: "https://www.biorxiv.org/content/10.1101/2020.07.04.187500v2"
+  journal: Nature Communications
+  volume: 12
+  issue: 
+  pages: 1738
+  year: 2021
+  url: "https://www.nature.com/articles/s41467-021-21995-7"
+  doi: 10.1038/s41467-021-21995-7
+  tools: 
+  thumbnail: 
+  status: published
+  notes:
+
 - title: "Cheetah: a computational toolkit for cybergenetic control"
   authors: 
     - Pedone E.
@@ -102,35 +129,7 @@
   doi: 
   tools: 
   thumbnail: 
-  status: pre-print
-  notes:
-
-
-- title: "Harnessing the central dogma for stringent multi-level control of gene expression"
-  authors: 
-    - Greco F.V.
-    - Pandi A.
-    - Erb E.J.
-    - Grierson C.S.
-    - Gorochowski T.E.
-  team: 
-    - F. Veronica Greco
-    - Thomas Gorochowski
-  preprint_journal: bioRxiv
-  preprint_id: 2020.07.04.187500
-  preprint_year: 2021
-  preprint_doi: 10.1101/2020.07.04.187500
-  preprint_url: "https://www.biorxiv.org/content/10.1101/2020.07.04.187500v2"
-  journal: Nature Communications
-  volume: 12
-  issue: 
-  pages: 1738
-  year: 2021
-  url: "https://www.nature.com/articles/s41467-021-21995-7"
-  doi: 10.1038/s41467-021-21995-7
-  tools: 
-  thumbnail: 
-  status: published
+  status: in-press
   notes:
 
 - title: "Characterizing genetic parts and devices using RNA sequencing"
