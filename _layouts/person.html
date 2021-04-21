@@ -3,21 +3,47 @@
 {% include header.html %}
 
 <div class="row green"><div>
-
-        <img width="400" src="{{baseurl}}/images/team/{{page.image}}">
-        <h1>{{ page.title }}</h1>
-        <h2>{{ page.position }}</h2>
-        <p><a href="mailto:{{page.email}}">{{page.email}}</a></p>
-        {% if page.title != "Thomas Gorochowski" %}<p><b>Education:</b><br>{{page.education | join: "<br>"}}</p>{% endif %}
-        {% if page.twitter != "none" %}<p><b>Twitter:</b> <a href="https://www.twitter.com/{{page.twitter}}">@{{page.twitter}}</a></p>{% endif %}
-        {% if page.github != "none" %}<p><b>GitHub:</b> <a href="https://github.com/{{page.github}}">{{page.github}}</a></p>{% endif %}
-        <p><b>Interests:</b> {{page.keywords | join: ", "}}</p>
-        {{ page.content }}
-
+  <img width="400" src="{{baseurl}}/images/team/{{page.image}}">
+  <h1>{{ page.title }}</h1>
+  <h2>{{ page.position }}</h2>
+  <p><a href="mailto:{{page.email}}">{{page.email}}</a></p>
+  {% if page.title != "Thomas Gorochowski" %}<p><b>Education:</b><br>{{page.education | join: "<br>"}}</p>{% endif %}
+  {% if page.twitter != "none" %}<p><b>Twitter:</b> <a href="https://www.twitter.com/{{page.twitter}}">@{{page.twitter}}</a></p>{% endif %}
+  {% if page.github != "none" %}<p><b>GitHub:</b> <a href="https://github.com/{{page.github}}">{{page.github}}</a></p>{% endif %}
+  <p><b>Interests:</b> {{page.keywords | join: ", "}}</p>
+  {{ page.content }}
 </div></div>
 
 <!-- FOR LAB MEMBERS -->
 {% if page.title != "Thomas Gorochowski" %}
+
+<div class="row dark"><div>
+  <grid columns=8 class="norowgap">
+    <c span=row>
+      <h2>Pre-prints</h2>
+    </c>
+
+    {% for pub in site.data.publications %}
+      <!-- INNER LOOP -->
+      {% if pub.team contains page.title %}
+        {% if pub.status == "pre-print" %}
+        <c span=row>
+          <p class="publication"><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
+          {{ pub.authors | join: ", " }}<br>
+          <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.
+          <!-- Altmetric badge -->
+          {% if pub.preprint_doi == "" %}</p>
+          {% else %}</p><div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.preprint_doi}}"></div>
+          {% endif %}
+        </c>
+        {% endif %}
+      <!-- END INNER LOOP -->
+      {% endif %}
+    {% endfor %}
+
+   </grid>
+</div></div>
+
 
 <section class="bg-master-lighter p-t-40 p-b-40 no-overflow">
   <div class="container">
