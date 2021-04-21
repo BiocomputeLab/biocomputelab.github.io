@@ -44,65 +44,62 @@
    </grid>
 </div></div>
 
+<div class="row"><div>
+  <grid columns=8  class="norowgap">
+    <c span=row>
+      <h2>All published works</h2>
+    </c>
 
-<section class="bg-master-lighter p-t-40 p-b-40 no-overflow">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
+    {% assign loopyear = 9999 %}
+    {% for pub in site.data.publications %}
+      <!-- INNER LOOP -->
+      {% if pub.team contains page.title %}
 
-        <h2>Publications</h2>
-        {% assign loopyear = 2099 %}
-        {% for pub in site.data.publications %}
-          <!-- INNER LOOP -->
-          {% if pub.team contains page.title %}
+        {% if loopyear > pub.year %}
+          {% assign loopyear = pub.year %}
+          <c span=row class="publication-year"><h3>{{ pub.year }}</h3></c>
+        {% endif %}
 
-            {% if loopyear > pub.year %}
-              {% assign loopyear = pub.year %}
-              <div class="p-b-5 p-t-15">
-                <h5 class="year p-b-1">{{ pub.year }}</h5>
-                <hr>
-              </div>
+        {% if loopyear == pub.year %}
+        {% if pub.status != "pre-print" %}
+          <c span=row>
+            {% if pub.status == "in-press"  or pub.status == "in-revision" or pub.status == "submitted" or pub.status == "in-prep" %}
+            <p class="publication"><b>{{pub.title}}</b><br>
+            {% else %}<p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
             {% endif %}
-            {% if loopyear == pub.year %}
-            <div class="media">
-              <div class="media-left">
-                {% if pub.status == "in-revision" or pub.status == "in-prep" or pub.status == "submitted" %}<img class="media-object thinborder" width="60" src="{{baseurl}}/images/publications/in-press.gif">
-                {% else %}<img class="media-object thinborder" width="60" src="{{baseurl}}/images/publications/{{pub.thumbnail}}">
-                {% endif %}
-              </div>
-              <div class="media-body">
-                {% if pub.status == "in-press"  or pub.status == "in-revision" or pub.status == "submitted" or pub.status == "in-prep" %}
-                <p class="fs-14"><b>{{pub.title}}</b><br>
-                {% else %}<p class="fs-14"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
-                {% endif %}
-                {{ pub.authors | join: ", " }}<br>
-                {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i></p>
-                {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i></p>
-                {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i></p>
-                {% elsif pub.status == "in-prep" %}<i>{{pub.journal}}</i>. <i>(in preparation)</i></p>
-                {% elsif pub.status == "submitted" %}<i>{{pub.journal}}</i>. <i>(submitted)</i></p>
-                {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.</p>
-                {% endif %}
-              </div>
-            </div>
+            {{ pub.authors | join: ", " }}<br>
+            {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i>
+            {% elsif pub.status == "accepted" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(accepted)</i>
+            {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i>
+            {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i>
+            {% elsif pub.status == "in-prep" %}<i>{{pub.journal}}</i>. <i>(in preparation)</i>
+            {% elsif pub.status == "submitted" %}<i>{{pub.journal}}</i>. <i>(submitted)</i>
+            {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.
             {% endif %}
-          <!-- END INNER LOOP -->
-          {% endif %}
-        {% endfor %}
+            <!-- Notes if they exist -->
+            {% if pub.notes %}
+            <ul class="publication-notes ">
+              {% for note in pub.notes %}<li>{{note}}</li>{% endfor %}
+            </ul>
+            {% endif %}
+            <!-- Altmetric badge -->
+            {% if pub.doi == "" %}
+            {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div>
+            {% endif %}
+          </c>
+        {% endif %}
+        {% endif %}
+      <!-- END INNER LOOP -->
+      {% endif %}
+    {% endfor %}
 
-      </div>
-    </div>
-  </div>
-</section>
+   </grid>
+</div></div>
 
 <!-- END FOR LAB MEMBERS -->
 {% endif %}
 
-<section class="bg-master-light p-t-40 p-b-40 no-overflow">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-
+<div class="row green"><div>
         <h2>Talks and Poster Presentations</h2>
         <p><ul>
         <!--{% assign num = 0 %}-->
@@ -115,10 +112,6 @@
           {% endif %}
         {% endfor %}
         </ol></p>
-
-      </div>
-    </div>
-  </div>
-</section>
+</div></div>
 
 {% include footer.html %}
