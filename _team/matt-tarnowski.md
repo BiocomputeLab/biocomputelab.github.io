@@ -1,7 +1,7 @@
 ---
 layout: person
 title: Matt Tarnowski
-author: Tarnowski M.
+author: Tarnowski M.J.
 position: Ph.D. Student
 role: member
 leaveyear: 9999 
@@ -10,14 +10,19 @@ education:
   - Graduate Programme, AstraZeneca, 2014-2016
 image: matt-tarnowski.jpg
 email: matt.tarnowski@bristol.ac.uk
-twitter: synbioscientist
+twitter: co_evolver
 github: pluralise
-url: "https://pluralise.github.io/about/"
+url: "https://www.instagram.com/co_evolver/"
 keywords:
-  - synthetic biology
+  - nanopore sequencing
   - bioinformatics
-  - evolution
-  - responsible innovation
+  - genotype-phenotype maps
   - microbiology
+  - responsible innovation
+  - agroecology
+  - ecosystem restoration
+  - fermentation
+  - soil science
+  - one health
 ---
-Currently doing research at the interface of experimental and computational biology to understand and engineer molecular bio-systems. Alongside my PhD I organise DNA sequencing / biotechnology outreach activities and serve as SynBio UK president, an association connecting synthetic biology students across the UK. Don’t hesitate to get in touch if you’d like to chat!
+4th year PhD using nanopore sequencing to engineer novel genetic tools and methods to study them. Enjoying applying microbiology on the side: growing and fermenting food, beverages, compost and biofertiliser. Co-founder of South-West Agroecology Network. Future research directions: agroecology, fermentation, one health and ecosystem restoration.
