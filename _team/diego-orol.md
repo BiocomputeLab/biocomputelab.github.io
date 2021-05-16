@@ -3,8 +3,9 @@ layout: person
 title: Diego Orol-Gomez
 author: Orol-Gomez D.
 position: Research Associate
-role: member
-leaveyear: 9999
+role: alumni
+leaveyear: 2021
+became: Scientist, Touchlight Genetics Ltd., UK
 education:
   - BSc Biology, Universidades de A Coruña 2012
   - MSc Biotechnology, Universidad de Granada 2014
