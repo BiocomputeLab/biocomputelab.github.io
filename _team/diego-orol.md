@@ -5,7 +5,7 @@ author: Orol-Gomez D.
 position: Research Associate
 role: alumni
 leaveyear: 2021
-became: Scientist, Touchlight Genetics Ltd., UK
+became: Scientist, Touchlight Genetics Ltd, UK
 education:
   - BSc Biology, Universidades de A Coruña 2012
   - MSc Biotechnology, Universidad de Granada 2014
