@@ -2,7 +2,7 @@
 layout: person
 title: Lars Koetter
 author: Koetter L.J.
-position: DAAD Internship
+position: DAAD RISE Student
 role: member
 leaveyear: 9999
 became: none
