@@ -48,6 +48,32 @@
   status: pre-print
   notes:
 
+- title: "Efficient multiplexed gene regulation in Saccharomyces cerevisiae using dCas12a"
+  authors: 
+    - Ciurkot K.
+    - Gorochowski T.E.
+    - Roubos J.
+    - Verwaal R.
+  team: 
+    - Klaudia Ciurkot
+    - Thomas Gorochowski
+  preprint_journal: 
+  preprint_id: 
+  preprint_year: 
+  preprint_doi: 
+  preprint_url: 
+  journal: Nucleic Acids Research
+  volume: 
+  issue: 
+  pages: 
+  year: 2021
+  url: 
+  doi: 
+  tools: 
+  thumbnail: 
+  status: in-press
+  notes:
+
 - title: "Towards an engineering theory of evolution"
   authors: 
     - Castle S.D.
@@ -146,9 +172,9 @@
   preprint_doi: 
   preprint_url: 
   journal: Frontiers in Bioengineering and Biotechnology
-  volume: 
+  volume: 9
   issue: 
-  pages: 
+  pages: 700418
   year: 2021
   url: "https://doi.org/10.3389/fbioe.2021.700418"
   doi: 10.3389/fbioe.2021.700418
