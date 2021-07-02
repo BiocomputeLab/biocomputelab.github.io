@@ -65,13 +65,13 @@
   journal: Nucleic Acids Research
   volume: 
   issue: 
-  pages: 
+  pages: gkab529
   year: 2021
-  url: 
+  url: "https://doi.org/10.1093/nar/gkab529"
   doi: 10.1093/nar/gkab529
   tools: 
   thumbnail: 
-  status: in-press
+  status: published
   notes:
 
 - title: "Towards an engineering theory of evolution"
