@@ -2,7 +2,7 @@
 layout: person
 title: Thea Irvine
 author: Irvine T.C.
-position: MSc by research
+position: MSc(R) Student
 role: member
 leaveyear: 2022
 education:
