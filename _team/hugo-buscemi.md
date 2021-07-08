@@ -2,7 +2,7 @@
 layout: person
 title: Hugo Bucemi
 author: Bucemi H.
-position: M. Student
+position: MSci. Student
 role: Intern
 leaveyear: 9999
 education:
