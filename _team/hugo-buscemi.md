@@ -3,7 +3,7 @@ layout: person
 title: Hugo Bucemi
 author: Bucemi H.
 position: MSci Student
-role: Intern
+role: member
 leaveyear: 9999
 education:
   - MSci. Computer Science, ENS Paris-Saclay, 2021
