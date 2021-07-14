@@ -2,7 +2,7 @@
 layout: person
 title: Ana Rubio Denniss
 author: Rubio Denniss A.
-position: Ph.D. Student
+position: Research Assistant
 role: member
 leaveyear: 9999
 education:
