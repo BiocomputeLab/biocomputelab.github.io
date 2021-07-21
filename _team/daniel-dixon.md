@@ -5,6 +5,7 @@ author: Dixon D.O.R.
 position: Ph.D. Student
 role: alumni
 leaveyear: 2020
+became: Scientist, 4basebio, UK
 education:
   - M.Sci. Biology, University of Bristol, 2015
 image: daniel-dixon.jpg
