@@ -48,6 +48,31 @@
   status: pre-print
   notes:
 
+- title: "paraSBOLv: a foundation for standard-compliant genetic design visualization tools"
+  authors: 
+    - Clark C.C.
+    - Scott-Brown J.
+    - Gorochowski T.E.
+  team: 
+    - Charlie Clark
+    - Thomas Gorochowski
+  preprint_journal: 
+  preprint_id: 
+  preprint_year: 
+  preprint_doi: 
+  preprint_url: 
+  journal: Synthetic Biology
+  volume: 
+  issue: 
+  pages: 
+  year: 2021
+  url: 
+  doi: 
+  tools: 
+  thumbnail: 
+  status: in-press
+  notes:
+
 - title: "Efficient multiplexed gene regulation in Saccharomyces cerevisiae using dCas12a"
   authors: 
     - Ciurkot K.
