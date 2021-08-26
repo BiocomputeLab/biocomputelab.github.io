@@ -151,6 +151,39 @@
   status: published
   notes:
 
+
+
+
+- title: "Synthetic Biology Open Language Visual (SBOL Visual) Version 3.0"
+  authors: 
+    - Baig H.
+    - Fontanarossa P.
+    - Scott-Brown J.
+    - McLaughlin J.
+    - Vaidyanathan P.
+    - Gorochowski T.E.
+    - Misirli G.
+    - Beal J.
+    - Myers C.
+  team: 
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Journal of Integrative Bioinformatics
+  volume: 
+  issue: 
+  pages: 
+  year: 2021
+  url: 
+  doi: 
+  tools:
+  thumbnail: 2020-SBOL3.0.jpg
+  status: in-press
+
+
 - title: "Cheetah: a computational toolkit for cybergenetic control"
   authors: 
     - Pedone E.
