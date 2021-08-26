@@ -88,9 +88,9 @@
   preprint_doi: 
   preprint_url: 
   journal: Nucleic Acids Research
-  volume: 
-  issue: 
-  pages: gkab529
+  volume: 49
+  issue: 13
+  pages: 7775-7790
   year: 2021
   url: "https://doi.org/10.1093/nar/gkab529"
   doi: 10.1093/nar/gkab529
@@ -151,9 +151,6 @@
   status: published
   notes:
 
-
-
-
 - title: "Synthetic Biology Open Language Visual (SBOL Visual) Version 3.0"
   authors: 
     - Baig H.
@@ -182,7 +179,6 @@
   tools:
   thumbnail: 2020-SBOL3.0.jpg
   status: in-press
-
 
 - title: "Cheetah: a computational toolkit for cybergenetic control"
   authors: 
