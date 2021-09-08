@@ -9,7 +9,7 @@ became: none
 education:
   - BSc Biomedical Science, University of Surrey, 2018
   - MSc Molecular Biosciences (Microbiology), University of Bath, 2020
-image: Sarah Cameron.jpg
+image: sarah-cameron.jpg
 email: fe21183@bristol.ac.uk 
 twitter: none
 github: https://github.com/Sarah-Cameron 
