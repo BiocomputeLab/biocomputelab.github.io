@@ -3,8 +3,9 @@ layout: person
 title: Hugo Bucemi
 author: Bucemi H.
 position: MSci Student
-role: member
-leaveyear: 9999
+role: alumni
+leaveyear: 2021
+became: MSci student, École Normale Supérieure (ENS) Paris-Saclay, France
 education:
   - MSci. Computer Science, ENS Paris-Saclay, 2021
 image: hugo-buscemi.jpg
