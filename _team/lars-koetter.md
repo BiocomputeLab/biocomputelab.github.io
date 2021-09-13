@@ -3,9 +3,9 @@ layout: person
 title: Lars Koetter
 author: Koetter L.J.
 position: DAAD RISE Student
-role: member
-leaveyear: 9999
-became: none
+role: alumni
+leaveyear: 2021
+became: Masters Student, University of Tuebingen, Germany
 education:
   - B.Sci. Molecular Biomedicine, University of Bonn, 2020
 image: lars-koetter.jpg
