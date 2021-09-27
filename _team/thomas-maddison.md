@@ -3,7 +3,7 @@ layout: person
 title: Thomas Maddison
 author: Maddison T.R.
 position: MSc Student
-role: member
+role: alumni
 leaveyear: 2021
 education:
   - BSc Biomedical Science, University of Lincoln, 2020

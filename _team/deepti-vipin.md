@@ -3,8 +3,8 @@ layout: person
 title: Deepti Vipin
 author: Vipin, D
 position: Ph.D. Student
-role: member
-leaveyear: 9999
+role: alumni
+leaveyear: 2021
 education: MSc Systems and Synthetic Biology, The University of Edinburgh, 2016
 image: deepti-vipin.jpg
 url: "https://uk.linkedin.com/in/deeptivipin"

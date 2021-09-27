@@ -3,8 +3,9 @@ layout: person
 title: Klaudia Ciurkot
 author: Ciurkot K.
 position: Ph.D. Student
-role: member
-leaveyear: 9999
+role: alumni
+leaveyear: 2021
+became: Postdoc (Ellis Group), Sanger Institute, Cambridge, UK
 education:
   - M.Eng. Biotechnology, Technical University of Denmark, 2018
   - B.Eng. Biotechnology, Wroclaw University of Science and Technology 2016
