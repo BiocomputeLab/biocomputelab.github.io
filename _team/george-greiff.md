@@ -10,7 +10,7 @@ education:
   - B.A. Biological Sciences, University of Oxford, 2021
 image: george-greiff.jpg
 email: george.greiff@bristol.ac.uk
-twitter: @ilichenmoss
+twitter: ilichenmoss
 github: none
 url: none
 keywords:
