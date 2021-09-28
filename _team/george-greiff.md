@@ -1,11 +1,11 @@
 ---
 layout: person
 title: George Greiff
-author: Greiff, G. R. L.
+author: Greiff, G.R.L.
 position: SWBio PhD Student
 role: member
 leaveyear: 2022
-became: 2021
+became: none
 education:
   - B.A. Biological Sciences, University of Oxford, 2021
 image: george-greiff.jpg
