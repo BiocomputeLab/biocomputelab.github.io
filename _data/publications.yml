@@ -47,30 +47,6 @@
   status: pre-print
   notes:
 
-- title: "Massively parallel characterisation of engineered transcript isoforms using direct RNA sequencing"
-  authors: 
-    - Tarnowski M.J.
-    - Gorochowski T.E.
-  team: 
-    - Matt Tarnowski
-    - Thomas Gorochowski
-  preprint_journal: bioRxiv
-  preprint_id: 2021.01.02.425091
-  preprint_year: 2021
-  preprint_doi: 10.1101/2021.01.02.425091
-  preprint_url: "https://biorxiv.org/cgi/content/short/2021.01.02.425091v1"
-  journal: 
-  volume: 
-  issue: 
-  pages: 
-  year: 
-  url: 
-  doi: 
-  tools: 
-  thumbnail: 
-  status: pre-print
-  notes:
-
 - title: "An open platform for high-resolution light-based control of microscopic collectives"
   authors: 
     - Rubio Dennis A.
@@ -94,6 +70,30 @@
   tools: 
   thumbnail: 
   status: pre-print
+  notes:
+
+- title: "Massively parallel characterisation of engineered transcript isoforms using direct RNA sequencing"
+  authors: 
+    - Tarnowski M.J.
+    - Gorochowski T.E.
+  team: 
+    - Matt Tarnowski
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 2021.01.02.425091
+  preprint_year: 2021
+  preprint_doi: 10.1101/2021.01.02.425091
+  preprint_url: "https://biorxiv.org/cgi/content/short/2021.01.02.425091v1"
+  journal: Nature Communications
+  volume: 
+  issue: 
+  pages: 
+  year: 2022
+  url: 
+  doi: 
+  tools: 
+  thumbnail: 
+  status: in-press
   notes:
 
 - title: "paraSBOLv: a foundation for standard-compliant genetic design visualization tools"
