@@ -5,7 +5,7 @@ author: Ciurkot K.
 position: Ph.D. Student
 role: alumni
 leaveyear: 2021
-became: Postdoc (Ellis Group), Sanger Institute, Cambridge, UK
+became: Postdoc (Ellis Group), Imperial College London, UK
 education:
   - M.Eng. Biotechnology, Technical University of Denmark, 2018
   - B.Eng. Biotechnology, Wroclaw University of Science and Technology 2016
