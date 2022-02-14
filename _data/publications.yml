@@ -1,29 +1,4 @@
 
-- title: "Improving the robustness of engineered bacteria to nutrient stress using programmed proteolysis"
-  authors: 
-    - Szydlo K.
-    - Ignatova Z.
-    - Gorochowski T.E.
-  team: 
-    - Klara Szydlo
-    - Thomas Gorochowski
-  preprint_journal: bioRxiv
-  preprint_id: 10.04.463040
-  preprint_year: 2022
-  preprint_doi: 10.1101/2021.10.04.463040
-  preprint_url: "https://www.biorxiv.org/content/10.1101/2021.10.04.463040v2"
-  journal: 
-  volume: 
-  issue: 
-  pages: 
-  year: 
-  url: 
-  doi: 
-  tools: 
-  thumbnail: 
-  status: pre-print
-  notes:
-
 - title: "How biological concepts and evolutionary theories are inspiring advances in machine intelligence"
   authors: 
     - Gutai A.R.
@@ -70,6 +45,31 @@
   tools: 
   thumbnail: 
   status: pre-print
+  notes:
+
+- title: "Improving the robustness of engineered bacteria to nutrient stress using programmed proteolysis"
+  authors:
+    - Szydlo K.
+    - Ignatova Z.
+    - Gorochowski T.E.
+  team:
+    - Klara Szydlo
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 10.04.463040
+  preprint_year: 2022
+  preprint_doi: 10.1101/2021.10.04.463040
+  preprint_url: "https://www.biorxiv.org/content/10.1101/2021.10.04.463040v2"
+  journal: ACS Synthetic Biology
+  volume:
+  issue:
+  pages:
+  year: 2022
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: in-press
   notes:
 
 - title: "Massively parallel characterisation of engineered transcript isoforms using direct RNA sequencing"
