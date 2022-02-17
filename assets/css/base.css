@@ -23,7 +23,7 @@
   --gray: rgb(180, 180, 180);
   --white: rgb(255, 255, 255);
 
-  --font-family: 'Inter';
+  --font-family: 'IBM Plex Sans';
 }
 
 @supports (font-variation-settings: normal) {
