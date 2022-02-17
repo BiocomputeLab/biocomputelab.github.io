@@ -23,15 +23,15 @@
   --gray: rgb(180, 180, 180);
   --white: rgb(255, 255, 255);
 
-  --font-family: 'IBM Plex Sans';
+  --font-family: 'Inter';
 }
-/*
+
 @supports (font-variation-settings: normal) {
   :root {
     --font-family: 'Inter var';
   }
 }
-*/
+
 
 @supports not (color: color(display-p3 1 1 1)) {
   /* sRGB colors */
