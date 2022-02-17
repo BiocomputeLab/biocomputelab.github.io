@@ -25,12 +25,13 @@
 
   --font-family: 'IBM Plex Sans';
 }
-
+/*
 @supports (font-variation-settings: normal) {
   :root {
     --font-family: 'Inter var';
   }
 }
+*/
 
 @supports not (color: color(display-p3 1 1 1)) {
   /* sRGB colors */
