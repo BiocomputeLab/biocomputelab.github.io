@@ -68,10 +68,6 @@ section: about-analytics
               {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.
               {% endif %}
               </p>
-              <!-- Altmetric badge -->
-              {% if pub.doi == "" %}
-              {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div>
-              {% endif %}
             </c>
           {% endif %}
         {% endfor %}

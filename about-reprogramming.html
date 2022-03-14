@@ -56,7 +56,7 @@ section: about-reprogramming
         <h2 class="pb-2 py-5 border-bottom">Selected publications</h2>
         <div class="row">
         {% for pub in site.data.publications %}
-          {% if pub.key_paper_reprogramming == "true" %}
+          {% if pub.key_paper_reprogramming == true %}
             <c span=row>
               <p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
               {{ pub.authors | join: ", " }}<br>
@@ -66,10 +66,6 @@ section: about-reprogramming
               {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.
               {% endif %}
               </p>
-              <!-- Altmetric badge -->
-              {% if pub.doi == "" %}
-              {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div>
-              {% endif %}
             </c>
           {% endif %}
         {% endfor %}
