@@ -1,58 +1,8 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Thomas Gorochowski">
-    <meta name="generator" content="">
-    <title>Biocompute Lab</title>
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles -->
-    <link href="biocomputelab.css" rel="stylesheet">
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,500;1,200;1,300;1,500&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><span class="logoBio">Bio</span><span class="logoCompute">compute</span> <span class="logoLab">Lab</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="{{baseurl}}/">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{baseurl}}/team">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{baseurl}}/publications">Publications</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{baseurl}}/join">Join</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{baseurl}}/contact">Contact</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/BiocomputeLab">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 19">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+---
+title: About - Biocompute Lab
+section: about
+---
+{% include header.html %}
 
     <main>
 
@@ -105,7 +55,7 @@
             </div>
             <h3>Reprogramming biology</h3>
             <p>Biology offers many capabilities that could address the global challenges we face as a society. The Biocompute Lab is attempting to understand how to effectively reprogram biology to co-opt and install new functionalities into living systems across scales; from networks of interacting molecules, to cellular collectives, and even entire ecosystems.</p>
-            <a class="btn btn-success" href="{{baseurl}}/about-reprogramming.html" role="button">Learn more</a>
+            <a class="btn btn-success" href="{{baseurl}}/about-reprogramming" role="button">Learn more</a>
           </div>
           <div class="feature col">
             <div class="feature-icon bg-primary bg-gradient">
@@ -113,7 +63,7 @@
             </div>
             <h3>Advanced cellular analytics</h3>
             <p>Inside every cell is a complex, dynamic and sometimes mysterious environment. The Biocompute Lab is developing advanced biometrology approaches based on emerging technologies like nanopore sequencing and high-throughput fluorescence activate cell sorting to "see" and "measure" the inner workings of this typically hidden world.</p>
-            <a class="btn btn-success" href="{{baseurl}}/about-analytics.html" role="button">Learn more</a>
+            <a class="btn btn-success" href="{{baseurl}}/about-analytics" role="button">Learn more</a>
           </div>
           <div class="feature col">
             <div class="feature-icon bg-primary bg-gradient">
@@ -121,7 +71,7 @@
             </div>
             <h3>Engineering (with) evolution</h3>
             <p>Evolution is the most powerful technology on this planet. The Biocompute Lab is exploring ways to harness and integrate evolution into new biological design workflows, as well as searching for avenues to engineer evolutionary processes themselves to create a new generation of truly self-adaptive engineered living system.</p>
-            <a class="btn btn-success" href="{{baseurl}}/about-evolution.html" role="button">Learn more</a>
+            <a class="btn btn-success" href="{{baseurl}}/about-evolution" role="button">Learn more</a>
           </div>
         </div>
       </div>
