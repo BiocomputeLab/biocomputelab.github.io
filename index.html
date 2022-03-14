@@ -1,35 +1,82 @@
----
-title: About - Biocompute Lab
-section: about
----
-{% include header.html %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Thomas Gorochowski">
+    <meta name="generator" content="">
+    <title>Biocompute Lab</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link href="biocomputelab.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,500;1,200;1,300;1,500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span class="logoBio">Bio</span><span class="logoCompute">compute</span> <span class="logoLab">Lab</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="{{baseurl}}/">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{baseurl}}/team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{baseurl}}/publications">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{baseurl}}/join">Join</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{baseurl}}/contact">Contact</a>
+            </li>
 
-<div class="row green"><div>
-  <grid columns=8  class="norowgap">
-    <c span=row>
-      <h1>Biology computes</h1>
-    </c>
-    <c span=1-2 span-s=row>
-      <span class="white font-style-semi-bold">synthetic biology; biodesign; computation; complex systems</span>
-    </c>
-    <c span=3.. span-s=row>
-      <p>
-        From individual cells deciding how to differentiate during development,
-        to social insects coordinating their actions when scavenging for food;
-        the ability to perform complex computations and process information
-        enables life.
-      </p>
-    </c>
-  </grid>
-</div></div>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/BiocomputeLab">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 19">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<div class="row"><div>
-  <grid columns=8  class="norowgap">
-    <c span=2 span-s=row>
-      <h2>But how?</h2>
-    </c>
-    <c span=3.. span-s=row>
-      <p>
+    <main>
+
+      <div class="container col-xxl-8 px-4 py-1">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="img/biocompute-web.png" class="d-block mx-lg-auto img-fluid" width="500" height="300" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3 pagetitle">Biology computes</h1>
+            <p class="lead">From individual cells deciding how to differentiate during development, to social insects coordinating their actions when scavenging for food; the ability to perform complex computations and process information enables life across scales.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <span class="badge bg-light text-dark rounded-pill">synthetic biology</span>
+              <span class="badge bg-light text-dark rounded-pill">data-centric biodesign</span>
+              <span class="badge bg-light text-dark rounded-pill">biocomputation</span>
+              <span class="badge bg-light text-dark rounded-pill">complex systems</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container px-4 py-1">
+        <p class="bcl-box">
         The Biocompute Lab explores the molecular-scale mechanisms that
         individual cells and groups of cells use to make sense of their world.
         We apply tools and methods from the field of synthetic biology to create
@@ -42,35 +89,53 @@ section: about
         problems spanning the sustainable production of materials to novel
         therapeutics. It also provides key insights into how biology controls
         the complex processes and structures sustaining life.
-      </p>
-    </c>
-</div></div>
+        </p>
+      </div>
 
-<div class="row dark"><div>
-  <grid columns=8 class="norowgap">
-    <c span=row>
-      <h2>Projects</h2>
-    </c>
-    <c span=row>
-      <p>Website update in progress. Come back later to find out more...</p>
-    </c>
-  </grid>
-</div></div>
 
-<div class="row"><div>
-  <grid columns=8  class="norowgap">
-    <c span=row>
-      <h2>Generously supported by</h2>
-      <ul>
-        <li><b>The Royal Society</b> – University Research Fellowship (UF160357, RGF\EA\180024, RGF\R1\180012, RGF\EA\201020), <a href="https://royalsociety.org/grants-schemes-awards/grants/public-engagement-fund/newly-funded-projects/2018/">Public Engagement Award</a> (PEF2\180019)</li>
-        <li><b>BBSRC/EPSRC</b> – <a href="http://www.bristol.ac.uk/brissynbio/">BrisSynBio Fellowship</a> (BB/L01386X/1)</li>
-        <li><b>EPSRC</b> – Impact Acceleration Awards (EP/P511298/1)</li>
-        <li><b>EU H2020</b> – <a href="http://www.syncrop.org">SynCrop ETN</a> (#764591)</li>
-        <li><b>Leverhulme Trust</b> – Research Project Grant (RPG-2019-229)</li>
-        <li><b>NVIDIA</b> – GPU grant programme</li>
-      </ul>
-    </c>
-  </grid>
-</div></div>
 
-{% include footer.html %}
+
+
+      <div class="container px-4 py-5">
+        <h2 class="pb-2 border-bottom">Research areas</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon bg-primary bg-gradient">
+              <img width=100% src="img/reprogramming-web.png"/>
+            </div>
+            <h3>Reprogramming biology</h3>
+            <p>Biology offers many capabilities that could address the global challenges we face as a society. The Biocompute Lab is attempting to understand how to effectively reprogram biology to co-opt and install new functionalities into living systems across scales; from networks of interacting molecules, to cellular collectives, and even entire ecosystems.</p>
+            <a class="btn btn-success" href="about-reprogramming.html" role="button">Learn more</a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon bg-primary bg-gradient">
+              <img width=100% src="img/analytics-web.png"/>
+            </div>
+            <h3>Advanced cellular analytics</h3>
+            <p>Inside every cell is a complex, dynamic and sometimes mysterious environment. The Biocompute Lab is developing advanced biometrology approaches based on emerging technologies like nanopore sequencing and high-throughput fluorescence activate cell sorting to "see" and "measure" the inner workings of this typically hidden world.</p>
+            <a class="btn btn-success" href="about-analytics.html" role="button">Learn more</a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon bg-primary bg-gradient">
+              <img width=100% src="img/evolution-web.png"/>
+            </div>
+            <h3>Engineering (with) evolution</h3>
+            <p>Evolution is the most powerful technology on this planet. The Biocompute Lab is exploring ways to harness and integrate evolution into new biological design workflows, as well as searching for avenues to engineer evolutionary processes themselves to create a new generation of truly self-adaptive engineered living system.</p>
+            <a class="btn btn-success" href="about-evolution.html" role="button">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </main>
+
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">&copy; 2022 Biocompute Lab</p>
+      </footer>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

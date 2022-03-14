@@ -38,12 +38,13 @@
   journal: Advanced Intelligent Systems
   volume: 
   issue: 
-  pages: 2200009
+  pages: 
   year: 2022
   url: "https://doi.org/10.1002/aisy.202200009"
   doi: 10.1002/aisy.202200009
   tools: 
   thumbnail: 
+  key_paper_reprogramming: true
   status: in-press
   notes:
 
@@ -93,6 +94,7 @@
   doi: 10.1038/s41467-022-28074-5
   tools: 
   thumbnail: 
+  key_paper_analytics: true
   status: published
   notes:
 
@@ -167,6 +169,7 @@
   doi: 10.1093/nar/gkab529
   tools: 
   thumbnail: 
+  key_paper_reprogramming: true
   status: published
   notes:
 
@@ -192,6 +195,7 @@
   doi: 10.1038/s41467-021-23573-3
   tools: 
   thumbnail: 
+  key_paper_evolution: true
   status: published
   notes:
 
@@ -219,6 +223,7 @@
   doi: 10.1038/s41467-021-21995-7
   tools: 
   thumbnail: 
+  key_paper_reprogramming: true
   status: published
   notes:
 
@@ -464,6 +469,7 @@
   doi: 10.3389/fbioe.2020.01009
   tools: 
   thumbnail: 2020-frontiers_SBOL3.jpg
+  key_paper_analytics: true
   status: published
   notes:
 
@@ -488,6 +494,7 @@
   doi: 10.1016/j.cbpa.2020.06.002
   tools: 
   thumbnail: 2020-CurrOpinChemBiol.jpg
+  key_paper_analytics: true
   status: published
   notes:
 
@@ -559,6 +566,7 @@
   doi: 10.1038/s41467-020-15653-7
   tools: 
   thumbnail: 2020-natcomms_tunable.jpg
+  key_paper_reprogramming: true
   status: published
   notes:
     - "'Behind the Paper' at the Nature Biotechnology Community (<a href=https://bioengineeringcommunity.nature.com/posts/64095-design-build-test-and-then-tune-to-perfection>link</a>)."
@@ -739,6 +747,7 @@
   doi: 10.1038/s41467-019-13232-z
   tools:
   thumbnail: 2019-natcomms_cellsup.png
+  key_paper_reprogramming: true
   status: published
 
 - title: "Communicating Structure and Function in Synthetic Biology Diagrams"
@@ -783,6 +792,7 @@
   doi: 10.1021/acssynbio.9b00139
   tools:
   thumbnail: 2019-SBOLv-Communicate.jpg
+  key_paper_analytics: true
   status: published
 
 - title: "Living computers powered by biochemistry"
@@ -835,6 +845,7 @@
   doi: 10.15252/msb.20188719
   tools: 
   thumbnail: 2019-ribo_rna_seq.jpg
+  key_paper_analytics: true
   status: published
   notes:
 
@@ -1066,6 +1077,7 @@
   doi: 10.1126/sciadv.aap9751
   tools:
   thumbnail: 2018-sciadv.gif
+  key_paper_reprogramming: true
   status: published
 
 - title: "Synthetic Biology Open Language Visual (SBOL Visual) Version 2.0"
@@ -1151,6 +1163,7 @@
   doi: 10.15252/msb.20167461
   tools:
   thumbnail: 2017-rnaseq_debug.jpg
+  key_paper_analytics: true
   status: published
   notes:
     - "Highlighted in editorial at Molecular Systems Biology (<a href=http://msb.embopress.org/content/13/12/996>link</a>)."
@@ -1198,6 +1211,7 @@
   doi: 10.1042/BST20160347
   tools: 
   thumbnail: 2017-biochem-soc-trans.gif
+  key_paper_analytics: true
   status: published
 
 - title: "DNAplotlib: programmable visualization of genetic designs and associated data"
@@ -1222,6 +1236,7 @@
   tools:
     - DNAplotlib
   thumbnail: 2016-acssb-dnaplotlib.gif
+  key_paper_analytics: true
   status: published
 
 - title: "Registry in a tube: multiplexed pools of retrievable parts for genetic design space exploration"
@@ -1435,6 +1450,7 @@
   url: "http://dx.doi.org/10.1109/TVCG.2011.142"
   doi: 10.1109/TVCG.2011.142
   thumbnail: 2012-network-aging.gif
+  key_paper_evolution: true
   status: published
 
 - title: "Evolving dynamical networks: a formalism for describing complex systems"
@@ -1452,6 +1468,7 @@
   url: "http://dx.doi.org/10.1002/cplx.20386"
   doi: 10.1002/cplx.20386
   thumbnail: 2010-complexity.gif
+  key_paper_evolution: true
   status: published
   notes:
     - "Featured on the journal cover (<a href=https://onlinelibrary.wiley.com/toc/10990526/17/3>link</a>)."

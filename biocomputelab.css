@@ -1,0 +1,138 @@
+
+
+
+
+
+* {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+  color: white;
+  min-height: 75rem;
+  padding-top: 4.5rem;
+  background: black;
+}
+
+p {
+  font-weight: 300;
+  font-size:  18px;
+  color: #BBBBBB;
+}
+
+
+.bcl-box {
+  border-radius: 10px;
+  background: #222222;
+  color:  #DDDDDD;
+  padding: 15px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.nav-item {
+  font-size: 16px;
+}
+
+.lead {
+  color: #999999;
+}
+
+.pagetitle {
+  font-size: 90px;
+  letter-spacing: -0.05em;
+}
+
+.logoBio {
+  /* Pantone 16-6340 "Classic Green" */
+  color: #3cb24e;
+}
+
+.logoCompute {
+  color: #FFFFFF;
+}
+
+.logoLab {
+  color: #888888;
+}
+
+a {
+  color: #3cb24e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dddddd;
+  text-decoration: none;
+}
+
+blockquote {
+  /*background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";*/
+}
+blockquote:before {
+  /*color: #ccc;*/
+  color: white;
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.05em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  font-style: italic;
+}
+
+
+.card {
+  background: #000000;
+  border-radius: 0px;
+}
+
+.card-body {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 5px;
+}
+.card-name {
+  font-size: 16px;
+  font-style: bold;
+}
+
+.card-position {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.paper-author {
+}
+
+.paper-journal {
+}
+
+.bclcol1 {
+  /* Orange */
+  color: #F0B850;
+}
+
+.bclcol2 {
+  /* Blue */
+  color: #3D72F1;
+}
+
+.bclcol3 {
+  /* Red */
+  color: #DF3D47;
+}
+
+.bclcol4 {
+  /* Purple */
+  color: #7C30A7;
+}
