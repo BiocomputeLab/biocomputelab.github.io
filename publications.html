@@ -31,9 +31,9 @@ section: publications
 
       {% if loopyear == pub.year %}
       {% if pub.status != "pre-print" %}
-        <div class="row px-2">
+        <div class="row">
           {% if pub.status == "in-press" %}
-          <p class="publication bclcol5"><b>{{pub.title}}</b><br>
+          <p class="publication"><span class="bclcol5"><b>{{pub.title}}</b></span><br>
           {% else %}<p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
           {% endif %}
           {{ pub.authors | join: ", " }}<br>
@@ -48,10 +48,10 @@ section: publications
             {% for note in pub.notes %}<li>{{note}}</li>{% endfor %}
           </ul>
           {% endif %}-->
-          <!-- Altmetric badge -->
+          <!-- Altmetric badge
           {% if pub.doi == "" %}
           {% else %}<div class='py-0 altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div>
-          {% endif %}
+          {% endif %} -->
         </div>
       {% endif %}
       {% endif %}
