@@ -393,8 +393,6 @@
   tools: 
   thumbnail: 2020-MSB_genome_circuits.jpg
   status: published
-  key_areas:
-    - evolution
   notes:
 
 - title: "Advances in engineering CRISPR-Cas9 as a molecular Swiss Army knife"
@@ -549,8 +547,6 @@
   tools: 
   thumbnail: 2020-frontiers_mam.jpg
   status: published
-  key_areas:
-    - evolution
   notes:
 
 - title: "Tunable genetic devices through simultaneous control of transcription and translation"
@@ -1340,8 +1336,6 @@
   doi: 10.1021/acssynbio.5b00170
   thumbnail: 2015-acssb.gif
   status: published
-  key_areas:
-    - evolution
 
 - title: "Beyond close-proximity interactions: the role of spatial coincidence in transmission networks"
   authors: 
