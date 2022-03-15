@@ -59,7 +59,7 @@ section: about-analytics
         <div class="row">
         {% for pub in site.data.publications %}
           {% if pub.key_areas contains "analytics" %}
-            <c span=row>
+            <div class=row>
               <p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
               {{ pub.authors | join: ", " }}<br>
               {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i>
@@ -68,7 +68,7 @@ section: about-analytics
               {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.
               {% endif %}
               </p>
-            </c>
+            </div>
           {% endif %}
         {% endfor %}
         </div>
