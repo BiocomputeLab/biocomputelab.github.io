@@ -7,7 +7,7 @@
 
     <img width="400" src="{{baseurl}}/images/team/{{page.image}}">
     <h1>{{ page.title }}</h1>
-    <h2>{{ page.position }}</h2>
+    <h4 class="bclcol1">{{ page.position }}</h2>
     <div class="row">
       <p><a href="mailto:{{page.email}}">{{page.email}}</a></p>
       {% if page.title != "Thomas Gorochowski" %}<p><b>Education:</b><br>{{page.education | join: "<br>"}}</p>{% endif %}
@@ -66,18 +66,20 @@
     <!-- END FOR LAB MEMBERS -->
     {% endif %}
 
-    <h2>Talks and Posters</h2>
-    <p><ul>
-    <!--{% assign num = 0 %}-->
-    {% for talk in site.data.talks %}
-      {% if talk.speaker == page.title %}
-        <!--{% assign num = num | plus: 1 %}
-        {% if num <= 5 %}-->
-        <li><b>{{ talk.title }}</b>, {{ talk.event }}, {{ talk.place }} ({{ talk.date | date: '%b %Y' }})</li>
-        <!--{% endif %}-->
-      {% endif %}
-    {% endfor %}
-    </ol></p>
+    <h2 class="pb-2 py-5 border-bottom">All publications</h2>
+    <div class="row">
+      <p><ul>
+      <!--{% assign num = 0 %}-->
+      {% for talk in site.data.talks %}
+        {% if talk.speaker == page.title %}
+          <!--{% assign num = num | plus: 1 %}
+          {% if num <= 5 %}-->
+          <li><b>{{ talk.title }}</b>, {{ talk.event }}, {{ talk.place }} ({{ talk.date | date: '%b %Y' }})</li>
+          <!--{% endif %}-->
+        {% endif %}
+      {% endfor %}
+      </ul></p>
+    </div>
 
   </div>
 </main>
