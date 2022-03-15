@@ -20,12 +20,6 @@ p {
   color: #BBBBBB;
 }
 
-li {
-  font-weight: 300;
-  font-size:  18px;
-  color: #BBBBBB;
-}
-
 .bcl-box {
   border-radius: 10px;
   background: #222222;
@@ -156,7 +150,10 @@ blockquote p {
   border-radius: 10px;
 }
 
-ul {
+.funding-list {
+  font-weight: 300;
+  font-size:  18px;
+  color: #BBBBBB;
   padding-left: 20px;
 }
 
