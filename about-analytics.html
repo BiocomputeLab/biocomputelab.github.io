@@ -63,6 +63,9 @@ section: about-analytics
               {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i>
               {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.
               {% endif %}
+              {% if pub.doi == "" %}
+              {% else %}<br><span style="filter: invert(90%)" class="altmetric-embed" data-hide-no-mentions="true" data-doi="{{pub.doi}}"></span>
+              {% endif %}
               </p>
             </div>
           {% endif %}
