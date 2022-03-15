@@ -17,7 +17,7 @@ section: publications
           {{ pub.authors | join: ", " }}<br>
           <i>{{pub.preprint_journal}}</i>, {{pub.preprint_year}}. (DOI: {{pub.preprint_doi}})
           {% if pub.preprint_doi == "" %}
-          {% else %}<br><span style="filter: invert(90%)" class="altmetric-embed" data-hide-no-mentions="true" data-badge-popover="right" data-doi="{{pub.preprint_doi}}"></span>
+          {% else %}<br><span style="filter: invert(90%)" class="altmetric-embed" data-hide-no-mentions="true" data-doi="{{pub.preprint_doi}}"></span>
           {% endif %}
           </p>
         </div>
