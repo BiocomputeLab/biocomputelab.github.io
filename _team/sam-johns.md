@@ -7,7 +7,7 @@ role: alumni
 leaveyear: 2017
 became: PhD Student (Van der Kamp Group), University of Bristol, UK
 education:
-image: 
+image: sam-johns.jpg
 email: 
 twitter: none
 github: none

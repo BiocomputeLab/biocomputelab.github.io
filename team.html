@@ -52,7 +52,7 @@ section: team
             <img width="100%" src="{{baseurl}}/images/team/{{person.image}}"/>
             <div class="card-body">
               <a class="card-name" href="{{person.url}}">{{person.title}}</a>
-              <p class="card-position"><b>Now:</b>{{person.became}}</p>
+              <p class="card-position"><b>Became:</b> {{person.became}}</p>
             </div>
           </div>
         </div>
@@ -60,20 +60,20 @@ section: team
     {% endfor %}
     </div>
 
-      <!--
-      <h2 class="pb-2 py-2 border-bottom">Alumni</h2>
-      <div class="row px-3">
-        <p><ul class="normal-list">
-        {% assign sorted_team = (site.team | sort: 'leaveyear') | reverse %}
-        {% for person in sorted_team %}
-          {% if person.role == "alumni" %}
-            <li>
-              <a href="{{person.url}}"><b>{{person.title}}</b></a> ({{person.leaveyear}}) - Was: {{person.position}}. Became: {{person.became}}.
-            </li>
-          {% endif %}
-        {% endfor %}
-        </ul></p>
-      </div>
+    <!--
+    <h2 class="pb-2 py-2 border-bottom">Alumni</h2>
+    <div class="row px-3">
+      <p><ul class="normal-list">
+      {% assign sorted_team = (site.team | sort: 'leaveyear') | reverse %}
+      {% for person in sorted_team %}
+        {% if person.role == "alumni" %}
+          <li>
+            <a href="{{person.url}}"><b>{{person.title}}</b></a> ({{person.leaveyear}}) - Was: {{person.position}}. Became: {{person.became}}.
+          </li>
+        {% endif %}
+      {% endfor %}
+      </ul></p>
+    </div>
     -->
 
   </div>

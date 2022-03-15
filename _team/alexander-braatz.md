@@ -8,7 +8,7 @@ role: alumni
 became: BSc Student, University of Bristol, UK
 education:
   - B.Sci Biology, University of Bristol, 2015-present
-image: alexander-bratz.jpg
+image: alexander-braatz.jpg
 email: ab14020.2014@my.bristol.ac.uk
 twitter: none
 github: none
