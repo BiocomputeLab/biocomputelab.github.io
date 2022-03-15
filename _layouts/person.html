@@ -2,116 +2,86 @@
 ---
 {% include header.html %}
 
-<div class="row"><div>
-  <img width="400" src="{{baseurl}}/images/team/{{page.image}}">
-  <h1>{{ page.title }}</h1>
-  <h2>{{ page.position }}</h2>
-  <p><a href="mailto:{{page.email}}">{{page.email}}</a></p>
-  {% if page.title != "Thomas Gorochowski" %}<p><b>Education:</b><br>{{page.education | join: "<br>"}}</p>{% endif %}
-  {% if page.twitter != "none" %}<p><b>Twitter:</b> <a href="https://www.twitter.com/{{page.twitter}}">@{{page.twitter}}</a></p>{% endif %}
-  {% if page.github != "none" %}<p><b>GitHub:</b> <a href="https://github.com/{{page.github}}">{{page.github}}</a></p>{% endif %}
-  <p><b>Interests:</b> {{page.keywords | join: ", "}}</p>
-  {{ page.content }}
-</div></div>
+<main>
+  <div class="container px-4 py-5">
 
-<!-- FOR LAB MEMBERS -->
-{% if page.title != "Thomas Gorochowski" %}
+    <img width="400" src="{{baseurl}}/images/team/{{page.image}}">
+    <h1>{{ page.title }}</h1>
+    <h2>{{ page.position }}</h2>
+    <div class="row">
+      <p><a href="mailto:{{page.email}}">{{page.email}}</a></p>
+      {% if page.title != "Thomas Gorochowski" %}<p><b>Education:</b><br>{{page.education | join: "<br>"}}</p>{% endif %}
+      {% if page.twitter != "none" %}<p><b>Twitter:</b> <a href="https://www.twitter.com/{{page.twitter}}">@{{page.twitter}}</a></p>{% endif %}
+      {% if page.github != "none" %}<p><b>GitHub:</b> <a href="https://github.com/{{page.github}}">{{page.github}}</a></p>{% endif %}
+      <p><b>Interests:</b> {{page.keywords | join: ", "}}</p>
+      {{ page.content }}
+    </div>
 
-<div class="row dark"><div>
-  <grid columns=8 class="norowgap">
-    <c span=row>
-      <h2>Pre-prints</h2>
-    </c>
+    {% if page.title != "Thomas Gorochowski" %}
 
-    {% for pub in site.data.publications %}
-      <!-- INNER LOOP -->
-      {% if pub.team contains page.title %}
-        {% if pub.status == "pre-print" %}
-        <c span=row>
-          <p class="publication"><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
-          {{ pub.authors | join: ", " }}<br>
-          <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.
-          <!-- Altmetric badge -->
-          {% if pub.preprint_doi == "" %}</p>
-          {% else %}</p><div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.preprint_doi}}"></div>
-          {% endif %}
-        </c>
+      <h2 class="pb-2 py-5 border-bottom">Pre-prints</h2>
+      {% for pub in site.data.publications %}
+        {% if pub.status == "pre-print" and pub.team contains page.title %}
+          <div class="row">
+            <p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
+            {{ pub.authors | join: ", " }}<br>
+            <i>{{pub.preprint_journal}}</i>, {{pub.preprint_year}}. (DOI: {{pub.preprint_doi}})
+            {% if pub.preprint_doi == "" %}
+            {% else %}<br><span style="filter: invert(90%)" class="altmetric-embed" data-hide-no-mentions="true" data-doi="{{pub.preprint_doi}}"></span>
+            {% endif %}
+            </p>
+          </div>
         {% endif %}
-      <!-- END INNER LOOP -->
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
 
-   </grid>
-</div></div>
-
-<div class="row"><div>
-  <grid columns=8  class="norowgap">
-    <c span=row>
-      <h2>All published works</h2>
-    </c>
-
-    {% assign loopyear = 9999 %}
-    {% for pub in site.data.publications %}
-      <!-- INNER LOOP -->
-      {% if pub.team contains page.title %}
-
-        {% if loopyear > pub.year %}
-          {% assign loopyear = pub.year %}
-          <c span=row class="publication-year"><h3>{{ pub.year }}</h3></c>
-        {% endif %}
-
-        {% if loopyear == pub.year %}
-        {% if pub.status != "pre-print" %}
-          <c span=row>
-            {% if pub.status == "in-press"  or pub.status == "in-revision" or pub.status == "submitted" or pub.status == "in-prep" %}
-            <p class="publication"><b>{{pub.title}}</b><br>
+      <h2 class="pb-2 py-5 border-bottom">All publications</h2>
+      {% for pub in site.data.publications %}
+        {% if pub.status != "pre-print" and pub.team contains page.title  %}
+          <div class="row">
+            {% if pub.status == "in-press" %}
+            <p class="publication"><span class="bclcol5"><b>{{pub.title}}</b></span><br>
             {% else %}<p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
             {% endif %}
             {{ pub.authors | join: ", " }}<br>
             {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i>
             {% elsif pub.status == "accepted" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(accepted)</i>
             {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i>
-            {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i>
-            {% elsif pub.status == "in-prep" %}<i>{{pub.journal}}</i>. <i>(in preparation)</i>
-            {% elsif pub.status == "submitted" %}<i>{{pub.journal}}</i>. <i>(submitted)</i>
             {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.
             {% endif %}
-            <!-- Notes if they exist -->
+            <!-- Notes if they exist
             {% if pub.notes %}
             <ul class="publication-notes ">
               {% for note in pub.notes %}<li>{{note}}</li>{% endfor %}
             </ul>
-            {% endif %}
+            {% endif %}-->
             <!-- Altmetric badge -->
             {% if pub.doi == "" %}
-            {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div>
+            {% else %}<br><span style="filter: invert(90%)" class="altmetric-embed" data-hide-no-mentions="true" data-doi="{{pub.doi}}"></span>
             {% endif %}
-          </c>
+            </p>
+          </div>
         {% endif %}
-        {% endif %}
-      <!-- END INNER LOOP -->
+      {% endfor %}
+
+    <!-- END FOR LAB MEMBERS -->
+    {% endif %}
+
+    <h2>Talks and Posters</h2>
+    <p><ul>
+    <!--{% assign num = 0 %}-->
+    {% for talk in site.data.talks %}
+      {% if talk.speaker == page.title %}
+        <!--{% assign num = num | plus: 1 %}
+        {% if num <= 5 %}-->
+        <li><b>{{ talk.title }}</b>, {{ talk.event }}, {{ talk.place }} ({{ talk.date | date: '%b %Y' }})</li>
+        <!--{% endif %}-->
       {% endif %}
     {% endfor %}
+    </ol></p>
 
-   </grid>
-</div></div>
+  </div>
+</main>
 
-<!-- END FOR LAB MEMBERS -->
-{% endif %}
 
-<div class="row green"><div>
-        <h2>Talks and Poster Presentations</h2>
-        <p><ul>
-        <!--{% assign num = 0 %}-->
-        {% for talk in site.data.talks %}
-          {% if talk.speaker == page.title %}
-            <!--{% assign num = num | plus: 1 %}
-            {% if num <= 5 %}-->
-            <li><b>{{ talk.title }}</b>, {{ talk.event }}, {{ talk.place }} ({{ talk.date | date: '%b %Y' }})</li>
-            <!--{% endif %}-->
-          {% endif %}
-        {% endfor %}
-        </ol></p>
-</div></div>
 
 {% include footer.html %}
