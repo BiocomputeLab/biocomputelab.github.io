@@ -11,6 +11,8 @@ education:
   - MSc Molecular Life Sciences, University of Hamburg, 2020-2022
 image: bjarne-klopprogge.jpg
 email: bjarne.klopprogge@gmail.com
+twitter: none
+github: none 
 key_areas:
   - reprogramming
 keywords:
