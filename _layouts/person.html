@@ -25,49 +25,64 @@
 
     {% if page.title != "Thomas Gorochowski" %}
 
-      <h2 class="pb-2 py-5 border-bottom">Pre-prints</h2>
+      {% assign preprints = false %}
+      {% assign publications = false %}
       {% for pub in site.data.publications %}
         {% if pub.status == "pre-print" and pub.team contains page.title %}
-          <div class="row">
-            <p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
-            {{ pub.authors | join: ", " }}<br>
-            <i>{{pub.preprint_journal}}</i>, {{pub.preprint_year}}. (DOI: {{pub.preprint_doi}})
-            {% if pub.preprint_doi == "" %}
-            {% else %}<br><span style="filter: invert(90%)" class="altmetric-embed" data-hide-no-mentions="true" data-doi="{{pub.preprint_doi}}"></span>
-            {% endif %}
-            </p>
-          </div>
+          {% assign preprints = true %}
+        {% endif %}
+        {% if pub.status != "pre-print" and pub.team contains page.title %}
+          {% assign publications = true %}
         {% endif %}
       {% endfor %}
 
-      <h2 class="pb-2 py-5 border-bottom">All publications</h2>
-      {% for pub in site.data.publications %}
-        {% if pub.status != "pre-print" and pub.team contains page.title  %}
-          <div class="row">
-            {% if pub.status == "in-press" %}
-            <p class="publication"><span class="bclcol5"><b>{{pub.title}}</b></span><br>
-            {% else %}<p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
-            {% endif %}
-            {{ pub.authors | join: ", " }}<br>
-            {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i>
-            {% elsif pub.status == "accepted" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(accepted)</i>
-            {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i>
-            {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.
-            {% endif %}
-            <!-- Notes if they exist
-            {% if pub.notes %}
-            <ul class="publication-notes ">
-              {% for note in pub.notes %}<li>{{note}}</li>{% endfor %}
-            </ul>
-            {% endif %}-->
-            <!-- Altmetric badge -->
-            {% if pub.doi == "" %}
-            {% else %}<br><span style="filter: invert(90%)" class="altmetric-embed" data-hide-no-mentions="true" data-doi="{{pub.doi}}"></span>
-            {% endif %}
-            </p>
-          </div>
-        {% endif %}
-      {% endfor %}
+      {% if preprints == true %}
+        <h2 class="pb-2 py-5 border-bottom">Pre-prints</h2>
+        {% for pub in site.data.publications %}
+          {% if pub.status == "pre-print" and pub.team contains page.title %}
+            <div class="row">
+              <p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
+              {{ pub.authors | join: ", " }}<br>
+              <i>{{pub.preprint_journal}}</i>, {{pub.preprint_year}}. (DOI: {{pub.preprint_doi}})
+              {% if pub.preprint_doi == "" %}
+              {% else %}<br><span style="filter: invert(90%)" class="altmetric-embed" data-hide-no-mentions="true" data-doi="{{pub.preprint_doi}}"></span>
+              {% endif %}
+              </p>
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% if publications == true %}
+        <h2 class="pb-2 py-5 border-bottom">All publications</h2>
+        {% for pub in site.data.publications %}
+          {% if pub.status != "pre-print" and pub.team contains page.title  %}
+            <div class="row">
+              {% if pub.status == "in-press" %}
+              <p class="publication"><span class="bclcol5"><b>{{pub.title}}</b></span><br>
+              {% else %}<p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
+              {% endif %}
+              {{ pub.authors | join: ", " }}<br>
+              {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i>
+              {% elsif pub.status == "accepted" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(accepted)</i>
+              {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i>
+              {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.
+              {% endif %}
+              <!-- Notes if they exist
+              {% if pub.notes %}
+              <ul class="publication-notes ">
+                {% for note in pub.notes %}<li>{{note}}</li>{% endfor %}
+              </ul>
+              {% endif %}-->
+              <!-- Altmetric badge -->
+              {% if pub.doi == "" %}
+              {% else %}<br><span style="filter: invert(90%)" class="altmetric-embed" data-hide-no-mentions="true" data-doi="{{pub.doi}}"></span>
+              {% endif %}
+              </p>
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
 
     <!-- END FOR LAB MEMBERS -->
     {% endif %}
