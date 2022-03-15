@@ -72,8 +72,20 @@ section: about-reprogramming
         </div>
 
         <h2 class="pb-2 py-5 border-bottom">Key people</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <p>This is a test</p>
+        <div class="row px-3 py-2 row-cols-5 g-3">
+          {% for person in site.team %}
+            {% if person.role == "member" and person.key_areas contains "reprogramming" %}
+              <div class="col">
+                <div class="card">
+                  <img width="100%" src="{{baseurl}}/images/team/{{person.image}}"/>
+                  <div class="card-body">
+                    <a class="card-name" href="{{person.url}}">{{person.title}}</a>
+                    <p class="card-position">{{person.position}}</p>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
         </div>
 
       </div>
