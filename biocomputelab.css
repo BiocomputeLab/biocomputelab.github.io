@@ -156,3 +156,8 @@ blockquote p {
   border-radius: 10px;
 }
 
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
