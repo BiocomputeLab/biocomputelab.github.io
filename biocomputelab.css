@@ -143,9 +143,11 @@ blockquote p {
 }
 
 .altmetric-embed {
-/*  padding-top: 0px;
-  padding-bottom: 10px;
-  border-top: 0px;
-  border-bottom: 0px;*/
+}
+
+.highlighted-pub {
+  border: 1px;
+  border-color: #ffffff;
+  border-radius: 10px;
 }
 
