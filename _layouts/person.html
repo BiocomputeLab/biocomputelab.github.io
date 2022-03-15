@@ -78,7 +78,7 @@
         {% if talk.speaker == page.title %}
           <!--{% assign num = num | plus: 1 %}
           {% if num <= 5 %}-->
-          <li><b>{{ talk.title }}</b>, {{ talk.event }}, {{ talk.place }} ({{ talk.date | date: '%b %Y' }})</li>
+          <li><span class="bclcol2"><b>{{ talk.title }}</b></span>, {{ talk.event }}, {{ talk.place }} ({{ talk.date | date: '%b %Y' }})</li>
           <!--{% endif %}-->
         {% endif %}
       {% endfor %}
