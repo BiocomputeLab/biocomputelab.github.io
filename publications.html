@@ -15,7 +15,7 @@ section: publications
         <div class="row">
           <p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
           {{ pub.authors | join: ", " }}<br>
-          <i>{{pub.preprint_journal}}</i>, {{pub.preprint_year}}.
+          <i>{{pub.preprint_journal}}</i>, {{pub.preprint_year}}. (DOI: {{pub.preprint_doi}})
           </p>
         </div>
       {% endif %}
