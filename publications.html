@@ -31,7 +31,7 @@ section: publications
 
       {% if loopyear == pub.year %}
       {% if pub.status != "pre-print" %}
-        <div class="row">
+        <div class="row px-2">
           {% if pub.status == "in-press" %}
           <p class="publication bclcol5"><b>{{pub.title}}</b><br>
           {% else %}<p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
