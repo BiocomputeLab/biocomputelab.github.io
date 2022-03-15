@@ -14,6 +14,7 @@ github: PAgilliot
 url: "https://pagilliot.github.io/"
 key_areas:
   - analytics
+  - reprogramming
 keywords:
   - synthetic biology
   - genetic circuits
