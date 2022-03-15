@@ -71,7 +71,7 @@
   doi: 10.1021/acssynbio.1c00490
   tools:
   thumbnail:
-  status: published
+  status: online
   notes:
 
 - title: "Massively parallel characterisation of engineered transcript isoforms using direct RNA sequencing"
@@ -138,9 +138,9 @@
   preprint_doi: 
   preprint_url: 
   journal: Synthetic Biology
-  volume: 
-  issue: 
-  pages: 
+  volume: 6
+  issue: 1
+  pages: ysab022
   year: 2021
   url: "https://doi.org/10.1093/synbio/ysab022"
   doi: 10.1093/synbio/ysab022
