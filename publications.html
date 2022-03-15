@@ -4,6 +4,78 @@ section: publications
 ---
 {% include header.html %}
 
+<main>
+  <div class="container px-4 py-5">
+
+    <h1>Publications</h1>
+
+    <h2 class="pb-2 py-5 border-bottom">Pre-prints</h2>
+    {% for pub in site.data.publications %}
+      {% if pub.status == "pre-print" %}
+        <div class="row">
+          <p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
+          {{ pub.authors | join: ", " }}<br>
+          <i>{{pub.journal}}</i>, {{pub.year}}.
+          </p>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    <h2 class="pb-2 py-5 border-bottom">All published works</h2>
+
+
+    {% for pub in site.data.publications %}
+      {% if pub.status == "pre-print" %}
+        <div class="row">
+          <p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
+          {{ pub.authors | join: ", " }}<br>
+          <i>{{pub.journal}}</i>, {{pub.year}}.
+          </p>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+
+
+    {% assign loopyear = 9999 %}
+    {% for pub in site.data.publications %}
+      {% if loopyear > pub.year %}
+        {% assign loopyear = pub.year %}
+        <h3 class="border-bottom">{{ pub.year }}</h3>
+      {% endif %}
+
+      {% if loopyear == pub.year %}
+      {% if pub.status != "pre-print" %}
+        <div class="row">
+          {% if pub.status == "in-press" %}
+          <p class="publication"><b>{{pub.title}}</b><br>
+          {% else %}<p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
+          {% endif %}
+          {{ pub.authors | join: ", " }}<br>
+          {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i>
+          {% elsif pub.status == "accepted" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(accepted)</i>
+          {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i>
+          {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.
+          {% endif %}
+          <!-- Notes if they exist -->
+          {% if pub.notes %}
+          <ul class="publication-notes ">
+            {% for note in pub.notes %}<li>{{note}}</li>{% endfor %}
+          </ul>
+          {% endif %}
+          <!-- Altmetric badge -->
+          {% if pub.doi == "" %}
+          {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div>
+          {% endif %}
+        </div>
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+
+
+</main>
+
+<!--
 <div class="row green"><div>
     <h1>Publications</h1>
     <h2>Selected works</h2>
@@ -53,76 +125,6 @@ section: publications
 
     </grid>
 </div></div>
-
-<div class="row dark"><div>
-  <grid columns=8 class="norowgap">
-    <c span=row>
-      <h2>Pre-prints</h2>
-    </c>
-
-    {% for pub in site.data.publications %}
-      {% if pub.status == "pre-print" %}
-      <c span=row>
-        <p class="publication"><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
-        {{ pub.authors | join: ", " }}<br>
-        <i>{{pub.preprint_journal}}</i>, {{pub.preprint_id}}, {{pub.preprint_year}}.
-        <!-- Altmetric badge -->
-        {% if pub.preprint_doi == "" %}</p>
-        {% else %}</p><div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.preprint_doi}}"></div>
-        {% endif %}
-      </c>
-      {% endif %}
-    {% endfor %}
-
-   </grid>
-</div></div>
-
-<div class="row"><div>
-  <grid columns=8  class="norowgap">
-    <c span=row>
-      <h2>All published works</h2>
-    </c>
-
-    {% assign loopyear = 9999 %}
-    {% for pub in site.data.publications %}
-
-      {% if loopyear > pub.year %}
-        {% assign loopyear = pub.year %}
-        <c span=row class="publication-year"><h3>{{ pub.year }}</h3></c>
-      {% endif %}
-
-      {% if loopyear == pub.year %}
-      {% if pub.status != "pre-print" %}
-        <c span=row>
-          {% if pub.status == "in-press"  or pub.status == "in-revision" or pub.status == "submitted" or pub.status == "in-prep" %}
-          <p class="publication"><b>{{pub.title}}</b><br>
-          {% else %}<p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
-          {% endif %}
-          {{ pub.authors | join: ", " }}<br>
-          {% if pub.status == "online" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(online)</i>
-          {% elsif pub.status == "accepted" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(accepted)</i>
-          {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i>
-          {% elsif pub.status == "in-revision" %}<i>{{pub.journal}}</i>. <i>(under revision)</i>
-          {% elsif pub.status == "in-prep" %}<i>{{pub.journal}}</i>. <i>(in preparation)</i>
-          {% elsif pub.status == "submitted" %}<i>{{pub.journal}}</i>. <i>(submitted)</i>
-          {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.
-          {% endif %}
-          <!-- Notes if they exist -->
-          {% if pub.notes %}
-          <ul class="publication-notes ">
-            {% for note in pub.notes %}<li>{{note}}</li>{% endfor %}
-          </ul>
-          {% endif %}
-          <!-- Altmetric badge -->
-          {% if pub.doi == "" %}
-          {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div>
-          {% endif %}
-        </c>
-      {% endif %}
-      {% endif %}
-    {% endfor %}
-
-   </grid>
-</div></div>
+-->
 
 {% include footer.html %}
