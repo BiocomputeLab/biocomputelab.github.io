@@ -2,7 +2,7 @@
 layout: person
 title: Darrian Paul
 author: Paul D.
-position: Ph.D. Student
+position: PhD Student
 role: member
 leaveyear: 2024
 education:

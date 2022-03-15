@@ -2,7 +2,7 @@
 layout: person
 title: F. Veronica Greco
 author: Greco F.V.
-position: Ph.D. Student
+position: PhD Student
 role: member
 leaveyear: 9999
 education:

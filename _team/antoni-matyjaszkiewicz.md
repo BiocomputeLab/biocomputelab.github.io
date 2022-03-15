@@ -2,7 +2,7 @@
 layout: person
 title: Antoni Matyjaszkiewicz
 author: Matyjaszkiewicz A.
-position: Post-Doctoral Research Associate
+position: Postdoc
 role: alumni
 leaveyear: 2017
 became: Postdoctoral Fellow (Sharpe Group), EMBL, Barcelona

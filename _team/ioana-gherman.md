@@ -2,7 +2,7 @@
 layout: person
 title: Ioana Gherman
 author: Gherman I.
-position: Ph.D. Student
+position: PhD Student
 role: member
 leaveyear: 2024
 education:

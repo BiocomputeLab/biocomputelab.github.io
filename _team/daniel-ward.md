@@ -2,7 +2,7 @@
 layout: person
 title: Daniel Ward
 author: Ward D.
-position: Post-doctoral Research Associate
+position: Postdoc
 role: alumni
 leaveyear: 2019
 education:

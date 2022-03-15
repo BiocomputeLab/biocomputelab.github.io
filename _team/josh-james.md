@@ -2,7 +2,7 @@
 layout: person
 title: Josh James
 author: James J.
-position: MSci. Student
+position: MSci Student
 role: alumni
 leaveyear: 2019
 became: PhD Student (Cai Group), University of Manchester, UK

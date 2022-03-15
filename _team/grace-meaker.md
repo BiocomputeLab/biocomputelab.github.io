@@ -2,7 +2,7 @@
 layout: person
 title: Grace Meaker
 author: Meaker G.A.
-position: Undergraduate Researcher
+position: Undergraduate Student
 role: alumni
 leaveyear: 2020
 became: DPhil Student (Medical Sciences), University of Oxford, UK

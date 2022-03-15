@@ -2,7 +2,7 @@
 layout: person
 title: Hannes Thielke
 author: Hannes Thielke
-position: Erasmus Intern
+position: Undergraduate Student
 role: alumni
 leaveyear: 2018
 education:

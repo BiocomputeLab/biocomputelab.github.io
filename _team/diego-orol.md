@@ -2,7 +2,7 @@
 layout: person
 title: Diego Orol-Gomez
 author: Orol-Gomez D.
-position: Research Associate
+position: Postdoc
 role: alumni
 leaveyear: 2021
 became: Scientist, Touchlight Genetics Ltd, UK

@@ -2,7 +2,7 @@
 layout: person
 title: George Greiff
 author: Greiff, G.R.L.
-position: SWBio PhD Student
+position: PhD Student
 role: member
 leaveyear: 2022
 became: none

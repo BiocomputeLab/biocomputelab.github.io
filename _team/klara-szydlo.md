@@ -2,7 +2,7 @@
 layout: person
 title: Klara Szydlo
 author: Szydlo K.
-position: Ph.D. Student
+position: PhD Student
 role: member
 leaveyear: 9999
 education: 

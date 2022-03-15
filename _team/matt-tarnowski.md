@@ -2,7 +2,7 @@
 layout: person
 title: Matt Tarnowski
 author: Tarnowski M.J.
-position: Ph.D. Student
+position: PhD Student
 role: member
 leaveyear: 9999 
 education:

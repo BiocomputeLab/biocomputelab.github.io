@@ -2,7 +2,7 @@
 layout: person
 title: Jack Phillips
 author: Phillips J.O.
-position: Post-Doctoral Research Associate
+position: Postdoc
 role: alumni
 leaveyear: 2017
 became: Senior Scientist, CamPhos Theraputics, UK

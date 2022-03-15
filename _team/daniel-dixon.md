@@ -2,7 +2,7 @@
 layout: person
 title: Daniel Dixon
 author: Dixon D.O.R.
-position: Ph.D. Student
+position: PhD Student
 role: alumni
 leaveyear: 2020
 became: Scientist, 4basebio, UK

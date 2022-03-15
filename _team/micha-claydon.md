@@ -2,7 +2,7 @@
 layout: person
 title: Micha Claydon
 author: Claydon M.Y.T.
-position: Ph.D. Student
+position: PhD Student
 role: member
 leaveyear: 2024
 education:

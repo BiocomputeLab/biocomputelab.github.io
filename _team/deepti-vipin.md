@@ -2,7 +2,7 @@
 layout: person
 title: Deepti Vipin
 author: Vipin, D
-position: Ph.D. Student
+position: PhD Student
 role: not-member
 leaveyear: 2021
 education: MSc Systems and Synthetic Biology, The University of Edinburgh, 2016

@@ -1,8 +1,8 @@
 ---
 layout: person
 title: Sim Castle
-author: 
-position: Ph.D. Student
+author: Castle S.
+position: PhD Student
 role: member
 leaveyear: 9999
 education:

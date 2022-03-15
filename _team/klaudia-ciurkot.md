@@ -2,7 +2,7 @@
 layout: person
 title: Klaudia Ciurkot
 author: Ciurkot K.
-position: Ph.D. Student
+position: PhD Student
 role: alumni
 leaveyear: 2021
 became: Postdoc (Ellis Group), Imperial College London, UK

@@ -2,7 +2,7 @@
 layout: person
 title: Lars Koetter
 author: Koetter L.J.
-position: DAAD RISE Student
+position: Undergraduate Student
 role: alumni
 leaveyear: 2021
 became: Masters Student, University of Tuebingen, Germany

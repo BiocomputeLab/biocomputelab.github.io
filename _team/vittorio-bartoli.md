@@ -2,7 +2,7 @@
 layout: person
 title: Vittorio Bartoli
 author: Bartoli V.
-position: Ph.D. Student
+position: PhD Student
 role: alumni
 leaveyear: 2020
 became: Scientist, Mellizyme Biotechnology, UK
