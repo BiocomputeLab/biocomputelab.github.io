@@ -143,8 +143,9 @@ blockquote p {
 }
 
 .altmetric-embed {
-  /*adding: 0px;
-  border: 0px;
-  margin: 0px;*/
+  padding-top: 0px;
+  padding-bottom: 10px;
+  border-top: 0px;
+  border-bottom: 0px;
 }
 
