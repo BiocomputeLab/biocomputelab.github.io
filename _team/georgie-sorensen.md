@@ -1,7 +1,7 @@
 ---
 layout: person
-title: Philip Hau Sørensen
-author: Hau Sørensen P.
+title: Georgie Hau Sørensen
+author: Hau Sørensen G.
 position: PhD Student
 role: member
 leaveyear: 2026
@@ -9,9 +9,9 @@ became: none
 education:
   - B.Sc. Human Life Science Engineering, Technical University of Denmark, 2019
   - M.sc. Biotechnology, Technical University of Denmark, 2021 
-image: philip-sorensen.jpg
-email: philip.hausorensen@bristol.ac.uk
-twitter: PhilipGeorgeHa1
+image: georgie-sorensen.jpg
+email: georgie.hausorensen@bristol.ac.uk
+twitter: Georgie_HauSor
 github: none
 url: none
 key_areas:
