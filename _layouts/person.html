@@ -10,13 +10,13 @@
     <h4 class="bclcol1">{{ page.position }}</h2>
     <div class="row">
       <p><a href="mailto:{{page.email}}">{{page.email}}</a></p>
-      <div class="row py-5">
+      <div class="row py-3">
         {% if page.title != "Thomas Gorochowski" %}<p><b>Education:</b><br>{{page.education | join: "<br>"}}</p>{% endif %}
         {% if page.twitter != "none" %}<p><b>Twitter:</b> <a href="https://www.twitter.com/{{page.twitter}}">@{{page.twitter}}</a></p>{% endif %}
         {% if page.github != "none" %}<p><b>GitHub:</b> <a href="https://github.com/{{page.github}}">{{page.github}}</a></p>{% endif %}
         <p><b>Interests:</b> {{page.keywords | join: ", "}}</p>
       </div>
-      <div class="row py-5">
+      <div class="row">
         {{ page.content }}
       </div>
     </div>
