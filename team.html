@@ -42,61 +42,24 @@ section: team
         {% endif %}
       {% endfor %}
 
-
+      <h2 class="pb-2 py-2 border-bottom">Alumni</h2>
+      <div class="row px-3">
+        <p><ul class="normal-list">
+        {% assign sorted_team = (site.team | sort: 'leaveyear') | reverse %}
+        {% for person in sorted_team %}
+          {% if person.role == "alumni" %}
+            <li>
+              <a href="{{person.url}}"><b>{{person.title}}</b></a> ({{person.leaveyear}}) - Was: {{person.position}}. Became: {{person.became}}.
+            </li>
+          {% endif %}
+        {% endfor %}
+        </ul></p>
+      </div>
 
   </div>
 </main>
 
 <!--
-
-<div class="row green"><div>
-  <c span=row>
-    <h1>The team</h1>
-  </c>
-
-  <c span=row>
-    <img src="{{baseurl}}/images/team/2019-groupshot.jpg" width=100% />
-  </c>
-</div></div>
-
-<div class="row dark"><div>
-  <grid columns=6>
-    <c span=row>
-      <h2>Principal Investigator</h2>
-    </c>
-
-
-
-    <c class="spacer"></c>
-    
-    <c span=row>
-      <h2>Group Members</h2>
-    </c>
-
-    {% assign startcol = 1 %}
-    {% assign endcol = 2 %}
-    {% for person in site.team %}
-      {% if person.role == "member" %}
-        <c span={{startcol}}-{{endcol}} span-s=row  class="team-entry">
-          <a href="{{person.url}}">
-          <img class="team-image" src="{{baseurl}}/images/team/{{person.image}}" width=100% />
-          <div class="smallspace"></div>
-          <span class="team-name font-style-bold white">{{person.title}}</span><br>
-          <span class="team-role white">{{person.position}}</span>
-          </a>
-        </c>
-        {% if endcol == 6 %}
-          {% assign startcol = 1 %}
-          {% assign endcol = 2 %}
-        {% else %}
-          {% assign startcol = startcol | plus:2 %}
-          {% assign endcol = endcol | plus:2 %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-
-</div></div>
-
 <div class="row"><div>
   <grid columns=6>
     <c span=row>
@@ -154,28 +117,6 @@ section: team
           BrisSynBio Lab 2016 (Life Sciences Building, Bristol, UK)
       </a>
     </c>
-</div></div>
-
-<div class="row green"><div>
-    <c span=row>
-      <h2>Alumni</h2>
-    </c>
-
-
-    <c span=row>
-      <ul>
-
-    {% assign sorted_team = (site.team | sort: 'leaveyear') | reverse %}
-    {% for person in sorted_team %}
-      {% if person.role == "alumni" %}
-        <li>
-          <a href="{{person.url}}"><b>{{person.title}}</b></a> ({{person.leaveyear}}) - Was: {{person.position}}. Became: {{person.became}}.
-        </li>
-      {% endif %}
-    {% endfor %}
-    </c>
-
-  </grid>
 </div></div>
 -->
 
