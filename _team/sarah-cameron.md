@@ -12,7 +12,7 @@ education:
 image: sarah-cameron.jpg
 email: fe21183@bristol.ac.uk 
 twitter: none
-github: https://github.com/Sarah-Cameron 
+github: Sarah-Cameron 
 url: none
 key_areas:
   - analytics
