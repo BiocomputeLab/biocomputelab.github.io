@@ -6,9 +6,9 @@ position: Royal Society University Research Fellow
 role: head
 leaveyear: 9999
 education:
-  - Ph.D. Engineering Mathematics, University of Bristol, 2012
-  - M.Res. Complexity Sciences, University of Bristol, 2009
-  - M.Eng. Computer Science, University of Warwick, 2004
+  - PhD Engineering Mathematics, University of Bristol, 2012
+  - MRes Complexity Sciences, University of Bristol, 2009
+  - MEng Computer Science, University of Warwick, 2004
 image: thomas-gorochowski.jpg
 email: thomas.gorochowski@bristol.ac.uk
 twitter: chofski
