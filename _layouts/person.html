@@ -87,20 +87,29 @@
     <!-- END FOR LAB MEMBERS -->
     {% endif %}
 
-    <h2 class="pb-2 py-5 border-bottom">Talks and posters</h2>
-    <div class="row px-3">
-      <p><ul class="normal-list">
-      <!--{% assign num = 0 %}-->
-      {% for talk in site.data.talks %}
-        {% if talk.speaker == page.title %}
-          <!--{% assign num = num | plus: 1 %}
-          {% if num <= 5 %}-->
-          <li><span class="bclcol3"><b>{{ talk.title }}</b></span>, {{ talk.event }}, {{ talk.place }} ({{ talk.date | date: '%b %Y' }})</li>
-          <!--{% endif %}-->
-        {% endif %}
-      {% endfor %}
-      </ul></p>
-    </div>
+    {% assign talks = false %}
+    {% for talk in site.data.talks %}
+      {% if talk.speaker == page.title %}
+        {% assign talks = true %}
+      {% endif %}
+    {% endfor %}
+
+    {% if talks == true %}
+      <h2 class="pb-2 py-5 border-bottom">Talks and posters</h2>
+      <div class="row px-3">
+        <p><ul class="normal-list">
+        <!--{% assign num = 0 %}-->
+        {% for talk in site.data.talks %}
+          {% if talk.speaker == page.title %}
+            <!--{% assign num = num | plus: 1 %}
+            {% if num <= 5 %}-->
+            <li><span class="bclcol3"><b>{{ talk.title }}</b></span>, {{ talk.event }}, {{ talk.place }} ({{ talk.date | date: '%b %Y' }})</li>
+            <!--{% endif %}-->
+          {% endif %}
+        {% endfor %}
+        </ul></p>
+      </div>
+    {% endif %}
 
   </div>
 </main>
