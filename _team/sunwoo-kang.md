@@ -8,7 +8,7 @@ leaveyear: 2018
 became: Master student (Computer Science), Stanford University, USA
 education:
   - B.Sci. Biomedical Computation, Stanford University 2017-2020
-image: sunwoo-kang.jpeg
+image: sunwoo-kang.jpg
 email: swkang73@stanford.edu
 twitter: none
 github: swkang73
