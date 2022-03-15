@@ -73,7 +73,7 @@ section: about-evolution
         <h2 class="pb-2 py-5 border-bottom">Key people</h2>
         <div class="row px-3 py-2 row-cols-5 g-3">
           {% for person in site.team %}
-            {% if person.role == "member" %}
+            {% if person.role == "member" and "evolution" in person.key_areas %}
               <div class="col">
                 <div class="card">
                   <img width="100%" src="{{baseurl}}/images/team/{{person.image}}"/>

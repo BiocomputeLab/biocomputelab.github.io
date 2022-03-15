@@ -13,6 +13,9 @@ email: s.castle@bristol.ac.uk
 twitter: none
 github: none
 url: none
+key_areas:
+  - evolution
+  - another
 keywords:
   - synthetic biology
   - genetic circuits
