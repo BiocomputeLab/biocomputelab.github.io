@@ -15,33 +15,18 @@ section: publications
         <div class="row">
           <p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
           {{ pub.authors | join: ", " }}<br>
-          <i>{{pub.journal}}</i>, {{pub.year}}.
+          <i>{{pub.preprint_journal}}</i>, {{pub.preprint_year}}.
           </p>
         </div>
       {% endif %}
     {% endfor %}
 
     <h2 class="pb-2 py-5 border-bottom">All published works</h2>
-
-
-    {% for pub in site.data.publications %}
-      {% if pub.status == "pre-print" %}
-        <div class="row">
-          <p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
-          {{ pub.authors | join: ", " }}<br>
-          <i>{{pub.journal}}</i>, {{pub.year}}.
-          </p>
-        </div>
-      {% endif %}
-    {% endfor %}
-
-
-
     {% assign loopyear = 9999 %}
     {% for pub in site.data.publications %}
       {% if loopyear > pub.year %}
         {% assign loopyear = pub.year %}
-        <h3 class="border-bottom">{{ pub.year }}</h3>
+        <h4 class="bclcol1">{{ pub.year }}</h4>
       {% endif %}
 
       {% if loopyear == pub.year %}
@@ -57,12 +42,12 @@ section: publications
           {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i>
           {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.
           {% endif %}
-          <!-- Notes if they exist -->
+          <!-- Notes if they exist
           {% if pub.notes %}
           <ul class="publication-notes ">
             {% for note in pub.notes %}<li>{{note}}</li>{% endfor %}
           </ul>
-          {% endif %}
+          {% endif %}-->
           <!-- Altmetric badge -->
           {% if pub.doi == "" %}
           {% else %}<div class='altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div>
