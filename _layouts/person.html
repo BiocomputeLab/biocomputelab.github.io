@@ -11,10 +11,10 @@
     <div class="row">
       <p><a href="mailto:{{page.email}}">{{page.email}}</a></p>
       <div class="row py-3">
-        {% if page.title != "Thomas Gorochowski" %}<p><b>Education:</b><br>{{page.education | join: "<br>"}}</p>{% endif %}
-        {% if page.twitter != "none" %}<p><b>Twitter:</b> <a href="https://www.twitter.com/{{page.twitter}}">@{{page.twitter}}</a></p>{% endif %}
-        {% if page.github != "none" %}<p><b>GitHub:</b> <a href="https://github.com/{{page.github}}">{{page.github}}</a></p>{% endif %}
-        <p><b>Interests:</b> {{page.keywords | join: ", "}}</p>
+        {% if page.title != "Thomas Gorochowski" %}<p><span class="bclcol2"><b>Education:</b></span><br>{{page.education | join: "<br>"}}</p>{% endif %}
+        {% if page.twitter != "none" %}<p><span class="bclcol2"><b>Twitter:</b></span> <a href="https://www.twitter.com/{{page.twitter}}">@{{page.twitter}}</a></p>{% endif %}
+        {% if page.github != "none" %}<p><span class="bclcol2"><b>GitHub:</b></span> <a href="https://github.com/{{page.github}}">{{page.github}}</a></p>{% endif %}
+        <p><span class="bclcol2"><b>Interests:</b></span> {{page.keywords | join: ", "}}</p>
       </div>
       <div class="row">
         {{ page.content }}
@@ -78,7 +78,7 @@
         {% if talk.speaker == page.title %}
           <!--{% assign num = num | plus: 1 %}
           {% if num <= 5 %}-->
-          <li><span class="bclcol2"><b>{{ talk.title }}</b></span>, {{ talk.event }}, {{ talk.place }} ({{ talk.date | date: '%b %Y' }})</li>
+          <li><span class="bclcol3"><b>{{ talk.title }}</b></span>, {{ talk.event }}, {{ talk.place }} ({{ talk.date | date: '%b %Y' }})</li>
           <!--{% endif %}-->
         {% endif %}
       {% endfor %}
