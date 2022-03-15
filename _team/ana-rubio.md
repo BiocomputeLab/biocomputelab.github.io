@@ -12,6 +12,8 @@ email: am.rubiodenniss@bristol.ac.uk
 twitter: amrubes
 github: none
 url: "http://www.bristol.ac.uk/engineering/people/ana-maria-rubio-denniss/index.html"
+key_areas:
+  - reprogramming
 keywords:
   - nano-medicine
   - swarm control

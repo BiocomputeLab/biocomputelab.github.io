@@ -14,6 +14,9 @@ email: philip.hausorensen@bristol.ac.uk
 twitter: PhilipGeorgeHa1
 github: none
 url: none
+key_areas:
+  - analytics
+  - reprogramming
 keywords:
   - Synthetic biology
   - Genetic circuits

@@ -12,6 +12,12 @@ email: klara.szydlo@chemie.uni-hamburg.de
 twitter: none
 github: none
 url: none
-keywords: synthetic biology, genetic circuits, proteolysis, m6A methylation
+key_areas:
+  - reprogramming
+keywords: 
+  - synthetic biology
+  - genetic circuits
+  - proteolysis
+  - m6A methylation
 ---
 My research is part of the EU SynCrop project (Synthetic Circuits for Robust Orthogonal Production). It focuses on approaches that can be taken to mitigate the stress placed on host cells by synthetic genetic circuits. I will be looking at how proteolysis mechanisms can be used to degrade burdensome proteins produced by the circuits, as well as using high throughput approaches to investigate how m6A methylation in E. coli cells changes as a result of stress, and what its effects may be.

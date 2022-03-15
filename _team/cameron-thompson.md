@@ -11,6 +11,8 @@ image: cameron-thompson.jpg
 email: iy21106@bristol.ac.uk
 twitter: none
 github: CameronGThompson
+key_areas:
+  - analytics
 keywords:
   - synthetic biology
   - genetic circuits

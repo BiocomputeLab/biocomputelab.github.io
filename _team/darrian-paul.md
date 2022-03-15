@@ -12,6 +12,8 @@ email: darrian.paul@bristol.ac.uk
 twitter: DarrianMPaul
 github: DarrianPaul
 url: none
+key_areas:
+  - reprogramming
 keywords:
   - synthetic biology
   - genetic circuits

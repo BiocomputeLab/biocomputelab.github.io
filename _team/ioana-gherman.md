@@ -13,6 +13,8 @@ email: ig13470@bristol.ac.uk
 twitter: ioanagherman5
 github: none
 url: "https://www.linkedin.com/in/ioana-gherman-6b4998b0/"
+key_areas:
+  - analytics
 keywords:
   - whole-cell modelling
   - synthetic biology

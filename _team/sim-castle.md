@@ -15,7 +15,7 @@ github: none
 url: none
 key_areas:
   - evolution
-  - another
+  - analytics
 keywords:
   - synthetic biology
   - genetic circuits

@@ -12,6 +12,8 @@ email: micha.claydon@bristol.ac.uk
 twitter: none
 github: none
 url: none
+key_areas:
+  - reprogramming
 keywords:
   - synthetic biology
   - genetic circuits

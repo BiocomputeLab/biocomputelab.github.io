@@ -14,6 +14,9 @@ email: fe21183@bristol.ac.uk
 twitter: none
 github: https://github.com/Sarah-Cameron 
 url: none
+key_areas:
+  - evolution
+  - analytics
 keywords:
   - automation
   - bioinformatics

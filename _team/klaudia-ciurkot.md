@@ -14,6 +14,8 @@ email: klaudia.ciurkot@dsm.com
 twitter: none
 github: none
 url: "http://www.syncrop.org/syncrop/"
+key_areas:
+  - reprogramming
 keywords:
   - synthetic biology
   - genetic circuits

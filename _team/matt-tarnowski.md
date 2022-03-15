@@ -13,6 +13,9 @@ email: matt.tarnowski@bristol.ac.uk
 twitter: co_evolver
 github: pluralise
 url: "https://www.instagram.com/co_evolver/"
+key_areas:
+  - evolution
+  - analytics
 keywords:
   - nanopore sequencing
   - bioinformatics

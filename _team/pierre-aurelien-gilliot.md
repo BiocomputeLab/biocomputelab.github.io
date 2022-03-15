@@ -12,6 +12,8 @@ email: ys18223@bristol.ac.uk
 twitter: PierreAurelien3
 github: PAgilliot
 url: "https://pagilliot.github.io/"
+key_areas:
+  - analytics
 keywords:
   - synthetic biology
   - genetic circuits

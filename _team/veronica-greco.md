@@ -13,6 +13,9 @@ email: veronica.greco@bristol.ac.uk
 twitter: Veronica_GItaly
 github: none
 url: "https://www.linkedin.com/in/veronicagrecosynbio/"
+key_areas:
+  - analytics
+  - reprogramming
 keywords:
   - cell memory
   - gene editing
