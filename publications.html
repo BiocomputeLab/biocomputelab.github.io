@@ -42,6 +42,7 @@ section: publications
           {% elsif pub.status == "in-press" %}<i>{{pub.journal}}</i>, {{pub.year}}. <i>(in press)</i>
           {% else %}<i>{{pub.journal}}</i> {{pub.volume}}, {{pub.pages}}, {{pub.year}}.
           {% endif %}
+          </p>
           <!-- Notes if they exist
           {% if pub.notes %}
           <ul class="publication-notes ">
