@@ -15,7 +15,6 @@ twitter: none
 github: https://github.com/Sarah-Cameron 
 url: none
 key_areas:
-  - evolution
   - analytics
 keywords:
   - automation
