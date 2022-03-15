@@ -20,6 +20,11 @@ p {
   color: #BBBBBB;
 }
 
+li {
+  font-weight: 300;
+  font-size:  18px;
+  color: #BBBBBB;
+}
 
 .bcl-box {
   border-radius: 10px;
