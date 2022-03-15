@@ -2,13 +2,13 @@
 layout: person
 title: Bjarne Klopprogge
 author: Klopprogge B.
-position: M.Sc. Student
+position: MSc Student
 role: member
 leaveyear: 2022 
 education:
-  - B.Sc. Nanoscience, University of Hamburg, 2016-2018
-  - B.Sc. Molecular Life Sciences, University of Hamburg, 2018-2020
-  - M.Sc. Molecular Life Sciences, University of Hamburg, 2020-2022
+  - BSc Nanoscience, University of Hamburg, 2016-2018
+  - BSc Molecular Life Sciences, University of Hamburg, 2018-2020
+  - MSc Molecular Life Sciences, University of Hamburg, 2020-2022
 image: bjarne-klopprogge.jpg
 email: bjarne.klopprogge@gmail.com
 key_areas:
