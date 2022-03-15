@@ -53,7 +53,7 @@ section: about-evolution
         <h2 class="pb-2 py-5 border-bottom">Selected publications</h2>
         <div class="row">
         {% for pub in site.data.publications %}
-          {% if pub.key_paper_evolution == true %}
+          {% if pub.key_areas contains "evolution" %}
             <c span=row>
               <p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
               {{ pub.authors | join: ", " }}<br>
