@@ -1,0 +1,142 @@
+---
+title: About - Biocompute Lab
+section: team
+---
+{% include header.html %}
+
+<main>
+  <div class="container px-4 py-5">
+
+    <h2 class="pb-2">The A-Team</h2>
+
+    <img src="{{baseurl}}/images/team/group/2020-groupshot.jpg" width=100% />
+
+    <h2 class="pb-2 py-5 border-bottom">Principal Investigator</h2>
+    <div class="row py-2 row-cols-5 g-3">
+    {% for person in site.team %}
+      {% if person.role == "head" %}
+        <div class="col">
+          <div class="card">
+            <img width="100%" src="{{baseurl}}/images/team/{{person.image}}"/>
+            <div class="card-body">
+              <a class="card-name" href="{{person.url}}">{{person.title}}</a>
+              <p class="card-position">{{person.position}}</p>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+
+    <h2 class="pb-2 py-5 border-bottom">Current Members</h2>
+    <div class="row py-2 row-cols-5 g-3">
+    {% for person in site.team %}
+      {% if person.role == "member" %}
+        <div class="col">
+          <div class="card">
+            <img width="100%" src="{{baseurl}}/images/team/{{person.image}}"/>
+            <div class="card-body">
+              <a class="card-name" href="{{person.url}}">{{person.title}}</a>
+              <p class="card-position">{{person.position}}</p>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+
+    <h2 class="pb-2 py-5 border-bottom">Scrapbook</h2>
+    <div class="row py-2 row-cols-2 g-3">
+
+      <div class="col">
+        <div class="card">
+          <img width="100%" src="{{baseurl}}/images/scrapbook/2020-group-web.jpg"/>
+          <div class="card-body">
+            <p class="card-position"><b>Group Outing 2020</b> (Clevedon Pier, Clevedon, UK)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img width="100%" src="{{baseurl}}/images/scrapbook/2019-retreat-web.jpg"/>
+          <div class="card-body">
+            <p class="card-position"><b>Lab Retreat 2019</b> (Jurassic Coast, Dorset, UK)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img width="100%" src="{{baseurl}}/images/scrapbook/2019-group-web.jpg"/>
+          <div class="card-body">
+            <p class="card-position"><b>Group Photo 2019</b> (Life Sciences Building, Bristol, UK)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img width="100%" src="{{baseurl}}/images/scrapbook/2018-retreat-web.jpg"/>
+          <div class="card-body">
+            <p class="card-position"><b>Lab Retreat 2018</b> (Brecon Beacons, Wales)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img width="100%" src="{{baseurl}}/images/scrapbook/2017-retreat-web.jpg"/>
+          <div class="card-body">
+            <p class="card-position"><b>Exmoor Lab Retreat 2017</b> (Exmoor National Park, Devon, UK)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img width="100%" src="{{baseurl}}/images/scrapbook/2017-group-web.jpg"/>
+          <div class="card-body">
+            <p class="card-position"><b>Group Photo 2017</b> (Life Sciences Building, Bristol, UK)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img width="100%" src="{{baseurl}}/images/scrapbook/2017-christmas-web.jpg"/>
+          <div class="card-body">
+            <p class="card-position"><b>Chirstmas Party 2017</b> (Portishead, UK)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img width="100%" src="{{baseurl}}/images/scrapbook/2016-group-web.jpg"/>
+          <div class="card-body">
+            <p class="card-position"><b>BrisSynBio Lab 2016</b> (Life Sciences Building, Bristol, UK)</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <h2 class="pb-2 py-5 border-bottom">Alumni</h2>
+    <div class="row py-2 row-cols-5 g-3">
+    {% for person in site.team %}
+      {% if person.role == "alumni" %}
+        <div class="col">
+          <div class="card">
+            <img width="100%" src="{{baseurl}}/images/team/{{person.image}}"/>
+            <div class="card-body">
+              <a class="card-name" href="{{person.url}}">{{person.title}}</a>
+              <p class="card-position"><b>Became:</b> {{person.became}}</p>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+
+{% include footer.html %}
