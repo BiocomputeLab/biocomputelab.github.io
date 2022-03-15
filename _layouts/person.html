@@ -16,6 +16,8 @@
         {% if page.github != "none" %}<p><span class="bclcol2"><b>GitHub:</b></span> <a href="https://github.com/{{page.github}}">{{page.github}}</a></p>{% endif %}
         <p><span class="bclcol2"><b>Interests:</b></span> {{page.keywords | join: ", "}}</p>
       </div>
+
+      <h2 class="pb-2 py-5 border-bottom">Biography</h2>
       <div class="row">
         {{ page.content }}
       </div>
