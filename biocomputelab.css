@@ -137,6 +137,11 @@ blockquote p {
   color: #7C30A7;
 }
 
+.bclcol5 {
+  /* Green */
+  color: #3cb24e;
+}
+
 .altmetric-embed {
   padding: 0px;
 }
