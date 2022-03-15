@@ -48,10 +48,10 @@ section: publications
             {% for note in pub.notes %}<li>{{note}}</li>{% endfor %}
           </ul>
           {% endif %}-->
-          <!-- Altmetric badge
+          <!-- Altmetric badge -->
           {% if pub.doi == "" %}
-          {% else %}<div class='py-0 altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div>
-          {% endif %} -->
+          {% else %}<div style="filter: invert(90%)" class='py-0 altmetric-embed' data-hide-no-mentions='true' data-badge-popover='right' data-doi="{{pub.doi}}"></div>
+          {% endif %}
         </div>
       {% endif %}
       {% endif %}
