@@ -157,3 +157,10 @@ blockquote p {
   padding-left: 20px;
 }
 
+.normal-list {
+  font-weight: 300;
+  font-size:  18px;
+  color: #BBBBBB;
+  padding-left: 20px;
+}
+

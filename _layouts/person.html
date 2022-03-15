@@ -66,9 +66,9 @@
     <!-- END FOR LAB MEMBERS -->
     {% endif %}
 
-    <h2 class="pb-2 py-5 border-bottom">All publications</h2>
-    <div class="row">
-      <p><ul>
+    <h2 class="pb-2 py-5 border-bottom">Talks and posters</h2>
+    <div class="row px-5">
+      <p><ul class="normal-list">
       <!--{% assign num = 0 %}-->
       {% for talk in site.data.talks %}
         {% if talk.speaker == page.title %}
