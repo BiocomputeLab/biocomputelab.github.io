@@ -24,7 +24,7 @@ keywords:
   - RNA biology  
   - Nanopore sequencing
 ---
-PhD student working on developing orthogonal translation systems to determine the design rules governing the function of ribosomes. 
+PhD student working on developing orthogonal transcription and translation systems and the augmentation of complex cellular machinery with new functionalities. 
  
 Professional interests outside of synthetic biology include biosecurity, where I’m currently a member of the Biosafety and Biosecurity committee for the international iGEM competition.
     
