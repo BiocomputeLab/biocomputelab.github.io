@@ -30,6 +30,16 @@
             <li class="nav-item">
               <a class="nav-link {% if page.section == "about" %} active {% endif %}" aria-current="page" href="{{baseurl}}/">About</a>
             </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle nav-link {% if page.section == "about" %} active {% endif %}" aria-current="page" href="{{baseurl}}/" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                <li><a class="dropdown-item" href="{{baseurl}}/about-reprogramming">Reprogramming biology</a></li>
+                <li><a class="dropdown-item" href="{{baseurl}}/about-analytics">Advanced cellular analytics</a></li>
+                <li><a class="dropdown-item" href="{{baseurl}}/about-engineering">Engineering (with) evolution</a></li>
+              </ul>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link {% if page.section == "team" %} active {% endif %}" href="{{baseurl}}/team">Team</a>
             </li>
