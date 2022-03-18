@@ -63,15 +63,15 @@
   preprint_doi: 10.1101/2021.10.04.463040
   preprint_url: "https://www.biorxiv.org/content/10.1101/2021.10.04.463040v2"
   journal: ACS Synthetic Biology
-  volume:
-  issue:
-  pages:
+  volume: 11
+  issue: 3
+  pages: 1049-1059
   year: 2022
   url: "https://doi.org/10.1021/acssynbio.1c00490"
   doi: 10.1021/acssynbio.1c00490
   tools:
   thumbnail:
-  status: online
+  status: published
   notes:
 
 - title: "Massively parallel characterisation of engineered transcript isoforms using direct RNA sequencing"
