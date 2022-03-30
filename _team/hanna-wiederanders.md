@@ -5,6 +5,7 @@ author: Wiederanders H.
 position: Undergraduate Student
 role: alumni
 leaveyear: 2018
+became: MSci Student, Technische Universität Dresden, Germany
 education:
 image: hanna-wiederanders.jpg
 email: hw18041@bristol.ac.uk
