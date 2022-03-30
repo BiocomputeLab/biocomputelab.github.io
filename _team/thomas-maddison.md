@@ -5,6 +5,7 @@ author: Maddison T.R.
 position: MSc Student
 role: alumni
 leaveyear: 2021
+became: Junior Bioinformatician, Wellcome Sanger Institute, UK
 education:
   - BSc Biomedical Science, University of Lincoln, 2020
 image: thomas-maddison.jpg
