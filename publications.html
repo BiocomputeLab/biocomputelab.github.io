@@ -53,7 +53,7 @@ section: publications
     {% for pub in site.data.publications %}
       {% if pub.status == "pre-print" %}
         <div class="row">
-          <p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
+          <p class="publication"><a href="{{pub.preprint_url}}"><b>{{pub.title}}</b></a><br>
           {{ pub.authors | join: ", " }}<br>
           <i>{{pub.preprint_journal}}</i>, {{pub.preprint_year}}. (DOI: {{pub.preprint_doi}})
           {% if pub.preprint_doi == "" %}
