@@ -3,7 +3,7 @@ layout: person
 title: Bjarne Klopprogge
 author: Klopprogge B.
 position: MSc Student
-role: member
+role: alumni
 leaveyear: 2022 
 education:
   - BSc Nanoscience, University of Hamburg, 2016-2018
