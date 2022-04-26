@@ -288,6 +288,34 @@
     - reprogramming
   notes:
 
+
+- title: "Towards collaborative and automated development of resources for data standards in synthetic biology"
+  authors:
+    - Misirli G.
+    - Ajibode J.S.
+    - Beal J.
+    - Scott-Brown J.
+    - Gorochowski T.E.
+    - Myers C.
+  team:
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Proceedings of the 13th International Workshop on Bio-Design Automation
+  volume:
+  issue:
+  pages:
+  year: 2021
+  url: "https://www.iwbdaconf.org/2021/docs/IWBDA2021Proceedings.pdf"
+  doi:
+  tools:
+  thumbnail:
+  status: published
+
+
 - title: "Synthetic Biology Open Language Visual (SBOL Visual) Version 3.0"
   authors: 
     - Baig H.
@@ -307,14 +335,14 @@
   preprint_doi:
   preprint_url:
   journal: Journal of Integrative Bioinformatics
-  volume: 
-  issue: 
-  pages: 
+  volume: 18
+  issue: 2
+  pages: 20210013
   year: 2021
-  url: 
-  doi: 
+  url: "https://doi.org/10.1515/jib-2021-0013"
+  doi: 10.1515/jib-2021-0013
   tools:
-  thumbnail: 2020-SBOL3.0.jpg
+  thumbnail:
   status: in-press
 
 - title: "Cheetah: a computational toolkit for cybergenetic control"
