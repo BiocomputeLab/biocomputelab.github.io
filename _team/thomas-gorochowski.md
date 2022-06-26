@@ -5,10 +5,10 @@ author: Gorochowski T.E.
 position: Royal Society University Research Fellow
 role: head
 leaveyear: 9999
-positions:
+appointments:
   - Royal Society University Research Fellow (2017–now)
   - Turing Fellow, The Alan Turing Institute, London (2021–now)
-  - Co-Director, Bristol BioDesign Specialist Research Institute (20)
+  - Co-Director, Bristol BioDesign Specialist Research Institute (2019–now)
   - Co-Director, Bristol Centre for Engineering Biology (2022–now)
 education:
   - PhD Engineering Mathematics, University of Bristol, 2012
@@ -26,10 +26,8 @@ keywords:
   - visualisation
   - complex systems
 ---
-Synthetic biologist and complexity scientist that was originally trained in computer science. Attempting to develop efficient architectures for cellular information processing using biologically derived parts and principles.
+Thomas Gorochowski is a Royal Society University Research Fellow based in the School of Biological Sciences at the University of Bristol, UK. His lab focuses on better understanding the computational architecture of living systems to enable their effective reprogramming as a basis for adaptive living materials, new forms of cellular living computer, and environmental applications.
 
-Thomas Gorochowski is a Royal Society University Research Fellow based in the School of Biological Sciences at the University of Bristol, UK. His lab focuses on better understanding the computational architecture of living systems to enable their effective reprogramming as a basis for adaptive living materials and cellular computers.
+Prior to joining the faculty of the School of Biological Sciences at the University of Bristol, he was awarded a Marie Curie Postdoctoral Fellowship at DSM in the Netherlands where he worked on large-scale automated strain development for precision gene expression in bacteria. He then joined the Synthetic Biology Centre at the Massachusetts Institute of Technology, USA as a Postdoctoral Associate where he helped develop the initial sequencing analysis pipelines that form part of the large-scale efforts at the MIT-Broad Foundry for Synthetic Biology and explored new ways that deep-sequencing could be harnessed for bioengineering. This led to the creation of the first sequencing-based ‘genetic debugger’ that enables the rapid diagnosis of faults in large circuits and simultaneous characterization of many genetic parts in situ. In 2016, he was awarded a BrisSynBio Fellowship to set up his own lab at the University of Bristol, in 2017 received a 5-year Royal Society University Fellowship to grow his research programme further, and in 2021 was made a Turing Fellow of The Alan Turing Insittue, London to explore data-centric approaches to biological design.
 
-Prior to joining the University of Bristol, he was awarded a Marie Curie Postdoctoral Fellowship at DSM where he worked on large-scale automated strain development for precision gene expression in bacteria. He then joined the Synthetic Biology Centre at the Massachusetts Institute of Technology, USA as a Postdoctoral Associate where he developed the initial sequencing analysis pipelines that forms part of the large-scale efforts at the MIT-Broad Foundry for Synthetic Biology and explored new ways that deep-sequencing could be harnessed for bioengineering. This led to the creation of the first sequencing-based ‘genetic debugger’ that enables the rapid diagnosis of faults in large circuits and simultaneous characterization of many genetic parts in situ. In 2016, he was awarded a BrisSynBio Fellowship to set up his own lab at the University of Bristol, and in 2017 received a 5-year Royal Society University Fellowship. 
-
-Since returning to Bristol he has rapidly established a group pioneering the application of novel sequencing methods for the rational engineering of biological systems. His research has been published in leading peer-reviewed journals and he provides leadership as Co-Director of the University of Bristol’s BioDesign Specialist Research Institute, Co-Director of the UKRI-funded Bristol Centre for Engineering Biology, and as a Core Member of the UKRI-BBSRC ‘Transformative Technologies Strategy Advisory Panel’. He also has established innovative public engagement activities such as the ‘Become a Biological Engineer’ supported by the Royal Society to bring bioengineering into the classroom and provide opportunities to all students to do hands-on science.
+Since returning to Bristol he has rapidly established a diverse research group pioneering the application of novel sequencing methods for the rational engineering of biological systems. His research has been published in leading peer-reviewed journals and he provides leadership as Co-Director of the University of Bristol’s BioDesign Specialist Research Institute, Co-Director of the UKRI-funded Bristol Centre for Engineering Biology, as a Core Member of the UKRI-BBSRC ‘Transformative Technologies Strategy Advisory Panel’, as part of the Scientific Steering Committee for the Synthetic Biology Open Language (SBOL), and SBOL Visual representative for COMBINE. He also has established innovative public engagement activities such as the ‘Become a Biological Engineer’ to bring bioengineering into the classroom and provide access to all students, no matter their background, to cutting-edge research.
