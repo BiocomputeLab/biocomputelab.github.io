@@ -5,11 +5,16 @@ author: Gorochowski T.E.
 position: Royal Society University Research Fellow
 role: head
 leaveyear: 9999
-appointments:
-  - Royal Society University Research Fellow (2017–now)
-  - Turing Fellow, The Alan Turing Institute, London (2021–now)
-  - Co-Director, Bristol BioDesign Specialist Research Institute (2019–now)
-  - Co-Director, Bristol Centre for Engineering Biology (2022–now)
+current_appointments:
+  - (2017–now) Royal Society University Research Fellow 
+  - (2021–now) Turing Fellow, The Alan Turing Institute, London 
+  - (2019–now) Co-Director, Bristol BioDesign Specialist Research Institute 
+  - (2022–now) Co-Director, Bristol Centre for Engineering Biology 
+previous_appointments:
+  - (2016–17) BrisSynBio Research Fellow, School of Biological Sciences, University of Bristol, UK
+  - (2014–15) Postdoctoral Research Associate, Synthetic Biology Centre, Department of Biological Engineering, Massachusetts Institute of Technology, USA 
+  - (2012–14) Marie Skłodwska-Curie Postdoctoral Fellow and Associate Scientist, DSM Biotechnology Centre, Delft, The Netherlands 
+  - (2004–07) Technology Consultant, Information Management Services, Accenture Ltd., London, UK
 education:
   - PhD Engineering Mathematics, University of Bristol, 2012
   - MRes Complexity Sciences, University of Bristol, 2009
