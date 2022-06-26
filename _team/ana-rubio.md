@@ -3,8 +3,8 @@ layout: person
 title: Ana Rubio Denniss
 author: Rubio Denniss A.
 position: Postdoc
-role: member
-leaveyear: 9999
+role: alumni
+leaveyear: 2022
 education:
   - B.Sci. Physics, University of Bristol, 2015
 image: ana-rubio.jpg
