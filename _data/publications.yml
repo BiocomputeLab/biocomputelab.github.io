@@ -51,6 +51,36 @@
   status: pre-print
   notes:
 
+- title: "Long-term imaging and spatio-temporal control of living cells using light"
+  authors:
+    - Wijewardhane N.S.
+    - Rubio Dennis A.
+    - Uppington M.
+    - Hauser H.
+    - Gorochowski T.E.
+    - Piddini E.
+    - Hauert S.
+  team:
+    - Ana Rubio Denniss
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Proceedings of MARSS
+  volume:
+  issue:
+  pages:
+  year: 2022
+  url: "https://research-information.bris.ac.uk/en/publications/long-term-imaging-and-spatio-temporal-control-of-living-cells-usi"
+  doi:
+  tools:
+  thumbnail:
+  status: in-press
+  key_areas:
+  notes:
+
 - title: "An open platform for high-resolution light-based control of microscopic collectives"
   authors: 
     - Rubio Dennis A.
@@ -169,15 +199,15 @@
   preprint_doi:
   preprint_url:
   journal: "In: Chappell J., Takahashi M.K. (eds) Riboregulator Design and Analysis. Methods in Molecular Biology"
-  volume:
+  volume: 2518
   issue:
-  pages:
-  year: 2021
-  url:
-  doi:
+  pages: 99–110
+  year: 2022
+  url: "https://doi.org/10.1007/978-1-0716-2421-0_6"
+  doi: 10.1007/978-1-0716-2421-0_6
   tools:
   thumbnail:
-  status: in-press
+  status: published
 
 - title: "paraSBOLv: a foundation for standard-compliant genetic design visualization tools"
   authors: 
@@ -287,7 +317,6 @@
   key_areas:
     - reprogramming
   notes:
-
 
 - title: "Towards collaborative and automated development of resources for data standards in synthetic biology"
   authors:
