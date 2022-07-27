@@ -2,7 +2,7 @@
 layout: person
 title: Thomas Gorochowski
 author: Gorochowski T.E.
-position: Royal Society University Research Fellow
+position: Royal Society University Research Fellow / Associate Professor
 role: head
 leaveyear: 9999
 current_appointments:
