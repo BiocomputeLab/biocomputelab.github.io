@@ -68,7 +68,7 @@
   preprint_year:
   preprint_doi:
   preprint_url:
-  journal: Proceedings of MARSS
+  journal: Proceedings of the MARSS Conference
   volume:
   issue:
   pages:
@@ -78,6 +78,33 @@
   tools:
   thumbnail:
   status: in-press
+  key_areas:
+  notes:
+
+- title: "Q-learning for real time control of heterogeneous microagent collectives"
+  authors:
+    - Rubio Dennis A.
+    - Mateu L.F.
+    - Gorochowski T.E.
+    - Hauert S.
+  team:
+    - Ana Rubio Denniss
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Proceedings of the ALIFE Conference
+  volume:
+  issue:
+  pages: 19
+  year: 2022
+  url: "https://doi.org/10.1162/isal_a_00497"
+  doi: 10.1162/isal_a_00497
+  tools:
+  thumbnail:
+  status: published
   key_areas:
   notes:
 

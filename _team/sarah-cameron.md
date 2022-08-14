@@ -3,7 +3,7 @@ layout: person
 title: Sarah Cameron
 author: Cameron, S.K
 position: Specialist Automation Technician
-role: member
+role: alumni
 leaveyear: 9999
 became: none
 education:
