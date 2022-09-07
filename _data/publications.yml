@@ -1,33 +1,4 @@
 
-- title: "Towards the fully automated monitoring of ecological communities"
-  authors:
-    - Besson M.
-    - Alison J.
-    - Bjerge K.
-    - Gorochowski T.E.
-    - Høye T.T.
-    - Jucker T.
-    - Mann H.M.R.
-    - Clements C.F.
-  team:
-    - Thomas Gorochowski
-  preprint_journal: Authorea Prepints
-  preprint_id: 165063792.29640103
-  preprint_year: 2022
-  preprint_doi: 10.22541/au.165063792.29640103/v1
-  preprint_url: "https://doi.org/10.22541/au.165063792.29640103/v1"
-  journal:
-  volume:
-  issue:
-  pages:
-  year:
-  url:
-  doi:
-  tools:
-  thumbnail:
-  status: pre-print
-  notes:
-
 - title: "How biological concepts and evolutionary theories are inspiring advances in machine intelligence"
   authors: 
     - Gutai A.R.
@@ -49,6 +20,35 @@
   tools: 
   thumbnail: 
   status: pre-print
+  notes:
+
+- title: "Towards the fully automated monitoring of ecological communities"
+  authors:
+    - Besson M.
+    - Alison J.
+    - Bjerge K.
+    - Gorochowski T.E.
+    - Høye T.T.
+    - Jucker T.
+    - Mann H.M.R.
+    - Clements C.F.
+  team:
+    - Thomas Gorochowski
+  preprint_journal: Authorea Prepints
+  preprint_id: 165063792.29640103
+  preprint_year: 2022
+  preprint_doi: 10.22541/au.165063792.29640103/v1
+  preprint_url: "https://doi.org/10.22541/au.165063792.29640103/v1"
+  journal: Ecology Letters
+  volume:
+  issue:
+  pages:
+  year: 2022
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: in-press
   notes:
 
 - title: "Long-term imaging and spatio-temporal control of living cells using light"
