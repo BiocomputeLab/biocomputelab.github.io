@@ -19,4 +19,4 @@ keywords:
   - Agent based simulations
   - Search Processes
 ---
-I am a postdoctoral research associate with a background in stochastic processes and mathematical modelling. Currently, my research focuses on building effective pipelines for constructing larger structures composed of stable repeat proteins. The immediate application of the work is to design a stable arm-like protein structure that attaches to orthogonal ribosomes and modifies other proteins at the point of translation.
+I am a postdoctoral research associate with a background in stochastic processes and mathematical modelling. Currently, my research focuses on building effective pipelines for constructing larger structures composed of stable repeat proteins.
