@@ -1,6 +1,6 @@
 ---
 layout: person
-title: Seeralalan Sarvaharman
+title: Seeralan Sarvaharman
 author: Sarvaharman
 position: Postdoctoral Research Associate
 role: member
