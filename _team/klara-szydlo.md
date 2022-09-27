@@ -3,8 +3,9 @@ layout: person
 title: Klara Szydlo
 author: Szydlo K.
 position: PhD Student
-role: member
-leaveyear: 9999
+role: alumni
+leaveyear: 2022
+became: 
 education: 
   - M.Sci. Biology, University of Bristol, 2018
 image: klara-szydlo.jpg

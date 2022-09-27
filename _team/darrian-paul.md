@@ -3,8 +3,9 @@ layout: person
 title: Darrian Paul
 author: Paul D.
 position: PhD Student
-role: member
-leaveyear: 2024
+role: tbd
+leaveyear: 2022
+became: 
 education:
   - BSc Biotechnology, University College London, 2018
 image: darrian-paul.jpg
