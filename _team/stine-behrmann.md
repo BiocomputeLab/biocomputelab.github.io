@@ -3,8 +3,8 @@ layout: person
 title: Stine Behrmann
 author: Behrmann S.
 position: MSc Student
-role: member
-leaveyear: 9999 
+role: alumni
+leaveyear: 2022 
 education:
   - BSc Molecular Life Sciences, University of Hamburg, 2017-2020
   - MSc Molecular Life Sciences, University of Hamburg, 2020-2022

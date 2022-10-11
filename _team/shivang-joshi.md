@@ -4,12 +4,17 @@ title: Shivang Joshi
 author: Joshi S. 
 position: PhD Student
 role: member
-leaveyear: 2022 
+leaveyear: 2026 
 education:
   - B.Sc. Biotechnology, Imperial College London, 2014-2018
   - M.Res. Systems and Synthetic Biology, Imperial College London, 2018-2019
 image: shivang-joshi.jpg
 email: pt22104@bristol.ac.uk
+twitter:
+github: sj3214
+key_areas:
+  - evolution
+  - reprogramming
 keywords:
   - Synthetic Biology
   - Biosensors 
