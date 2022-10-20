@@ -72,11 +72,11 @@
   issue:
   pages:
   year: 2022
-  url:
-  doi:
+  url: "https://doi.org/10.1111/ele.14123"
+  doi: 10.1111/ele.14123
   tools:
   thumbnail:
-  status: in-press
+  status: published
   notes:
 
 - title: "Long-term imaging and spatio-temporal control of living cells using light"
