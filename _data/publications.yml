@@ -1,4 +1,28 @@
 
+- title: "Effective design and inference for cell sorting and sequencing based massively parallel reporter assays"
+  authors:
+    - Gilliot P.A.
+    - Gorochowski T.E.
+  team:
+    - Pierre-Aurelien Gilliot
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id:
+  preprint_year: 2022
+  preprint_doi:
+  preprint_url:
+  journal:
+  volume:
+  issue:
+  pages:
+  year:
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: pre-print
+  notes:
+
 - title: "Bridging the Gap between Mechanistic Biological Models and Machine Learning Surrogates"
   authors:
     - Gherman I.M.
