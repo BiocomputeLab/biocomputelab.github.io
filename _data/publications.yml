@@ -21,6 +21,8 @@
   tools:
   thumbnail:
   status: pre-print
+  key_areas:
+    - analytics
   notes:
 
 - title: "Bridging the Gap between Mechanistic Biological Models and Machine Learning Surrogates"
