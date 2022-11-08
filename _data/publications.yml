@@ -127,11 +127,11 @@
   issue:
   pages:
   year: 2022
-  url: "https://research-information.bris.ac.uk/en/publications/long-term-imaging-and-spatio-temporal-control-of-living-cells-usi"
-  doi:
+  url: "https://doi.org/10.1109/MARSS55884.2022.9870487"
+  doi: 10.1109/MARSS55884.2022.9870487
   tools:
   thumbnail:
-  status: in-press
+  status: published
   key_areas:
   notes:
 
@@ -262,7 +262,7 @@
   doi: 10.1007/978-1-0716-2617-7_3
   tools:
   thumbnail: 
-  status: in-press
+  status: published
 
 - title: "Design and assembly of multi-level transcriptional and translational regulators for stringent control of gene expression"
   authors:
