@@ -4,7 +4,8 @@ title: Matt Tarnowski
 author: Tarnowski M.J.
 position: PhD Student
 role: member
-leaveyear: 9999 
+leaveyear: 2022
+became: Mushroom whisperer
 education:
   - MChem Chemistry, University of Sheffield, 2010-2014
   - Graduate Programme, AstraZeneca, 2014-2016
