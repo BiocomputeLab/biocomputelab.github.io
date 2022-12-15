@@ -76,6 +76,35 @@
   status: pre-print
   notes:
 
+- title: "Advanced medical micro-robotics for early diagnosis and therapeutic interventions"
+  authors:
+    - Zhang D.
+    - Gorochowski T.E.
+    - Marucci L.
+    - Lee H-.T.
+    - Gil B.
+    - Li B.
+    - Hauert S.
+    - Yeatman E.
+  team:
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Frontiers in Robotics and AI
+  volume:
+  issue:
+  pages:
+  year: 2022
+  url: "https://doi.org/10.3389/frobt.2022.1086043"
+  doi: 10.3389/frobt.2022.1086043
+  tools:
+  thumbnail:
+  status: in-press
+  notes:
+
 - title: "Towards the fully automated monitoring of ecological communities"
   authors:
     - Besson M.
