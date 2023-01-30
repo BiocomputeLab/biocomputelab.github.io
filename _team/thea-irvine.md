@@ -2,12 +2,13 @@
 layout: person
 title: Thea Irvine
 author: Irvine T.C.
-position: MSc(R) Student
-role: alumni
-leaveyear: 2022
+position: PhD Student
+role: member
+leaveyear: 
 became: Technician, Zentraxa, UK
 education:
   - BSc Biology, University of Bristol, 2020
+  - MSci(R) Biology, University of Bristol, 2023
 image: thea-irvine.jpg
 email: ti17744.2017@my.bristol.ac.uk
 twitter: none
