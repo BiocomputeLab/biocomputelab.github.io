@@ -94,7 +94,7 @@
   preprint_doi:
   preprint_url:
   journal: Frontiers in Robotics and AI
-  volume:
+  volume: 9
   issue:
   pages:
   year: 2022
@@ -102,7 +102,7 @@
   doi: 10.3389/frobt.2022.1086043
   tools:
   thumbnail:
-  status: in-press
+  status: published
   notes:
 
 - title: "Towards the fully automated monitoring of ecological communities"
