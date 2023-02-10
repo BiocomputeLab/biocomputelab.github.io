@@ -4,13 +4,16 @@ title:  Jazz Ghataora
 author: Ghataora J.
 position: Postdoctoral Research Associate
 role: member
-leaveyear: 2022 
+leaveyear: 2023
 education:
   - B.Sc. Cellular & Molecular Biology, Aston University, 2014-2018
   - M.Sc. Molecular Biotechnology, University of Birmingham, 2018-2019
   - PhD. Biological Sciences, University of Bath, 2019-2022
 image: jazz-ghataora.jpg
 email: tm22579@bristol.ac.uk
+key_areas:
+  - analytics
+  - reprogramming
 keywords:
   - synthetic biology
   - genetic circuits
