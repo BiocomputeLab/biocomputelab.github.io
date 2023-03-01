@@ -25,6 +25,29 @@
     - analytics
   notes:
 
+- title: "How biological concepts and evolutionary theories are inspiring advances in machine intelligence"
+  authors:
+    - Gutai A.R.
+    - Gorochowski T.E.
+  team:
+    - Thomas Gorochowski
+  preprint_journal: Preprints
+  preprint_id: 2021090234
+  preprint_year: 2021
+  preprint_doi: 10.20944/preprints202109.0234.v1
+  preprint_url: "https://www.preprints.org/manuscript/202109.0234/v1"
+  journal:
+  volume:
+  issue:
+  pages:
+  year:
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: pre-print
+  notes:
+
 - title: "Bridging the Gap between Mechanistic Biological Models and Machine Learning Surrogates"
   authors:
     - Gherman I.M.
@@ -41,39 +64,16 @@
   preprint_year: 2022
   preprint_doi: 10.20944/preprints202209.0455.v1
   preprint_url: "https://www.preprints.org/manuscript/202209.0455/v1"
-  journal:
+  journal: PLOS Computational Biology
   volume:
   issue:
   pages:
-  year:
+  year: 2023
   url:
   doi:
   tools:
   thumbnail:
-  status: pre-print
-  notes:
-
-- title: "How biological concepts and evolutionary theories are inspiring advances in machine intelligence"
-  authors: 
-    - Gutai A.R.
-    - Gorochowski T.E.
-  team: 
-    - Thomas Gorochowski
-  preprint_journal: Preprints
-  preprint_id: 2021090234
-  preprint_year: 2021
-  preprint_doi: 10.20944/preprints202109.0234.v1
-  preprint_url: "https://www.preprints.org/manuscript/202109.0234/v1"
-  journal: 
-  volume: 
-  issue: 
-  pages: 
-  year: 
-  url: 
-  doi: 
-  tools: 
-  thumbnail: 
-  status: pre-print
+  status: in-press
   notes:
 
 - title: "Advanced medical micro-robotics for early diagnosis and therapeutic interventions"
