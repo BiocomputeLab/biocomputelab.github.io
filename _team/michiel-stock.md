@@ -17,6 +17,8 @@ email: michiel.stock@ugent.be
 twitter: michielstock
 github: michielstock
 url: "https://michielstock.github.io"
+key_areas:
+  - evolution
 keywords:
   - synthetic biology
   - evolutionary computing
