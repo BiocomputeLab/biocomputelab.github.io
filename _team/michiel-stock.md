@@ -2,7 +2,7 @@
 layout: person
 title: Michiel Stock
 author: Stock M.
-position: Postdoctoral Researcher
+position: Visiting Postdoctoral Researcher
 role: member
 leaveyear: 2023
 current_appointments:
