@@ -76,6 +76,48 @@
   status: in-press
   notes:
 
+Buecherl, Lukas, Mitchell, Thomas, Scott-Brown, James, Vaidyanathan, Prashant, Vidal, Gonzalo, Baig, Hasan, Bartley, Bryan, Beal, Jacob, Crowther, Matthew, Fontanarrosa, Pedro, Gorochowski, Thomas, Grünberg, Raik, Kulkarni, Vishwesh, McLaughlin, James, Mısırlı, Göksel, Oberortner, Ernst, Wipat, Anil and Myers, Chris
+
+
+- title: "Synthetic Biology Open Language (SBOL) Version 3.1.0"
+  authors:
+    - Buecherl L.
+    - Mitchell T.
+    - Scott-Brown J.
+    - Vaidyanathan P.
+    - Vidal G.
+    - Baig H.
+    - Bartley B.
+    - Beal J.
+    - Crowther M.
+    - Fontanarrosa P.
+    - Gorochowski T.E.
+    - Grünberg R.
+    - Kulkarni V.
+    - McLaughlin J.
+    - Mısırlı G.
+    - Oberortner E.
+    - Wipat A.
+    - Myers C.
+  team:
+    - Thomas Gorochowski
+    - Lukas Buecherl
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Journal of Integrative Bioinformatics
+  volume:
+  issue:
+  pages: 20220058
+  year: 2023
+  url: "https://doi.org/10.1515/jib-2022-0058"
+  doi: 10.1515/jib-2022-0058
+  tools:
+  thumbnail:
+  status: published
+
 - title: "Advanced medical micro-robotics for early diagnosis and therapeutic interventions"
   authors:
     - Zhang D.
