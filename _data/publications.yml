@@ -1,4 +1,30 @@
 
+- title: "Transfer learning for cross-context prediction of protein expression from 5'UTR sequence"
+  authors:
+    - Gilliot P.A.
+    - Gorochowski T.E.
+  team:
+    - Pierre-Aurelien Gilliot
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id:
+  preprint_year: 2023
+  preprint_doi:
+  preprint_url:
+  journal:
+  volume:
+  issue:
+  pages:
+  year:
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: pre-print
+  key_areas:
+    - analytics
+  notes:
+
 - title: "Effective design and inference for cell sorting and sequencing based massively parallel reporter assays"
   authors:
     - Gilliot P.A.
