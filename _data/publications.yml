@@ -142,6 +142,37 @@
   thumbnail:
   status: published
 
+- title: "Specifications of standards in systems and synthetic biology: status and developments in 2022 and the COMBINE meeting 2022"
+  authors:
+    - König M.
+    - Gleeson P.
+    - Golebiewski M.
+    - Gorochowski T.E.
+    - Hucka M.
+    - Keating S.M.
+    - Myers C.
+    - Nickerson D.
+    - Sommer B.
+    - Waltemath D.
+    - Schreiber F.
+  team:
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Journal of Integrative Bioinformatics
+  volume: 20
+  issue: 1
+  pages: 20230004
+  year: 2023
+  url: "https://doi.org/10.1515/jib-2023-0004"
+  doi: 10.1515/jib-2023-0004
+  tools:
+  thumbnail:
+  status: published
+
 - title: "Advanced medical micro-robotics for early diagnosis and therapeutic interventions"
   authors:
     - Zhang D.
