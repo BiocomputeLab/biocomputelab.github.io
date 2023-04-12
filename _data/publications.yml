@@ -1,4 +1,31 @@
 
+- title: "Open-endedness in synthetic biology: a route to continual innovation for biological design"
+  authors:
+    - Stock M.
+    - Gorochowski T.E.
+  team:
+    - Michiel Stock
+    - Thomas Gorochowski
+  preprint_journal: OSF Preprints
+  preprint_id: osf.io/wv5ac
+  preprint_year: 2023
+  preprint_doi: 10.31219/osf.io/wv5ac
+  preprint_url: https://doi.org/10.31219/osf.io/wv5ac
+  journal:
+  volume:
+  issue:
+  pages:
+  year:
+  url: "https://osf.io/wv5ac/"
+  doi:
+  tools:
+  thumbnail:
+  status: pre-print
+  key_areas:
+    - evolution
+    - reprogramming
+  notes:
+
 - title: "Transfer learning for cross-context prediction of protein expression from 5'UTR sequence"
   authors:
     - Gilliot P.A.
