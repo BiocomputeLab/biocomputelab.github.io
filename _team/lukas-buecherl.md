@@ -10,6 +10,8 @@ education:
   - M.Sc. Biomedical Engineering, University of Colorado Boulder, 2020-2022
 image: lukas-buecherl.jpg
 email: lukas.buecherl@colorado.edu
+key_areas:
+  - reprogramming
 keywords:
   - Synthetic Biology
   - Genetic Circuit Design

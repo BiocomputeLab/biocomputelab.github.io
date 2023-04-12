@@ -19,6 +19,7 @@ github: michielstock
 url: "https://michielstock.github.io"
 key_areas:
   - evolution
+  - reprogramming
 keywords:
   - synthetic biology
   - evolutionary computing
