@@ -26,32 +26,6 @@
     - reprogramming
   notes:
 
-- title: "Transfer learning for cross-context prediction of protein expression from 5'UTR sequence"
-  authors:
-    - Gilliot P.A.
-    - Gorochowski T.E.
-  team:
-    - Pierre-Aurelien Gilliot
-    - Thomas Gorochowski
-  preprint_journal: bioRxiv
-  preprint_id: 2023.03.31.535140
-  preprint_year: 2023
-  preprint_doi: 10.1101/2023.03.31.535140
-  preprint_url: https://doi.org/10.1101/2023.03.31.535140
-  journal:
-  volume:
-  issue:
-  pages:
-  year:
-  url:
-  doi:
-  tools:
-  thumbnail:
-  status: pre-print
-  key_areas:
-    - analytics
-  notes:
-
 - title: "Effective design and inference for cell sorting and sequencing based massively parallel reporter assays"
   authors:
     - Gilliot P.A.
@@ -99,6 +73,32 @@
   tools:
   thumbnail:
   status: pre-print
+  notes:
+
+- title: "Transfer learning for cross-context prediction of protein expression from 5'UTR sequence"
+  authors:
+    - Gilliot P.A.
+    - Gorochowski T.E.
+  team:
+    - Pierre-Aurelien Gilliot
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 2023.03.31.535140
+  preprint_year: 2023
+  preprint_doi: 10.1101/2023.03.31.535140
+  preprint_url: https://doi.org/10.1101/2023.03.31.535140
+  journal: Bioinformatics
+  volume:
+  issue:
+  pages:
+  year: 2023
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: in-press
+  key_areas:
+    - analytics
   notes:
 
 - title: "Bridging the Gap between Mechanistic Biological Models and Machine Learning Surrogates"
