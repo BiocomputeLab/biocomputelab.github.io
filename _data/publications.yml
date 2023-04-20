@@ -118,12 +118,12 @@
   preprint_doi: 10.20944/preprints202209.0455.v1
   preprint_url: "https://www.preprints.org/manuscript/202209.0455/v1"
   journal: PLoS Computational Biology
-  volume:
+  volume: 19
   issue:
-  pages:
+  pages: e1010988
   year: 2023
-  url:
-  doi:
+  url: "https://doi.org/10.1371/journal.pcbi.1010988"
+  doi: 10.1371/journal.pcbi.1010988
   tools:
   thumbnail:
   status: in-press
