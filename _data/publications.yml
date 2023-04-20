@@ -92,8 +92,8 @@
   issue:
   pages:
   year: 2023
-  url:
-  doi:
+  url: "https://doi.org/10.1093/bioinformatics/btad277"
+  doi: 10.1093/bioinformatics/btad277
   tools:
   thumbnail:
   status: in-press
