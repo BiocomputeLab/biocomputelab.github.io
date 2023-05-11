@@ -5,7 +5,7 @@ author: Cameron, S.K
 position: Specialist Automation Technician
 role: alumni
 leaveyear: 9999
-became: none
+became: PhD student, University of Bath, UK
 education:
   - BSc Biomedical Science, University of Surrey, 2018
   - MSc Molecular Biosciences (Microbiology), University of Bath, 2020
