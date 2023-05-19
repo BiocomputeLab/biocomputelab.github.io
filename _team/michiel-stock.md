@@ -3,7 +3,7 @@ layout: person
 title: Michiel Stock
 author: Stock M.
 position: Visiting Postdoctoral Researcher
-role: member
+role: alumni
 leaveyear: 2023
 became: Postdoctoral Scholar, University of Ghent, Belgium
 current_appointments:
