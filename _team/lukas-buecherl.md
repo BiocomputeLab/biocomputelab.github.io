@@ -3,8 +3,9 @@ layout: person
 title: Lukas Buecherl
 author: Buecherl L.
 position: Visiting Scholar
-role: member
+role: alumni
 leaveyear: 2023
+became: PhD Student (Myers Group), University of Colorado Boulder, USA
 education:
   - B.Sc. Electrical Engineering, University of Ulm, 2016-2019
   - M.Sc. Biomedical Engineering, University of Colorado Boulder, 2020-2022

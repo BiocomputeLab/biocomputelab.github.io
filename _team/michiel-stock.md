@@ -5,6 +5,7 @@ author: Stock M.
 position: Visiting Postdoctoral Researcher
 role: member
 leaveyear: 2023
+became: Postdoctoral Scholar, University of Ghent, Belgium
 current_appointments:
   - <b>2017–now</b> Postdoctoral Researcher, Ghent University
 previous_appointments:
