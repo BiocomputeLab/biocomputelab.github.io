@@ -5,8 +5,9 @@ author: Tarnowski M.J.
 position: PhD Student
 role: alumni
 leaveyear: 2022
-became: Mushroom whisperer, Wales
+became: Research Officer (Sonnenschein group), Swansea University, Wales
 education:
+  - PhD Synthetic Biology, University of Bristol, 2018-2022
   - MChem Chemistry, University of Sheffield, 2010-2014
   - Graduate Programme, AstraZeneca, 2014-2016
 image: matt-tarnowski.jpg
