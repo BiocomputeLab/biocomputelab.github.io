@@ -1,4 +1,30 @@
 
+- title: "Constructor algorithms for building unconventional computers able to solve NP-complete problems"
+  authors:
+    - McCaffrey T.
+    - Gorochowski T.E.
+    - Spector L.
+  team:
+    - Thomas Gorochowski
+  preprint_journal: arXiv
+  preprint_id: 
+  preprint_year: 2023
+  preprint_doi: 
+  preprint_url: 
+  journal:
+  volume:
+  issue:
+  pages:
+  year:
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: pre-print
+  key_areas:
+    - reprogramming
+  notes:
+
 - title: "Engineering is evolution: a perspective on the biological design process"
   authors:
     - Castle S.D.
