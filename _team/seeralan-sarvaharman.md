@@ -3,7 +3,7 @@ layout: person
 title: Seeralan Sarvaharman
 author: Sarvaharman
 position: Postdoctoral Research Associate
-role: member
+role: alumni
 leaveyear: 9999
 became: Postdoctoral Researcher, Max Planck Institute for Multidisciplinary Sciences, Goettingen, Germany
 education:

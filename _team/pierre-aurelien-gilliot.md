@@ -3,7 +3,7 @@ layout: person
 title: Pierre-Aurelien Gilliot
 author: Gilliot P.A.
 position: PhD Student
-role: member
+role: alumni
 leaveyear: 9999
 became: Postdoctoral Researcher in Generative AI, University of Bristol, UK
 education:

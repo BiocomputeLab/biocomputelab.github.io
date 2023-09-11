@@ -3,8 +3,9 @@ layout: person
 title: F. Veronica Greco
 author: Greco F.V.
 position: PhD Student
-role: member
+role: alumni
 leaveyear: 9999
+became: Technology and Innovation Manager, CDOTBIO, UK
 education:
   - Single Cycle Master’s Degree in Pharmaceutical Chemistry and Technology, University of Calabria, Italy, 2017
   - Qualified Pharmacist, 2017
