@@ -5,6 +5,7 @@ author: Sarvaharman
 position: Postdoctoral Research Associate
 role: member
 leaveyear: 9999
+became: Postdoctoral Researcher, Max Planck Institute for Multidisciplinary Sciences, Goettingen, Germany
 education:
   - MEng Engineering Mathematics, University of Bristol, 2014-2018
   - PhD Stochastic Processes, University of Bristol, 2018-2022

@@ -4,7 +4,7 @@ title:  Jazz Ghataora
 author: Ghataora J.
 position: Postdoctoral Research Associate
 role: member
-leaveyear: 2023
+leaveyear: 2024
 education:
   - B.Sc. Cellular & Molecular Biology, Aston University, 2014-2018
   - M.Sc. Molecular Biotechnology, University of Birmingham, 2018-2019

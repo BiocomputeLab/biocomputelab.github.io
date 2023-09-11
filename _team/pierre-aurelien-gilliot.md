@@ -5,6 +5,7 @@ author: Gilliot P.A.
 position: PhD Student
 role: member
 leaveyear: 9999
+became: Postdoctoral Researcher in Generative AI, University of Bristol, UK
 education:
   - M.Eng. École Polytechnique, 2019
 image: pierre-aurelien-gilliot.jpg

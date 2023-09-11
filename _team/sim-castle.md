@@ -5,6 +5,7 @@ author: Castle S.
 position: PhD Student
 role: member
 leaveyear: 9999
+became: Postdoctoral Researcher, University of Bristol, UK
 education:
   - MSc Integrated Product Design, TU Delft, 2016  
   - BSc Product Design, University of Sussex, 2013

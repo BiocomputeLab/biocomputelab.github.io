@@ -4,7 +4,8 @@ title: Bjarne Klopprogge
 author: Klopprogge B.
 position: MSc Student
 role: alumni
-leaveyear: 2022 
+leaveyear: 2022
+became: PhD Student, Center for Free-Electron Laser Science Hamburg, Germany
 education:
   - BSc Nanoscience, University of Hamburg, 2016-2018
   - BSc Molecular Life Sciences, University of Hamburg, 2018-2020

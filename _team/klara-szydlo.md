@@ -5,7 +5,7 @@ author: Szydlo K.
 position: PhD Student
 role: alumni
 leaveyear: 2022
-became: 
+became: Scientist, Bioagilytix, Germany
 education: 
   - M.Sci. Biology, University of Bristol, 2018
 image: klara-szydlo.jpg
