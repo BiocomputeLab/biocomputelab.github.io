@@ -169,8 +169,8 @@
   preprint_doi: 10.1101/2022.11.07.515414
   preprint_url: "https://doi.org/10.1101/2022.11.07.515414"
   journal: Bioinformatics
-  volume:
-  issue:
+  volume: 39
+  issue: 5
   pages: btad277
   year: 2023
   url: "https://doi.org/10.1093/bioinformatics/btad277"
