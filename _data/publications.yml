@@ -128,6 +128,49 @@
   status: pre-print
   notes:
 
+- title: "Ten simple rules for managing laboratory information"
+  authors:
+    - Berezin C.-T.
+    - Aguilera L.U.
+    - Billerbeck S.
+    - Bourne P.
+    - Densmore D.
+    - Freemont P.
+    - Gorochoski T.E.
+    - Hernandez S.I.
+    - Hillson N.J.
+    - King C.R.
+    - Köpke M.
+    - Ma S.
+    - Miller K.
+    - Moon T.S.
+    - Moore J.
+    - Munsky B.
+    - Myers C.J.
+    - Nicholas D.A.
+    - Peccoud S.
+    - Zhou W.
+    - Peccoud J.
+  team:
+    - Thomas Gorochowski
+  preprint_journal: 
+  preprint_id: 
+  preprint_year: 
+  preprint_doi: 
+  preprint_url: 
+  journal: PLOS Computational Biology
+  volume: 
+  issue:
+  pages: 
+  year: 2023
+  url: 
+  doi: 
+  tools:
+  thumbnail:
+  status: in-press
+  key_areas:
+  notes:
+
 - title: "Soil as a transdisciplinary research catalyst: from bioprospecting to biorespecting"
   authors:
     - Tarnowski M.J.
@@ -198,7 +241,7 @@
   preprint_year: 2022
   preprint_doi: 10.20944/preprints202209.0455.v1
   preprint_url: "https://www.preprints.org/manuscript/202209.0455/v1"
-  journal: PLoS Computational Biology
+  journal: PLOS Computational Biology
   volume: 19
   issue:
   pages: e1010988
@@ -1841,7 +1884,7 @@
   team: 
     - Thomas Gorochowski
     - Antoni Matyjaszkiewicz
-  journal: PLoS ONE
+  journal: PLOS ONE
   volume: 7
   issue: 
   pages: e42790
