@@ -1,4 +1,33 @@
 
+- title: "Accelerated design of Escherichia coli genomes with reduced size using a whole-cell model and machine learning surrogate"
+  authors:
+    - Gherman I.M.
+    - Rees-Garbutt J.
+    - Pang W.
+    - Abdallah Z.
+    - Gorochowski T.E.
+    - Grierson C.S.
+    - Marucci L.
+  team:
+    - Ioana Gherman
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 2023.10.30.564402
+  preprint_year: 2023
+  preprint_doi: 10.1101/2023.10.30.564402
+  preprint_url: "https://doi.org/10.1101/2023.10.30.564402"
+  journal: 
+  volume: 
+  issue:
+  pages: 
+  year: 
+  url: 
+  doi: 
+  tools:
+  thumbnail:
+  status: pre-print
+  notes:
+
 - title: "Constructor algorithms for building unconventional computers able to solve NP-complete problems"
   authors:
     - McCaffrey T.
