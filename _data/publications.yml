@@ -1,4 +1,31 @@
 
+- title: "Engineering orthogonal ribosomes for real-time monitoring using fluorescence"
+  authors:
+    - Csibra E.
+    - Klopprogge B.
+    - Hau Sørensen G.
+    - Gorochowski T.E.
+  team:
+    - Bjarne Klopprogge
+    - Georgie Hau Sørensen
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 2023.11.19.567736
+  preprint_year: 2023
+  preprint_doi: 10.1101/2023.11.19.567736
+  preprint_url: "https://doi.org/10.1101/2023.11.19.567736"
+  journal: 
+  volume: 
+  issue:
+  pages: 
+  year: 
+  url: 
+  doi: 
+  tools:
+  thumbnail:
+  status: pre-print
+  notes:
+
 - title: "Accelerated design of Escherichia coli genomes with reduced size using a whole-cell model and machine learning surrogate"
   authors:
     - Gherman I.M.
