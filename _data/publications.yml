@@ -108,33 +108,6 @@
     - reprogramming
   notes:
 
-- title: "Open-endedness in synthetic biology: a route to continual innovation for biological design"
-  authors:
-    - Stock M.
-    - Gorochowski T.E.
-  team:
-    - Michiel Stock
-    - Thomas Gorochowski
-  preprint_journal: OSF Preprints
-  preprint_id: osf.io/wv5ac
-  preprint_year: 2023
-  preprint_doi: 10.31219/osf.io/wv5ac
-  preprint_url: https://osf.io/wv5ac/
-  journal:
-  volume:
-  issue:
-  pages:
-  year:
-  url:
-  doi:
-  tools:
-  thumbnail:
-  status: pre-print
-  key_areas:
-    - evolution
-    - reprogramming
-  notes:
-
 - title: "Transfer learning for cross-context prediction of protein expression from 5'UTR sequence"
   authors:
     - Gilliot P.A.
@@ -184,6 +157,61 @@
   status: pre-print
   notes:
 
+- title: "Open-endedness in synthetic biology: a route to continual innovation for biological design"
+  authors:
+    - Stock M.
+    - Gorochowski T.E.
+  team:
+    - Michiel Stock
+    - Thomas Gorochowski
+  preprint_journal: OSF Preprints
+  preprint_id: osf.io/wv5ac
+  preprint_year: 2023
+  preprint_doi: 10.31219/osf.io/wv5ac
+  preprint_url: https://osf.io/wv5ac/
+  journal: Science Advances
+  volume:
+  issue:
+  pages:
+  year: 2023
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: in-press
+  key_areas:
+    - evolution
+    - reprogramming
+  notes:
+
+- title: "Soil as a transdisciplinary research catalyst: from bioprospecting to biorespecting"
+  authors:
+    - Tarnowski M.J.
+    - Varliero G.
+    - Scown J.
+    - Phelps E.
+    - Gorochowski T.E.
+  team:
+    - Matt Tarnowski
+    - Thomas Gorochowski
+  preprint_journal: 
+  preprint_id: 
+  preprint_year: 
+  preprint_doi: 
+  preprint_url: 
+  journal: Royal Society Open Science
+  volume: 10
+  issue:
+  pages: 230963
+  year: 2023
+  url: "https://doi.org/10.1098/rsos.230963"
+  doi: 10.1098/rsos.230963
+  tools:
+  thumbnail:
+  status: published
+  key_areas:
+  notes:
+
 - title: "Ten simple rules for managing laboratory information"
   authors:
     - Berezin C.-T.
@@ -224,34 +252,6 @@
   tools:
   thumbnail:
   status: in-press
-  key_areas:
-  notes:
-
-- title: "Soil as a transdisciplinary research catalyst: from bioprospecting to biorespecting"
-  authors:
-    - Tarnowski M.J.
-    - Varliero G.
-    - Scown J.
-    - Phelps E.
-    - Gorochowski T.E.
-  team:
-    - Matt Tarnowski
-    - Thomas Gorochowski
-  preprint_journal: 
-  preprint_id: 
-  preprint_year: 
-  preprint_doi: 
-  preprint_url: 
-  journal: Royal Society Open Science
-  volume: 10
-  issue:
-  pages: 230963
-  year: 2023
-  url: "https://doi.org/10.1098/rsos.230963"
-  doi: 10.1098/rsos.230963
-  tools:
-  thumbnail:
-  status: published
   key_areas:
   notes:
 
