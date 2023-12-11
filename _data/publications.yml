@@ -243,15 +243,15 @@
   preprint_doi: 
   preprint_url: 
   journal: PLOS Computational Biology
-  volume: 
-  issue:
-  pages: 
+  volume: 19
+  issue: 12
+  pages: e1011652
   year: 2023
-  url: 
-  doi: 
+  url: "https://doi.org/10.1371/journal.pcbi.1011652"
+  doi: 10.1371/journal.pcbi.1011652
   tools:
   thumbnail:
-  status: in-press
+  status: published
   key_areas:
   notes:
 
