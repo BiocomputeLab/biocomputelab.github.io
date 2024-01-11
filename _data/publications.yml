@@ -170,12 +170,12 @@
   preprint_doi: 10.31219/osf.io/wv5ac
   preprint_url: https://osf.io/wv5ac/
   journal: Science Advances
-  volume:
+  volume: 10
   issue:
-  pages:
+  pages: eadi3621
   year: 2024
-  url:
-  doi:
+  url: "https://doi.org/10.1126/sciadv.adi3621"
+  doi: 10.1126/sciadv.adi3621
   tools:
   thumbnail:
   status: in-press
