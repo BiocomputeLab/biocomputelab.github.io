@@ -53,6 +53,7 @@ section: about-evolution
     <h2 class="pb-2 py-5 border-bottom">Selected publications</h2>
     {% for pub in site.data.publications %}
       {% if pub.key_areas contains "evolution" %}
+      {% if pub.status != "pre-print" %}
         <div class=row>
           <p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
           {{ pub.authors | join: ", " }}<br>
@@ -66,6 +67,7 @@ section: about-evolution
           {% endif %}
           </p>
         </div>
+      {% endif %}
       {% endif %}
     {% endfor %}
 

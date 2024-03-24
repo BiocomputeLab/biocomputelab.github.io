@@ -54,6 +54,7 @@ section: about-reprogramming
     <div class="row">
     {% for pub in site.data.publications %}
       {% if pub.key_areas contains "reprogramming" %}
+      {% if pub.status != "pre-print" %}
         <div class=row>
           <p class="publication"><a href="{{pub.url}}"><b>{{pub.title}}</b></a><br>
           {{ pub.authors | join: ", " }}<br>
@@ -67,6 +68,7 @@ section: about-reprogramming
           {% endif %}
           </p>
         </div>
+      {% endif %}
       {% endif %}
     {% endfor %}
     </div>
