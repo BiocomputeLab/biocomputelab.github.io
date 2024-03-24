@@ -3,11 +3,11 @@ layout: person
 title: Sim Castle
 author: Castle S.
 position: PhD Student
-role: member
+role: alumni
 leaveyear: 2024
 became: Postdoctoral Researcher, University of Bristol, UK
 education:
-  - MSc Integrated Product Design, TU Delft, 2016  
+  - MSc Integrated Product Design, TU Delft, 2016
   - BSc Product Design, University of Sussex, 2013
 image: sim-castle.jpg
 email: s.castle@bristol.ac.uk

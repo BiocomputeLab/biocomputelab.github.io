@@ -3,8 +3,8 @@ layout: person
 title: Andrea Giusti
 author: Giusti, A.
 position: Visiting PhD Student
-role: member
-leaveyear: 2023
+role: alumni
+leaveyear: 2024
 education:
   - BSc Automatic Control Engineering, University of Naples Federico II, 2015-2018
   - MSc Automatic Control Engineering, University of Naples Federico II, 2018-2020

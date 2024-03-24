@@ -3,7 +3,7 @@ layout: person
 title: Lucia Nikolaeva-Reynolds
 author: Nikolaeva-Reynolds L.
 position: Researcher
-role: member
+role: alumni
 leaveyear: 2023
 education:
   - M.Sci. Biology, University of Bristol, 2019-2023

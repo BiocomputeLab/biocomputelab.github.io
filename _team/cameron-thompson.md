@@ -3,8 +3,8 @@ layout: person
 title: Cameron Thompson
 author: Thompson C.G.
 position: MRes Student
-role: member
-leaveyear: 2022
+role: alumni
+leaveyear: 2024
 education:
   - BSc Hons Biology, Oxford Brookes University, 2021
 image: cameron-thompson.jpg
