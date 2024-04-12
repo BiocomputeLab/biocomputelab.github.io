@@ -236,6 +236,36 @@
     - analytics
   notes:
 
+- title: "Long-term imaging and spatio-temporal control of living cells using targeted light based on closed-loop feedback"
+  authors:
+    - Wijewardhane N.
+    - Rubio Denniss A.
+    - Uppington M.
+    - Hauser H.
+    - Gorochowski T.E.
+    - Piddini E.
+    - Hauert S.
+  team:
+    - Thomas Gorochowski
+    - Rubio Denniss A.
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Journal of Micro and Bio Robotics
+  volume: 20
+  issue:
+  pages: 2
+  year: 2024
+  url: "https://doi.org/10.1007/s12213-024-00165-0"
+  doi: 10.1007/s12213-024-00165-0
+  tools:
+  thumbnail:
+  status: published
+  key_areas:
+  notes:
+
 - title: "Soil as a transdisciplinary research catalyst: from bioprospecting to biorespecting"
   authors:
     - Tarnowski M.J.
