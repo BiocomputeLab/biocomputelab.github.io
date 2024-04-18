@@ -183,6 +183,34 @@
   status: pre-print
   notes:
 
+- title: "Engineering is evolution: a perspective on processes to engineer biology"
+  authors:
+    - Castle S.D.
+    - Stock M.
+    - Gorochowski T.E.
+  team:
+    - Sim Castle
+    - Thomas Gorochowski
+  preprint_journal: OSF Preprints
+  preprint_id: osf.io/urq9w
+  preprint_year: 2023
+  preprint_doi: 10.31219/osf.io/urq9w
+  preprint_url: https://osf.io/urq9w/
+  journal: Nature Communications
+  volume:
+  issue:
+  pages:
+  year: 2024
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: in-press
+  key_areas:
+    - evolution
+    - reprogramming
+  notes:
+
 - title: "Open-endedness in synthetic biology: a route to continual innovation for biological design"
   authors:
     - Stock M.

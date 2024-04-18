@@ -2,7 +2,7 @@
 layout: person
 title: Carlos Classen
 author: Classen C.
-position: Student
+position: Visiting Student
 role: member
 leaveyear: 2024
 became:
