@@ -107,33 +107,6 @@
     - reprogramming
   notes:
 
-- title: "Engineering is evolution: a perspective on the biological design process"
-  authors:
-    - Castle S.D.
-    - Gorochowski T.E.
-  team:
-    - Sim Castle
-    - Thomas Gorochowski
-  preprint_journal: OSF Preprints
-  preprint_id: osf.io/urq9w
-  preprint_year: 2023
-  preprint_doi: 10.31219/osf.io/urq9w
-  preprint_url: https://osf.io/urq9w/
-  journal:
-  volume:
-  issue:
-  pages:
-  year:
-  url:
-  doi:
-  tools:
-  thumbnail:
-  status: pre-print
-  key_areas:
-    - evolution
-    - reprogramming
-  notes:
-
 - title: "Transfer learning for cross-context prediction of protein expression from 5'UTR sequence"
   authors:
     - Gilliot P.A.
