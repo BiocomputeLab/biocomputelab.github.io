@@ -170,15 +170,15 @@
   preprint_doi: 10.31219/osf.io/urq9w
   preprint_url: https://osf.io/urq9w/
   journal: Nature Communications
-  volume:
+  volume: 15
   issue:
-  pages:
+  pages: 3640
   year: 2024
   url: "https://doi.org/10.1038/s41467-024-48000-1"
   doi: 10.1038/s41467-024-48000-1
   tools:
   thumbnail:
-  status: in-press
+  status: published
   key_areas:
     - evolution
     - reprogramming
