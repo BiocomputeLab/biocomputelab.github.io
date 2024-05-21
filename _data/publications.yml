@@ -107,32 +107,6 @@
     - reprogramming
   notes:
 
-- title: "Transfer learning for cross-context prediction of protein expression from 5'UTR sequence"
-  authors:
-    - Gilliot P.A.
-    - Gorochowski T.E.
-  team:
-    - Pierre-Aurelien Gilliot
-    - Thomas Gorochowski
-  preprint_journal: bioRxiv
-  preprint_id: 2023.03.31.535140
-  preprint_year: 2023
-  preprint_doi: 10.1101/2023.03.31.535140
-  preprint_url: https://doi.org/10.1101/2023.03.31.535140
-  journal:
-  volume:
-  issue:
-  pages:
-  year:
-  url:
-  doi:
-  tools:
-  thumbnail:
-  status: pre-print
-  key_areas:
-    - analytics
-  notes:
-
 - title: "How biological concepts and evolutionary theories are inspiring advances in machine intelligence"
   authors:
     - Gutai A.R.
@@ -154,6 +128,32 @@
   tools:
   thumbnail:
   status: pre-print
+  notes:
+
+- title: "Transfer learning for cross-context prediction of protein expression from 5'UTR sequence"
+  authors:
+    - Gilliot P.A.
+    - Gorochowski T.E.
+  team:
+    - Pierre-Aurelien Gilliot
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 2023.03.31.535140
+  preprint_year: 2023
+  preprint_doi: 10.1101/2023.03.31.535140
+  preprint_url: https://doi.org/10.1101/2023.03.31.535140
+  journal: Nucleic Acids Research
+  volume:
+  issue:
+  pages:
+  year: 2024
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: in-press
+  key_areas:
+    - analytics
   notes:
 
 - title: "Engineering is evolution: a perspective on design processes to engineer biology"
