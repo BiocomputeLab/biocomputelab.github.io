@@ -293,6 +293,32 @@
   key_areas:
   notes:
 
+- title: "Editorial: Biological fabrication beyond tissue engineering."
+  authors:
+    - Dade-Robertson M.
+    - Gorochowski T.E.
+    - Gobbo P.
+    - Nguyen P.Q.
+    - Zhang M.
+  team:
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Frontiers in Bioengineering and Biotechnology
+  volume: 12
+  issue:
+  pages: 1435569
+  year: 2024
+  url: "https://doi.org/10.3389/fbioe.2024.1435569"
+  doi: 10.3389/fbioe.2024.1435569
+  tools:
+  thumbnail:
+  status: in-press
+  notes:
+
 - title: "Soil as a transdisciplinary research catalyst: from bioprospecting to biorespecting"
   authors:
     - Tarnowski M.J.
