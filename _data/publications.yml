@@ -184,8 +184,8 @@
   issue:
   pages:
   year: 2024
-  url:
-  doi:
+  url: "https://doi.org/10.1093/synbio/ysae010"
+  doi: 10.1093/synbio/ysae010
   tools:
   thumbnail:
   status: in-press
