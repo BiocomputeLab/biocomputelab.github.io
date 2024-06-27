@@ -288,7 +288,7 @@
   preprint_doi:
   preprint_url:
   journal: BioDesign Journal
-  volume:
+  volume: 6
   issue:
   pages: 0037
   year: 2024
@@ -296,7 +296,7 @@
   doi: 10.34133/bdr.0037
   tools:
   thumbnail:
-  status: in-press
+  status: published
   notes:
 
 - title: "Optimization of periodic treatment strategies for bacterial biofilms using an agent-based in silico approach"
