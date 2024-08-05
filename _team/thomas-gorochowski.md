@@ -6,15 +6,16 @@ position: Royal Society University Research Fellow / Associate Professor
 role: head
 leaveyear: 9999
 current_appointments:
-  - <b>2017–now</b> Royal Society University Research Fellow 
-  - <b>2021–now</b> Turing Fellow, The Alan Turing Institute, London 
-  - <b>2019–now</b> Co-Director, Bristol BioDesign Specialist Research Institute 
-  - <b>2022–now</b> Co-Director, Bristol Centre for Engineering Biology 
-  - <b>2022–now</b> Associate Professor of Biological Engineering, School of Biological Sciences, University of Bristol 
+  - <b>2022–now</b> Professor of Biological Engineering, School of Biological Sciences, University of Bristol
+  - <b>2021–now</b> Turing Fellow, The Alan Turing Institute, London
+  - <b>2019–now</b> Co-Director, Bristol BioDesign Specialist Research Institute
+  - <b>2017–now</b> Royal Society University Research Fellow
 previous_appointments:
+  - <b>2022–now</b> Co-Director, Bristol Centre for Engineering Biology
+  - <b>2022–now</b> Associate Professor of Biological Engineering, School of Biological Sciences, University of Bristol
   - <b>2016–17</b> BrisSynBio Research Fellow, School of Biological Sciences, University of Bristol, UK
-  - <b>2014–15</b> Postdoctoral Research Associate, Synthetic Biology Centre, Department of Biological Engineering, Massachusetts Institute of Technology, USA 
-  - <b>2012–14</b> Marie Skłodwska-Curie Postdoctoral Fellow and Associate Scientist, DSM Biotechnology Centre, Delft, The Netherlands 
+  - <b>2014–15</b> Postdoctoral Research Associate, Synthetic Biology Centre, Department of Biological Engineering, Massachusetts Institute of Technology, USA
+  - <b>2012–14</b> Marie Skłodwska-Curie Postdoctoral Fellow and Associate Scientist, DSM Biotechnology Centre, Delft, The Netherlands
   - <b>2004–07</b> Technology Consultant, Information Management Services, Accenture Ltd., London, UK
 education:
   - PhD Engineering Mathematics, University of Bristol, 2012
