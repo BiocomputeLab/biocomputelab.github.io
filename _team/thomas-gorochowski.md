@@ -2,7 +2,7 @@
 layout: person
 title: Thomas Gorochowski
 author: Gorochowski T.E.
-position: Professor of Biological Engineerign / Royal Society University Research Fellow
+position: Professor of Biological Engineering / Royal Society University Research Fellow
 role: head
 leaveyear: 9999
 current_appointments:
@@ -33,7 +33,7 @@ keywords:
   - visualisation
   - complex systems
 ---
-Thomas Gorochowski is a Royal Society University Research Fellow based in the School of Biological Sciences at the University of Bristol, UK. His lab focuses on better understanding the computational architecture of living systems to enable their effective reprogramming as a basis for adaptive living materials, new forms of cellular living computer, and environmental applications.
+Thomas Gorochowski is a Professor of Biological Engineering and Royal Society University Research Fellow based in the School of Biological Sciences at the University of Bristol, UK. His lab focuses on better understanding the computational architecture of living systems to enable their effective reprogramming as a basis for adaptive living materials, new forms of cellular living computer, and environmental applications.
 
 Prior to joining the faculty of the School of Biological Sciences at the University of Bristol, he was awarded a Marie Skłodwska-Curie Postdoctoral Fellowship at [DSM](http://www.dsm.com) in the Netherlands where he worked on large-scale automated strain development for precision gene expression in bacteria. He then joined the [Synthetic Biology Centre](https://synbio.mit.edu) at the Massachusetts Institute of Technology, USA as a Postdoctoral Associate where he helped develop the initial sequencing analysis pipelines that form part of the large-scale efforts at the [MIT-Broad Foundry for Synthetic Biology](https://web.mit.edu/foundry/) and explored new ways that deep-sequencing could be harnessed for bioengineering. This led to the creation of the first sequencing-based ‘genetic debugger’ that enables the rapid diagnosis of faults in large circuits and simultaneous characterization of many genetic parts in situ. In 2016, he was awarded a BrisSynBio Fellowship to set up his own lab at the University of Bristol, in 2017 he received a 5-year [Royal Society University Fellowship](https://royalsociety.org/grants-schemes-awards/grants/university-research/) to grow his research programme further, and in 2021 was made a Turing Fellow of [The Alan Turing Institue](https://www.turing.ac.uk) to explore data-centric approaches to biological design.
 
