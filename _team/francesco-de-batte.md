@@ -4,7 +4,7 @@ title: Francesco De Batté
 author: De Batté F.
 position: Co-supervised Ph.D. Student
 role: member
-leaveyear: 2026
+leaveyear: 2027
 education:
   - B.A. Natural Sciences (Plant Sciences), University of Cambridge, 2019-2022
   - M.Sci. Systems Biology, University of Cambridge, 2022-2023
