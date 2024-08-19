@@ -11,7 +11,7 @@ education:
 image: carlos-classen.jpg
 email: pn24035@bristol.ac.uk
 twitter: none
-github: https://github.com/CarlosClassen
+github: CarlosClassen
 url: https://carlosclassen.com
 key_areas:
   - evolution
