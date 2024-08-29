@@ -1,13 +1,13 @@
 ---
 layout: person
 title: Riesa Rohmat
-author: Rohmat, R. K. W.
+author: Rohmat, R.K.W.
 position: PhD Student
 role: member
 leaveyear: 2028
 education:
-	- BSc. Biology, Bandung Institute of Technology, 2015
-	- MSc. Biotechnology, Bandung Institute of Technology, 2016
+  - BSc. Biology, Bandung Institute of Technology, 2015
+  - MSc. Biotechnology, Bandung Institute of Technology, 2016
 image: riesa-rohmat.jpg
 email: riesa.rohmat@bristol.ac.uk
 twitter: none
