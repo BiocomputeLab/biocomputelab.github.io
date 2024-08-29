@@ -2,7 +2,7 @@
 layout: person
 title: Francesco De Batté
 author: De Batté F.
-position: Co-supervised Ph.D. Student
+position: Ph.D. Student
 role: member
 leaveyear: 2027
 education:
