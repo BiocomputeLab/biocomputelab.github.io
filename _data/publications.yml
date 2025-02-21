@@ -1,3 +1,29 @@
+- title: "Data-driven inference of digital twins for high-throughput phenotyping of motile and light-responsive microorganisms"
+  authors:
+    - Giusti A.
+    - Salzano D.
+    - di Bernardo M.
+    - Gorochowski T.E.
+  team:
+    - Andrea Giusti
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id:
+  preprint_year: 2025
+  preprint_doi:
+  preprint_url: "https://doi.org/"
+  journal:
+  volume:
+  issue:
+  pages:
+  year:
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: pre-print
+  notes:
+
 - title: "Analysis and control of untemplated DNA polymerase activity for guided synthesis of kilobase-scale DNA sequences"
   authors:
     - Castle S.D.
@@ -1042,7 +1068,6 @@
   tools:
   thumbnail:
   status: published
-
 
 - title: "Synthetic Biology Open Language Visual (SBOL Visual) Version 3.0"
   authors:
