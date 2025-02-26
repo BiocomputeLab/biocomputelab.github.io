@@ -24,6 +24,34 @@
   status: pre-print
   notes:
 
+- title: "From FAIR to CURE: Guidelines for Computational Models of Biological Systems"
+  authors:
+    - Sauro H.M.
+    - Agmon E.
+    - Blinov M.L.
+    - ...
+    - Gorochowski T.E.
+    - ...
+    - Moraru I.
+  team:
+    - Thomas Gorochowski
+  preprint_journal: arXiv
+  preprint_id: 2502.15597
+  preprint_year: 2025
+  preprint_doi: 10.48550/arXiv.2502.15597
+  preprint_url: "https://doi.org/10.48550/arXiv.2502.15597"
+  journal:
+  volume:
+  issue:
+  pages:
+  year:
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: pre-print
+  notes:
+
 - title: "Analysis and control of untemplated DNA polymerase activity for guided synthesis of kilobase-scale DNA sequences"
   authors:
     - Castle S.D.
