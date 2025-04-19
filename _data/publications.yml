@@ -258,15 +258,15 @@
   preprint_doi: 10.1101/2024.12.02.626365
   preprint_url: "https://doi.org/10.1101/2024.12.02.626365"
   journal: Royal Sociey Open Science
-  volume:
+  volume: 12
   issue:
-  pages:
+  pages: 242110
   year: 2025
-  url:
-  doi:
+  url: https://doi.org/10.1098/rsos.242110
+  doi: 10.1098/rsos.242110
   tools:
   thumbnail:
-  status: in-press
+  status: published
   notes:
 
 - title: "Data hazards in synthetic biology"
