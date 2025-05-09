@@ -168,6 +168,7 @@
 - title: "Accelerated design of Escherichia coli genomes with reduced size using a whole-cell model and machine learning surrogate"
   authors:
     - Gherman I.M.
+    - Sharma K.
     - Rees-Garbutt J.
     - Pang W.
     - Abdallah Z.
@@ -182,16 +183,16 @@
   preprint_year: 2023
   preprint_doi: 10.1101/2023.10.30.564402
   preprint_url: "https://doi.org/10.1101/2023.10.30.564402"
-  journal:
+  journal: Cell Systems
   volume:
   issue:
   pages:
-  year:
+  year: 2025
   url:
   doi:
   tools:
   thumbnail:
-  status: pre-print
+  status: in-press
   notes:
 
 - title: "Constructor algorithms for building unconventional computers able to solve NP-complete problems"
