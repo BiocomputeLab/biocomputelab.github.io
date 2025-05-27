@@ -224,6 +224,32 @@
   status: in-press
   notes:
 
+- title: "The Japan-UK Synthetic Biology Conference, Spring 2025: strengthening global links to engineer biology"
+  authors:
+    - Gorochowski T.E.
+    - Brockhurst M.A.
+    - Ceroni F.
+    - Iwasaki Y.W.
+    - Yachie N.
+  team:
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: ACS Synthetic Biology
+  volume:
+  issue:
+  pages:
+  year: 2025
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: in-press
+  notes:
+
 - title: "Constructor algorithms for building unconventional computers able to solve NP-complete problems"
   authors:
     - McCaffrey T.
