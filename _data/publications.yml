@@ -1,3 +1,39 @@
+F. Veronica Greco}
+\author[$\textsf{1}$]{Sarah K. Cameron}
+\author[$\textsf{1}$]{Shivang Hina-Nilesh Joshi}
+\author[$\textsf{2}$]{Sarah Guiziou}
+\author[$\textsf{3}$]{Jennifer A. N. Brophy}
+\author[$\textsf{1}$]{Claire S. Grierson
+
+- title: "Characterization of recombinase-based genetic parts and circuits using nanopore sequencing"
+  authors:
+    - Greco F.V.
+    - Cameron S.K.
+    - Joshi S.H.-N.
+    - Brophy J.A.N.
+    - Grierson C.S.
+    - Gorochowski T.E.
+  team:
+    - F. Veronica Greco
+    - Sarah Cameron
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id:
+  preprint_year: 2025
+  preprint_doi:
+  preprint_url:
+  journal:
+  volume:
+  issue:
+  pages:
+  year:
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: pre-print
+  notes:
+
 - title: "Data-driven inference of digital twins for high-throughput phenotyping of motile and light-responsive microorganisms"
   authors:
     - Giusti A.
@@ -259,15 +295,15 @@
   preprint_doi: 10.1101/2024.12.02.626365
   preprint_url: "https://doi.org/10.1101/2024.12.02.626365"
   journal: Royal Sociey Open Science
-  volume:
-  issue:
-  pages:
+  volume: 12
+  issue: 4
+  pages: 242110
   year: 2025
-  url:
-  doi:
+  url: "https://doi.org/10.1098/rsos.242110"
+  doi: 10.1098/rsos.242110
   tools:
   thumbnail:
-  status: in-press
+  status: published
   notes:
 
 - title: "Data hazards in synthetic biology"
