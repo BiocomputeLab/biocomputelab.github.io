@@ -194,6 +194,55 @@
   status: pre-print
   notes:
 
+- title: "Constructor algorithms for building unconventional computers able to solve NP-complete problems"
+  authors:
+    - McCaffrey T.
+    - Gorochowski T.E.
+    - Spector L.
+  team:
+    - Thomas Gorochowski
+  preprint_journal: arXiv
+  preprint_id: 2309.10082
+  preprint_year: 2023
+  preprint_doi: 10.48550/arXiv.2309.10082
+  preprint_url: https://arxiv.org/abs/2309.10082
+  journal:
+  volume:
+  issue:
+  pages:
+  year:
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: pre-print
+  key_areas:
+    - reprogramming
+  notes:
+
+- title: "How biological concepts and evolutionary theories are inspiring advances in machine intelligence"
+  authors:
+    - Gutai A.R.
+    - Gorochowski T.E.
+  team:
+    - Thomas Gorochowski
+  preprint_journal: Preprints
+  preprint_id: 2021090234
+  preprint_year: 2021
+  preprint_doi: 10.20944/preprints202109.0234.v1
+  preprint_url: "https://www.preprints.org/manuscript/202109.0234/v1"
+  journal:
+  volume:
+  issue:
+  pages:
+  year:
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: pre-print
+  notes:
+
 - title: "Accelerated design of Escherichia coli genomes with reduced size using a whole-cell model and machine learning surrogate"
   authors:
     - Gherman I.M.
@@ -243,60 +292,11 @@
   issue:
   pages:
   year: 2025
-  url:
-  doi:
+  url: "https://doi.org/10.1021/acssynbio.5c00232"
+  doi: 10.1021/acssynbio.5c00232
   tools:
   thumbnail:
-  status: in-press
-  notes:
-
-- title: "Constructor algorithms for building unconventional computers able to solve NP-complete problems"
-  authors:
-    - McCaffrey T.
-    - Gorochowski T.E.
-    - Spector L.
-  team:
-    - Thomas Gorochowski
-  preprint_journal: arXiv
-  preprint_id: 2309.10082
-  preprint_year: 2023
-  preprint_doi: 10.48550/arXiv.2309.10082
-  preprint_url: https://arxiv.org/abs/2309.10082
-  journal:
-  volume:
-  issue:
-  pages:
-  year:
-  url:
-  doi:
-  tools:
-  thumbnail:
-  status: pre-print
-  key_areas:
-    - reprogramming
-  notes:
-
-- title: "How biological concepts and evolutionary theories are inspiring advances in machine intelligence"
-  authors:
-    - Gutai A.R.
-    - Gorochowski T.E.
-  team:
-    - Thomas Gorochowski
-  preprint_journal: Preprints
-  preprint_id: 2021090234
-  preprint_year: 2021
-  preprint_doi: 10.20944/preprints202109.0234.v1
-  preprint_url: "https://www.preprints.org/manuscript/202109.0234/v1"
-  journal:
-  volume:
-  issue:
-  pages:
-  year:
-  url:
-  doi:
-  tools:
-  thumbnail:
-  status: pre-print
+  status: published
   notes:
 
 - title: "Cas9-based enrichment for targeted long-read metabarcoding"
