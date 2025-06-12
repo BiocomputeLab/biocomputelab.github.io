@@ -1,3 +1,39 @@
+- title: "A decade of SBOL Visual: growing adoption of a diagram standard for engineering biology"
+  authors:
+    - Buecherl L.
+    - Buson F.X.
+    - Sørensen G.H.
+    - Vitalis C.
+    - Kubaczka E.
+    - Vidal G.
+    - Bartley B.
+    - Ho Y.-K.
+    - Misirli G.
+    - Gorochowski T.E.
+    - Beal J.
+    - Myers C.J.
+    - Vaidyanathan P.
+  team:
+    - Felipe X. Buson
+    - Georgie Hau Sørensen
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id:
+  preprint_year: 2025
+  preprint_doi:
+  preprint_url:
+  journal:
+  volume:
+  issue:
+  pages:
+  year:
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: pre-print
+  notes:
+
 - title: "Characterization of recombinase-based genetic parts and circuits using nanopore sequencing"
   authors:
     - Greco F.V.
