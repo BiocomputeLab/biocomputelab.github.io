@@ -73,11 +73,11 @@
     - Felipe X. Buson
     - Georgie Hau Sørensen
     - Thomas Gorochowski
-  preprint_journal: bioRxiv
-  preprint_id:
+  preprint_journal: arXiv
+  preprint_id: 2507.04601
   preprint_year: 2025
-  preprint_doi:
-  preprint_url:
+  preprint_doi: 10.48550/arXiv.2507.04601
+  preprint_url: "https://arxiv.org/abs/2507.04601"
   journal:
   volume:
   issue:
