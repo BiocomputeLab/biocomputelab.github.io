@@ -3,8 +3,8 @@ layout: person
 title: Micha Claydon
 author: Claydon M.Y.T.
 position: PhD Student
-role: member
-leaveyear: 2024
+role: alumni
+leaveyear: 2025
 education:
   - BSc(Hons). Molecular Biology, University of Manchester, 2019
 image: micha-claydon.jpg

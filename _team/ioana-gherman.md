@@ -3,8 +3,8 @@ layout: person
 title: Ioana Gherman
 author: Gherman I.
 position: PhD Student
-role: member
-leaveyear: 2024
+role: alumni
+leaveyear: 2025
 education:
   - MSc in Computer Science, University of Oxford, Oxford, UK, 2017
   - BEng Engineering Mathematics, University of Bristol, Bristol, UK, 2016
@@ -26,5 +26,5 @@ keywords:
 I am an EPSRC funded PhD student with a background in Engineering Mathematics, Computer Science and Data Science.
 
 My aim is to contribute to the creation of the whole-cell model for bacteria E.coli, that considers the function of all molecules and genes. Whole-cell modelling is considered a great challenge of the 21st century, that when solved, it would contribute to a better understanding of different diseases and the creation of personalised treatments. Furthermore, these models would allow us to predict phenotypes directly from genotypes and therefore investigate changes in the cell after being exposed to different environmental factors.
- 
+
 The focus of my PhD is to investigate the robustness of the present model to different variations of the genome. Furthermore, I am focusing on building machine/deep learning models that could ease the model's design and the comparison between simulation and experimental data.
