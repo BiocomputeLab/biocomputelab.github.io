@@ -10,7 +10,7 @@ education:
 image: maria-tasca.jpg
 email: maria.tasca@bristol.ac.uk
 twitter: none
-github: @mariatasca1
+github: mariatasca1
 url: linkedin.com/in/maria-tașcă-15992b233
 key_areas:
   - reporgramming
