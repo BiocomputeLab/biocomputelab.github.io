@@ -2,12 +2,12 @@
 layout: person
 title: Max Shail
 author: Shail M.
-position: Undergraduate Student
-role: alumni
-leaveyear: 2024
+position: MSci(R) student
+role: member
+leaveyear: 2026
 became:
 education:
-  - B.Sc. Biology, University of Bristol, 2022-Present
+  - B.Sc. Biology, University of Bristol, 2025
 image: max-shail.jpg
 email: nn22589@bristol.ac.uk
 twitter: none
@@ -15,7 +15,7 @@ github: none
 url: none
 Interests:
   - Synthetic Biology
-  - Molecular Biology
-  - Microbiology
+  - Optogenetics
+  - Vibrio natriegens
 ---
-I am a final year undergraduate at the University of Bristol. My internship at the Biocompute Lab gave me my first experience of synthetic biology, where I combinatorially assembled genetic libraries and explored their functional diversity.
+I am an Masters by Research student exploring the establishment and optimisation of multi-wavelength optogenetic control in the fast-growing bacteria Vibrio natriegens.
