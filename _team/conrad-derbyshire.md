@@ -2,7 +2,7 @@
 layout: person
 title: Conrad Derbyshire
 author: Derbyshire C.J.
-position: MRes Student
+position: MSci(R) Student
 role: member
 leaveyear: 2025
 education:

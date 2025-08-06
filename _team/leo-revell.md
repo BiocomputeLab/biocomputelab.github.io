@@ -2,7 +2,7 @@
 layout: person
 title: Leo Revell
 author: Revell L.E.
-position: MRes Student
+position: MSci(R) Student
 role: member
 leaveyear: 2025
 education:

@@ -2,7 +2,7 @@
 layout: person
 title: Max Shail
 author: Shail M.
-position: MSci(R) student
+position: MSci(R) Student
 role: member
 leaveyear: 2026
 became:
