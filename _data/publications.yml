@@ -54,42 +54,6 @@
   status: pre-print
   notes:
 
-- title: "A decade of SBOL Visual: growing adoption of a diagram standard for engineering biology"
-  authors:
-    - Buecherl L.
-    - Buson F.X.
-    - Sørensen G.H.
-    - Vitalis C.
-    - Kubaczka E.
-    - Vidal G.
-    - Bartley B.
-    - Ho Y.-K.
-    - Misirli G.
-    - Gorochowski T.E.
-    - Beal J.
-    - Myers C.J.
-    - Vaidyanathan P.
-  team:
-    - Felipe X. Buson
-    - Georgie Hau Sørensen
-    - Thomas Gorochowski
-  preprint_journal: arXiv
-  preprint_id: 2507.04601
-  preprint_year: 2025
-  preprint_doi: 10.48550/arXiv.2507.04601
-  preprint_url: "https://arxiv.org/abs/2507.04601"
-  journal:
-  volume:
-  issue:
-  pages:
-  year:
-  url:
-  doi:
-  tools:
-  thumbnail:
-  status: pre-print
-  notes:
-
 - title: "Data-driven inference of digital twins for high-throughput phenotyping of motile and light-responsive microorganisms"
   authors:
     - Giusti A.
@@ -304,6 +268,42 @@
   tools:
   thumbnail:
   status: pre-print
+  notes:
+
+- title: "A decade of SBOL Visual: growing adoption of a diagram standard for engineering biology"
+  authors:
+    - Buecherl L.
+    - Buson F.X.
+    - Sørensen G.H.
+    - Vitalis C.
+    - Kubaczka E.
+    - Vidal G.
+    - Bartley B.
+    - Ho Y.-K.
+    - Misirli G.
+    - Gorochowski T.E.
+    - Beal J.
+    - Myers C.J.
+    - Vaidyanathan P.
+  team:
+    - Felipe X. Buson
+    - Georgie Hau Sørensen
+    - Thomas Gorochowski
+  preprint_journal: arXiv
+  preprint_id: 2507.04601
+  preprint_year: 2025
+  preprint_doi: 10.48550/arXiv.2507.04601
+  preprint_url: "https://arxiv.org/abs/2507.04601"
+  journal: ACS Synthetic Biology
+  volume:
+  issue:
+  pages:
+  year: 2025
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: in-press
   notes:
 
 - title: "Accelerated design of Escherichia coli genomes with reduced size using a whole-cell model and machine learning surrogate"
