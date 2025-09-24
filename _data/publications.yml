@@ -325,15 +325,15 @@
   preprint_doi: 10.1101/2023.10.30.564402
   preprint_url: "https://doi.org/10.1101/2023.10.30.564402"
   journal: Cell Systems
-  volume:
+  volume: 16
   issue:
-  pages:
+  pages: 101392
   year: 2025
-  url:
-  doi:
+  url: "https://authors.elsevier.com/sd/article/S2405-4712(25)00225-X"
+  doi: 10.1016/j.cels.2025.101392
   tools:
   thumbnail:
-  status: in-press
+  status: published
   notes:
 
 - title: "The Japan-UK Synthetic Biology Conference, Spring 2025: strengthening global links to engineer biology"
