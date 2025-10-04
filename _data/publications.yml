@@ -336,6 +336,28 @@
   status: published
   notes:
 
+- title: "Location, location, location"
+  authors:
+    - Gorochowski T.E.
+  team:
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Interdisciplinary Science Reviews
+  volume:
+  issue:
+  pages:
+  year: 2025
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: in-press
+  notes:
+
 - title: "The Japan-UK Synthetic Biology Conference, Spring 2025: strengthening global links to engineer biology"
   authors:
     - Gorochowski T.E.
