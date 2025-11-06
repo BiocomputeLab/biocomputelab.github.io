@@ -296,6 +296,58 @@
   status: in-press
   notes:
 
+- title: "Location, location, location"
+  authors:
+    - Gorochowski T.E.
+  team:
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Interdisciplinary Science Reviews
+  volume:
+  issue:
+  pages:
+  year: 2025
+  url: "https://doi.org/10.1177/03080188251398635"
+  doi: 10.1177/03080188251398635
+  tools:
+  thumbnail:
+  status: in-press
+  notes:
+
+- title: "Accelerated design of Escherichia coli genomes with reduced size using a whole-cell model and machine learning surrogate"
+  authors:
+    - Gherman I.M.
+    - Sharma K.
+    - Rees-Garbutt J.
+    - Pang W.
+    - Abdallah Z.
+    - Gorochowski T.E.
+    - Grierson C.S.
+    - Marucci L.
+  team:
+    - Ioana Gherman
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 2023.10.30.564402
+  preprint_year: 2023
+  preprint_doi: 10.1101/2023.10.30.564402
+  preprint_url: "https://doi.org/10.1101/2023.10.30.564402"
+  journal: Cell Systems
+  volume: 16
+  issue:
+  pages: 101392
+  year: 2025
+  url: "https://authors.elsevier.com/sd/article/S2405-4712(25)00225-X"
+  doi: 10.1016/j.cels.2025.101392
+  tools:
+  thumbnail:
+  status: published
+  notes:
+
 - title: "A decade of SBOL Visual: growing adoption of a diagram standard for engineering biology"
   authors:
     - Buecherl L.
@@ -330,58 +382,6 @@
   tools:
   thumbnail:
   status: published
-  notes:
-
-- title: "Accelerated design of Escherichia coli genomes with reduced size using a whole-cell model and machine learning surrogate"
-  authors:
-    - Gherman I.M.
-    - Sharma K.
-    - Rees-Garbutt J.
-    - Pang W.
-    - Abdallah Z.
-    - Gorochowski T.E.
-    - Grierson C.S.
-    - Marucci L.
-  team:
-    - Ioana Gherman
-    - Thomas Gorochowski
-  preprint_journal: bioRxiv
-  preprint_id: 2023.10.30.564402
-  preprint_year: 2023
-  preprint_doi: 10.1101/2023.10.30.564402
-  preprint_url: "https://doi.org/10.1101/2023.10.30.564402"
-  journal: Cell Systems
-  volume: 16
-  issue:
-  pages: 101392
-  year: 2025
-  url: "https://authors.elsevier.com/sd/article/S2405-4712(25)00225-X"
-  doi: 10.1016/j.cels.2025.101392
-  tools:
-  thumbnail:
-  status: published
-  notes:
-
-- title: "Location, location, location"
-  authors:
-    - Gorochowski T.E.
-  team:
-    - Thomas Gorochowski
-  preprint_journal:
-  preprint_id:
-  preprint_year:
-  preprint_doi:
-  preprint_url:
-  journal: Interdisciplinary Science Reviews
-  volume:
-  issue:
-  pages:
-  year: 2025
-  url:
-  doi:
-  tools:
-  thumbnail:
-  status: in-press
   notes:
 
 - title: "The Japan-UK Synthetic Biology Conference, Spring 2025: strengthening global links to engineer biology"
