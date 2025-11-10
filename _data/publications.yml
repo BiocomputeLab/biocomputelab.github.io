@@ -289,8 +289,8 @@
   issue:
   pages:
   year: 2025
-  url:
-  doi:
+  url: "https://doi.org/10.1098/rsif.2025.0780"
+  doi: 10.1098/rsif.2025.0780
   tools:
   thumbnail:
   status: in-press
