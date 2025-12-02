@@ -270,6 +270,38 @@
   status: pre-print
   notes:
 
+- title: "Emerging trends in genome integration tools for precision engineering of diverse bacterial species"
+  authors:
+    - Rohmat R.K.
+    - Irvine T.
+    - Joshi S.
+    - Bailey A.
+    - Jenkins C.
+    - Ulaeto D.
+    - Buscaill P.
+    - Gorochowski T.E.
+  team:
+    - Riesa Rohmat
+    - Thea Irvine
+    - Shivang Joshi
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Synthetic Biology
+  volume:
+  issue:
+  pages:
+  year: 2025
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: in-press
+  notes:
+
 - title: "Data-driven inference of digital twins for high-throughput phenotyping of motile and light-responsive microorganisms"
   authors:
     - Giusti A.
