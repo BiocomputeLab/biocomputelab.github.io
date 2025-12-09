@@ -295,8 +295,8 @@
   issue:
   pages:
   year: 2025
-  url:
-  doi:
+  url: "https://doi.org/10.1093/synbio/ysaf019"
+  doi: 10.1093/synbio/ysaf019
   tools:
   thumbnail:
   status: in-press
