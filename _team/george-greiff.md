@@ -3,7 +3,7 @@ layout: person
 title: George Greiff
 author: Greiff, G.R.L.
 position: PhD Student
-role: member
+role: alumni
 leaveyear: 2022
 became: none
 education:

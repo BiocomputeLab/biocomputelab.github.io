@@ -3,7 +3,7 @@ layout: person
 title: Konstantinos Kariotis
 author: Kariotis Konstantinos
 position: Summer Intern
-role: member
+role: alumni
 leaveyear: 2025
 education:
   - BSc Biochemistry, University of Bristol, 2026

@@ -3,7 +3,7 @@ layout: person
 title: Sophia Wright
 author: Wright S.
 position: Summer Intern
-role: member
+role: alumni
 leaveyear: 2025
 education:
   - BSc Biology, University of Bristol, 2026
