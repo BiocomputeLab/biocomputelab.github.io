@@ -1,17 +1,18 @@
-- title: "SHARK: a specialized host for assembling R6K plasmids"
+- title: "Quantitative profiling of millions of nucleotides reveals sequence-encoded interactions that govern plasmid propagation"
   authors:
-    - Joshi S.H.-N.
-    - Jenkins C.
-    - Ulaeto D.
+    - Copeman T.
+    - Fong J.H.C.
     - Gorochowski T.E.
+    - Conde S.R.
+    - Ellis T.
+    - Ceroni F.
   team:
-    - Shivang Joshi
     - Thomas Gorochowski
   preprint_journal: bioRxiv
-  preprint_id: 2025.10.06.680659
+  preprint_id:
   preprint_year: 2025
-  preprint_doi: 10.1101/2025.10.06.680659
-  preprint_url: "https://doi.org/10.1101/2025.10.06.680659"
+  preprint_doi: 10.64898/2025.12.15.694402
+  preprint_url: "https://doi.org/10.64898/2025.12.15.694402"
   journal:
   volume:
   issue:
@@ -268,6 +269,32 @@
   tools:
   thumbnail:
   status: pre-print
+  notes:
+
+- title: "SHARK: a specialized host for assembling R6K plasmids"
+  authors:
+    - Joshi S.H.-N.
+    - Jenkins C.
+    - Ulaeto D.
+    - Gorochowski T.E.
+  team:
+    - Shivang Joshi
+    - Thomas Gorochowski
+  preprint_journal: bioRxiv
+  preprint_id: 2025.10.06.680659
+  preprint_year: 2025
+  preprint_doi: 10.1101/2025.10.06.680659
+  preprint_url: "https://doi.org/10.1101/2025.10.06.680659"
+  journal: ACS Synthetic Biology
+  volume:
+  issue:
+  pages:
+  year: 2025
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: in-press
   notes:
 
 - title: "Emerging trends in genome integration tools for precision engineering of diverse bacterial species"
