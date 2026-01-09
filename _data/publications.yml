@@ -290,8 +290,8 @@
   issue:
   pages:
   year: 2025
-  url:
-  doi:
+  url: "https://doi.org/10.1021/acssynbio.5c00749"
+  doi: 10.1021/acssynbio.5c00749
   tools:
   thumbnail:
   status: in-press
@@ -318,15 +318,15 @@
   preprint_doi:
   preprint_url:
   journal: Synthetic Biology
-  volume:
-  issue:
-  pages:
+  volume: 10
+  issue: 1
+  pages:  ysaf019
   year: 2025
   url: "https://doi.org/10.1093/synbio/ysaf019"
   doi: 10.1093/synbio/ysaf019
   tools:
   thumbnail:
-  status: in-press
+  status: published
   notes:
 
 - title: "Data-driven inference of digital twins for high-throughput phenotyping of motile and light-responsive microorganisms"
