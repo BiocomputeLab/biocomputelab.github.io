@@ -289,12 +289,12 @@
   volume:
   issue:
   pages:
-  year: 2025
+  year: 2026
   url: "https://doi.org/10.1021/acssynbio.5c00749"
   doi: 10.1021/acssynbio.5c00749
   tools:
   thumbnail:
-  status: in-press
+  status: published
   notes:
 
 - title: "Emerging trends in genome integration tools for precision engineering of diverse bacterial species"
