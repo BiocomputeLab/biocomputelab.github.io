@@ -9,7 +9,7 @@ education:
   - PhD. Biochemistry, University of Bristol, 2024
   - MRes. Biochemisty, University of Bristol, 2020
   - BSc. Biochemistry with Molecular Biology and Biotechnology, University of Bristol, 2018
-image: Gregory_Pollard.jpg
+image: gregory-pollard.jpg
 email: gregory.pollard@bristol.ac.uk
 twitter: GregsPollard
 github: gp15776
