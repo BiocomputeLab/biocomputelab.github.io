@@ -239,11 +239,11 @@
   issue:
   pages:
   year: 2026
-  url:
-  doi:
+  url: "https://doi.org/10.1038/s41467-026-69915-x"
+  doi: 10.1038/s41467-026-69915-x
   tools:
   thumbnail:
-  status: in-press
+  status: published
   notes:
 
 - title: "Data-driven inference of digital twins for high-throughput phenotyping of motile and light-responsive microorganisms"
