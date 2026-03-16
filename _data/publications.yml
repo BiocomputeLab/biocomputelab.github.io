@@ -246,6 +246,31 @@
   status: published
   notes:
 
+- title: "A Golden Gate-Compatible CRISPR-Associated Transposon Tool for Multiplexed Bacterial Genome Editing"
+  authors:
+    - Irvine T.C.
+    - Bailey A.
+    - Gorochowski T.E.
+  team:
+    - Thea Irvine
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Synthetic Gene Circuits
+  volume:
+  issue:
+  pages:
+  year: 2026
+  url: "https://doi.org/10.1007/978-1-0716-5304-3"
+  doi: 10.1007/978-1-0716-5304-3
+  tools:
+  thumbnail:
+  status: in-press
+  notes:
+
 - title: "Data-driven inference of digital twins for high-throughput phenotyping of motile and light-responsive microorganisms"
   authors:
     - Giusti A.
