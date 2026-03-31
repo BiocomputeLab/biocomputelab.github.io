@@ -318,11 +318,11 @@
   issue:
   pages:
   year: 2026
-  url:
-  doi:
+  url: "https://doi.org/10.1038/s41540-026-00651-0"
+  doi: 10.1038/s41540-026-00651-0
   tools:
   thumbnail:
-  status: in-press
+  status: published
   notes:
 
 - title: "SHARK: a specialized host for assembling R6K plasmids"
