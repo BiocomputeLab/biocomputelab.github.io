@@ -212,6 +212,49 @@
   status: pre-print
   notes:
 
+- title: "Knowledge preservation in the era of big science and AI: strategies for sustainable scientific research"
+  authors:
+    - Rainford P.F.
+    - Occhipinti A.
+    - Wang B.
+    - Stepney S.
+    - Angione C.
+    - Verma S.
+    - Marucci L.
+    - Sharma K.
+    - Harris S.
+    - Füchslin R.M.
+    - Klipp E.
+    - Grierson C.S.
+    - Weyland M.S.
+    - Mogre A.
+    - Fellermann H.
+    - Doan L.M.T
+    - Gherman I.
+    - Pyne A.
+    - Rudge T.J.
+    - Berrelleza V.M.V.
+    - Gorochowski T.E.
+  team:
+    - Ioana Gherman
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Nature Communications
+  volume:
+  issue:
+  pages:
+  year: 2026
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: in-press
+  notes:
+
 - title: "Analysis and control of untemplated DNA polymerase activity for guided synthesis of kilobase-scale DNA sequences"
   authors:
     - Castle S.D.
@@ -235,9 +278,9 @@
   preprint_doi: 10.1101/2024.08.29.610422
   preprint_url: "https://doi.org/10.1101/2024.08.29.610422"
   journal: Nature Communications
-  volume:
+  volume: 17
   issue:
-  pages:
+  pages: 3251
   year: 2026
   url: "https://doi.org/10.1038/s41467-026-69915-x"
   doi: 10.1038/s41467-026-69915-x
