@@ -244,15 +244,15 @@
   preprint_doi:
   preprint_url:
   journal: Nature Communications
-  volume:
+  volume: 17
   issue:
-  pages:
+  pages: 4069
   year: 2026
   url: "https://doi.org/10.1038/s41467-026-72667-3"
   doi: 10.1038/s41467-026-72667-3
   tools:
   thumbnail:
-  status: in-press
+  status: published
   notes:
 
 - title: "Analysis and control of untemplated DNA polymerase activity for guided synthesis of kilobase-scale DNA sequences"
