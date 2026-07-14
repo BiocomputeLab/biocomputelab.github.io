@@ -303,15 +303,15 @@
   preprint_doi:
   preprint_url:
   journal: Synthetic Gene Circuits
-  volume:
+  volume: 3041
   issue:
-  pages:
+  pages: 33–45
   year: 2026
-  url: "https://doi.org/10.1007/978-1-0716-5304-3"
-  doi: 10.1007/978-1-0716-5304-3
+  url: "https://doi.org/10.1007/978-1-0716-5304-3_2"
+  doi: 10.1007/978-1-0716-5304-3_2
   tools:
   thumbnail:
-  status: in-press
+  status: published
   notes:
 
 - title: "Data-driven inference of digital twins for high-throughput phenotyping of motile and light-responsive microorganisms"
