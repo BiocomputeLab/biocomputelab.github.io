@@ -212,6 +212,30 @@
   status: pre-print
   notes:
 
+- title: "The collective power of bacteria as a blueprint for emergent intelligence"
+  authors:
+    - Blee J.A.
+    - Gorochowski T.E.
+    - Hauert S.
+  team:
+    - Thomas Gorochowski
+  preprint_journal:
+  preprint_id:
+  preprint_year:
+  preprint_doi:
+  preprint_url:
+  journal: Advanced Intelligent Systems
+  volume:
+  issue:
+  pages:
+  year: 2026
+  url:
+  doi:
+  tools:
+  thumbnail:
+  status: in-press
+  notes:
+
 - title: "Knowledge preservation in the era of big science and AI: strategies for sustainable scientific research"
   authors:
     - Rainford P.F.
