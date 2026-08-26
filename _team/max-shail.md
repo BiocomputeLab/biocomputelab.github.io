@@ -3,8 +3,9 @@ layout: person
 title: Max Shail
 author: Shail M.
 position: MSci(R) Student
-role: member
+role: alumni
 leaveyear: 2026
+became: PhD Student, Norwich Research Park DTP, Norwich, UK
 became:
 education:
   - B.Sc. Biology, University of Bristol, 2025

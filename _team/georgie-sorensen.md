@@ -3,9 +3,9 @@ layout: person
 title: Georgie Hau Sørensen
 author: Hau Sørensen G.
 position: PhD Student
-role: member
+role: alumni
 leaveyear: 2026
-became: none
+became: 
 education:
   - B.Sc. Human Life Science Engineering, Technical University of Denmark, 2019
   - M.sc. Biotechnology, Technical University of Denmark, 2021 
@@ -28,4 +28,4 @@ PhD student working on developing orthogonal transcription and translation syste
  
 Professional interests outside of synthetic biology include biosecurity, where I’m currently a member of the Biosafety and Biosecurity committee for the international iGEM competition.
     
-I am a big advocate for the accessibility of synthetic biology, which is why I am a part of the organising committee for the international GOGEC competition: A competition that aims to provide an open space for university students to present their synthetic biology related work to the rest of the world - without being limited by having to pay participation fees.      
+I am a big advocate for the accessibility of synthetic biology, which is why I am a part of the organising committee for the international GOGEC competition: A competition that aims to provide an open space for university students to present their synthetic biology related work to the rest of the world - without being limited by having to pay participation fees.

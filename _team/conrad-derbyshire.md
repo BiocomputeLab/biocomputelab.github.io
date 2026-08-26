@@ -3,8 +3,9 @@ layout: person
 title: Conrad Derbyshire
 author: Derbyshire C.J.
 position: MSci(R) Student
-role: member
-leaveyear: 2025
+role: alumni
+leaveyear: 2026
+became: PhD Student, Engineering Biology CDT, Bristol, UK
 education:
   - BSc(Hons). Biology, University of Bristol, 2024
 image: conrad-derbyshire.jpg

@@ -3,8 +3,9 @@ layout: person
 title: Leo Revell
 author: Revell L.E.
 position: MSci(R) Student
-role: member
-leaveyear: 2025
+role: alumni
+leaveyear: 2026
+became: 
 education:
   - BSc (Hons) Biology, University of Bristol, 2024
 image: leo-revell.jpg

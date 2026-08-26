@@ -3,9 +3,9 @@ layout: person
 title:  Tejasvi Anand
 author: Anand T.
 position: PhD student
-role: member
+role: alumni
 leaveyear: 2026
-became: none
+became: 
 education:
   - B.Sc. Biomedical Science, University of Bristol, 2019-2022
 image: tejasvi-anand.jpg
