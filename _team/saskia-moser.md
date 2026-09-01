@@ -7,7 +7,7 @@ role: member
 leaveyear: 2026
 education:
   - BSc. Biology, Georg-August-University Goettingen, 2024
-image: Saskia_Moser.jpg
+image: saskia-moser.jpg
 email: s.moser.2026@bristol.ac.uk
 twitter: 
 github: SaskiaMoser
