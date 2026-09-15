@@ -7,7 +7,7 @@ role: alumni
 leaveyear: 2026
 became: PhD Student, Engineering Biology CDT, Bristol, UK
 education:
-  - BSc(Hons). Biology, University of Bristol, 2024
+  - BSc(Hons) Biology, University of Bristol, 2024
 image: conrad-derbyshire.jpg
 email: vk21736@bristol.ac.uk
 twitter: none
