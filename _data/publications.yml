@@ -226,14 +226,14 @@
   preprint_url:
   journal: Advanced Intelligent Systems
   volume:
-  issue:
-  pages:
+  issue: e70534
+  pages: 1-17
   year: 2026
-  url:
-  doi:
+  url: "https://doi.org/10.1002/aisy.70534"
+  doi: 10.1002/aisy.70534
   tools:
   thumbnail:
-  status: in-press
+  status: published
   notes:
 
 - title: "Knowledge preservation in the era of big science and AI: strategies for sustainable scientific research"
